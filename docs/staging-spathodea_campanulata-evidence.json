@@ -1,0 +1,35 @@
+{
+  "started_at_utc": "2026-10-31T11:03:01.239771+00:00",
+  "group": "African tulip tree (Spathodea campanulata)",
+  "role": "invasive",
+  "status_note": "Introduced in the Philippines; invasive status not yet verified in GeoFlora's sources (owner chose to monitor it, October 31, 2026).",
+  "country_filter": "PH",
+  "bounds": {
+    "new_unique_images_per_species": 150,
+    "api_pages": 3,
+    "additional_gb": 0.4
+  },
+  "label_basis": "iNaturalist research grade (community-agreed identification); AI screen as quota allows",
+  "runs": [
+    {
+      "species": "Spathodea campanulata",
+      "source": "inaturalist",
+      "status": "completed",
+      "new_unique_images": 150,
+      "download_rejections": 0
+    }
+  ],
+  "finished_at_utc": "2026-10-31T11:05:43.609909+00:00",
+  "new_records": 154,
+  "valid_records": 154,
+  "invalid_records": [],
+  "licences": {
+    "cc-by-nc": 142,
+    "cc-by": 12
+  },
+  "observation_groups": 120,
+  "near_duplicate_groups": 4,
+  "additional_image_bytes": 15356164,
+  "review_queue": "storage\\datasets\\staging\\invasive_spathodea_campanulata_ph\\review_queue.csv",
+  "gallery": "storage\\datasets\\staging\\invasive_spathodea_campanulata_ph\\review_gallery.html"
+}

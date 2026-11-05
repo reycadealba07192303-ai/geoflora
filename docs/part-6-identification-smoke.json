@@ -1,0 +1,113 @@
+{
+  "generated_at_utc": "2026-10-31T17:24:46.835202+00:00",
+  "database": "mongodb://127.0.0.1:27017/geoflora_identification_validation",
+  "active_model": {
+    "candidate": "mobilenetv2_v3_seed42",
+    "scope": "local experimental activation authorized by owner",
+    "classes": 3,
+    "test_accuracy": 0.8717948717948718,
+    "macro_f1": 0.8273791032411721,
+    "water_hyacinth_recall": 0.5,
+    "confidence_threshold": 0.8,
+    "previous_confidence_threshold": 0.65,
+    "threshold_basis": "Lowest threshold with >=90% validation selective accuracy on curated/v3 validation (38 photos); test applied once. See docs/part-6-v3-evaluation.json and docs/part-6-identification.md. GEOFLORA_CONFIDENCE_THRESHOLD overrides it.",
+    "threshold_updated": "2026-10-27"
+  },
+  "environment": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "cpu_count": 16
+  },
+  "predictions": [
+    {
+      "expected": "chromolaena_odorata",
+      "status": "identified",
+      "predicted": "chromolaena_odorata",
+      "confidence": 0.9015772342681885
+    },
+    {
+      "expected": "lantana_camara",
+      "status": "identified",
+      "predicted": "lantana_camara",
+      "confidence": 0.8369742631912231
+    },
+    {
+      "expected": "pontederia_crassipes",
+      "status": "uncertain",
+      "predicted": null,
+      "confidence": 0.5602371692657471
+    }
+  ],
+  "latency": {
+    "requests": 39,
+    "concurrency": 1,
+    "payload_bytes": {
+      "min": 38039,
+      "max": 1270536,
+      "median": 308277.0
+    },
+    "upload_to_result_ms": {
+      "p50": 153.03240000503138,
+      "p95": 222.55531999981034,
+      "max": 410.72729998268187
+    },
+    "target": "p95 <= 5000 ms for <= 5 MB photos, one user",
+    "met": true,
+    "scope": "Loopback HTTP on the development machine; excludes mobile network and browser rendering."
+  },
+  "failure_cases": {
+    "unsupported_type": {
+      "status": 415,
+      "message": "Use a JPEG, PNG, or WebP plant photo."
+    },
+    "not_an_image": {
+      "status": 422,
+      "message": "Choose a valid plant image at least 64 by 64 pixels."
+    },
+    "too_small": {
+      "status": 422,
+      "message": "Choose a valid plant image at least 64 by 64 pixels."
+    },
+    "oversized": {
+      "status": 413,
+      "message": "Image exceeds the 20 MB upload limit."
+    },
+    "missing_file": {
+      "status": 400,
+      "message": "Choose a plant image before identifying it."
+    },
+    "signed_out": {
+      "status": 401,
+      "message": "Sign in to identify a plant."
+    },
+    "inference_slow": {
+      "status": 504,
+      "message": "Identification took too long. No prediction was made; please try again."
+    },
+    "inference_unavailable": {
+      "status": 503,
+      "message": "No trained MobileNetV2 model is installed yet."
+    },
+    "inference_garbage": {
+      "status": 502,
+      "message": "The identification service returned an unreadable response. No prediction was made."
+    },
+    "inference_crash": {
+      "status": 500,
+      "message": "Identification failed. No prediction was made."
+    },
+    "inference_reset": {
+      "status": 503,
+      "message": "The local ML inference service is not reachable. No prediction was made."
+    },
+    "inference_unreachable": {
+      "status": 503,
+      "message": "The local ML inference service is not reachable. No prediction was made."
+    },
+    "health_unreachable": {
+      "status": 503,
+      "message": "The local ML inference service is not reachable."
+    }
+  },
+  "active_model_unchanged": true
+}

@@ -1,0 +1,31 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GeoFlora batch approval</title>
+<style>body{font:16px system-ui;margin:24px;background:#f5f7f3;color:#183029}header,.filters{display:flex;gap:12px;flex-wrap:wrap;align-items:center}main{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:16px}article{background:white;border:1px solid #c9d6ca;border-radius:10px;padding:16px;overflow-wrap:anywhere}img{width:100%;height:260px;object-fit:contain}label{display:block;margin:10px 0}input,select,textarea,button{font:inherit;padding:8px;max-width:100%;box-sizing:border-box}textarea{width:100%}button{cursor:pointer}#message{white-space:pre-wrap}.hold{background:#fff4d5;padding:8px}h2{font-size:20px}</style>
+<header><h1>Batch image approval</h1><a href="http://127.0.0.1:8765">Original dataset</a></header>
+<p>Review the new research batch here. Label approval preserves ecological holds and does not activate a model class.</p>
+<p id="stats"></p><p id="message" role="status" aria-live="polite"></p>
+<section class="filters"><label>Status <select id="status"><option value="pending">Pending</option><option value="approved">Approved</option><option value="rejected">Rejected</option><option value="flagged">Flagged</option><option value="">All</option></select></label>
+<label>Species <select id="species"><option value="">All species</option></select></label><button id="filter">Apply filters</button><button id="export">Refresh approved exports</button></section>
+<p id="count"></p><main id="cards"></main><button id="prev">Previous</button> <button id="next">Next</button>
+<script>
+const $=id=>document.getElementById(id);let offset=0,total=0;
+function text(parent,tag,value,cls){const node=document.createElement(tag);node.textContent=value;if(cls)node.className=cls;parent.append(node);return node}
+async function api(url,body){const response=await fetch(url,body?{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}:{});const result=await response.json();if(!response.ok)throw Error(result.error||'Request failed');return result}
+function fail(error){$('message').textContent=error.message}
+async function load(){const data=await api('/api/items?'+new URLSearchParams({status:$('status').value,species:$('species').value,offset}));total=data.total;
+const selected=$('species').value;$('species').replaceChildren(new Option('All species',''));data.species.forEach(name=>$('species').add(new Option(name,name)));$('species').value=selected;
+$('stats').textContent=['pending','approved','rejected','flagged'].map(s=>`${s}: ${data.counts[s]||0}`).join(' | ');
+$('count').textContent=`Showing ${total?offset+1:0}–${Math.min(offset+20,total)} of ${total}`;$('prev').disabled=offset===0;$('next').disabled=offset+20>=total;$('cards').replaceChildren();
+for(const row of data.items){const card=document.createElement('article');const link=document.createElement('a');link.href='/api/image?key='+row.record_key;link.target='_blank';link.rel='noopener';const img=document.createElement('img');img.src=link.href;img.alt='Candidate '+row.scientific_name;img.loading='lazy';link.append(img);card.append(link);
+text(card,'h2',row.scientific_name);text(card,'p',`Status: ${row.status} | Source: ${row.source}`);text(card,'p','Audit route: '+row.curation_route,'hold');text(card,'p',`${row.license} | ${row.attribution}`);text(card,'p',`Source country: ${row.country_code}; locality: ${row.locality||'unknown'}`);text(card,'p',`Domain screen: ${row.domain_screen}; similarity group: ${row.duplicate_component}`);
+const source=text(card,'a','Open source observation');source.href=row.source_url;source.target='_blank';source.rel='noopener noreferrer';
+if(row.review.reviewer)text(card,'p',`Last review: ${row.review.reviewer}: ${row.review.rationale}`);
+const form=document.createElement('form');form.innerHTML='<label>Reviewer name <input name="reviewer" required></label><label>Reason / identification evidence <textarea name="rationale" required maxlength="2000"></textarea></label><label><input type="checkbox" name="country"> I checked the source and confirmed Philippine location</label><label>Visually verified image type <select name="domain"><option value="">Choose after inspection</option><option value="field">Field photo</option><option value="herbarium">Herbarium specimen</option></select></label>';
+form.elements.reviewer.value=row.review.reviewer||localStorage.getItem('geoflora-reviewer')||'';
+for(const decision of ['approved','rejected','flagged']){const button=text(form,'button',decision==='approved'?'Approve':decision==='rejected'?'Reject':'Flag');button.type='button';button.onclick=async()=>{if(!form.reportValidity())return;if(decision==='approved'&&(!form.elements.country.checked||!form.elements.domain.value)){fail(Error('To approve, confirm Philippine location and select the verified image type.'));return}
+form.querySelectorAll('button').forEach(b=>b.disabled=true);try{await api('/api/review',{record_key:row.record_key,decision,reviewer:form.elements.reviewer.value,rationale:form.elements.rationale.value,verified_country:form.elements.country.checked?'PH':'',verified_domain:form.elements.domain.value});localStorage.setItem('geoflora-reviewer',form.elements.reviewer.value);$('message').textContent='Decision saved to batch review history. Ecological holds are preserved.';if(offset>=total-1)offset=Math.max(0,offset-20);await load()}catch(error){fail(error);form.querySelectorAll('button').forEach(b=>b.disabled=false)}}}
+card.append(form);$('cards').append(card)}}
+$('filter').onclick=()=>{offset=0;load().catch(fail)};$('prev').onclick=()=>{offset=Math.max(0,offset-20);load().catch(fail)};$('next').onclick=()=>{offset+=20;load().catch(fail)};
+$('export').onclick=async()=>{try{await api('/api/export',{});$('message').textContent='Updated approved_field_candidates.csv and approved_labels_on_hold.csv in the batch review folder.'}catch(error){fail(error)}};
+load().catch(fail);
+</script></html>

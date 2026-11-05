@@ -1,0 +1,159 @@
+{
+  "batch_outcome": {
+    "owner_country_attestations": 674,
+    "owner_label_approvals": 674,
+    "records": 674,
+    "species_with_images": 80
+  },
+  "generated_at_utc": "2026-10-26T15:42:18.777648+00:00",
+  "held_or_excluded": [
+    {
+      "category": "Caladium bicolor",
+      "decision": "excluded",
+      "reason": "Invasive status not established for this project."
+    },
+    {
+      "category": "Mikania/Pistia supplemental staging",
+      "decision": "held",
+      "reason": "Separate 50-image Mikania corpus lacks its own label approval; it was not silently merged."
+    },
+    {
+      "category": "Other research-queue taxa",
+      "decision": "held",
+      "reason": "Their audit/review evidence or independent field coverage is insufficient for this experimental freeze."
+    }
+  ],
+  "included_classes": [
+    {
+      "common_name": "Hagonoy",
+      "ecological_reference": "https://www.philchm.ph/wp-content/uploads/2019/03/NISSAP-Philippines-2016_final-draft.pdf",
+      "id": "chromolaena_odorata",
+      "scientific_name": "Chromolaena odorata"
+    },
+    {
+      "common_name": "Lantana",
+      "ecological_reference": "https://www.cbd.int/doc/world/ph/ph-nr-04-en.pdf#page=23",
+      "id": "lantana_camara",
+      "scientific_name": "Lantana camara"
+    },
+    {
+      "common_name": "Mile-a-minute",
+      "ecological_reference": "https://www.cbd.int/doc/world/ph/ph-nr-04-en.pdf#page=23",
+      "id": "mikania_micrantha",
+      "scientific_name": "Mikania micrantha"
+    },
+    {
+      "common_name": "Water Lettuce",
+      "ecological_reference": "https://www.philippineplants.org/Families/Araceae.html",
+      "id": "pistia_stratiotes",
+      "scientific_name": "Pistia stratiotes"
+    },
+    {
+      "common_name": "Water Hyacinth",
+      "ecological_reference": "https://www.philchm.ph/wp-content/uploads/2019/03/NISSAP-Philippines-2016_final-draft.pdf",
+      "id": "pontederia_crassipes",
+      "scientific_name": "Pontederia crassipes"
+    }
+  ],
+  "part_2_scope": "Full 100-species collection remains a research staging archive; only five evidence-backed classes are selected for the experimental dataset.",
+  "part_3_readiness": "Technical split, integrity, license/attribution, checksum, and leakage checks pass. Statistical/model-promotion readiness does not pass for Mikania or Pistia.",
+  "selected_dataset": {
+    "classes": 5,
+    "cross_split_keys": 0,
+    "images": 211,
+    "path": "storage/datasets/curated/v5_part2_final_five_classes",
+    "per_class": {
+      "chromolaena_odorata": {
+        "test": {
+          "images": 14,
+          "independent_groups": 6,
+          "near_duplicate_groups": 7
+        },
+        "train": {
+          "images": 57,
+          "independent_groups": 43,
+          "near_duplicate_groups": 30
+        },
+        "validation": {
+          "images": 14,
+          "independent_groups": 10,
+          "near_duplicate_groups": 7
+        }
+      },
+      "lantana_camara": {
+        "test": {
+          "images": 15,
+          "independent_groups": 7,
+          "near_duplicate_groups": 8
+        },
+        "train": {
+          "images": 55,
+          "independent_groups": 33,
+          "near_duplicate_groups": 30
+        },
+        "validation": {
+          "images": 12,
+          "independent_groups": 10,
+          "near_duplicate_groups": 6
+        }
+      },
+      "mikania_micrantha": {
+        "test": {
+          "images": 1,
+          "independent_groups": 1,
+          "near_duplicate_groups": 1
+        },
+        "train": {
+          "images": 5,
+          "independent_groups": 2,
+          "near_duplicate_groups": 5
+        },
+        "validation": {
+          "images": 1,
+          "independent_groups": 1,
+          "near_duplicate_groups": 1
+        }
+      },
+      "pistia_stratiotes": {
+        "test": {
+          "images": 2,
+          "independent_groups": 2,
+          "near_duplicate_groups": 1
+        },
+        "train": {
+          "images": 3,
+          "independent_groups": 3,
+          "near_duplicate_groups": 2
+        },
+        "validation": {
+          "images": 2,
+          "independent_groups": 2,
+          "near_duplicate_groups": 1
+        }
+      },
+      "pontederia_crassipes": {
+        "test": {
+          "images": 4,
+          "independent_groups": 4,
+          "near_duplicate_groups": 2
+        },
+        "train": {
+          "images": 21,
+          "independent_groups": 15,
+          "near_duplicate_groups": 11
+        },
+        "validation": {
+          "images": 5,
+          "independent_groups": 3,
+          "near_duplicate_groups": 3
+        }
+      }
+    },
+    "source_counts": {
+      "gbif": 97,
+      "inaturalist": 114
+    },
+    "unique_checksums": 211
+  },
+  "supplementation_outcome": "No weak, unreviewed, or global images were added just to raise counts. Existing separate Mikania staging is retained for future review."
+}

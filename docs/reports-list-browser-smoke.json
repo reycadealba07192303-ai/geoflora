@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-10-26T18:25:55.083Z",
+  "checks": [
+    "lists every non-withdrawn report in all statuses with per-status counts",
+    "status filter shows only reports awaiting review",
+    "search narrows the list by species",
+    "selecting a report opens its saved report page",
+    "no axe WCAG A/AA violations on the reports page (none)",
+    "fits 390px and the mobile dock links to Reports"
+  ]
+}

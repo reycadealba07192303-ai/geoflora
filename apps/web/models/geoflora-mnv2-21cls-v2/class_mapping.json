@@ -1,0 +1,131 @@
+{
+  "classes": [
+    {
+      "id": "chromolaena_odorata",
+      "scientific_name": "Chromolaena odorata",
+      "common_name": "Hagonoy",
+      "role": "invasive"
+    },
+    {
+      "id": "lantana_camara",
+      "scientific_name": "Lantana camara",
+      "common_name": "Lantana",
+      "role": "invasive"
+    },
+    {
+      "id": "pontederia_crassipes",
+      "scientific_name": "Pontederia crassipes",
+      "common_name": "Water Hyacinth",
+      "role": "invasive"
+    },
+    {
+      "id": "ageratum_conyzoides",
+      "scientific_name": "Ageratum conyzoides",
+      "common_name": "Billygoat weed",
+      "role": "lookalike"
+    },
+    {
+      "id": "mikania_micrantha",
+      "scientific_name": "Mikania micrantha",
+      "common_name": "Mile-a-minute vine",
+      "role": "invasive"
+    },
+    {
+      "id": "lantana_montevidensis",
+      "scientific_name": "Lantana montevidensis",
+      "common_name": "Trailing lantana",
+      "role": "lookalike"
+    },
+    {
+      "id": "duranta_erecta",
+      "scientific_name": "Duranta erecta",
+      "common_name": "Golden dewdrop",
+      "role": "lookalike"
+    },
+    {
+      "id": "pistia_stratiotes",
+      "scientific_name": "Pistia stratiotes",
+      "common_name": "Water lettuce",
+      "role": "lookalike"
+    },
+    {
+      "id": "pontederia_vaginalis",
+      "scientific_name": "Pontederia vaginalis",
+      "common_name": "Gabi-gabi",
+      "role": "lookalike"
+    },
+    {
+      "id": "limnocharis_flava",
+      "scientific_name": "Limnocharis flava",
+      "common_name": "Yellow velvetleaf",
+      "role": "lookalike"
+    },
+    {
+      "id": "imperata_cylindrica",
+      "scientific_name": "Imperata cylindrica",
+      "common_name": "Cogon",
+      "role": "invasive"
+    },
+    {
+      "id": "leucaena_leucocephala",
+      "scientific_name": "Leucaena leucocephala",
+      "common_name": "Ipil-ipil",
+      "role": "invasive"
+    },
+    {
+      "id": "spathodea_campanulata",
+      "scientific_name": "Spathodea campanulata",
+      "common_name": "African tulip tree",
+      "role": "invasive"
+    },
+    {
+      "id": "piper_aduncum",
+      "scientific_name": "Piper aduncum",
+      "common_name": "Buyo-buyo",
+      "role": "invasive"
+    },
+    {
+      "id": "salvinia_molesta",
+      "scientific_name": "Salvinia molesta",
+      "common_name": "Giant salvinia",
+      "role": "invasive"
+    },
+    {
+      "id": "broussonetia_papyrifera",
+      "scientific_name": "Broussonetia papyrifera",
+      "common_name": "Paper mulberry",
+      "role": "invasive"
+    },
+    {
+      "id": "acacia_mangium",
+      "scientific_name": "Acacia mangium",
+      "common_name": "Mangium",
+      "role": "invasive"
+    },
+    {
+      "id": "swietenia_macrophylla",
+      "scientific_name": "Swietenia macrophylla",
+      "common_name": "Large-leaf mahogany",
+      "role": "invasive"
+    },
+    {
+      "id": "gmelina_arborea",
+      "scientific_name": "Gmelina arborea",
+      "common_name": "Gmelina",
+      "role": "invasive"
+    },
+    {
+      "id": "eucalyptus_deglupta",
+      "scientific_name": "Eucalyptus deglupta",
+      "common_name": "Bagras",
+      "role": "lookalike"
+    },
+    {
+      "id": "acacia_auriculiformis",
+      "scientific_name": "Acacia auriculiformis",
+      "common_name": "Auri",
+      "role": "lookalike"
+    }
+  ],
+  "source": "GeoFlora-ML-Lab bundle geoflora-mnv2-21cls-v2"
+}

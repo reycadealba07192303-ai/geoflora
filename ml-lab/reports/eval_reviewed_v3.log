@@ -1,0 +1,22 @@
+{
+  "run": "run-20261104T151536Z-reviewed-v3",
+  "test_images": 152,
+  "accuracy": 0.9736842105263158,
+  "accuracy_ci": [
+    0.9473684210526315,
+    0.9935483870967742
+  ],
+  "macro_f1": 0.9735735947389957,
+  "weighted_f1": 0.9737657040156469,
+  "unsupported_species": {
+    "known_images": 152,
+    "known_acceptance_rate": 0.8026315789473685,
+    "accuracy_on_accepted_known": 0.9918032786885246,
+    "known_correct_and_accepted_rate": 0.7960526315789473,
+    "unknown_images": 1710,
+    "unknown_false_acceptance_rate_without_rejection": 1.0,
+    "unknown_false_acceptance_rate_with_threshold": 0.33157894736842103,
+    "auroc_known_vs_unknown": 0.8214989227454602
+  }
+}
+Report: C:\Users\reyca\geoflowra\GeoFlora-ML-Lab\models\checkpoints\run-20261104T151536Z-reviewed-v3\evaluation\research_evaluation_report.md

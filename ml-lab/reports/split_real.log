@@ -1,0 +1,85 @@
+{
+  "generated": "2026-11-04T08:59:29+00:00",
+  "dataset_version": "ds-20261104-2cafd128f1",
+  "provisional": false,
+  "ready_for_training": true,
+  "model_classes": [
+    "Chromolaena odorata",
+    "Lantana camara",
+    "Pontederia crassipes"
+  ],
+  "unsupported_species_pool": {},
+  "class_readiness": [
+    {
+      "species_id": "GF-SP-0001",
+      "scientific_name": "Chromolaena odorata",
+      "eligible_images": 148,
+      "eligible_groups": 138,
+      "ready": true,
+      "reasons": []
+    },
+    {
+      "species_id": "GF-SP-0002",
+      "scientific_name": "Lantana camara",
+      "eligible_images": 150,
+      "eligible_groups": 138,
+      "ready": true,
+      "reasons": []
+    },
+    {
+      "species_id": "GF-SP-0003",
+      "scientific_name": "Pontederia crassipes",
+      "eligible_images": 137,
+      "eligible_groups": 125,
+      "ready": true,
+      "reasons": []
+    }
+  ],
+  "image_counts": {
+    "train": {
+      "Chromolaena odorata": 103,
+      "Lantana camara": 104,
+      "Pontederia crassipes": 95
+    },
+    "val": {
+      "Chromolaena odorata": 23,
+      "Lantana camara": 23,
+      "Pontederia crassipes": 21
+    },
+    "test": {
+      "Chromolaena odorata": 22,
+      "Lantana camara": 23,
+      "Pontederia crassipes": 21
+    },
+    "unknown_val": {},
+    "unknown_test": {}
+  },
+  "observation_group_counts": {
+    "train": {
+      "Chromolaena odorata": 98,
+      "Lantana camara": 95,
+      "Pontederia crassipes": 90
+    },
+    "val": {
+      "Chromolaena odorata": 22,
+      "Lantana camara": 23,
+      "Pontederia crassipes": 19
+    },
+    "test": {
+      "Chromolaena odorata": 18,
+      "Lantana camara": 20,
+      "Pontederia crassipes": 16
+    },
+    "unknown_val": {},
+    "unknown_test": {}
+  },
+  "leakage_check": {
+    "images_checked": 435,
+    "violations": 0,
+    "observation_group_cross_split": 0,
+    "observation_id_cross_split": 0,
+    "file_sha256_cross_split": 0,
+    "near_duplicate_cross_split": 0
+  },
+  "notes": []
+}

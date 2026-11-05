@@ -1,0 +1,139 @@
+C:\Users\reyca\geoflora\ml-lab\.venv\Lib\site-packages\keras\src\trainers\epoch_iterator.py:74: UserWarning: `shuffle=True` was passed, but will be ignored since the data `x` was provided as a tf.data.Dataset. The Dataset is expected to already be shuffled (via `.shuffle(buffer_size)`).
+  self.data_adapter = data_adapters.get_data_adapter(
+Epoch 1/15
+270/270 - 82s - 304ms/step - accuracy: 0.3672 - loss: 2.2642 - val_accuracy: 0.3983 - val_loss: 2.1531 - learning_rate: 0.0010
+Epoch 2/15
+270/270 - 250s - 927ms/step - accuracy: 0.5221 - loss: 1.8539 - val_accuracy: 0.4569 - val_loss: 2.0122 - learning_rate: 0.0010
+Epoch 3/15
+270/270 - 58s - 216ms/step - accuracy: 0.5777 - loss: 1.7133 - val_accuracy: 0.5122 - val_loss: 1.9631 - learning_rate: 0.0010
+Epoch 4/15
+270/270 - 64s - 237ms/step - accuracy: 0.6006 - loss: 1.6804 - val_accuracy: 0.5517 - val_loss: 1.8363 - learning_rate: 0.0010
+Epoch 5/15
+270/270 - 84s - 311ms/step - accuracy: 0.6173 - loss: 1.6081 - val_accuracy: 0.5314 - val_loss: 1.9111 - learning_rate: 0.0010
+Epoch 6/15
+270/270 - 67s - 250ms/step - accuracy: 0.6240 - loss: 1.6139 - val_accuracy: 0.5687 - val_loss: 1.7728 - learning_rate: 0.0010
+Epoch 7/15
+270/270 - 67s - 247ms/step - accuracy: 0.6365 - loss: 1.5779 - val_accuracy: 0.5421 - val_loss: 1.8886 - learning_rate: 0.0010
+Epoch 8/15
+270/270 - 65s - 239ms/step - accuracy: 0.6439 - loss: 1.5545 - val_accuracy: 0.5335 - val_loss: 1.8495 - learning_rate: 0.0010
+Epoch 9/15
+
+Epoch 9: ReduceLROnPlateau reducing learning rate to 0.0003000000142492354.
+270/270 - 62s - 230ms/step - accuracy: 0.6508 - loss: 1.5510 - val_accuracy: 0.5559 - val_loss: 1.8437 - learning_rate: 0.0010
+Epoch 10/15
+270/270 - 67s - 246ms/step - accuracy: 0.6545 - loss: 1.5354 - val_accuracy: 0.5879 - val_loss: 1.7711 - learning_rate: 3.0000e-04
+Epoch 11/15
+270/270 - 60s - 224ms/step - accuracy: 0.6599 - loss: 1.5174 - val_accuracy: 0.5804 - val_loss: 1.7420 - learning_rate: 3.0000e-04
+Epoch 12/15
+270/270 - 62s - 231ms/step - accuracy: 0.6580 - loss: 1.5131 - val_accuracy: 0.5847 - val_loss: 1.7486 - learning_rate: 3.0000e-04
+Epoch 13/15
+270/270 - 61s - 224ms/step - accuracy: 0.6659 - loss: 1.5110 - val_accuracy: 0.5911 - val_loss: 1.7445 - learning_rate: 3.0000e-04
+Epoch 14/15
+
+Epoch 14: ReduceLROnPlateau reducing learning rate to 9.000000427477062e-05.
+270/270 - 81s - 300ms/step - accuracy: 0.6666 - loss: 1.5126 - val_accuracy: 0.5793 - val_loss: 1.7506 - learning_rate: 3.0000e-04
+Epoch 15/15
+270/270 - 83s - 309ms/step - accuracy: 0.6393 - loss: 1.5545 - val_accuracy: 0.6049 - val_loss: 1.6808 - learning_rate: 9.0000e-05
+Restoring model weights from the end of the best epoch: 15.
+Epoch 1/45
+270/270 - 90s - 334ms/step - accuracy: 0.6650 - loss: 1.4724 - val_accuracy: 0.6294 - val_loss: 1.6246 - learning_rate: 3.0000e-05
+Epoch 2/45
+270/270 - 87s - 321ms/step - accuracy: 0.7238 - loss: 1.3378 - val_accuracy: 0.6305 - val_loss: 1.6401 - learning_rate: 3.0000e-05
+Epoch 3/45
+270/270 - 141s - 522ms/step - accuracy: 0.7560 - loss: 1.2595 - val_accuracy: 0.6379 - val_loss: 1.6567 - learning_rate: 3.0000e-05
+Epoch 4/45
+270/270 - 88s - 326ms/step - accuracy: 0.7775 - loss: 1.2085 - val_accuracy: 0.6645 - val_loss: 1.5514 - learning_rate: 3.0000e-05
+Epoch 5/45
+270/270 - 88s - 327ms/step - accuracy: 0.7990 - loss: 1.1629 - val_accuracy: 0.6965 - val_loss: 1.4490 - learning_rate: 3.0000e-05
+Epoch 6/45
+270/270 - 100s - 370ms/step - accuracy: 0.8173 - loss: 1.1208 - val_accuracy: 0.7188 - val_loss: 1.3954 - learning_rate: 3.0000e-05
+Epoch 7/45
+270/270 - 88s - 327ms/step - accuracy: 0.8314 - loss: 1.0850 - val_accuracy: 0.7263 - val_loss: 1.3728 - learning_rate: 3.0000e-05
+Epoch 8/45
+270/270 - 82s - 302ms/step - accuracy: 0.8407 - loss: 1.0645 - val_accuracy: 0.6976 - val_loss: 1.4623 - learning_rate: 3.0000e-05
+Epoch 9/45
+270/270 - 80s - 296ms/step - accuracy: 0.8613 - loss: 1.0223 - val_accuracy: 0.7199 - val_loss: 1.3707 - learning_rate: 3.0000e-05
+Epoch 10/45
+270/270 - 85s - 313ms/step - accuracy: 0.8713 - loss: 1.0019 - val_accuracy: 0.7114 - val_loss: 1.3995 - learning_rate: 3.0000e-05
+Epoch 11/45
+270/270 - 82s - 304ms/step - accuracy: 0.8740 - loss: 0.9856 - val_accuracy: 0.7540 - val_loss: 1.3126 - learning_rate: 3.0000e-05
+Epoch 12/45
+270/270 - 143s - 529ms/step - accuracy: 0.8840 - loss: 0.9695 - val_accuracy: 0.7391 - val_loss: 1.3134 - learning_rate: 3.0000e-05
+Epoch 13/45
+270/270 - 85s - 316ms/step - accuracy: 0.8937 - loss: 0.9428 - val_accuracy: 0.7412 - val_loss: 1.3043 - learning_rate: 3.0000e-05
+Epoch 14/45
+270/270 - 84s - 311ms/step - accuracy: 0.9034 - loss: 0.9256 - val_accuracy: 0.7146 - val_loss: 1.3650 - learning_rate: 3.0000e-05
+Epoch 15/45
+270/270 - 93s - 344ms/step - accuracy: 0.9016 - loss: 0.9209 - val_accuracy: 0.7306 - val_loss: 1.3374 - learning_rate: 3.0000e-05
+Epoch 16/45
+
+Epoch 16: ReduceLROnPlateau reducing learning rate to 8.999999772640877e-06.
+270/270 - 86s - 317ms/step - accuracy: 0.9062 - loss: 0.9079 - val_accuracy: 0.7423 - val_loss: 1.3368 - learning_rate: 3.0000e-05
+Epoch 17/45
+270/270 - 81s - 302ms/step - accuracy: 0.9224 - loss: 0.8720 - val_accuracy: 0.7796 - val_loss: 1.2240 - learning_rate: 9.0000e-06
+Epoch 18/45
+270/270 - 82s - 305ms/step - accuracy: 0.9271 - loss: 0.8598 - val_accuracy: 0.7593 - val_loss: 1.2536 - learning_rate: 9.0000e-06
+Epoch 19/45
+270/270 - 83s - 308ms/step - accuracy: 0.9317 - loss: 0.8567 - val_accuracy: 0.7806 - val_loss: 1.2293 - learning_rate: 9.0000e-06
+Epoch 20/45
+270/270 - 82s - 303ms/step - accuracy: 0.9382 - loss: 0.8362 - val_accuracy: 0.7785 - val_loss: 1.2113 - learning_rate: 9.0000e-06
+Epoch 21/45
+270/270 - 80s - 295ms/step - accuracy: 0.9393 - loss: 0.8409 - val_accuracy: 0.7838 - val_loss: 1.2064 - learning_rate: 9.0000e-06
+Epoch 22/45
+270/270 - 83s - 309ms/step - accuracy: 0.9430 - loss: 0.8326 - val_accuracy: 0.7891 - val_loss: 1.1816 - learning_rate: 9.0000e-06
+Epoch 23/45
+270/270 - 84s - 310ms/step - accuracy: 0.9419 - loss: 0.8294 - val_accuracy: 0.7913 - val_loss: 1.1973 - learning_rate: 9.0000e-06
+Epoch 24/45
+270/270 - 83s - 307ms/step - accuracy: 0.9426 - loss: 0.8262 - val_accuracy: 0.7785 - val_loss: 1.2074 - learning_rate: 9.0000e-06
+Epoch 25/45
+
+Epoch 25: ReduceLROnPlateau reducing learning rate to 2.6999998226528985e-06.
+270/270 - 83s - 308ms/step - accuracy: 0.9456 - loss: 0.8241 - val_accuracy: 0.7838 - val_loss: 1.1920 - learning_rate: 9.0000e-06
+Epoch 26/45
+270/270 - 84s - 313ms/step - accuracy: 0.9433 - loss: 0.8248 - val_accuracy: 0.7945 - val_loss: 1.1772 - learning_rate: 2.7000e-06
+Epoch 27/45
+270/270 - 86s - 318ms/step - accuracy: 0.9484 - loss: 0.8178 - val_accuracy: 0.7870 - val_loss: 1.2025 - learning_rate: 2.7000e-06
+Epoch 28/45
+270/270 - 88s - 326ms/step - accuracy: 0.9518 - loss: 0.8129 - val_accuracy: 0.7891 - val_loss: 1.1976 - learning_rate: 2.7000e-06
+Epoch 29/45
+
+Epoch 29: ReduceLROnPlateau reducing learning rate to 8.099999604382901e-07.
+270/270 - 89s - 330ms/step - accuracy: 0.9551 - loss: 0.8061 - val_accuracy: 0.7934 - val_loss: 1.1906 - learning_rate: 2.7000e-06
+Epoch 30/45
+270/270 - 90s - 334ms/step - accuracy: 0.9472 - loss: 0.8236 - val_accuracy: 0.8072 - val_loss: 1.1541 - learning_rate: 8.1000e-07
+Epoch 31/45
+270/270 - 85s - 314ms/step - accuracy: 0.9486 - loss: 0.8142 - val_accuracy: 0.8072 - val_loss: 1.1503 - learning_rate: 8.1000e-07
+Epoch 32/45
+270/270 - 134s - 496ms/step - accuracy: 0.9523 - loss: 0.8067 - val_accuracy: 0.8072 - val_loss: 1.1490 - learning_rate: 8.1000e-07
+Epoch 33/45
+270/270 - 83s - 309ms/step - accuracy: 0.9521 - loss: 0.8084 - val_accuracy: 0.8104 - val_loss: 1.1430 - learning_rate: 8.1000e-07
+Epoch 34/45
+270/270 - 81s - 299ms/step - accuracy: 0.9544 - loss: 0.8056 - val_accuracy: 0.8147 - val_loss: 1.1375 - learning_rate: 8.1000e-07
+Epoch 35/45
+270/270 - 81s - 299ms/step - accuracy: 0.9518 - loss: 0.8086 - val_accuracy: 0.8051 - val_loss: 1.1463 - learning_rate: 8.1000e-07
+Epoch 36/45
+270/270 - 82s - 304ms/step - accuracy: 0.9537 - loss: 0.8057 - val_accuracy: 0.8104 - val_loss: 1.1450 - learning_rate: 8.1000e-07
+Epoch 37/45
+
+Epoch 37: ReduceLROnPlateau reducing learning rate to 2.4299998813148704e-07.
+270/270 - 135s - 499ms/step - accuracy: 0.9542 - loss: 0.8095 - val_accuracy: 0.8094 - val_loss: 1.1477 - learning_rate: 8.1000e-07
+Epoch 38/45
+270/270 - 80s - 297ms/step - accuracy: 0.9530 - loss: 0.8027 - val_accuracy: 0.8126 - val_loss: 1.1295 - learning_rate: 2.4300e-07
+Epoch 39/45
+270/270 - 84s - 311ms/step - accuracy: 0.9558 - loss: 0.8076 - val_accuracy: 0.8158 - val_loss: 1.1267 - learning_rate: 2.4300e-07
+Epoch 40/45
+270/270 - 84s - 312ms/step - accuracy: 0.9599 - loss: 0.8009 - val_accuracy: 0.8190 - val_loss: 1.1221 - learning_rate: 2.4300e-07
+Epoch 41/45
+270/270 - 85s - 314ms/step - accuracy: 0.9588 - loss: 0.8014 - val_accuracy: 0.8168 - val_loss: 1.1210 - learning_rate: 2.4300e-07
+Epoch 42/45
+270/270 - 83s - 308ms/step - accuracy: 0.9625 - loss: 0.8000 - val_accuracy: 0.8190 - val_loss: 1.1191 - learning_rate: 2.4300e-07
+Epoch 43/45
+270/270 - 85s - 314ms/step - accuracy: 0.9576 - loss: 0.8044 - val_accuracy: 0.8200 - val_loss: 1.1212 - learning_rate: 2.4300e-07
+Epoch 44/45
+270/270 - 138s - 510ms/step - accuracy: 0.9555 - loss: 0.8030 - val_accuracy: 0.8200 - val_loss: 1.1207 - learning_rate: 2.4300e-07
+Epoch 45/45
+270/270 - 92s - 339ms/step - accuracy: 0.9560 - loss: 0.8011 - val_accuracy: 0.8200 - val_loss: 1.1180 - learning_rate: 2.4300e-07
+Restoring model weights from the end of the best epoch: 45.
+21:59:22 INFO geoflora_ml.training: training complete: C:\Users\reyca\geoflora\ml-lab\models\checkpoints\nissap\run-20261105T123054Z-nissap21-v2-deeper
+Run saved to C:\Users\reyca\geoflora\ml-lab\models\checkpoints\nissap\run-20261105T123054Z-nissap21-v2-deeper
+Next: python scripts/evaluate.py --run "C:\Users\reyca\geoflora\ml-lab\models\checkpoints\nissap\run-20261105T123054Z-nissap21-v2-deeper"

@@ -1,0 +1,49 @@
+{
+  "started_at_utc": "2026-10-31T11:10:59.751580+00:00",
+  "group": "Water lily (Nymphaea)",
+  "role": "lookalike",
+  "status_note": "No GeoFlora source lists these as introduced or invasive in the Philippines; N. nouchali is native.",
+  "country_filter": "PH",
+  "bounds": {
+    "new_unique_images_per_species": 40,
+    "api_pages": 3,
+    "additional_gb": 0.4
+  },
+  "label_basis": "iNaturalist research grade (community-agreed identification); AI screen as quota allows",
+  "runs": [
+    {
+      "species": "Nymphaea rubra",
+      "source": "inaturalist",
+      "status": "completed",
+      "new_unique_images": 39,
+      "download_rejections": 0
+    },
+    {
+      "species": "Nymphaea pubescens",
+      "source": "inaturalist",
+      "status": "completed",
+      "new_unique_images": 0,
+      "download_rejections": 0
+    },
+    {
+      "species": "Nymphaea nouchali",
+      "source": "inaturalist",
+      "status": "completed",
+      "new_unique_images": 0,
+      "download_rejections": 0
+    }
+  ],
+  "finished_at_utc": "2026-10-31T11:11:50.170308+00:00",
+  "new_records": 39,
+  "valid_records": 96,
+  "invalid_records": [],
+  "licences": {
+    "cc0": 15,
+    "cc-by-nc": 81
+  },
+  "observation_groups": 83,
+  "near_duplicate_groups": 2,
+  "additional_image_bytes": 3486562,
+  "review_queue": "storage\\datasets\\staging\\lookalike_nymphaea_ph\\review_queue.csv",
+  "gallery": "storage\\datasets\\staging\\lookalike_nymphaea_ph\\review_gallery.html"
+}

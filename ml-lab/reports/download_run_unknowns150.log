@@ -1,0 +1,220 @@
+18:43:29 INFO geoflora_ml.acquisition: Mimosa pudica (unknown_eval): target 150 images
+18:46:51 INFO geoflora_ml.acquisition:   downloaded 130 (already had 20) 
+18:46:51 INFO geoflora_ml.acquisition: Hibiscus rosa-sinensis (unknown_eval): target 150 images
+18:50:15 INFO geoflora_ml.acquisition:   downloaded 130 (already had 20) 
+18:50:15 INFO geoflora_ml.acquisition: Ixora coccinea (unknown_eval): target 150 images
+18:53:48 INFO geoflora_ml.acquisition:   downloaded 130 (already had 20) 
+18:53:48 INFO geoflora_ml.acquisition: Bidens pilosa (unknown_eval): target 150 images
+18:58:04 INFO geoflora_ml.acquisition:   downloaded 130 (already had 20) 
+18:58:04 INFO geoflora_ml.acquisition: Ipomoea aquatica (unknown_eval): target 150 images
+19:02:20 INFO geoflora_ml.acquisition:   downloaded 130 (already had 20) 
+19:02:20 INFO geoflora_ml.acquisition: Imperata cylindrica (unknown_eval): target 150 images
+19:06:32 INFO geoflora_ml.acquisition:   downloaded 130 (already had 20) 
+{
+  "started": "2026-11-04T10:43:29+00:00",
+  "finished": "2026-11-04T11:06:32+00:00",
+  "source": "GBIF",
+  "allowed_licenses": [
+    "CC0-1.0",
+    "PDM-1.0",
+    "CC-BY-4.0",
+    "CC-BY-NC-4.0"
+  ],
+  "country_priority": [
+    "PH",
+    null
+  ],
+  "bytes_downloaded": 134525488,
+  "storage_budget_bytes": 200000000,
+  "species": [
+    {
+      "species_id": "GF-SP-0201",
+      "scientific_name": "Mimosa pudica",
+      "accepted_taxon_key": 2969284,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 150,
+      "already_present": 20,
+      "downloaded": 130,
+      "countries": {
+        "PH": 130
+      },
+      "skipped": {},
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0202",
+      "scientific_name": "Hibiscus rosa-sinensis",
+      "accepted_taxon_key": 3152559,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 150,
+      "already_present": 20,
+      "downloaded": 130,
+      "countries": {
+        "PH": 37,
+        "BS": 6,
+        "AL": 1,
+        "BR": 16,
+        "NZ": 1,
+        "JM": 4,
+        "BZ": 2,
+        "HN": 2,
+        "MG": 1,
+        "TH": 2,
+        "ID": 9,
+        "unknown": 2,
+        "AU": 6,
+        "EC": 1,
+        "KE": 1,
+        "GR": 1,
+        "CO": 5,
+        "SC": 1,
+        "MA": 1,
+        "ET": 1,
+        "CR": 5,
+        "ZA": 2,
+        "LR": 1,
+        "IN": 9,
+        "DO": 1,
+        "MQ": 1,
+        "PR": 1,
+        "MO": 1,
+        "HK": 2,
+        "PE": 1,
+        "CN": 3,
+        "KY": 1,
+        "SY": 1,
+        "JP": 1
+      },
+      "skipped": {
+        "no_media_with_allowed_license": 2,
+        "fetch_failed:HTTPError": 1
+      },
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0203",
+      "scientific_name": "Ixora coccinea",
+      "accepted_taxon_key": 8793122,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 150,
+      "already_present": 20,
+      "downloaded": 130,
+      "countries": {
+        "PH": 51,
+        "VI": 5,
+        "IN": 10,
+        "PR": 25,
+        "CO": 4,
+        "MQ": 2,
+        "LK": 4,
+        "US": 1,
+        "ID": 10,
+        "BB": 1,
+        "PE": 1,
+        "TH": 2,
+        "BR": 2,
+        "MM": 1,
+        "CR": 1,
+        "JP": 1,
+        "AU": 1,
+        "SR": 1,
+        "NG": 1,
+        "DM": 1,
+        "VC": 1,
+        "NI": 1,
+        "GU": 1,
+        "AW": 1,
+        "LC": 1
+      },
+      "skipped": {},
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0204",
+      "scientific_name": "Bidens pilosa",
+      "accepted_taxon_key": 5391845,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 150,
+      "already_present": 20,
+      "downloaded": 130,
+      "countries": {
+        "ZA": 48,
+        "JP": 4,
+        "ES": 7,
+        "CR": 1,
+        "AU": 18,
+        "US": 18,
+        "AR": 3,
+        "EC": 3,
+        "IL": 4,
+        "PT": 6,
+        "IT": 4,
+        "CL": 1,
+        "BO": 1,
+        "ZW": 1,
+        "HK": 1,
+        "CN": 1,
+        "TW": 3,
+        "CV": 1,
+        "MX": 2,
+        "ET": 2,
+        "KE": 1
+      },
+      "skipped": {
+        "no_media_with_allowed_license": 10
+      },
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0205",
+      "scientific_name": "Ipomoea aquatica",
+      "accepted_taxon_key": 2928525,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 150,
+      "already_present": 20,
+      "downloaded": 130,
+      "countries": {
+        "PH": 119,
+        "MM": 1,
+        "TW": 1,
+        "IN": 2,
+        "TH": 6,
+        "VN": 1
+      },
+      "skipped": {
+        "no_media_with_allowed_license": 8
+      },
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0206",
+      "scientific_name": "Imperata cylindrica",
+      "accepted_taxon_key": 8424006,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 150,
+      "already_present": 20,
+      "downloaded": 130,
+      "countries": {
+        "PH": 31,
+        "US": 31,
+        "TW": 13,
+        "AU": 26,
+        "ZA": 15,
+        "CN": 3,
+        "HK": 4,
+        "SG": 1,
+        "MY": 1,
+        "TH": 1,
+        "IN": 1,
+        "VN": 1,
+        "JP": 1,
+        "MG": 1
+      },
+      "skipped": {
+        "no_media_with_allowed_license": 3
+      },
+      "error": ""
+    }
+  ],
+  "note": "All downloaded images have review_status=pending and are NOT GeoFlora field observations."
+}

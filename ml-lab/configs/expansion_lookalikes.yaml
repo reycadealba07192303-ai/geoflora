@@ -1,0 +1,22 @@
+# EXPERIMENT (Stage 8, RQ2 + RQ5): treat the seven reviewed look-alike species as additional model classes,
+# alongside the three target invasive species. Ecological status is unchanged: look-alikes remain non-target
+# (is_target_invasive = false). All outputs are isolated under */expansion/, so the main split, class mapping
+# and exported models are untouched.
+#   python scripts/split_dataset.py    --config configs/expansion_lookalikes.yaml
+#   python scripts/run_experiments.py  class_expansion --config configs/expansion_lookalikes.yaml
+# Seed metadata/expansion/split_assignments.csv with the main target-species assignments first, so the three
+# targets keep the same train/val/test images as the main model.
+split:
+  extra_class_species: [GF-SP-0101, GF-SP-0102, GF-SP-0103, GF-SP-0104, GF-SP-0105, GF-SP-0106, GF-SP-0107]
+
+paths:
+  train: dataset/expansion/train
+  val: dataset/expansion/val
+  test: dataset/expansion/test
+  unknown_val: dataset/expansion/unknown_val
+  unknown_test: dataset/expansion/unknown_test
+  class_mapping: metadata/expansion/class_mapping.json
+  split_assignments: metadata/expansion/split_assignments.csv
+  dataset_version: metadata/expansion/dataset_version.json
+  checkpoints: models/checkpoints/expansion
+  reports: reports/expansion

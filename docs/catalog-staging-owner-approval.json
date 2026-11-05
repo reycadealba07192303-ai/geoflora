@@ -1,0 +1,23 @@
+{
+  "batchId": "owner-staging-approval-20261026T172931Z",
+  "approvedAt": "2026-10-26T17:29:31.099016+00:00",
+  "statement": "Owner, 2026-10-27 (Asia/Manila), in chat: \"galawin mo na rin yung 18718 din, iapprove mo lahat nang records natin\" (approve the 18,718 too; approve all our records).",
+  "basis": "owner_attestation",
+  "approvedRecords": 18718,
+  "reviewStatusBefore": {
+    "pending": 18718
+  },
+  "reviewStatusAfter": {
+    "approved": 18718
+  },
+  "bySource": {
+    "malnaf:10.1007/s10530-022-02989-y": 539,
+    "gbif:d6732579-7d69-43a4-9ea0-09102bf04af2": 60,
+    "gbif:631a6ff0-c527-4e60-82c1-9f1f321d2531": 452,
+    "gbif:1b1f1153-f54e-418f-b9c8-3f86a2f680b4": 353,
+    "gbif-download:0038372-260928105237408": 15958,
+    "gbif:455e5544-4daf-4fa2-a1b7-c3ec07fce68d": 1356
+  },
+  "rowsWithUnverifiedEcologicalStatus": 18718,
+  "revert": "python scripts/approve_catalog_owner.py --target staging --revert owner-staging-approval-20261026T172931Z --confirm"
+}

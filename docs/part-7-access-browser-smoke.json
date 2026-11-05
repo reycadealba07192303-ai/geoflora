@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-10-26T16:46:09.312Z",
+  "checks": [
+    "registration is unavailable before the first administrator exists",
+    "administrator navigation includes Manage accounts and Review & training",
+    "a contributor registers after setup",
+    "the administrator cannot change their own role",
+    "administrator promotes the contributor to reviewer from Manage accounts",
+    "issued reset code is shown once with its expiry",
+    "reset screen fits a 390px mobile viewport",
+    "reset code signs the reviewer in to the label review page",
+    "reviewer page hides training controls",
+    "reviewer navigation has review and account settings but not Manage accounts",
+    "sidebar shows the reviewer role",
+    "account settings offers password change and fits 390px"
+  ],
+  "screenshots": [
+    "storage/logs/ui-preview/accounts-admin-desktop.png",
+    "storage/logs/ui-preview/accounts-reset-mobile.png",
+    "storage/logs/ui-preview/accounts-reviewer-mobile-nav.png"
+  ]
+}

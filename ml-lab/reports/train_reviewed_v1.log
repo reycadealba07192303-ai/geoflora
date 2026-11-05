@@ -1,0 +1,54 @@
+C:\Users\reyca\geoflowra\GeoFlora-ML-Lab\.venv\Lib\site-packages\keras\src\trainers\epoch_iterator.py:74: UserWarning: `shuffle=True` was passed, but will be ignored since the data `x` was provided as a tf.data.Dataset. The Dataset is expected to already be shuffled (via `.shuffle(buffer_size)`).
+  self.data_adapter = data_adapters.get_data_adapter(
+Epoch 1/15
+19/19 - 10s - 540ms/step - accuracy: 0.5000 - loss: 1.0803 - val_accuracy: 0.6716 - val_loss: 0.7458 - learning_rate: 0.0010
+Epoch 2/15
+19/19 - 5s - 281ms/step - accuracy: 0.6887 - loss: 0.7154 - val_accuracy: 0.8209 - val_loss: 0.5451 - learning_rate: 0.0010
+Epoch 3/15
+19/19 - 5s - 271ms/step - accuracy: 0.8046 - loss: 0.5211 - val_accuracy: 0.8209 - val_loss: 0.4629 - learning_rate: 0.0010
+Epoch 4/15
+19/19 - 5s - 270ms/step - accuracy: 0.8311 - loss: 0.4667 - val_accuracy: 0.8358 - val_loss: 0.4090 - learning_rate: 0.0010
+Epoch 5/15
+19/19 - 5s - 276ms/step - accuracy: 0.8444 - loss: 0.3476 - val_accuracy: 0.8507 - val_loss: 0.3806 - learning_rate: 0.0010
+Epoch 6/15
+19/19 - 5s - 253ms/step - accuracy: 0.8675 - loss: 0.3587 - val_accuracy: 0.8657 - val_loss: 0.4081 - learning_rate: 0.0010
+Epoch 7/15
+19/19 - 5s - 278ms/step - accuracy: 0.8642 - loss: 0.3606 - val_accuracy: 0.8358 - val_loss: 0.3434 - learning_rate: 0.0010
+Epoch 8/15
+19/19 - 5s - 251ms/step - accuracy: 0.8675 - loss: 0.3270 - val_accuracy: 0.8806 - val_loss: 0.3441 - learning_rate: 0.0010
+Epoch 9/15
+19/19 - 5s - 262ms/step - accuracy: 0.9305 - loss: 0.2321 - val_accuracy: 0.8657 - val_loss: 0.3058 - learning_rate: 0.0010
+Epoch 10/15
+19/19 - 5s - 242ms/step - accuracy: 0.9172 - loss: 0.2450 - val_accuracy: 0.8657 - val_loss: 0.3063 - learning_rate: 0.0010
+Epoch 11/15
+19/19 - 5s - 261ms/step - accuracy: 0.9106 - loss: 0.2306 - val_accuracy: 0.8657 - val_loss: 0.2973 - learning_rate: 0.0010
+Epoch 12/15
+19/19 - 4s - 224ms/step - accuracy: 0.9172 - loss: 0.2417 - val_accuracy: 0.8657 - val_loss: 0.3166 - learning_rate: 0.0010
+Epoch 13/15
+19/19 - 5s - 268ms/step - accuracy: 0.9305 - loss: 0.2207 - val_accuracy: 0.8657 - val_loss: 0.2866 - learning_rate: 0.0010
+Epoch 14/15
+19/19 - 4s - 235ms/step - accuracy: 0.9172 - loss: 0.2457 - val_accuracy: 0.8507 - val_loss: 0.3021 - learning_rate: 0.0010
+Epoch 15/15
+19/19 - 6s - 329ms/step - accuracy: 0.9172 - loss: 0.2281 - val_accuracy: 0.8657 - val_loss: 0.2697 - learning_rate: 0.0010
+Restoring model weights from the end of the best epoch: 15.
+Epoch 1/10
+19/19 - 12s - 653ms/step - accuracy: 0.9139 - loss: 0.2461 - val_accuracy: 0.8806 - val_loss: 0.2583 - learning_rate: 1.0000e-05
+Epoch 2/10
+19/19 - 5s - 264ms/step - accuracy: 0.9503 - loss: 0.1341 - val_accuracy: 0.8955 - val_loss: 0.2985 - learning_rate: 1.0000e-05
+Epoch 3/10
+
+Epoch 3: ReduceLROnPlateau reducing learning rate to 2.9999999242136253e-06.
+19/19 - 5s - 258ms/step - accuracy: 0.9437 - loss: 0.1584 - val_accuracy: 0.8806 - val_loss: 0.3596 - learning_rate: 1.0000e-05
+Epoch 4/10
+19/19 - 5s - 260ms/step - accuracy: 0.9338 - loss: 0.1557 - val_accuracy: 0.8955 - val_loss: 0.2689 - learning_rate: 3.0000e-06
+Epoch 5/10
+
+Epoch 5: ReduceLROnPlateau reducing learning rate to 8.999999636216671e-07.
+19/19 - 6s - 293ms/step - accuracy: 0.9570 - loss: 0.1146 - val_accuracy: 0.9104 - val_loss: 0.2736 - learning_rate: 3.0000e-06
+Epoch 6/10
+19/19 - 6s - 308ms/step - accuracy: 0.9536 - loss: 0.1284 - val_accuracy: 0.9104 - val_loss: 0.2808 - learning_rate: 9.0000e-07
+Epoch 6: early stopping
+Restoring model weights from the end of the best epoch: 1.
+17:01:49 INFO geoflora_ml.training: training complete: C:\Users\reyca\geoflowra\GeoFlora-ML-Lab\models\checkpoints\run-20261104T085947Z-reviewed-v1
+Run saved to C:\Users\reyca\geoflowra\GeoFlora-ML-Lab\models\checkpoints\run-20261104T085947Z-reviewed-v1
+Next: python scripts/evaluate.py --run "C:\Users\reyca\geoflowra\GeoFlora-ML-Lab\models\checkpoints\run-20261104T085947Z-reviewed-v1"

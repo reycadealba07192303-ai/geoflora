@@ -1,0 +1,1004 @@
+{
+  "started_at_utc": "2026-10-22T17:28:03.157737+00:00",
+  "unit": "Research-grade observations with >=1 CC0/CC BY/CC BY-SA photo, not approved images",
+  "candidates": [
+    {
+      "source_taxon_id": "126575",
+      "search_name_candidate": "Broussonetia papyrifera",
+      "source_evidence_bucket": "source_flagged_invasive",
+      "checked_at_utc": "2026-10-22T17:28:04.415435+00:00",
+      "inaturalist_taxon_id": 128032,
+      "ph_observations": 0,
+      "global_observations_including_ph": 2752,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126621",
+      "search_name_candidate": "Chromolaena odorata",
+      "source_evidence_bucket": "source_flagged_invasive",
+      "checked_at_utc": "2026-10-22T17:28:07.218836+00:00",
+      "inaturalist_taxon_id": 199400,
+      "ph_observations": 33,
+      "global_observations_including_ph": 2125,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126761",
+      "search_name_candidate": "Lantana camara",
+      "source_evidence_bucket": "source_flagged_invasive",
+      "checked_at_utc": "2026-10-22T17:28:11.506806+00:00",
+      "inaturalist_taxon_id": 50333,
+      "ph_observations": 28,
+      "global_observations_including_ph": 6415,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126794",
+      "search_name_candidate": "Mikania micrantha",
+      "source_evidence_bucket": "source_flagged_invasive",
+      "checked_at_utc": "2026-10-22T17:28:14.970441+00:00",
+      "inaturalist_taxon_id": 165389,
+      "ph_observations": 13,
+      "global_observations_including_ph": 1280,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126723",
+      "search_name_candidate": "Hiptage benghalensis",
+      "source_evidence_bucket": "source_flagged_invasive",
+      "checked_at_utc": "2026-10-22T17:28:17.965033+00:00",
+      "inaturalist_taxon_id": 157650,
+      "ph_observations": 0,
+      "global_observations_including_ph": 194,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126737",
+      "search_name_candidate": "Imperata cylindrica",
+      "source_evidence_bucket": "source_flagged_invasive",
+      "checked_at_utc": "2026-10-22T17:28:20.230331+00:00",
+      "inaturalist_taxon_id": 164056,
+      "ph_observations": 8,
+      "global_observations_including_ph": 1102,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126795",
+      "search_name_candidate": "Mimosa pigra",
+      "source_evidence_bucket": "source_flagged_invasive",
+      "checked_at_utc": "2026-10-22T17:28:23.598353+00:00",
+      "inaturalist_taxon_id": 47445,
+      "ph_observations": 0,
+      "global_observations_including_ph": 354,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126817",
+      "search_name_candidate": "Opuntia monacantha",
+      "source_evidence_bucket": "source_flagged_invasive",
+      "checked_at_utc": "2026-10-22T17:28:26.309619+00:00",
+      "inaturalist_taxon_id": 165894,
+      "ph_observations": 0,
+      "global_observations_including_ph": 510,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126827",
+      "search_name_candidate": "Pachystachys coccinea",
+      "source_evidence_bucket": "source_flagged_invasive",
+      "checked_at_utc": "2026-10-22T17:28:29.275307+00:00",
+      "inaturalist_taxon_id": 347381,
+      "ph_observations": 1,
+      "global_observations_including_ph": 20,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126853",
+      "search_name_candidate": "Piper aduncum",
+      "source_evidence_bucket": "source_flagged_invasive",
+      "checked_at_utc": "2026-10-22T17:28:32.323640+00:00",
+      "inaturalist_taxon_id": 166894,
+      "ph_observations": 1,
+      "global_observations_including_ph": 125,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126856",
+      "search_name_candidate": "Pistia stratiotes",
+      "source_evidence_bucket": "source_flagged_invasive",
+      "checked_at_utc": "2026-10-22T17:28:35.224270+00:00",
+      "inaturalist_taxon_id": 78589,
+      "ph_observations": 6,
+      "global_observations_including_ph": 1390,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126900",
+      "search_name_candidate": "Salvinia molesta",
+      "source_evidence_bucket": "source_flagged_invasive",
+      "checked_at_utc": "2026-10-22T17:28:38.322143+00:00",
+      "inaturalist_taxon_id": 78976,
+      "ph_observations": 0,
+      "global_observations_including_ph": 404,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126503",
+      "search_name_candidate": "Acacia auriculiformis",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:28:41.247563+00:00",
+      "inaturalist_taxon_id": 52445,
+      "ph_observations": 3,
+      "global_observations_including_ph": 310,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126505",
+      "search_name_candidate": "Acacia mangium",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:28:44.261787+00:00",
+      "inaturalist_taxon_id": 199319,
+      "ph_observations": 0,
+      "global_observations_including_ph": 312,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126634",
+      "search_name_candidate": "Coccinia grandis",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:28:47.381356+00:00",
+      "inaturalist_taxon_id": 160766,
+      "ph_observations": 33,
+      "global_observations_including_ph": 1011,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126676",
+      "search_name_candidate": "Eichhornia crassipes",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:28:50.732278+00:00",
+      "probe_status": "taxonomy_unresolved",
+      "returned_names": [
+        "Pontederia crassipes"
+      ]
+    },
+    {
+      "source_taxon_id": "126921",
+      "search_name_candidate": "Swietenia macrophylla",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:28:51.281680+00:00",
+      "inaturalist_taxon_id": 169442,
+      "ph_observations": 1,
+      "global_observations_including_ph": 133,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126500",
+      "search_name_candidate": "Abelmoschus esculentus",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:28:55.056123+00:00",
+      "inaturalist_taxon_id": 157765,
+      "ph_observations": 1,
+      "global_observations_including_ph": 62,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126501",
+      "search_name_candidate": "Abrus precatorius",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:28:57.761456+00:00",
+      "inaturalist_taxon_id": 122099,
+      "ph_observations": 5,
+      "global_observations_including_ph": 734,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126502",
+      "search_name_candidate": "Abutilon indicum",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:29:00.516037+00:00",
+      "inaturalist_taxon_id": 157844,
+      "ph_observations": 2,
+      "global_observations_including_ph": 246,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126506",
+      "search_name_candidate": "Acalypha hispida",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:29:03.398915+00:00",
+      "inaturalist_taxon_id": 208742,
+      "ph_observations": 0,
+      "global_observations_including_ph": 77,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126507",
+      "search_name_candidate": "Acalypha wilkesiana",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:29:06.350230+00:00",
+      "inaturalist_taxon_id": 281562,
+      "ph_observations": 4,
+      "global_observations_including_ph": 53,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126509",
+      "search_name_candidate": "Achyranthes aspera",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:29:09.551074+00:00",
+      "inaturalist_taxon_id": 157960,
+      "ph_observations": 1,
+      "global_observations_including_ph": 785,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126511",
+      "search_name_candidate": "Acorus calamus",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:29:12.831331+00:00",
+      "inaturalist_taxon_id": 82306,
+      "ph_observations": 0,
+      "global_observations_including_ph": 262,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126512",
+      "search_name_candidate": "Agave cantula",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:29:15.497158+00:00",
+      "probe_status": "taxonomy_unresolved",
+      "returned_names": []
+    },
+    {
+      "source_taxon_id": "126513",
+      "search_name_candidate": "Ageratum conyzoides",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:29:16.444225+00:00",
+      "inaturalist_taxon_id": 143422,
+      "ph_observations": 19,
+      "global_observations_including_ph": 947,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126514",
+      "search_name_candidate": "Aglaia odorata",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:29:19.690554+00:00",
+      "inaturalist_taxon_id": 189056,
+      "ph_observations": 1,
+      "global_observations_including_ph": 1,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126515",
+      "search_name_candidate": "Albizia lebbeck",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:29:23.458333+00:00",
+      "inaturalist_taxon_id": 60832,
+      "ph_observations": 1,
+      "global_observations_including_ph": 230,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126686",
+      "search_name_candidate": "Albizia saman",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:29:26.071258+00:00",
+      "probe_status": "taxonomy_unresolved",
+      "returned_names": [
+        "Samanea saman"
+      ]
+    },
+    {
+      "source_taxon_id": "126516",
+      "search_name_candidate": "Aleurites moluccanus",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:29:26.667936+00:00",
+      "inaturalist_taxon_id": 370011,
+      "ph_observations": 0,
+      "global_observations_including_ph": 224,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126521",
+      "search_name_candidate": "Allium ampeloprasum",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:29:30.274659+00:00",
+      "inaturalist_taxon_id": 122912,
+      "ph_observations": 0,
+      "global_observations_including_ph": 116,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126520",
+      "search_name_candidate": "Allium cepa",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:29:32.729319+00:00",
+      "inaturalist_taxon_id": 48592,
+      "ph_observations": 0,
+      "global_observations_including_ph": 36,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126524",
+      "search_name_candidate": "Alternanthera ficoidea",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:29:35.759799+00:00",
+      "inaturalist_taxon_id": 279260,
+      "ph_observations": 0,
+      "global_observations_including_ph": 362,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126522",
+      "search_name_candidate": "Alternanthera halimifolia",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:29:38.794030+00:00",
+      "inaturalist_taxon_id": 278801,
+      "ph_observations": 0,
+      "global_observations_including_ph": 26,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126523",
+      "search_name_candidate": "Alternanthera sessilis",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:29:41.749160+00:00",
+      "inaturalist_taxon_id": 158232,
+      "ph_observations": 1,
+      "global_observations_including_ph": 127,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126525",
+      "search_name_candidate": "Alysicarpus vaginalis",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:29:44.747278+00:00",
+      "inaturalist_taxon_id": 131566,
+      "ph_observations": 2,
+      "global_observations_including_ph": 384,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126526",
+      "search_name_candidate": "Amaranthus caudatus",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:29:48.689271+00:00",
+      "inaturalist_taxon_id": 75392,
+      "ph_observations": 0,
+      "global_observations_including_ph": 38,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126528",
+      "search_name_candidate": "Amaranthus spinosus",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:29:51.081779+00:00",
+      "inaturalist_taxon_id": 62917,
+      "ph_observations": 1,
+      "global_observations_including_ph": 137,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126527",
+      "search_name_candidate": "Amaranthus tricolor",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:29:54.143970+00:00",
+      "inaturalist_taxon_id": 158256,
+      "ph_observations": 0,
+      "global_observations_including_ph": 11,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126529",
+      "search_name_candidate": "Amaranthus viridis",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:29:57.165530+00:00",
+      "inaturalist_taxon_id": 75401,
+      "ph_observations": 1,
+      "global_observations_including_ph": 485,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126533",
+      "search_name_candidate": "Anacardium occidentale",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:30:00.053191+00:00",
+      "inaturalist_taxon_id": 122988,
+      "ph_observations": 3,
+      "global_observations_including_ph": 297,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126534",
+      "search_name_candidate": "Ananas comosus",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:30:04.009312+00:00",
+      "inaturalist_taxon_id": 122965,
+      "ph_observations": 1,
+      "global_observations_including_ph": 213,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126538",
+      "search_name_candidate": "Annona muricata",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:30:07.845483+00:00",
+      "inaturalist_taxon_id": 284503,
+      "ph_observations": 3,
+      "global_observations_including_ph": 119,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126539",
+      "search_name_candidate": "Annona reticulata",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:30:10.233883+00:00",
+      "inaturalist_taxon_id": 284506,
+      "ph_observations": 0,
+      "global_observations_including_ph": 43,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126540",
+      "search_name_candidate": "Annona squamosa",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:30:13.874057+00:00",
+      "inaturalist_taxon_id": 69973,
+      "ph_observations": 1,
+      "global_observations_including_ph": 236,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126542",
+      "search_name_candidate": "Antigonon leptopus",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:30:16.853996+00:00",
+      "inaturalist_taxon_id": 48380,
+      "ph_observations": 4,
+      "global_observations_including_ph": 1447,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126544",
+      "search_name_candidate": "Arachis hypogaea",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:30:21.079653+00:00",
+      "inaturalist_taxon_id": 63205,
+      "ph_observations": 0,
+      "global_observations_including_ph": 20,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126546",
+      "search_name_candidate": "Areca catechu",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:30:24.463732+00:00",
+      "inaturalist_taxon_id": 83108,
+      "ph_observations": 1,
+      "global_observations_including_ph": 72,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126547",
+      "search_name_candidate": "Argemone mexicana",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:30:26.912900+00:00",
+      "inaturalist_taxon_id": 128533,
+      "ph_observations": 1,
+      "global_observations_including_ph": 938,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126548",
+      "search_name_candidate": "Argyreia nervosa",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:30:29.803646+00:00",
+      "inaturalist_taxon_id": 158621,
+      "ph_observations": 0,
+      "global_observations_including_ph": 39,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126550",
+      "search_name_candidate": "Aristolochia elegans",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:30:33.589516+00:00",
+      "probe_status": "taxonomy_unresolved",
+      "returned_names": [
+        "Aristolochia littoralis"
+      ]
+    },
+    {
+      "source_taxon_id": "126551",
+      "search_name_candidate": "Artemisia vulgaris",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:30:33.870928+00:00",
+      "inaturalist_taxon_id": 52856,
+      "ph_observations": 0,
+      "global_observations_including_ph": 20436,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126552",
+      "search_name_candidate": "Artocarpus altilis",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:30:38.579730+00:00",
+      "inaturalist_taxon_id": 70027,
+      "ph_observations": 0,
+      "global_observations_including_ph": 259,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126553",
+      "search_name_candidate": "Asclepias curassavica",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:30:42.948233+00:00",
+      "inaturalist_taxon_id": 75602,
+      "ph_observations": 2,
+      "global_observations_including_ph": 2346,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126556",
+      "search_name_candidate": "Asparagus aethiopicus",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:30:46.651827+00:00",
+      "inaturalist_taxon_id": 75603,
+      "ph_observations": 2,
+      "global_observations_including_ph": 804,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126554",
+      "search_name_candidate": "Asparagus officinalis",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:30:50.287711+00:00",
+      "inaturalist_taxon_id": 60265,
+      "ph_observations": 0,
+      "global_observations_including_ph": 3274,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126555",
+      "search_name_candidate": "Asparagus setaceus",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:30:53.679868+00:00",
+      "inaturalist_taxon_id": 75604,
+      "ph_observations": 0,
+      "global_observations_including_ph": 496,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126558",
+      "search_name_candidate": "Averrhoa bilimbi",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:30:56.005119+00:00",
+      "inaturalist_taxon_id": 319218,
+      "ph_observations": 11,
+      "global_observations_including_ph": 111,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126559",
+      "search_name_candidate": "Averrhoa carambola",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:30:59.248682+00:00",
+      "inaturalist_taxon_id": 146977,
+      "ph_observations": 3,
+      "global_observations_including_ph": 201,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126693",
+      "search_name_candidate": "Ayapana triplinervis",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:31:01.969046+00:00",
+      "inaturalist_taxon_id": 919365,
+      "ph_observations": 0,
+      "global_observations_including_ph": 1,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126561",
+      "search_name_candidate": "Barleria lupulina",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:31:05.113349+00:00",
+      "inaturalist_taxon_id": 159176,
+      "ph_observations": 0,
+      "global_observations_including_ph": 19,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126562",
+      "search_name_candidate": "Basella alba",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:31:08.207367+00:00",
+      "inaturalist_taxon_id": 159191,
+      "ph_observations": 9,
+      "global_observations_including_ph": 145,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126563",
+      "search_name_candidate": "Bauhinia monandra",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:31:10.983609+00:00",
+      "inaturalist_taxon_id": 159199,
+      "ph_observations": 0,
+      "global_observations_including_ph": 58,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126564",
+      "search_name_candidate": "Bauhinia tomentosa",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:31:14.200989+00:00",
+      "inaturalist_taxon_id": 340307,
+      "ph_observations": 0,
+      "global_observations_including_ph": 29,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126566",
+      "search_name_candidate": "Benincasa pruriens",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:31:17.159840+00:00",
+      "probe_status": "taxonomy_unresolved",
+      "returned_names": []
+    },
+    {
+      "source_taxon_id": "126567",
+      "search_name_candidate": "Bidens pilosa",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:31:17.940545+00:00",
+      "inaturalist_taxon_id": 50203,
+      "ph_observations": 0,
+      "global_observations_including_ph": 1891,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126568",
+      "search_name_candidate": "Biophytum sensitivum",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:31:21.154698+00:00",
+      "inaturalist_taxon_id": 430725,
+      "ph_observations": 9,
+      "global_observations_including_ph": 212,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126569",
+      "search_name_candidate": "Bixa orellana",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:31:24.186020+00:00",
+      "inaturalist_taxon_id": 127676,
+      "ph_observations": 5,
+      "global_observations_including_ph": 305,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126571",
+      "search_name_candidate": "Boehmeria nivea",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:31:27.040004+00:00",
+      "inaturalist_taxon_id": 159288,
+      "ph_observations": 0,
+      "global_observations_including_ph": 302,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126572",
+      "search_name_candidate": "Boerhaavia diffusa",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:31:30.087618+00:00",
+      "probe_status": "taxonomy_unresolved",
+      "returned_names": [
+        "Boerhavia diffusa"
+      ]
+    },
+    {
+      "source_taxon_id": "126573",
+      "search_name_candidate": "Bougainvillea spectabilis",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:31:30.913430+00:00",
+      "inaturalist_taxon_id": 62949,
+      "ph_observations": 0,
+      "global_observations_including_ph": 21,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126574",
+      "search_name_candidate": "Brassica juncea",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:31:34.405508+00:00",
+      "inaturalist_taxon_id": 64241,
+      "ph_observations": 0,
+      "global_observations_including_ph": 76,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126577",
+      "search_name_candidate": "Brunfelsia americana",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:31:37.208263+00:00",
+      "inaturalist_taxon_id": 290666,
+      "ph_observations": 0,
+      "global_observations_including_ph": 6,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126576",
+      "search_name_candidate": "Brunfelsia brasiliensis",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:31:40.114305+00:00",
+      "inaturalist_taxon_id": 771959,
+      "ph_observations": 0,
+      "global_observations_including_ph": 0,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126579",
+      "search_name_candidate": "Caesalpinia pulcherrima",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:31:43.078118+00:00",
+      "inaturalist_taxon_id": 60439,
+      "ph_observations": 10,
+      "global_observations_including_ph": 765,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126580",
+      "search_name_candidate": "Cajanus cajan",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:31:46.152551+00:00",
+      "inaturalist_taxon_id": 139444,
+      "ph_observations": 0,
+      "global_observations_including_ph": 89,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126581",
+      "search_name_candidate": "Caladium bicolor",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:31:49.128909+00:00",
+      "inaturalist_taxon_id": 283377,
+      "ph_observations": 8,
+      "global_observations_including_ph": 554,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126584",
+      "search_name_candidate": "Canavalia ensiformis",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:31:52.104926+00:00",
+      "inaturalist_taxon_id": 159809,
+      "ph_observations": 0,
+      "global_observations_including_ph": 1,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126585",
+      "search_name_candidate": "Canavalia gladiata",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:31:55.794992+00:00",
+      "inaturalist_taxon_id": 159811,
+      "ph_observations": 0,
+      "global_observations_including_ph": 11,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126588",
+      "search_name_candidate": "Canna flaccida",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:31:58.159103+00:00",
+      "inaturalist_taxon_id": 127279,
+      "ph_observations": 0,
+      "global_observations_including_ph": 51,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126589",
+      "search_name_candidate": "Canna glauca",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:32:01.647094+00:00",
+      "inaturalist_taxon_id": 159818,
+      "ph_observations": 0,
+      "global_observations_including_ph": 105,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126733",
+      "search_name_candidate": "Cantinoa americana",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:32:04.867086+00:00",
+      "inaturalist_taxon_id": 581730,
+      "ph_observations": 0,
+      "global_observations_including_ph": 8,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126592",
+      "search_name_candidate": "Capsicum annuum",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:32:07.156444+00:00",
+      "inaturalist_taxon_id": 48514,
+      "ph_observations": 3,
+      "global_observations_including_ph": 437,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126593",
+      "search_name_candidate": "Capsicum frutescens",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:32:10.551013+00:00",
+      "inaturalist_taxon_id": 122796,
+      "ph_observations": 1,
+      "global_observations_including_ph": 23,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126596",
+      "search_name_candidate": "Cardiospermum halicacabum",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:32:15.473742+00:00",
+      "inaturalist_taxon_id": 62944,
+      "ph_observations": 3,
+      "global_observations_including_ph": 1158,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126597",
+      "search_name_candidate": "Carica papaya",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:32:20.649864+00:00",
+      "inaturalist_taxon_id": 62811,
+      "ph_observations": 9,
+      "global_observations_including_ph": 1385,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126929",
+      "search_name_candidate": "Cascabela thevetia",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:32:24.661742+00:00",
+      "inaturalist_taxon_id": 277115,
+      "ph_observations": 1,
+      "global_observations_including_ph": 412,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126603",
+      "search_name_candidate": "Castilloa elastica",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:32:29.488530+00:00",
+      "probe_status": "taxonomy_unresolved",
+      "returned_names": []
+    },
+    {
+      "source_taxon_id": "126772",
+      "search_name_candidate": "Catharanthus roseus",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:32:29.842706+00:00",
+      "inaturalist_taxon_id": 62924,
+      "ph_observations": 12,
+      "global_observations_including_ph": 1534,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126605",
+      "search_name_candidate": "Ceiba pentandra",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:32:32.836268+00:00",
+      "inaturalist_taxon_id": 62809,
+      "ph_observations": 0,
+      "global_observations_including_ph": 640,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126606",
+      "search_name_candidate": "Celosia argentea",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:32:35.819247+00:00",
+      "inaturalist_taxon_id": 160259,
+      "ph_observations": 13,
+      "global_observations_including_ph": 608,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126607",
+      "search_name_candidate": "Cenchrus echinatus",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:32:39.883991+00:00",
+      "inaturalist_taxon_id": 76205,
+      "ph_observations": 6,
+      "global_observations_including_ph": 572,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126608",
+      "search_name_candidate": "Centrosema plumieri",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:32:43.045877+00:00",
+      "inaturalist_taxon_id": 290304,
+      "ph_observations": 0,
+      "global_observations_including_ph": 57,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126609",
+      "search_name_candidate": "Cereus hexagonus",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:32:46.506917+00:00",
+      "inaturalist_taxon_id": 438215,
+      "ph_observations": 0,
+      "global_observations_including_ph": 28,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126610",
+      "search_name_candidate": "Cereus triangularis",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:32:50.402217+00:00",
+      "probe_status": "taxonomy_unresolved",
+      "returned_names": []
+    },
+    {
+      "source_taxon_id": "126611",
+      "search_name_candidate": "Cestrum nocturnum",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:32:50.799054+00:00",
+      "inaturalist_taxon_id": 76225,
+      "ph_observations": 1,
+      "global_observations_including_ph": 219,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126620",
+      "search_name_candidate": "Chloris barbata",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:32:53.972208+00:00",
+      "inaturalist_taxon_id": 160519,
+      "ph_observations": 5,
+      "global_observations_including_ph": 970,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126622",
+      "search_name_candidate": "Chrysanthemum indicum",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:32:57.262745+00:00",
+      "inaturalist_taxon_id": 346848,
+      "ph_observations": 0,
+      "global_observations_including_ph": 34,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126537",
+      "search_name_candidate": "Chrysopogon zizanioides",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:33:02.106592+00:00",
+      "inaturalist_taxon_id": 142763,
+      "ph_observations": 0,
+      "global_observations_including_ph": 7,
+      "probe_status": "completed"
+    },
+    {
+      "source_taxon_id": "126625",
+      "search_name_candidate": "Cinnamomum verum",
+      "source_evidence_bucket": "introduced_status_review_needed",
+      "checked_at_utc": "2026-10-22T17:33:05.957024+00:00",
+      "inaturalist_taxon_id": 122777,
+      "ph_observations": 0,
+      "global_observations_including_ph": 24,
+      "probe_status": "completed"
+    }
+  ],
+  "philippines_place_id": 6873,
+  "updated_at_utc": "2026-10-22T17:33:09.066365+00:00",
+  "status_counts": {
+    "completed": 92,
+    "taxonomy_unresolved": 8
+  }
+}

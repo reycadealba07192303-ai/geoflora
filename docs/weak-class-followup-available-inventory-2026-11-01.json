@@ -1,0 +1,52 @@
+{
+  "generated_at_utc": "2026-10-31T17:51:03.818880+00:00",
+  "basis": "Strict CC0/CC BY/CC BY-SA allowlist; PH iNaturalist field-photo records only; exact and observation-group duplicates removed against frozen v3; source/community labels are not expert verification.",
+  "classes": {
+    "broussonetia_papyrifera": {
+      "staging_images": 41,
+      "strict_rights_PH_field_observation_groups_seen": 0,
+      "unique_not_in_frozen_observation_groups": 0,
+      "images_in_unique_groups": 0,
+      "review_decision_groups": {},
+      "owner_approved_but_explicitly_training_ineligible_groups": 0,
+      "excluded_image_records": {
+        "license_not_in_training_allowlist": 41
+      },
+      "newly_collected_in_followup_scan": 0
+    },
+    "coccinia_grandis": {
+      "staging_images": 177,
+      "strict_rights_PH_field_observation_groups_seen": 32,
+      "unique_not_in_frozen_observation_groups": 2,
+      "images_in_unique_groups": 3,
+      "review_decision_groups": {
+        "approve": 2
+      },
+      "owner_approved_but_explicitly_training_ineligible_groups": 1,
+      "excluded_image_records": {
+        "exact_duplicate_of_frozen": 51,
+        "license_not_in_training_allowlist": 123
+      },
+      "newly_collected_in_followup_scan": 0
+    },
+    "mikania_micrantha": {
+      "staging_images": 201,
+      "strict_rights_PH_field_observation_groups_seen": 13,
+      "unique_not_in_frozen_observation_groups": 0,
+      "images_in_unique_groups": 0,
+      "review_decision_groups": {},
+      "owner_approved_but_explicitly_training_ineligible_groups": 0,
+      "excluded_image_records": {
+        "license_not_in_training_allowlist": 131,
+        "exact_duplicate_of_frozen": 40,
+        "not_iNaturalist_field_photo": 30
+      },
+      "newly_collected_in_followup_scan": 0
+    }
+  },
+  "new_pending_review_queue": "docs/weak-class-followup-review-queue-2026-11-01.csv",
+  "newly_collected_pool": "storage/datasets/review_pools/weak_classes_followup_20261101/review_queue.csv",
+  "test_set_status": "No new observation has independent botanical review; zero records designated as a blind test set.",
+  "new_unresolved_candidate_images": 2,
+  "new_unresolved_observation_groups": 1
+}

@@ -1,0 +1,36 @@
+{
+  "started_at_utc": "2026-10-31T11:08:23.024050+00:00",
+  "group": "Cadena de amor (Antigonon leptopus)",
+  "role": "invasive",
+  "status_note": "Introduced in the Philippines; invasive status not yet verified in GeoFlora's sources (owner chose to monitor it, October 31, 2026).",
+  "country_filter": "PH",
+  "bounds": {
+    "new_unique_images_per_species": 150,
+    "api_pages": 3,
+    "additional_gb": 0.4
+  },
+  "label_basis": "iNaturalist research grade (community-agreed identification); AI screen as quota allows",
+  "runs": [
+    {
+      "species": "Antigonon leptopus",
+      "source": "inaturalist",
+      "status": "completed",
+      "new_unique_images": 150,
+      "download_rejections": 0
+    }
+  ],
+  "finished_at_utc": "2026-10-31T11:10:59.710451+00:00",
+  "new_records": 150,
+  "valid_records": 150,
+  "invalid_records": [],
+  "licences": {
+    "cc-by-nc": 137,
+    "cc-by": 8,
+    "cc0": 5
+  },
+  "observation_groups": 84,
+  "near_duplicate_groups": 1,
+  "additional_image_bytes": 13728751,
+  "review_queue": "storage\\datasets\\staging\\invasive_antigonon_leptopus_ph\\review_queue.csv",
+  "gallery": "storage\\datasets\\staging\\invasive_antigonon_leptopus_ph\\review_gallery.html"
+}

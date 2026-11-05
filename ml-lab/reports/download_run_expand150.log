@@ -1,0 +1,307 @@
+15:31:55 INFO geoflora_ml.acquisition: Chromolaena odorata (target): target 150 images
+15:33:45 INFO geoflora_ml.acquisition:   downloaded 70 (already had 80) 
+15:33:45 INFO geoflora_ml.acquisition: Lantana camara (target): target 150 images
+15:36:07 INFO geoflora_ml.acquisition:   downloaded 70 (already had 80) 
+15:36:07 INFO geoflora_ml.acquisition: Pontederia crassipes (target): target 150 images
+15:38:32 INFO geoflora_ml.acquisition:   downloaded 70 (already had 80) 
+15:38:32 INFO geoflora_ml.acquisition: Ageratum conyzoides (lookalike): target 150 images
+15:42:20 INFO geoflora_ml.acquisition:   downloaded 120 (already had 30) 
+15:42:20 INFO geoflora_ml.acquisition: Mikania micrantha (lookalike): target 150 images
+15:46:08 INFO geoflora_ml.acquisition:   downloaded 120 (already had 30) 
+15:46:08 INFO geoflora_ml.acquisition: Lantana montevidensis (lookalike): target 150 images
+15:49:24 INFO geoflora_ml.acquisition:   downloaded 120 (already had 30) 
+15:49:24 INFO geoflora_ml.acquisition: Duranta erecta (lookalike): target 150 images
+15:52:51 INFO geoflora_ml.acquisition:   downloaded 120 (already had 30) 
+15:52:51 INFO geoflora_ml.acquisition: Pistia stratiotes (lookalike): target 150 images
+15:56:42 INFO geoflora_ml.acquisition:   downloaded 120 (already had 30) 
+15:56:42 INFO geoflora_ml.acquisition: Pontederia vaginalis (lookalike): target 150 images
+15:59:31 INFO geoflora_ml.acquisition:   downloaded 120 (already had 30) 
+15:59:31 INFO geoflora_ml.acquisition: Limnocharis flava (lookalike): target 150 images
+16:02:45 INFO geoflora_ml.acquisition:   downloaded 120 (already had 30) 
+{
+  "started": "2026-11-04T07:31:55+00:00",
+  "finished": "2026-11-04T08:02:45+00:00",
+  "source": "GBIF",
+  "allowed_licenses": [
+    "CC0-1.0",
+    "PDM-1.0",
+    "CC-BY-4.0",
+    "CC-BY-NC-4.0"
+  ],
+  "country_priority": [
+    "PH",
+    null
+  ],
+  "bytes_downloaded": 163510772,
+  "storage_budget_bytes": 250000000,
+  "species": [
+    {
+      "species_id": "GF-SP-0001",
+      "scientific_name": "Chromolaena odorata",
+      "accepted_taxon_key": 3087725,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 150,
+      "already_present": 80,
+      "downloaded": 70,
+      "countries": {
+        "PH": 70
+      },
+      "skipped": {
+        "no_media_with_allowed_license": 2
+      },
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0002",
+      "scientific_name": "Lantana camara",
+      "accepted_taxon_key": 2925303,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 150,
+      "already_present": 80,
+      "downloaded": 70,
+      "countries": {
+        "PH": 70
+      },
+      "skipped": {},
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0003",
+      "scientific_name": "Pontederia crassipes",
+      "accepted_taxon_key": 2765942,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 150,
+      "already_present": 80,
+      "downloaded": 70,
+      "countries": {
+        "PH": 3,
+        "LK": 2,
+        "ZA": 5,
+        "BR": 3,
+        "AU": 4,
+        "PT": 2,
+        "US": 20,
+        "AR": 11,
+        "TW": 1,
+        "IN": 4,
+        "TH": 3,
+        "GT": 1,
+        "VN": 1,
+        "MX": 2,
+        "ID": 1,
+        "MY": 1,
+        "PA": 1,
+        "PE": 1,
+        "CR": 1,
+        "CO": 1,
+        "CN": 1,
+        "CL": 1
+      },
+      "skipped": {
+        "fetch_failed:HTTPError": 1,
+        "no_media_with_allowed_license": 1
+      },
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0101",
+      "scientific_name": "Ageratum conyzoides",
+      "accepted_taxon_key": 5401673,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 150,
+      "already_present": 30,
+      "downloaded": 120,
+      "countries": {
+        "PH": 69,
+        "ZA": 3,
+        "US": 16,
+        "TW": 19,
+        "GP": 1,
+        "IN": 7,
+        "GM": 2,
+        "LK": 1,
+        "ID": 1,
+        "PE": 1
+      },
+      "skipped": {
+        "no_media_with_allowed_license": 7
+      },
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0102",
+      "scientific_name": "Mikania micrantha",
+      "accepted_taxon_key": 5398421,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 150,
+      "already_present": 30,
+      "downloaded": 120,
+      "countries": {
+        "PH": 74,
+        "TW": 34,
+        "FM": 1,
+        "HK": 4,
+        "SG": 3,
+        "PR": 1,
+        "BT": 1,
+        "CN": 1,
+        "IN": 1
+      },
+      "skipped": {},
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0103",
+      "scientific_name": "Lantana montevidensis",
+      "accepted_taxon_key": 2925314,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 150,
+      "already_present": 30,
+      "downloaded": 120,
+      "countries": {
+        "AU": 61,
+        "US": 18,
+        "AR": 10,
+        "UY": 2,
+        "MX": 4,
+        "PT": 1,
+        "CN": 7,
+        "IN": 2,
+        "HK": 6,
+        "ES": 4,
+        "DO": 1,
+        "unknown": 1,
+        "JP": 1,
+        "PY": 1,
+        "TZ": 1
+      },
+      "skipped": {
+        "no_media_with_allowed_license": 1
+      },
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0104",
+      "scientific_name": "Duranta erecta",
+      "accepted_taxon_key": 2925655,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 150,
+      "already_present": 30,
+      "downloaded": 120,
+      "countries": {
+        "PH": 36,
+        "MP": 1,
+        "AU": 16,
+        "SV": 1,
+        "TH": 12,
+        "HN": 1,
+        "BR": 10,
+        "PA": 1,
+        "EC": 3,
+        "US": 7,
+        "IN": 5,
+        "AR": 2,
+        "ZM": 2,
+        "MG": 4,
+        "CR": 1,
+        "MZ": 1,
+        "KH": 1,
+        "CN": 2,
+        "MO": 1,
+        "SG": 1,
+        "CO": 1,
+        "BM": 1,
+        "LK": 2,
+        "TZ": 1,
+        "GD": 2,
+        "RE": 1,
+        "MX": 2,
+        "MU": 1,
+        "DM": 1
+      },
+      "skipped": {
+        "no_media_with_allowed_license": 1
+      },
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0105",
+      "scientific_name": "Pistia stratiotes",
+      "accepted_taxon_key": 2870583,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 150,
+      "already_present": 30,
+      "downloaded": 120,
+      "countries": {
+        "PH": 118,
+        "IN": 1,
+        "TH": 1
+      },
+      "skipped": {
+        "no_media_with_allowed_license": 3,
+        "fetch_failed:HTTPError": 1
+      },
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0106",
+      "scientific_name": "Pontederia vaginalis",
+      "accepted_taxon_key": 8238520,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 150,
+      "already_present": 30,
+      "downloaded": 120,
+      "countries": {
+        "IN": 8,
+        "TW": 70,
+        "AU": 1,
+        "JP": 38,
+        "ID": 1,
+        "CN": 1,
+        "NP": 1
+      },
+      "skipped": {
+        "no_media_with_allowed_license": 1
+      },
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0107",
+      "scientific_name": "Limnocharis flava",
+      "accepted_taxon_key": 5328736,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 150,
+      "already_present": 30,
+      "downloaded": 120,
+      "countries": {
+        "MY": 14,
+        "TH": 21,
+        "IN": 8,
+        "ID": 14,
+        "HK": 1,
+        "TW": 7,
+        "CN": 3,
+        "CO": 8,
+        "BR": 6,
+        "PE": 5,
+        "CR": 8,
+        "EC": 7,
+        "BN": 1,
+        "LK": 2,
+        "MX": 8,
+        "PA": 2,
+        "TT": 1,
+        "VN": 1,
+        "SG": 1,
+        "MM": 1,
+        "US": 1
+      },
+      "skipped": {
+        "no_media_with_allowed_license": 2,
+        "fetch_failed:HTTPError": 1
+      },
+      "error": ""
+    }
+  ],
+  "note": "All downloaded images have review_status=pending and are NOT GeoFlora field observations."
+}

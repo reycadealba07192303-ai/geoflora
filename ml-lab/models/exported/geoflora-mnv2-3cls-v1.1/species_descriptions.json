@@ -1,0 +1,108 @@
+{
+  "GF-SP-0001": {
+    "scientific_name": "Chromolaena odorata",
+    "common_names": [
+      "Hagonoy",
+      "Siam weed",
+      "Christmas bush"
+    ],
+    "family": "Asteraceae",
+    "native_range": "Tropical and subtropical Americas",
+    "summary": "A fast-growing perennial shrub that forms dense thickets on roadsides, fallow land, pastures and forest edges. It scrambles over other plants and spreads by wind-blown seed.",
+    "identifying_features": [
+      "Shrub usually 1.5-3 m tall; stems can scramble higher over surrounding vegetation.",
+      "Leaves opposite, triangular to ovate, coarsely toothed, with three prominent veins from the leaf base; strong smell when crushed.",
+      "Flower heads cylindrical, about 1 cm long, in clusters at the branch tips; florets white to pale lilac, with no petal-like rays.",
+      "Seeds carry a tuft of bristles and form grey-brown fluffy heads when mature."
+    ],
+    "why_it_matters": "Smothers crops, pasture and native vegetation, and dry thickets increase fire risk. Listed among the '100 of the World's Worst Invasive Alien Species' (Lowe et al. 2000).",
+    "lookalikes": [
+      {
+        "scientific_name": "Ageratum conyzoides",
+        "how_to_tell_apart": "A small soft herb, usually under 1 m, with rounder, fluffier blue to white flower heads and no strong three-vein leaf pattern."
+      },
+      {
+        "scientific_name": "Mikania micrantha",
+        "how_to_tell_apart": "A twining vine with heart-shaped leaves on long stalks and many tiny white flower heads."
+      }
+    ],
+    "references": [
+      "GBIF species page: https://www.gbif.org/species/3087725",
+      "Lowe S., Browne M., Boudjelas S., De Poorter M. (2000). 100 of the World's Worst Invasive Alien Species. IUCN SSC Invasive Species Specialist Group."
+    ],
+    "review_status": "draft_unverified",
+    "reviewed_by": "",
+    "reviewed_date": ""
+  },
+  "GF-SP-0002": {
+    "scientific_name": "Lantana camara",
+    "common_names": [
+      "Kantutay",
+      "Lantana"
+    ],
+    "family": "Verbenaceae",
+    "native_range": "Tropical Americas",
+    "summary": "An aromatic, often prickly shrub with small clustered flowers in mixed colours. It is widely planted as an ornamental and escapes into pastures, roadsides and forest edges, where it forms dense thickets.",
+    "identifying_features": [
+      "Shrub usually 1-2 m tall (sometimes taller); stems square in cross-section, often with small hooked prickles.",
+      "Leaves opposite, ovate, rough to the touch, with toothed edges; strong smell when crushed.",
+      "Small tubular flowers in flat-topped clusters, often of mixed colours (yellow, orange, pink, red) that change as they age.",
+      "Clusters of small round berries, green turning glossy purple-black when ripe."
+    ],
+    "why_it_matters": "Forms dense thickets that crowd out native plants. Leaves and unripe fruit are toxic to livestock. Listed among the '100 of the World's Worst Invasive Alien Species' (Lowe et al. 2000).",
+    "lookalikes": [
+      {
+        "scientific_name": "Lantana montevidensis",
+        "how_to_tell_apart": "A low trailing or creeping plant with smaller leaves and flowers that are uniformly lilac-purple (or white), not mixed colours."
+      },
+      {
+        "scientific_name": "Duranta erecta",
+        "how_to_tell_apart": "Blue-violet flowers in drooping sprays and hanging clusters of orange-yellow berries; leaves smooth, not rough."
+      }
+    ],
+    "references": [
+      "GBIF species page: https://www.gbif.org/species/2925303",
+      "Lowe S., Browne M., Boudjelas S., De Poorter M. (2000). 100 of the World's Worst Invasive Alien Species. IUCN SSC Invasive Species Specialist Group."
+    ],
+    "review_status": "draft_unverified",
+    "reviewed_by": "",
+    "reviewed_date": ""
+  },
+  "GF-SP-0003": {
+    "scientific_name": "Pontederia crassipes",
+    "common_names": [
+      "Water hyacinth",
+      "Water lily (local name, not a true water lily)"
+    ],
+    "synonyms": [
+      "Eichhornia crassipes"
+    ],
+    "family": "Pontederiaceae",
+    "native_range": "South America (Amazon basin)",
+    "summary": "A free-floating aquatic plant that multiplies quickly and forms large mats on rivers, lakes, canals and ponds.",
+    "identifying_features": [
+      "Floats on the water surface as rosettes of glossy, rounded leaves.",
+      "Leaf stalks often swollen and spongy, acting as floats.",
+      "Dark, feathery roots hang in the water beneath the plant.",
+      "Spikes of lavender flowers; the upper petal has a violet-blue patch with a yellow spot in the centre."
+    ],
+    "why_it_matters": "Dense mats block waterways and boats, hinder fishing, clog irrigation and drainage, reduce light and oxygen in the water, and can worsen flooding. Listed among the '100 of the World's Worst Invasive Alien Species' as Eichhornia crassipes (Lowe et al. 2000).",
+    "lookalikes": [
+      {
+        "scientific_name": "Pontederia vaginalis",
+        "how_to_tell_apart": "Rooted in mud (for example in rice fields), not floating; leaf stalks not swollen; smaller blue-violet flowers without a yellow spot."
+      },
+      {
+        "scientific_name": "Pistia stratiotes",
+        "how_to_tell_apart": "Water lettuce: rosettes of pale green, velvety, ridged leaves with no stalks, and tiny hidden flowers."
+      }
+    ],
+    "references": [
+      "GBIF species page: https://www.gbif.org/species/2765942",
+      "Lowe S., Browne M., Boudjelas S., De Poorter M. (2000). 100 of the World's Worst Invasive Alien Species. IUCN SSC Invasive Species Specialist Group."
+    ],
+    "review_status": "draft_unverified",
+    "reviewed_by": "",
+    "reviewed_date": ""
+  }
+}

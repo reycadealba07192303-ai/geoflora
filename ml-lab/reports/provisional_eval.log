@@ -1,0 +1,22 @@
+{
+  "run": "run-20261101T091305Z-pilot",
+  "test_images": 36,
+  "accuracy": 1.0,
+  "accuracy_ci": [
+    1.0,
+    1.0
+  ],
+  "macro_f1": 1.0,
+  "weighted_f1": 1.0,
+  "unsupported_species": {
+    "known_images": 36,
+    "known_acceptance_rate": 0.8611111111111112,
+    "accuracy_on_accepted_known": 1.0,
+    "known_correct_and_accepted_rate": 0.8611111111111112,
+    "unknown_images": 180,
+    "unknown_false_acceptance_rate_without_rejection": 1.0,
+    "unknown_false_acceptance_rate_with_threshold": 0.2722222222222222,
+    "auroc_known_vs_unknown": 0.865432098765432
+  }
+}
+Report: C:\Users\reyca\geoflowra\GeoFlora-ML-Lab\models\checkpoints\provisional\run-20261101T091305Z-pilot\evaluation\research_evaluation_report.md

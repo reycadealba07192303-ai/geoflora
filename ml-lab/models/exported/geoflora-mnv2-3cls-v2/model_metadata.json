@@ -1,0 +1,88 @@
+{
+  "model_version": "geoflora-mnv2-3cls-v2",
+  "status": "candidate_not_activated",
+  "status_note": "Exported for review only. Not deployed or activated. Activation must be a manual decision in GeoFlora.",
+  "exported": "2026-11-04T15:55:14+00:00",
+  "source_run": "run-20261104T151536Z-reviewed-v3",
+  "dataset_version": "ds-20261104-ab732151f2",
+  "architecture": "MobileNetV2 (alpha=1.0, initial weights=imagenet) + Dense(3, softmax)",
+  "framework": {
+    "python": "3.11.9",
+    "tensorflow_version": "2.20.0",
+    "keras_version": "3.15.1"
+  },
+  "model_file": "model.keras",
+  "model_sha256": "cce8a0c8d291ffb98d7893529e3e5019911b44a3c0632e788465c5b5be834729",
+  "num_classes": 3,
+  "supported_species": [
+    {
+      "index": 0,
+      "species_id": "GF-SP-0001",
+      "scientific_name": "Chromolaena odorata",
+      "common_name": "Hagonoy",
+      "ecological_status": "target_invasive",
+      "status_verification": "verified",
+      "is_target_invasive": true,
+      "description_review_status": "draft_unverified"
+    },
+    {
+      "index": 1,
+      "species_id": "GF-SP-0002",
+      "scientific_name": "Lantana camara",
+      "common_name": "Lantana",
+      "ecological_status": "target_invasive",
+      "status_verification": "verified",
+      "is_target_invasive": true,
+      "description_review_status": "draft_unverified"
+    },
+    {
+      "index": 2,
+      "species_id": "GF-SP-0003",
+      "scientific_name": "Pontederia crassipes",
+      "common_name": "Water hyacinth",
+      "ecological_status": "target_invasive",
+      "status_verification": "verified",
+      "is_target_invasive": true,
+      "description_review_status": "draft_unverified"
+    }
+  ],
+  "unknown_handling": {
+    "score_type": "max_softmax",
+    "threshold": 0.9682667255401611,
+    "strategy": "youden",
+    "selected_on": "validation (val + unknown_val); test sets not used"
+  },
+  "evaluation_summary": {
+    "test_images": 152,
+    "test_accuracy": 0.9736842105263158,
+    "test_accuracy_ci": [
+      0.9339938049399357,
+      0.9927842853993339
+    ],
+    "test_macro_f1": 0.9735735947389957,
+    "test_macro_f1_ci": [
+      0.9464830254986036,
+      0.9939401704896405
+    ],
+    "unknown_false_acceptance_with_threshold": 0.33157894736842103,
+    "unknown_test_images": 1710,
+    "batch1_latency_ms_median": 24.352700000235927,
+    "device": "CPU"
+  },
+  "training": {
+    "selected_phase": "finetune",
+    "epochs_run": 24,
+    "images": {
+      "train": 704,
+      "val": 153,
+      "test": 152
+    },
+    "seed": 42
+  },
+  "integration_notes": [
+    "Load with tensorflow.keras.models.load_model('model.keras') (TensorFlow/Keras versions in 'framework').",
+    "Follow preprocessing.json exactly; key all downstream logic on species_id, not on output index.",
+    "Verify model_sha256 before loading. Store model_version with each prediction record in GeoFlora.",
+    "Location, occurrence records and administrative verification remain the responsibility of GeoFlora."
+  ]
+}

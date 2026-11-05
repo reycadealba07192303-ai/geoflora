@@ -1,0 +1,22 @@
+{
+  "run": "run-20261104T102547Z-class_expansion-classes10",
+  "test_images": 215,
+  "accuracy": 0.7534883720930232,
+  "accuracy_ci": [
+    0.6940546711094656,
+    0.8102287206931702
+  ],
+  "macro_f1": 0.7511416462793321,
+  "weighted_f1": 0.7509119159301205,
+  "unsupported_species": {
+    "known_images": 215,
+    "known_acceptance_rate": 0.34418604651162793,
+    "accuracy_on_accepted_known": 0.9594594594594594,
+    "known_correct_and_accepted_rate": 0.3302325581395349,
+    "unknown_images": 57,
+    "unknown_false_acceptance_rate_without_rejection": 1.0,
+    "unknown_false_acceptance_rate_with_threshold": 0.10526315789473684,
+    "auroc_known_vs_unknown": 0.7077927376580988
+  }
+}
+Report: models\checkpoints\expansion\run-20261104T102547Z-class_expansion-classes10\evaluation\research_evaluation_report.md

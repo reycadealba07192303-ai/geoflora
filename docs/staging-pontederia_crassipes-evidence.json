@@ -1,0 +1,850 @@
+{
+  "started_at_utc": "2026-11-01T08:15:32.268832+00:00",
+  "group": "Water Hyacinth (Pontederia crassipes)",
+  "role": "invasive",
+  "status_note": "Listed as invasive in the Philippines by GRIIS (source-flagged); see docs/species_100_verification_ledger.csv.",
+  "country_filter": "PH",
+  "bounds": {
+    "new_unique_images_per_species": 150,
+    "api_pages": 3,
+    "additional_gb": 0.4
+  },
+  "licensing_filter": "CC0/CC BY/CC BY-SA only",
+  "pagination": {
+    "strategy": "continue after highest existing iNaturalist observation id for each species",
+    "id_above_by_species": {
+      "pontederia_crassipes": 404648725
+    }
+  },
+  "label_basis": "iNaturalist research grade (community-agreed identification); AI screen as quota allows",
+  "runs": [
+    {
+      "species": "Pontederia crassipes",
+      "source": "inaturalist",
+      "status": "completed",
+      "new_unique_images": 0,
+      "download_rejections": 0
+    }
+  ],
+  "finished_at_utc": "2026-11-01T08:15:36.019740+00:00",
+  "new_records": 0,
+  "valid_records": 14,
+  "review_queue_records": 129,
+  "invalid_records": [
+    {
+      "source": "inaturalist",
+      "source_id": "30486312",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "54611884",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "54611879",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "54611880",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "54611874",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "58577980",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "60423014",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "93573970",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "93573987",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "93574052",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "93574032",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "93573998",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "93574009",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "110092563",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "117201123",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "150568849",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "150568869",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "150568908",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "153900850",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "153900867",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "169706244",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "169706251",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "237815505",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "237845485",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "237845500",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "237845518",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "249179512",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "292867014",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "294308878",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "294308884",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "301015694",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "329959869",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "362071962",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "362071971",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "362450366",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "364378392",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "364378414",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "373983611",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "374104035",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "393833986",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "394714036",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "394714069",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "410919741",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "410919765",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "442810014",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "443037248",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "448605197",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "457601338",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "463154922",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "466839054",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "466839078",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "466839236",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "466972569",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "466972583",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "469170880",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "471985294",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "472215876",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "476376953",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "476412270",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "476494896",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "477507271",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "477728490",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "478561755",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "478590985",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "478891649",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "479434305",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "479883719",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "488104586",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "494755068",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "494907114",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "494909026",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "494909485",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "505134380",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "505134410",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "505134444",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "505134486",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "505134524",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "505134554",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "505134600",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "516461096",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "516461129",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "522793799",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "529178857",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "529178875",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "529178948",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "529178945",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "529178950",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "556971782",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "559773444",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "575806267",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "576784577",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "586952185",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "602968599",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "602968612",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "606156042",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "608679137",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "615996580",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "615996667",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "615996766",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "615996885",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "626657624",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "630401637",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "630401640",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "633541164",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "644728157",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "647481996",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "648750070",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "651781662",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "651781703",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "653237620",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "670146428",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "673569606",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "681312414",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "681313326",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "743153548",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    }
+  ],
+  "licences": {
+    "cc-by": 11,
+    "cc-by-sa": 1,
+    "cc0": 2
+  },
+  "observation_groups": 11,
+  "near_duplicate_groups": 6,
+  "additional_image_bytes": 0,
+  "review_queue": "storage\\datasets\\staging\\invasive_pontederia_crassipes_ph\\review_queue.csv",
+  "gallery": "storage\\datasets\\staging\\invasive_pontederia_crassipes_ph\\review_gallery.html"
+}

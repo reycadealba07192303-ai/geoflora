@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Images and model weights are large and carry third-party licenses; keep them out of git.
+dataset/**/*.jpg
+dataset/**/*.jpeg
+dataset/**/*.png
+dataset/**/*.webp
+dataset/raw/_occurrence_metadata/
+models/checkpoints/
+models/exported/**/model.keras
+models/exported/**/savedmodel/
+
+# Demo sighting reports (photos and locations stay on this computer)
+demo_data/

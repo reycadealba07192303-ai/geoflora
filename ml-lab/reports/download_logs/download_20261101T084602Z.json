@@ -1,0 +1,34 @@
+{
+  "started": "2026-11-01T08:45:56+00:00",
+  "finished": "2026-11-01T08:46:02+00:00",
+  "source": "GBIF",
+  "allowed_licenses": [
+    "CC0-1.0",
+    "PDM-1.0",
+    "CC-BY-4.0",
+    "CC-BY-NC-4.0"
+  ],
+  "country_priority": [
+    "PH",
+    null
+  ],
+  "bytes_downloaded": 317498,
+  "storage_budget_bytes": 500000000,
+  "species": [
+    {
+      "species_id": "GF-SP-0001",
+      "scientific_name": "Chromolaena odorata",
+      "accepted_taxon_key": 3087725,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 2,
+      "already_present": 0,
+      "downloaded": 2,
+      "countries": {
+        "PH": 2
+      },
+      "skipped": {},
+      "error": ""
+    }
+  ],
+  "note": "All downloaded images have review_status=pending and are NOT GeoFlora field observations."
+}

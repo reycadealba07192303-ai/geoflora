@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GeoFlora Dataset Review</title>
+  <style>
+    :root { color-scheme: light; font-family: "Segoe UI", sans-serif; color: #183029; background: #f7f4ea; }
+    body { margin: 0 auto; max-width: 1400px; padding: 1.25rem; }
+    h1, h2 { color: #174b3a; }
+    .stats, .filters, .actions { display: flex; flex-wrap: wrap; gap: .75rem; align-items: end; }
+    .stat, .card { background: white; border: 1px solid #d8e1d8; border-radius: 10px; padding: .9rem; }
+    .stat { min-width: 130px; }
+    .stat strong { display: block; font-size: 1.4rem; color: #174b3a; }
+    label { display: grid; gap: .25rem; font-size: .9rem; }
+    input, select, button { font: inherit; padding: .5rem; border: 1px solid #93a69a; border-radius: 6px; }
+    button { cursor: pointer; background: #174b3a; color: white; border-color: #174b3a; }
+    button.reject { background: #8f3736; border-color: #8f3736; }
+    button.flag { background: #8c641f; border-color: #8c641f; }
+    button.secondary { background: white; color: #174b3a; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(310px,1fr)); gap: 1rem; margin-top: 1rem; }
+    .card img { width: 100%; height: 230px; object-fit: contain; background: #eef2ed; border-radius: 6px; }
+    .meta { font-size: .9rem; overflow-wrap: anywhere; }
+    .meta p { margin: .35rem 0; }
+    .status { font-weight: 700; text-transform: uppercase; }
+    .history { max-height: 120px; overflow: auto; background: #f2f5f1; padding: .5rem; }
+    .message { min-height: 1.5rem; margin: .5rem 0; }
+    @media (max-width: 600px) { body { padding: .7rem; } .card img { height: 190px; } }
+  </style>
+</head>
+<body>
+  <h1>GeoFlora Dataset Review</h1>
+  <p><a href="http://127.0.0.1:8766">Open the pending research batch — Approve / Reject / Flag</a></p>
+  <p>Local human review tool. Source labels and duplicate detection are not verification.</p>
+  <details><summary>Review checklist and decisions</summary>
+    <p>Inspect the full image and source observation. Approve only when visible evidence supports the target species. Record the evidence and your name. Check source location, license and attribution; missing GPS does not establish country.</p>
+    <p>Flag ambiguous images or unresolved provenance for specialist review. Reject incorrect, unusable or out-of-scope images with a reason. Relabel only when the corrected target species is verified: relabelling makes the record eligible for export. Near duplicates must stay in one future split; similarity alone does not verify a label.</p>
+  </details>
+  <section id="stats" class="stats" aria-label="Dataset statistics"></section>
+  <p id="message" class="message" role="status" aria-live="polite"></p>
+  <section class="filters" aria-label="Review filters">
+    <label>Species<select id="species"><option value="">All species</option></select></label>
+    <label>Status<select id="status">
+      <option value="">All statuses</option><option>pending</option><option>approved</option>
+      <option>rejected</option><option>flagged</option><option>relabelled</option>
+    </select></label>
+    <label>Source<select id="source"><option value="">All sources</option></select></label>
+    <label>Duplicate group<select id="duplicate"><option value="">All groups</option></select></label>
+    <button id="applyFilters" type="button">Apply filters</button>
+    <button id="export" class="secondary" type="button">Export approved manifest</button>
+  </section>
+  <p id="resultCount"></p>
+  <main id="items" class="grid" aria-live="polite"></main>
+  <script>
+    const speciesNames = {
+      chromolaena_odorata: "Chromolaena odorata (Hagonoy)",
+      lantana_camara: "Lantana camara",
+      pontederia_crassipes: "Pontederia crassipes (Water Hyacinth)"
+    };
+    const $ = (id) => document.getElementById(id);
+    let offset = 0;
+    const pageSize = 50;
+    function option(select, value, label) {
+      if ([...select.options].some((item) => item.value === value)) return;
+      const item = document.createElement("option");
+      item.value = value; item.textContent = label; select.append(item);
+    }
+    async function refreshStats() {
+      const response = await fetch("/api/stats");
+      const report = await response.json();
+      const stats = $("stats");
+      stats.replaceChildren();
+      const totals = report.totals;
+      [
+        ["Collected image records", totals.manifest_records],
+        ["Valid unique images", totals.valid_images],
+        ["Approved", totals.approved_images],
+        ["Rejected", totals.rejected_by_review],
+        ["Pending", totals.pending_review],
+        ["Flagged for review", totals.flagged_review],
+        ["Near-duplicate groups", totals.near_duplicate_groups.length],
+        ["Flagged duplicate groups", totals.flagged_duplicate_groups]
+      ].forEach(([label, value]) => {
+        const box = document.createElement("div"); box.className = "stat";
+        const strong = document.createElement("strong"); strong.textContent = value;
+        box.append(strong, document.createTextNode(label)); stats.append(box);
+      });
+      for (const [id, details] of Object.entries(report.species)) {
+        option($("species"), id, `${speciesNames[id] || id} (${details.valid_images})`);
+        const box = document.createElement("div"); box.className = "stat";
+        const strong = document.createElement("strong"); strong.textContent = details.approved_images;
+        box.append(strong, document.createTextNode(`Approved: ${speciesNames[id] || id}`));
+        stats.append(box);
+      }
+    }
+    function addText(parent, tag, text, className) {
+      const node = document.createElement(tag);
+      node.textContent = text;
+      if (className) node.className = className;
+      parent.append(node);
+      return node;
+    }
+    function cardFor(item) {
+      const card = document.createElement("article"); card.className = "card";
+      const image = document.createElement("img");
+      image.src = item.image_url; image.alt = `Candidate labeled ${speciesNames[item.species_id] || item.species_id}`;
+      image.loading = "lazy"; card.append(image);
+      addText(card, "h2", speciesNames[item.species_id] || item.species_id);
+      const metadata = document.createElement("div"); metadata.className = "meta";
+      addText(metadata, "p", `Status: ${item.review_status}`, "status");
+      addText(metadata, "p", `Source: ${item.source}`);
+      addText(metadata, "p", `Observation/source ID: ${item.observation_id || item.source_id}`);
+      addText(metadata, "p", `License: ${item.license || "not provided"}`);
+      addText(metadata, "p", `Attribution: ${item.attribution || "not provided"}`);
+      addText(metadata, "p", `Source URL: ${item.source_url || "not provided"}`);
+      if (item.latitude != null && item.longitude != null) addText(metadata, "p", `Location: ${item.latitude}, ${item.longitude}`);
+      if (item.locality) addText(metadata, "p", `Locality: ${item.locality}`);
+      addText(metadata, "p", `Duplicate group: ${item.duplicate_group_id || "none flagged"}`);
+      if (item.reviewed_at) addText(metadata, "p", `Last reviewed: ${item.reviewed_at} by ${item.reviewer}`);
+      if (item.review_rationale) addText(metadata, "p", `Last reason: ${item.review_rationale}`);
+      card.append(metadata);
+      const history = document.createElement("details");
+      addText(history, "summary", `Review history (${item.review_history.length})`);
+      const historyBody = document.createElement("div"); historyBody.className = "history";
+      item.review_history.forEach((event) => addText(historyBody, "p",
+        `${event.reviewed_at}: ${event.decision}${event.relabel_to ? ` → ${event.relabel_to}` : ""} — ${event.reviewer}: ${event.rationale}`));
+      history.append(historyBody); card.append(history);
+      const controls = document.createElement("form"); controls.className = "actions";
+      controls.innerHTML = `<label>Reviewer<input name="reviewer" required placeholder="Your name"></label>
+        <label>Reason<input name="rationale" required maxlength="500"></label>
+        <label class="relabel-control">Correct species<select name="relabel_to">
+          <option value="">Choose species…</option>
+          ${Object.entries(speciesNames).map(([id, name]) => `<option value="${id}">${name}</option>`).join("")}
+        </select></label>
+        <button type="button" data-decision="approved">Approve</button>
+        <button type="button" class="reject" data-decision="rejected">Reject</button>
+        <button type="button" class="flag" data-decision="flagged">Flag</button>
+        <button type="button" class="secondary" data-decision="relabelled">Relabel</button>`;
+      controls.querySelectorAll("button[data-decision]").forEach((button) => {
+        button.addEventListener("click", async () => {
+          if (!controls.reportValidity()) return;
+          const form = new FormData(controls);
+          const decision = button.dataset.decision;
+          const relabelTo = form.get("relabel_to");
+          if (decision === "relabelled" && !relabelTo) {
+            $("message").textContent = "Choose the corrected species first."; return;
+          }
+          try {
+          await submitReview({
+            source: item.source, source_id: item.source_id, decision,
+            reviewer: form.get("reviewer"), rationale: form.get("rationale"),
+            relabel_to: decision === "relabelled" ? relabelTo : null
+          });
+          } catch (error) { showError(error); }
+        });
+      });
+      card.append(controls);
+      return card;
+    }
+    async function loadItems(reset = false) {
+      if (reset) {
+        offset = 0;
+        document.getElementById("loadMore")?.remove();
+      }
+      const query = new URLSearchParams({
+        species: $("species").value, status: $("status").value,
+        source: $("source").value, duplicate_group: $("duplicate").value,
+        limit: String(pageSize), offset: String(offset)
+      });
+      const response = await fetch(`/api/items?${query}`);
+      const result = await response.json();
+      if (!response.ok) throw new Error(result.error || "Failed to load review queue");
+      const host = $("items");
+      if (reset) host.replaceChildren();
+      result.filter_options.species.forEach((id) => option($("species"), id, speciesNames[id] || id));
+      result.filter_options.sources.forEach((source) => option($("source"), source, source));
+      result.filter_options.duplicate_groups.forEach(([id, type]) =>
+        option($("duplicate"), id, `${type}: ${id}`));
+      result.items.forEach((item) => {
+        host.append(cardFor(item));
+      });
+      $("resultCount").textContent = `Showing ${Math.min(offset + result.items.length, result.total)} of ${result.total} matching records`;
+      offset += result.items.length;
+      if (offset < result.total && !host.querySelector("#loadMore")) {
+        const more = document.createElement("button"); more.id = "loadMore"; more.textContent = "Load more";
+        more.addEventListener("click", async () => { more.remove(); await loadItems(false); });
+        host.after(more);
+      }
+    }
+    async function submitReview(payload) {
+      const response = await fetch("/api/review", {
+        method: "POST", headers: {"Content-Type": "application/json"},
+        body: JSON.stringify(payload)
+      });
+      const result = await response.json();
+      if (!response.ok) throw new Error(result.error || "Review could not be saved");
+      $("message").textContent = "Review saved to the audit history.";
+      await Promise.all([refreshStats(), loadItems(true)]);
+    }
+    $("applyFilters").addEventListener("click", () => loadItems(true).catch(showError));
+    $("export").addEventListener("click", async () => {
+      try {
+      const response = await fetch("/api/export", {
+        method: "POST", headers: {"Content-Type": "application/json"}, body: "{}"
+      });
+      const result = await response.json();
+      $("message").textContent = response.ok ? `${result.message}: ${result.path}` : result.error;
+      } catch (error) { showError(error); }
+    });
+    function showError(error) { $("message").textContent = error.message; }
+    Promise.all([refreshStats(), loadItems(true)]).catch(showError);
+  </script>
+</body>
+</html>

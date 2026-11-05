@@ -1,0 +1,3 @@
+image_id,true_species,predicted_species,max_softmax,split_path,attribution,source_record
+gbif-5938632167-0,Pontederia crassipes,Lantana camara,0.9218677,dataset/test/Pontederia_crassipes/gbif-5938632167-0.jpg,"© Milind Oka, CC BY-NC 4.0 (non-commercial), via iNaturalist research-grade observations (https://www.inaturalist.org/photos/605353069)",https://www.inaturalist.org/observations/333437111
+gbif-6129881552-0,Pontederia crassipes,Chromolaena odorata,0.6967029,dataset/test/Pontederia_crassipes/gbif-6129881552-0.jpg,"© Jannie Groenewald, CC BY-NC 4.0 (non-commercial), via iNaturalist research-grade observations (https://www.inaturalist.org/photos/609897883)",https://www.inaturalist.org/observations/335701553

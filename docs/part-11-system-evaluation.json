@@ -1,0 +1,239 @@
+{
+  "generated_at_utc": "2026-10-26T17:52:14.192553+00:00",
+  "environment": {
+    "os": "Windows-10-10.0.26200-SP0",
+    "cpu": "13th Gen Intel Core i7-13620H (10 cores / 16 threads)",
+    "logical_cpus": 16,
+    "ram_gb": 16,
+    "network": "Loopback (127.0.0.1); client, Next.js, FastAPI and MongoDB on one machine",
+    "mongodb": "8.0 local",
+    "python": "3.11.9"
+  },
+  "dataset": {
+    "synthetic_reports": 2000,
+    "catalog_records": 15938,
+    "staging_records": 18718
+  },
+  "identification_sequential": {
+    "n": 40,
+    "p50_ms": 154.6,
+    "p95_ms": 227.8,
+    "max_ms": 242.1,
+    "status_200": 40,
+    "payload_bytes_max": 1270536,
+    "target": "p95 <= 5000 ms for <= 5 MB photos, one user, >= 30 timed requests",
+    "met": true
+  },
+  "identification_concurrent_5_users": {
+    "n": 40,
+    "p50_ms": 310.5,
+    "p95_ms": 742.8,
+    "max_ms": 1425.2,
+    "errors": 0
+  },
+  "dashboard_apis": {
+    "results": {
+      "occurrences_default": {
+        "single_user": {
+          "n": 30,
+          "p50_ms": 48.7,
+          "p95_ms": 227.0,
+          "max_ms": 366.6,
+          "workers": 1,
+          "errors": 0
+        },
+        "ten_users": {
+          "n": 100,
+          "p50_ms": 137.8,
+          "p95_ms": 169.8,
+          "max_ms": 429.5,
+          "workers": 10,
+          "errors": 0
+        }
+      },
+      "occurrences_filtered": {
+        "single_user": {
+          "n": 30,
+          "p50_ms": 33.7,
+          "p95_ms": 61.9,
+          "max_ms": 75.8,
+          "workers": 1,
+          "errors": 0
+        },
+        "ten_users": {
+          "n": 100,
+          "p50_ms": 70.4,
+          "p95_ms": 105.4,
+          "max_ms": 128.3,
+          "workers": 10,
+          "errors": 0
+        }
+      },
+      "analytics_workspace": {
+        "single_user": {
+          "n": 30,
+          "p50_ms": 41.0,
+          "p95_ms": 52.4,
+          "max_ms": 55.5,
+          "workers": 1,
+          "errors": 0
+        },
+        "ten_users": {
+          "n": 100,
+          "p50_ms": 64.5,
+          "p95_ms": 111.2,
+          "max_ms": 118.6,
+          "workers": 10,
+          "errors": 0
+        }
+      },
+      "analytics_filtered": {
+        "single_user": {
+          "n": 30,
+          "p50_ms": 36.5,
+          "p95_ms": 74.2,
+          "max_ms": 78.8,
+          "workers": 1,
+          "errors": 0
+        },
+        "ten_users": {
+          "n": 100,
+          "p50_ms": 53.5,
+          "p95_ms": 84.1,
+          "max_ms": 93.3,
+          "workers": 10,
+          "errors": 0
+        }
+      },
+      "overview": {
+        "single_user": {
+          "n": 30,
+          "p50_ms": 30.9,
+          "p95_ms": 54.0,
+          "max_ms": 63.0,
+          "workers": 1,
+          "errors": 0
+        },
+        "ten_users": {
+          "n": 100,
+          "p50_ms": 55.3,
+          "p95_ms": 77.2,
+          "max_ms": 87.9,
+          "workers": 10,
+          "errors": 0
+        }
+      },
+      "catalog_search": {
+        "single_user": {
+          "n": 30,
+          "p50_ms": 36.6,
+          "p95_ms": 59.0,
+          "max_ms": 66.1,
+          "workers": 1,
+          "errors": 0
+        },
+        "ten_users": {
+          "n": 100,
+          "p50_ms": 73.1,
+          "p95_ms": 90.4,
+          "max_ms": 100.8,
+          "workers": 10,
+          "errors": 0
+        }
+      },
+      "catalog_listed": {
+        "single_user": {
+          "n": 30,
+          "p50_ms": 33.9,
+          "p95_ms": 44.3,
+          "max_ms": 60.8,
+          "workers": 1,
+          "errors": 0
+        },
+        "ten_users": {
+          "n": 100,
+          "p50_ms": 64.3,
+          "p95_ms": 82.7,
+          "max_ms": 85.5,
+          "workers": 10,
+          "errors": 0
+        }
+      },
+      "review_queue": {
+        "single_user": {
+          "n": 30,
+          "p50_ms": 43.4,
+          "p95_ms": 51.5,
+          "max_ms": 51.7,
+          "workers": 1,
+          "errors": 0
+        },
+        "ten_users": {
+          "n": 100,
+          "p50_ms": 95.0,
+          "p95_ms": 136.9,
+          "max_ms": 367.6,
+          "workers": 10,
+          "errors": 0
+        }
+      }
+    },
+    "worst_p95_ms_10_users": 169.8,
+    "target": "p95 filtered map/API response <= 3000 ms",
+    "met": true,
+    "points_returned_layer_all": 1900
+  },
+  "reliability_100": {
+    "requests": 100,
+    "succeeded": 100,
+    "success_rate": 1.0,
+    "mix": "30 identifications, 30 report submissions, 40 list/map/analytics/catalog reads",
+    "target": ">= 99% successful valid requests",
+    "met": true
+  },
+  "retry_and_failed_upload": {
+    "concurrent_identical_submissions": {
+      "statuses": [
+        201,
+        200,
+        200,
+        200,
+        200
+      ],
+      "records_saved": 1
+    },
+    "interrupted_upload": {
+      "records_after_disconnect": 0,
+      "retry_status": 201,
+      "second_retry_replayed": true,
+      "records_after_retries": 1
+    },
+    "met": true
+  },
+  "invalid_images": {
+    "gif": 415,
+    "not_image": 422,
+    "tiny": 422,
+    "oversized": 413,
+    "met": true
+  },
+  "inference_outage": {
+    "before": 200,
+    "during": 503,
+    "during_message": "The local ML inference service is not reachable. No prediction was made.",
+    "health_during": 503,
+    "after_restart": 200,
+    "met": true
+  },
+  "database_outage": {
+    "before": 201,
+    "submit_during": 503,
+    "submit_during_message": "Could not save the report. Check the local database and retry; your submission ID is preserved.",
+    "auth_during": 503,
+    "auth_during_message": "The account database is unavailable.",
+    "retry_after_restart": 201,
+    "records_for_retried_id": 1,
+    "met": true
+  },
+  "active_model_unchanged": true
+}

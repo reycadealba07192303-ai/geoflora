@@ -1,0 +1,83 @@
+{
+  "source": "GeoFlora-ML-Lab independent test split (observation-group isolated; threshold chosen on validation only)",
+  "model_version": "geoflora-mnv2-3cls-v2",
+  "dataset_version": "ds-20261104-ab732151f2",
+  "accuracy": 0.9736842105263158,
+  "accuracy_ci95": [
+    0.9339938049399357,
+    0.9927842853993339
+  ],
+  "macroF1": 0.9735735947389957,
+  "class_order": [
+    "Chromolaena odorata",
+    "Lantana camara",
+    "Pontederia crassipes"
+  ],
+  "classification_report": {
+    "Chromolaena odorata": {
+      "precision": 0.9649122807017544,
+      "recall": 0.9649122807017544,
+      "f1-score": 0.9649122807017544,
+      "support": 57
+    },
+    "Lantana camara": {
+      "precision": 1.0,
+      "recall": 0.9807692307692307,
+      "f1-score": 0.9902912621359223,
+      "support": 52
+    },
+    "Pontederia crassipes": {
+      "precision": 0.9545454545454546,
+      "recall": 0.9767441860465116,
+      "f1-score": 0.9655172413793104,
+      "support": 43
+    },
+    "macro avg": {
+      "precision": 0.9731525784157363,
+      "recall": 0.9741418991724989,
+      "f1-score": 0.9735735947389957,
+      "support": 152
+    }
+  },
+  "confidence_threshold": 0.9682667255401611,
+  "threshold_basis": "youden on validation (val + unknown_val); test sets not used",
+  "unsupported_species": {
+    "known_images": 152,
+    "known_acceptance_rate": 0.8026315789473685,
+    "accuracy_on_accepted_known": 0.9918032786885246,
+    "known_correct_and_accepted_rate": 0.7960526315789473,
+    "unknown_images": 1710,
+    "unknown_false_acceptance_rate_without_rejection": 1.0,
+    "unknown_false_acceptance_rate_with_threshold": 0.33157894736842103,
+    "auroc_known_vs_unknown": 0.8214989227454602
+  },
+  "classes": [
+    {
+      "id": "chromolaena_odorata",
+      "scientific_name": "Chromolaena odorata",
+      "common_name": "Hagonoy",
+      "role": "invasive",
+      "lab_species_id": "GF-SP-0001",
+      "ecological_status": "target_invasive",
+      "status_verification": "verified"
+    },
+    {
+      "id": "lantana_camara",
+      "scientific_name": "Lantana camara",
+      "common_name": "Lantana",
+      "role": "invasive",
+      "lab_species_id": "GF-SP-0002",
+      "ecological_status": "target_invasive",
+      "status_verification": "verified"
+    },
+    {
+      "id": "pontederia_crassipes",
+      "scientific_name": "Pontederia crassipes",
+      "common_name": "Water Hyacinth",
+      "role": "invasive",
+      "lab_species_id": "GF-SP-0003",
+      "ecological_status": "target_invasive",
+      "status_verification": "verified"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "index": 0,
+    "species_id": "GF-SP-0001",
+    "scientific_name": "Chromolaena odorata",
+    "common_name": "Hagonoy",
+    "ecological_status": "target_invasive",
+    "status_verification": "verified",
+    "is_target_invasive": true,
+    "description_review_status": "draft_unverified"
+  },
+  {
+    "index": 1,
+    "species_id": "GF-SP-0002",
+    "scientific_name": "Lantana camara",
+    "common_name": "Lantana",
+    "ecological_status": "target_invasive",
+    "status_verification": "verified",
+    "is_target_invasive": true,
+    "description_review_status": "draft_unverified"
+  },
+  {
+    "index": 2,
+    "species_id": "GF-SP-0003",
+    "scientific_name": "Pontederia crassipes",
+    "common_name": "Water hyacinth",
+    "ecological_status": "target_invasive",
+    "status_verification": "verified",
+    "is_target_invasive": true,
+    "description_review_status": "draft_unverified"
+  },
+  {
+    "index": 3,
+    "species_id": "GF-SP-0101",
+    "scientific_name": "Ageratum conyzoides",
+    "common_name": "Billygoat weed",
+    "ecological_status": "unresolved",
+    "status_verification": "unverified",
+    "is_target_invasive": false,
+    "description_review_status": "draft_unverified"
+  },
+  {
+    "index": 4,
+    "species_id": "GF-SP-0102",
+    "scientific_name": "Mikania micrantha",
+    "common_name": "Mile-a-minute vine",
+    "ecological_status": "target_invasive",
+    "status_verification": "verified",
+    "is_target_invasive": true,
+    "description_review_status": "draft_unverified"
+  },
+  {
+    "index": 5,
+    "species_id": "GF-SP-0103",
+    "scientific_name": "Lantana montevidensis",
+    "common_name": "Trailing lantana",
+    "ecological_status": "unresolved",
+    "status_verification": "unverified",
+    "is_target_invasive": false,
+    "description_review_status": "draft_unverified"
+  },
+  {
+    "index": 6,
+    "species_id": "GF-SP-0104",
+    "scientific_name": "Duranta erecta",
+    "common_name": "Golden dewdrop",
+    "ecological_status": "unresolved",
+    "status_verification": "unverified",
+    "is_target_invasive": false,
+    "description_review_status": "draft_unverified"
+  },
+  {
+    "index": 7,
+    "species_id": "GF-SP-0105",
+    "scientific_name": "Pistia stratiotes",
+    "common_name": "Water lettuce",
+    "ecological_status": "unresolved",
+    "status_verification": "unverified",
+    "is_target_invasive": false,
+    "description_review_status": "draft_unverified"
+  },
+  {
+    "index": 8,
+    "species_id": "GF-SP-0106",
+    "scientific_name": "Pontederia vaginalis",
+    "common_name": "Gabi-gabi",
+    "ecological_status": "unresolved",
+    "status_verification": "unverified",
+    "is_target_invasive": false,
+    "description_review_status": "draft_unverified"
+  },
+  {
+    "index": 9,
+    "species_id": "GF-SP-0107",
+    "scientific_name": "Limnocharis flava",
+    "common_name": "Yellow velvetleaf",
+    "ecological_status": "unresolved",
+    "status_verification": "unverified",
+    "is_target_invasive": false,
+    "description_review_status": "draft_unverified"
+  }
+]

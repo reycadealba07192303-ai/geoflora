@@ -1,0 +1,24 @@
+{
+  "_id": "owner-catalog-approval-20261026T171926Z",
+  "approvedAt": "2026-10-26T17:19:26.991232+00:00",
+  "basis": "owner_attestation",
+  "statement": "Owner, 2026-10-27 (Asia/Manila), in chat: \"inapprove ko, kaya iapprove mo rin yung 16k records na\" (I approved it, so approve the 16k records too).",
+  "scope": {
+    "collection": "species_catalog",
+    "sourceFileSha256": "d891ea67543dfcd3d317e9d16adabe9ab21e53c9da136ab20fc2d8f09a60ca2d",
+    "fromStatus": "pending",
+    "toStatus": "approved",
+    "records": 15938
+  },
+  "importApproval": "Owner confirmed the full GBIF import present since 2026-10-22 15:58 UTC was approved (recorded retroactively).",
+  "meaning": "Approved for catalog inclusion. Not independent per-record taxonomic review; does not verify native, naturalized or invasive status or AI support.",
+  "reviewStatusBefore": {
+    "pending": 15938
+  },
+  "approvedRecords": 15938,
+  "reviewStatusAfter": {
+    "approved": 15938
+  },
+  "recordsWithAiSupportOrEcologicalStatus": 0,
+  "revert": "python scripts/approve_catalog_owner.py --revert owner-catalog-approval-20261026T171926Z --confirm"
+}

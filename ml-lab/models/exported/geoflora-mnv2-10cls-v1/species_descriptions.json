@@ -1,0 +1,304 @@
+{
+  "GF-SP-0001": {
+    "scientific_name": "Chromolaena odorata",
+    "common_names": [
+      "Hagonoy",
+      "Siam weed",
+      "Christmas bush"
+    ],
+    "family": "Asteraceae",
+    "native_range": "Tropical and subtropical Americas",
+    "summary": "A fast-growing perennial shrub that forms dense thickets on roadsides, fallow land, pastures and forest edges. It scrambles over other plants and spreads by wind-blown seed.",
+    "identifying_features": [
+      "Shrub usually 1.5-3 m tall; stems can scramble higher over surrounding vegetation.",
+      "Leaves opposite, triangular to ovate, coarsely toothed, with three prominent veins from the leaf base; strong smell when crushed.",
+      "Flower heads cylindrical, about 1 cm long, in clusters at the branch tips; florets white to pale lilac, with no petal-like rays.",
+      "Seeds carry a tuft of bristles and form grey-brown fluffy heads when mature."
+    ],
+    "why_it_matters": "Smothers crops, pasture and native vegetation, and dry thickets increase fire risk. Listed among the '100 of the World's Worst Invasive Alien Species' (Lowe et al. 2000).",
+    "lookalikes": [
+      {
+        "scientific_name": "Ageratum conyzoides",
+        "how_to_tell_apart": "A small soft herb, usually under 1 m, with rounder, fluffier blue to white flower heads and no strong three-vein leaf pattern."
+      },
+      {
+        "scientific_name": "Mikania micrantha",
+        "how_to_tell_apart": "A twining vine with heart-shaped leaves on long stalks and many tiny white flower heads."
+      }
+    ],
+    "references": [
+      "GBIF species page: https://www.gbif.org/species/3087725",
+      "Lowe S., Browne M., Boudjelas S., De Poorter M. (2000). 100 of the World's Worst Invasive Alien Species. IUCN SSC Invasive Species Specialist Group."
+    ],
+    "review_status": "draft_unverified",
+    "reviewed_by": "",
+    "reviewed_date": ""
+  },
+  "GF-SP-0002": {
+    "scientific_name": "Lantana camara",
+    "common_names": [
+      "Kantutay",
+      "Lantana"
+    ],
+    "family": "Verbenaceae",
+    "native_range": "Tropical Americas",
+    "summary": "An aromatic, often prickly shrub with small clustered flowers in mixed colours. It is widely planted as an ornamental and escapes into pastures, roadsides and forest edges, where it forms dense thickets.",
+    "identifying_features": [
+      "Shrub usually 1-2 m tall (sometimes taller); stems square in cross-section, often with small hooked prickles.",
+      "Leaves opposite, ovate, rough to the touch, with toothed edges; strong smell when crushed.",
+      "Small tubular flowers in flat-topped clusters, often of mixed colours (yellow, orange, pink, red) that change as they age.",
+      "Clusters of small round berries, green turning glossy purple-black when ripe."
+    ],
+    "why_it_matters": "Forms dense thickets that crowd out native plants. Leaves and unripe fruit are toxic to livestock. Listed among the '100 of the World's Worst Invasive Alien Species' (Lowe et al. 2000).",
+    "lookalikes": [
+      {
+        "scientific_name": "Lantana montevidensis",
+        "how_to_tell_apart": "A low trailing or creeping plant with smaller leaves and flowers that are uniformly lilac-purple (or white), not mixed colours."
+      },
+      {
+        "scientific_name": "Duranta erecta",
+        "how_to_tell_apart": "Blue-violet flowers in drooping sprays and hanging clusters of orange-yellow berries; leaves smooth, not rough."
+      }
+    ],
+    "references": [
+      "GBIF species page: https://www.gbif.org/species/2925303",
+      "Lowe S., Browne M., Boudjelas S., De Poorter M. (2000). 100 of the World's Worst Invasive Alien Species. IUCN SSC Invasive Species Specialist Group."
+    ],
+    "review_status": "draft_unverified",
+    "reviewed_by": "",
+    "reviewed_date": ""
+  },
+  "GF-SP-0003": {
+    "scientific_name": "Pontederia crassipes",
+    "common_names": [
+      "Water hyacinth",
+      "Water lily (local name, not a true water lily)"
+    ],
+    "synonyms": [
+      "Eichhornia crassipes"
+    ],
+    "family": "Pontederiaceae",
+    "native_range": "South America (Amazon basin)",
+    "summary": "A free-floating aquatic plant that multiplies quickly and forms large mats on rivers, lakes, canals and ponds.",
+    "identifying_features": [
+      "Floats on the water surface as rosettes of glossy, rounded leaves.",
+      "Leaf stalks often swollen and spongy, acting as floats.",
+      "Dark, feathery roots hang in the water beneath the plant.",
+      "Spikes of lavender flowers; the upper petal has a violet-blue patch with a yellow spot in the centre."
+    ],
+    "why_it_matters": "Dense mats block waterways and boats, hinder fishing, clog irrigation and drainage, reduce light and oxygen in the water, and can worsen flooding. Listed among the '100 of the World's Worst Invasive Alien Species' as Eichhornia crassipes (Lowe et al. 2000).",
+    "lookalikes": [
+      {
+        "scientific_name": "Pontederia vaginalis",
+        "how_to_tell_apart": "Rooted in mud (for example in rice fields), not floating; leaf stalks not swollen; smaller blue-violet flowers without a yellow spot."
+      },
+      {
+        "scientific_name": "Pistia stratiotes",
+        "how_to_tell_apart": "Water lettuce: rosettes of pale green, velvety, ridged leaves with no stalks, and tiny hidden flowers."
+      }
+    ],
+    "references": [
+      "GBIF species page: https://www.gbif.org/species/2765942",
+      "Lowe S., Browne M., Boudjelas S., De Poorter M. (2000). 100 of the World's Worst Invasive Alien Species. IUCN SSC Invasive Species Specialist Group."
+    ],
+    "review_status": "draft_unverified",
+    "reviewed_by": "",
+    "reviewed_date": ""
+  },
+  "GF-SP-0101": {
+    "scientific_name": "Ageratum conyzoides",
+    "common_names": [
+      "Billygoat weed",
+      "Goatweed"
+    ],
+    "family": "Asteraceae",
+    "native_range": "Tropical Americas",
+    "summary": "A small, soft, hairy annual herb common in fields, gardens and roadsides, with fluffy blue to white flower heads.",
+    "identifying_features": [
+      "Herb usually 30-80 cm tall with soft, hairy stems.",
+      "Leaves opposite, ovate, toothed and hairy, on short stalks.",
+      "Small round, fluffy flower heads (about 5 mm) in dense clusters, blue-lilac to white."
+    ],
+    "why_it_matters": "Not a GeoFlora target species. Its ecological status in the Philippines is unresolved in this project's catalog, so it is not labelled invasive or non-invasive here. It is the plant most often confused with Hagonoy (Chromolaena odorata).",
+    "lookalikes": [
+      {
+        "scientific_name": "Chromolaena odorata",
+        "how_to_tell_apart": "Hagonoy is a tall shrub with cylindrical flower heads and leaves with three strong veins from the base."
+      }
+    ],
+    "references": [
+      "GBIF species page: https://www.gbif.org/species/5401673"
+    ],
+    "review_status": "draft_unverified",
+    "reviewed_by": "",
+    "reviewed_date": ""
+  },
+  "GF-SP-0102": {
+    "scientific_name": "Mikania micrantha",
+    "common_names": [
+      "Mile-a-minute vine"
+    ],
+    "family": "Asteraceae",
+    "native_range": "Central and South America",
+    "summary": "A fast-growing twining vine that climbs over shrubs, trees and crops and can smother them.",
+    "identifying_features": [
+      "Thin twining stems that climb over other plants.",
+      "Leaves opposite, heart-shaped, on long stalks.",
+      "Many tiny white flower heads in loose clusters."
+    ],
+    "why_it_matters": "Not a GeoFlora target species. Its ecological status in the Philippines is unresolved in this project's catalog, so it is not labelled invasive or non-invasive here. It is reported as a serious weed in parts of Asia and the Pacific, so it should be verified rather than treated as harmless.",
+    "lookalikes": [
+      {
+        "scientific_name": "Chromolaena odorata",
+        "how_to_tell_apart": "Hagonoy is an upright shrub, not a vine, and its leaves are triangular with three strong veins, not heart-shaped."
+      }
+    ],
+    "references": [
+      "GBIF species page: https://www.gbif.org/species/5398421"
+    ],
+    "review_status": "draft_unverified",
+    "reviewed_by": "",
+    "reviewed_date": ""
+  },
+  "GF-SP-0103": {
+    "scientific_name": "Lantana montevidensis",
+    "common_names": [
+      "Trailing lantana"
+    ],
+    "family": "Verbenaceae",
+    "native_range": "South America",
+    "summary": "A low, trailing relative of Lantana camara, often grown as an ornamental ground cover or hanging plant.",
+    "identifying_features": [
+      "Low, spreading or trailing stems.",
+      "Small ovate, toothed, rough leaves.",
+      "Small flat clusters of lilac-purple (sometimes white) flowers, all one colour."
+    ],
+    "why_it_matters": "Not a GeoFlora target species. Its ecological status in the Philippines is unresolved in this project's catalog, so it is not labelled invasive or non-invasive here. ",
+    "lookalikes": [
+      {
+        "scientific_name": "Lantana camara",
+        "how_to_tell_apart": "Lantana camara is an upright shrub with larger leaves and mixed-colour flower clusters (yellow, orange, pink, red)."
+      }
+    ],
+    "references": [
+      "GBIF species page: https://www.gbif.org/species/2925314"
+    ],
+    "review_status": "draft_unverified",
+    "reviewed_by": "",
+    "reviewed_date": ""
+  },
+  "GF-SP-0104": {
+    "scientific_name": "Duranta erecta",
+    "common_names": [
+      "Golden dewdrop",
+      "Pigeon berry"
+    ],
+    "family": "Verbenaceae",
+    "native_range": "Tropical Americas",
+    "summary": "A shrub or small tree widely planted as an ornamental and as hedges, including golden-leaved forms.",
+    "identifying_features": [
+      "Shrub or small tree; leaves opposite, smooth and glossy (golden in some garden forms).",
+      "Light blue to violet (sometimes white) flowers in drooping sprays.",
+      "Hanging clusters of round orange-yellow berries."
+    ],
+    "why_it_matters": "Not a GeoFlora target species. Its ecological status in the Philippines is unresolved in this project's catalog, so it is not labelled invasive or non-invasive here. Its berries are reported to be toxic if eaten.",
+    "lookalikes": [
+      {
+        "scientific_name": "Lantana camara",
+        "how_to_tell_apart": "Lantana has rough leaves, flat-topped mixed-colour flower clusters and purple-black berries."
+      }
+    ],
+    "references": [
+      "GBIF species page: https://www.gbif.org/species/2925655"
+    ],
+    "review_status": "draft_unverified",
+    "reviewed_by": "",
+    "reviewed_date": ""
+  },
+  "GF-SP-0105": {
+    "scientific_name": "Pistia stratiotes",
+    "common_names": [
+      "Water lettuce",
+      "Kiapo"
+    ],
+    "family": "Araceae",
+    "native_range": "Uncertain; widespread in the tropics",
+    "summary": "A free-floating aquatic plant forming rosettes like small heads of lettuce; can form dense mats on still water.",
+    "identifying_features": [
+      "Rosettes of thick, pale green, velvety leaves with strong parallel ridges.",
+      "No leaf stalks; leaves widen towards the tip.",
+      "Feathery roots hang underneath; flowers tiny and hidden in the centre."
+    ],
+    "why_it_matters": "Not a GeoFlora target species. Its ecological status in the Philippines is unresolved in this project's catalog, so it is not labelled invasive or non-invasive here. ",
+    "lookalikes": [
+      {
+        "scientific_name": "Pontederia crassipes",
+        "how_to_tell_apart": "Water hyacinth has glossy round leaves on swollen stalks and showy lavender flower spikes."
+      }
+    ],
+    "references": [
+      "GBIF species page: https://www.gbif.org/species/2870583"
+    ],
+    "review_status": "draft_unverified",
+    "reviewed_by": "",
+    "reviewed_date": ""
+  },
+  "GF-SP-0106": {
+    "scientific_name": "Pontederia vaginalis",
+    "common_names": [
+      "Gabi-gabi",
+      "Pickerel weed"
+    ],
+    "synonyms": [
+      "Monochoria vaginalis"
+    ],
+    "family": "Pontederiaceae",
+    "native_range": "Tropical and subtropical Asia",
+    "summary": "An aquatic herb rooted in mud, common in rice fields, ditches and wet ground.",
+    "identifying_features": [
+      "Rooted in mud, not floating.",
+      "Glossy, lance- to heart-shaped leaves on long stalks with a sheathing base; stalks not swollen.",
+      "Short clusters of blue-violet flowers without a yellow spot."
+    ],
+    "why_it_matters": "Not a GeoFlora target species. Its ecological status in the Philippines is unresolved in this project's catalog, so it is not labelled invasive or non-invasive here. ",
+    "lookalikes": [
+      {
+        "scientific_name": "Pontederia crassipes",
+        "how_to_tell_apart": "Water hyacinth floats freely, has swollen spongy leaf stalks, and its upper petal has a yellow spot."
+      }
+    ],
+    "references": [
+      "GBIF species page: https://www.gbif.org/species/8238520"
+    ],
+    "review_status": "draft_unverified",
+    "reviewed_by": "",
+    "reviewed_date": ""
+  },
+  "GF-SP-0107": {
+    "scientific_name": "Limnocharis flava",
+    "common_names": [
+      "Yellow velvetleaf"
+    ],
+    "family": "Alismataceae",
+    "native_range": "Tropical Americas",
+    "summary": "An aquatic herb rooted in shallow water and mud of rice fields, ditches and swamps; eaten as a vegetable in parts of Southeast Asia.",
+    "identifying_features": [
+      "Erect, broad oval, bright green leaves on long triangular stalks.",
+      "Flowers with three pale yellow petals edged in white, in clusters on long stalks.",
+      "Grows rooted in mud, not floating."
+    ],
+    "why_it_matters": "Not a GeoFlora target species. Its ecological status in the Philippines is unresolved in this project's catalog, so it is not labelled invasive or non-invasive here. ",
+    "lookalikes": [
+      {
+        "scientific_name": "Pontederia crassipes",
+        "how_to_tell_apart": "Water hyacinth floats, has swollen leaf stalks and lavender flowers."
+      }
+    ],
+    "references": [
+      "GBIF species page: https://www.gbif.org/species/5328736"
+    ],
+    "review_status": "draft_unverified",
+    "reviewed_by": "",
+    "reviewed_date": ""
+  }
+}

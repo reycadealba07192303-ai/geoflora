@@ -1,0 +1,350 @@
+{
+  "generated_from": "existing staging manifests; no approval changes",
+  "historical_test_hashes": 413,
+  "historical_test_group_keys": 1043,
+  "species": {
+    "Abutilon indicum": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 4,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Acacia auriculiformis": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 2,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Acalypha wilkesiana": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 10,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Achyranthes aspera": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 8,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Ageratum conyzoides": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 10,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Aglaia odorata": {
+      "records": 8,
+      "exact_unique_images": 8,
+      "unique_groups_after_exact_test_exclusion": 6,
+      "license_eligible_unique_images_after_exact_test_exclusion": 8,
+      "explicit_human_approvals": 0
+    },
+    "Albizia lebbeck": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 2,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Amaranthus spinosus": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 10,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Amaranthus tricolor": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 10,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Amaranthus viridis": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 6,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Anacardium occidentale": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 8,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Ananas comosus": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 8,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Annona muricata": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 6,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Annona squamosa": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 6,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Antigonon leptopus": {
+      "records": 160,
+      "exact_unique_images": 150,
+      "unique_groups_after_exact_test_exclusion": 4,
+      "license_eligible_unique_images_after_exact_test_exclusion": 13,
+      "explicit_human_approvals": 0
+    },
+    "Arachis hypogaea": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 10,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Argemone mexicana": {
+      "records": 9,
+      "exact_unique_images": 9,
+      "unique_groups_after_exact_test_exclusion": 9,
+      "license_eligible_unique_images_after_exact_test_exclusion": 9,
+      "explicit_human_approvals": 0
+    },
+    "Artocarpus altilis": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 10,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Asclepias curassavica": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 9,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Averrhoa bilimbi": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 6,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Averrhoa carambola": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 10,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Bauhinia monandra": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 10,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Bidens pilosa": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 10,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Bixa orellana": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 7,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Boehmeria nivea": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 10,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Brassica juncea": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 10,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Broussonetia papyrifera": {
+      "records": 51,
+      "exact_unique_images": 51,
+      "unique_groups_after_exact_test_exclusion": 10,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Caesalpinia pulcherrima": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 6,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Cajanus cajan": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 10,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Cantinoa americana": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 9,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Capsicum annuum": {
+      "records": 8,
+      "exact_unique_images": 8,
+      "unique_groups_after_exact_test_exclusion": 8,
+      "license_eligible_unique_images_after_exact_test_exclusion": 8,
+      "explicit_human_approvals": 0
+    },
+    "Capsicum frutescens": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 8,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Cardiospermum halicacabum": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 6,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Carica papaya": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 7,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Cascabela thevetia": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 6,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Catharanthus roseus": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 7,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Celosia argentea": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 8,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Cenchrus echinatus": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 5,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Cestrum nocturnum": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 10,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Chromolaena odorata": {
+      "records": 312,
+      "exact_unique_images": 300,
+      "unique_groups_after_exact_test_exclusion": 5,
+      "license_eligible_unique_images_after_exact_test_exclusion": 6,
+      "explicit_human_approvals": 0
+    },
+    "Chrysanthemum indicum": {
+      "records": 9,
+      "exact_unique_images": 9,
+      "unique_groups_after_exact_test_exclusion": 9,
+      "license_eligible_unique_images_after_exact_test_exclusion": 9,
+      "explicit_human_approvals": 0
+    },
+    "Chrysopogon zizanioides": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 10,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Lantana camara": {
+      "records": 312,
+      "exact_unique_images": 302,
+      "unique_groups_after_exact_test_exclusion": 4,
+      "license_eligible_unique_images_after_exact_test_exclusion": 4,
+      "explicit_human_approvals": 0
+    },
+    "Mikania micrantha": {
+      "records": 211,
+      "exact_unique_images": 181,
+      "unique_groups_after_exact_test_exclusion": 19,
+      "license_eligible_unique_images_after_exact_test_exclusion": 23,
+      "explicit_human_approvals": 0
+    },
+    "Pachystachys coccinea": {
+      "records": 10,
+      "exact_unique_images": 10,
+      "unique_groups_after_exact_test_exclusion": 8,
+      "license_eligible_unique_images_after_exact_test_exclusion": 10,
+      "explicit_human_approvals": 0
+    },
+    "Piper aduncum": {
+      "records": 5,
+      "exact_unique_images": 5,
+      "unique_groups_after_exact_test_exclusion": 5,
+      "license_eligible_unique_images_after_exact_test_exclusion": 5,
+      "explicit_human_approvals": 0
+    },
+    "Pistia stratiotes": {
+      "records": 178,
+      "exact_unique_images": 165,
+      "unique_groups_after_exact_test_exclusion": 3,
+      "license_eligible_unique_images_after_exact_test_exclusion": 4,
+      "explicit_human_approvals": 0
+    },
+    "Pontederia crassipes": {
+      "records": 129,
+      "exact_unique_images": 125,
+      "unique_groups_after_exact_test_exclusion": 2,
+      "license_eligible_unique_images_after_exact_test_exclusion": 3,
+      "explicit_human_approvals": 0
+    },
+    "Swietenia macrophylla": {
+      "records": 8,
+      "exact_unique_images": 8,
+      "unique_groups_after_exact_test_exclusion": 8,
+      "license_eligible_unique_images_after_exact_test_exclusion": 8,
+      "explicit_human_approvals": 0
+    }
+  }
+}

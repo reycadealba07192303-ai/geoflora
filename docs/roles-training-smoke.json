@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "database": "geoflora_roles_validation",
+  "synthetic_fixtures_only": true,
+  "checks": [
+    "first-admin setup cannot be repeated",
+    "registration cannot self-elevate",
+    "session cookie flags",
+    "anonymous and user admin access denied",
+    "user report/photo ownership enforced",
+    "client owner/approval fields ignored",
+    "admin approval requires confirmation",
+    "review cannot be replayed",
+    "approved threshold creates a job",
+    "real worker exported data, trained and evaluated a candidate",
+    "active model preserved",
+    "logout invalidates session"
+  ],
+  "job_id": "6addbdd362b22c5e6f85094e",
+  "job_status": "completed",
+  "candidate_path": "storage/models/candidates/auto_6addbdd362b22c5e6f85094e"
+}

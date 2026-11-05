@@ -1,0 +1,46 @@
+{
+  "started_at_utc": "2026-10-22T17:38:16.994698+00:00",
+  "species": "Mikania micrantha",
+  "country_filter": "PH",
+  "status": "pending_review",
+  "bounds": {
+    "new_unique_images_per_source": 50,
+    "api_pages_per_source": 3,
+    "additional_gb": 0.1
+  },
+  "label_evidence": "Source labels only; not visually verified",
+  "sources": [
+    {
+      "source": "inaturalist",
+      "status": "completed",
+      "new_unique_images": 20,
+      "download_rejections": 0
+    },
+    {
+      "source": "gbif",
+      "status": "completed",
+      "new_unique_images": 30,
+      "download_rejections": 6
+    }
+  ],
+  "finished_at_utc": "2026-10-22T17:40:01.119408+00:00",
+  "before_records": 0,
+  "total_records": 50,
+  "new_records": 50,
+  "valid_records": 50,
+  "invalid_records": [],
+  "unique_checksums": 50,
+  "stored_observation_groups": 35,
+  "near_duplicate_groups": 20,
+  "source_counts": {
+    "inaturalist": 20,
+    "gbif": 30
+  },
+  "additional_image_bytes": 38335630,
+  "active_manifest_unchanged": true,
+  "active_manifest_sha256": "556b9384476b104874f0f24f146bb3266e44de4305e048c234b6e282e2a40e43",
+  "review_queue": "storage\\datasets\\staging\\mikania_micrantha_ph\\review_queue.csv",
+  "note": "Stored source groups are not cross-provider independent counts. No labels approved, no training, no active classes changed.",
+  "connected_observation_similarity_components": 22,
+  "review_gallery": "storage\\datasets\\staging\\mikania_micrantha_ph\\review_gallery.html"
+}

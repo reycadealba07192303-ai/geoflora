@@ -1,0 +1,1371 @@
+{
+  "run_id": "run-20261104T155431Z-nissap21-v1",
+  "evaluated": "2026-11-04T17:00:16+00:00",
+  "dataset_version": "ds-20261104-5bb0dfbfae",
+  "classes": [
+    "Chromolaena odorata",
+    "Lantana camara",
+    "Pontederia crassipes",
+    "Ageratum conyzoides",
+    "Mikania micrantha",
+    "Lantana montevidensis",
+    "Duranta erecta",
+    "Pistia stratiotes",
+    "Pontederia vaginalis",
+    "Limnocharis flava",
+    "Imperata cylindrica",
+    "Leucaena leucocephala",
+    "Spathodea campanulata",
+    "Piper aduncum",
+    "Salvinia molesta",
+    "Broussonetia papyrifera",
+    "Acacia mangium",
+    "Swietenia macrophylla",
+    "Gmelina arborea",
+    "Eucalyptus deglupta",
+    "Acacia auriculiformis"
+  ],
+  "validation": {
+    "images": 939,
+    "accuracy": 0.8083067092651757,
+    "top_3_accuracy": 0.9510117145899893,
+    "macro_precision": 0.8180081131614781,
+    "macro_recall": 0.8170423033648236,
+    "macro_f1": 0.8140891167214759,
+    "weighted_f1": 0.8075991562030206
+  },
+  "test": {
+    "images": 931,
+    "accuracy": 0.8249194414607949,
+    "top_3_accuracy": 0.9538131041890441,
+    "macro_precision": 0.8331753639806306,
+    "macro_recall": 0.8341656268149285,
+    "macro_f1": 0.8296333068711166,
+    "weighted_f1": 0.8247698920151562,
+    "per_class": [
+      {
+        "species": "Chromolaena odorata",
+        "precision": 0.8409090909090909,
+        "recall": 0.6491228070175439,
+        "f1": 0.7326732673267327,
+        "support": 57
+      },
+      {
+        "species": "Lantana camara",
+        "precision": 0.98,
+        "recall": 0.9423076923076923,
+        "f1": 0.9607843137254902,
+        "support": 52
+      },
+      {
+        "species": "Pontederia crassipes",
+        "precision": 0.7916666666666666,
+        "recall": 0.8837209302325582,
+        "f1": 0.8351648351648352,
+        "support": 43
+      },
+      {
+        "species": "Ageratum conyzoides",
+        "precision": 0.8,
+        "recall": 0.7272727272727273,
+        "f1": 0.7619047619047619,
+        "support": 55
+      },
+      {
+        "species": "Mikania micrantha",
+        "precision": 0.6730769230769231,
+        "recall": 0.6862745098039216,
+        "f1": 0.6796116504854369,
+        "support": 51
+      },
+      {
+        "species": "Lantana montevidensis",
+        "precision": 0.9767441860465116,
+        "recall": 0.9130434782608695,
+        "f1": 0.9438202247191011,
+        "support": 46
+      },
+      {
+        "species": "Duranta erecta",
+        "precision": 0.925,
+        "recall": 0.8409090909090909,
+        "f1": 0.8809523809523809,
+        "support": 44
+      },
+      {
+        "species": "Pistia stratiotes",
+        "precision": 0.8163265306122449,
+        "recall": 0.8163265306122449,
+        "f1": 0.8163265306122449,
+        "support": 49
+      },
+      {
+        "species": "Pontederia vaginalis",
+        "precision": 0.8378378378378378,
+        "recall": 0.6888888888888889,
+        "f1": 0.7560975609756098,
+        "support": 45
+      },
+      {
+        "species": "Limnocharis flava",
+        "precision": 0.9285714285714286,
+        "recall": 0.9069767441860465,
+        "f1": 0.9176470588235294,
+        "support": 43
+      },
+      {
+        "species": "Imperata cylindrica",
+        "precision": 0.9666666666666667,
+        "recall": 1.0,
+        "f1": 0.9830508474576272,
+        "support": 29
+      },
+      {
+        "species": "Leucaena leucocephala",
+        "precision": 0.9487179487179487,
+        "recall": 0.8409090909090909,
+        "f1": 0.891566265060241,
+        "support": 44
+      },
+      {
+        "species": "Spathodea campanulata",
+        "precision": 0.8518518518518519,
+        "recall": 0.9583333333333334,
+        "f1": 0.9019607843137255,
+        "support": 24
+      },
+      {
+        "species": "Piper aduncum",
+        "precision": 0.7466666666666667,
+        "recall": 1.0,
+        "f1": 0.8549618320610687,
+        "support": 56
+      },
+      {
+        "species": "Salvinia molesta",
+        "precision": 0.8367346938775511,
+        "recall": 0.803921568627451,
+        "f1": 0.82,
+        "support": 51
+      },
+      {
+        "species": "Broussonetia papyrifera",
+        "precision": 0.6363636363636364,
+        "recall": 0.6862745098039216,
+        "f1": 0.660377358490566,
+        "support": 51
+      },
+      {
+        "species": "Acacia mangium",
+        "precision": 0.6052631578947368,
+        "recall": 0.8518518518518519,
+        "f1": 0.7076923076923077,
+        "support": 27
+      },
+      {
+        "species": "Swietenia macrophylla",
+        "precision": 0.7560975609756098,
+        "recall": 0.8611111111111112,
+        "f1": 0.8051948051948052,
+        "support": 36
+      },
+      {
+        "species": "Gmelina arborea",
+        "precision": 0.8260869565217391,
+        "recall": 0.8260869565217391,
+        "f1": 0.8260869565217391,
+        "support": 46
+      },
+      {
+        "species": "Eucalyptus deglupta",
+        "precision": 0.9285714285714286,
+        "recall": 0.9512195121951219,
+        "f1": 0.9397590361445783,
+        "support": 41
+      },
+      {
+        "species": "Acacia auriculiformis",
+        "precision": 0.8235294117647058,
+        "recall": 0.6829268292682927,
+        "f1": 0.7466666666666667,
+        "support": 41
+      }
+    ],
+    "uncertainty": {
+      "method": "observation-group bootstrap, 1000 resamples",
+      "confidence_level": 0.95,
+      "accuracy_ci": [
+        0.8006345725028077,
+        0.8481331510246175
+      ],
+      "macro_f1_ci": [
+        0.8050921849276405,
+        0.850015170481693
+      ],
+      "accuracy_exact_ci": [
+        0.7989540476611611,
+        0.8488096071628203
+      ],
+      "accuracy_exact_ci_method": "Clopper-Pearson exact binomial (treats images as independent)"
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "Chromolaena odorata",
+      "Lantana camara",
+      "Pontederia crassipes",
+      "Ageratum conyzoides",
+      "Mikania micrantha",
+      "Lantana montevidensis",
+      "Duranta erecta",
+      "Pistia stratiotes",
+      "Pontederia vaginalis",
+      "Limnocharis flava",
+      "Imperata cylindrica",
+      "Leucaena leucocephala",
+      "Spathodea campanulata",
+      "Piper aduncum",
+      "Salvinia molesta",
+      "Broussonetia papyrifera",
+      "Acacia mangium",
+      "Swietenia macrophylla",
+      "Gmelina arborea",
+      "Eucalyptus deglupta",
+      "Acacia auriculiformis"
+    ],
+    "matrix": [
+      [
+        37,
+        0,
+        1,
+        5,
+        6,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        3,
+        0,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        49,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        38,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        0,
+        40,
+        5,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        2,
+        0,
+        0,
+        3,
+        35,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        0,
+        42,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        37,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        40,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0,
+        2,
+        0,
+        0,
+        2,
+        31,
+        0,
+        0,
+        0,
+        0,
+        3,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        39,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        29,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        37,
+        0,
+        1,
+        0,
+        1,
+        1,
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        23,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        56,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        41,
+        2,
+        1,
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        1,
+        35,
+        0,
+        1,
+        6,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        23,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        31,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        4,
+        0,
+        0,
+        38,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        39,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        3,
+        0,
+        0,
+        7,
+        1,
+        0,
+        1,
+        28
+      ]
+    ]
+  },
+  "top_confusions": [
+    {
+      "true": "Mikania micrantha",
+      "predicted": "Broussonetia papyrifera",
+      "count": 7
+    },
+    {
+      "true": "Acacia auriculiformis",
+      "predicted": "Acacia mangium",
+      "count": 7
+    },
+    {
+      "true": "Chromolaena odorata",
+      "predicted": "Mikania micrantha",
+      "count": 6
+    },
+    {
+      "true": "Broussonetia papyrifera",
+      "predicted": "Gmelina arborea",
+      "count": 6
+    },
+    {
+      "true": "Pistia stratiotes",
+      "predicted": "Salvinia molesta",
+      "count": 5
+    },
+    {
+      "true": "Chromolaena odorata",
+      "predicted": "Ageratum conyzoides",
+      "count": 5
+    },
+    {
+      "true": "Ageratum conyzoides",
+      "predicted": "Mikania micrantha",
+      "count": 5
+    },
+    {
+      "true": "Gmelina arborea",
+      "predicted": "Broussonetia papyrifera",
+      "count": 4
+    },
+    {
+      "true": "Broussonetia papyrifera",
+      "predicted": "Piper aduncum",
+      "count": 4
+    },
+    {
+      "true": "Ageratum conyzoides",
+      "predicted": "Chromolaena odorata",
+      "count": 4
+    }
+  ],
+  "error_analysis": [
+    {
+      "species": "Chromolaena odorata",
+      "support": 57,
+      "true_positives": 37,
+      "false_negatives": 20,
+      "false_positives": 7,
+      "false_negatives_predicted_as": {
+        "Mikania micrantha": 6,
+        "Ageratum conyzoides": 5,
+        "Piper aduncum": 3,
+        "Acacia mangium": 2,
+        "Broussonetia papyrifera": 2,
+        "Pontederia crassipes": 1,
+        "Limnocharis flava": 1
+      },
+      "false_positives_true_species": {
+        "Ageratum conyzoides": 4,
+        "Mikania micrantha": 2,
+        "Lantana camara": 1
+      },
+      "mean_score_correct": 0.7499677538871765,
+      "mean_score_incorrect": 0.49865078926086426
+    },
+    {
+      "species": "Lantana camara",
+      "support": 52,
+      "true_positives": 49,
+      "false_negatives": 3,
+      "false_positives": 1,
+      "false_negatives_predicted_as": {
+        "Spathodea campanulata": 2,
+        "Chromolaena odorata": 1
+      },
+      "false_positives_true_species": {
+        "Lantana montevidensis": 1
+      },
+      "mean_score_correct": 0.8198308348655701,
+      "mean_score_incorrect": 0.4127182066440582
+    },
+    {
+      "species": "Pontederia crassipes",
+      "support": 43,
+      "true_positives": 38,
+      "false_negatives": 5,
+      "false_positives": 10,
+      "false_negatives_predicted_as": {
+        "Piper aduncum": 2,
+        "Imperata cylindrica": 1,
+        "Acacia mangium": 1,
+        "Pontederia vaginalis": 1
+      },
+      "false_positives_true_species": {
+        "Pontederia vaginalis": 3,
+        "Pistia stratiotes": 2,
+        "Chromolaena odorata": 1,
+        "Duranta erecta": 1,
+        "Limnocharis flava": 1,
+        "Salvinia molesta": 1,
+        "Swietenia macrophylla": 1
+      },
+      "mean_score_correct": 0.7882436513900757,
+      "mean_score_incorrect": 0.4144773483276367
+    },
+    {
+      "species": "Ageratum conyzoides",
+      "support": 55,
+      "true_positives": 40,
+      "false_negatives": 15,
+      "false_positives": 10,
+      "false_negatives_predicted_as": {
+        "Mikania micrantha": 5,
+        "Chromolaena odorata": 4,
+        "Pontederia vaginalis": 2,
+        "Broussonetia papyrifera": 1,
+        "Swietenia macrophylla": 1,
+        "Pistia stratiotes": 1,
+        "Acacia auriculiformis": 1
+      },
+      "false_positives_true_species": {
+        "Chromolaena odorata": 5,
+        "Mikania micrantha": 3,
+        "Lantana montevidensis": 2
+      },
+      "mean_score_correct": 0.7267412543296814,
+      "mean_score_incorrect": 0.4275470972061157
+    },
+    {
+      "species": "Mikania micrantha",
+      "support": 51,
+      "true_positives": 35,
+      "false_negatives": 16,
+      "false_positives": 17,
+      "false_negatives_predicted_as": {
+        "Broussonetia papyrifera": 7,
+        "Ageratum conyzoides": 3,
+        "Pistia stratiotes": 2,
+        "Chromolaena odorata": 2,
+        "Acacia mangium": 1,
+        "Swietenia macrophylla": 1
+      },
+      "false_positives_true_species": {
+        "Chromolaena odorata": 6,
+        "Ageratum conyzoides": 5,
+        "Pontederia vaginalis": 2,
+        "Pistia stratiotes": 1,
+        "Broussonetia papyrifera": 1,
+        "Swietenia macrophylla": 1,
+        "Eucalyptus deglupta": 1
+      },
+      "mean_score_correct": 0.6591526865959167,
+      "mean_score_incorrect": 0.5241707563400269
+    },
+    {
+      "species": "Lantana montevidensis",
+      "support": 46,
+      "true_positives": 42,
+      "false_negatives": 4,
+      "false_positives": 1,
+      "false_negatives_predicted_as": {
+        "Ageratum conyzoides": 2,
+        "Broussonetia papyrifera": 1,
+        "Lantana camara": 1
+      },
+      "false_positives_true_species": {
+        "Leucaena leucocephala": 1
+      },
+      "mean_score_correct": 0.75010746717453,
+      "mean_score_incorrect": 0.41138026118278503
+    },
+    {
+      "species": "Duranta erecta",
+      "support": 44,
+      "true_positives": 37,
+      "false_negatives": 7,
+      "false_positives": 3,
+      "false_negatives_predicted_as": {
+        "Pontederia crassipes": 1,
+        "Acacia auriculiformis": 1,
+        "Broussonetia papyrifera": 1,
+        "Gmelina arborea": 1,
+        "Swietenia macrophylla": 1,
+        "Spathodea campanulata": 1,
+        "Pontederia vaginalis": 1
+      },
+      "false_positives_true_species": {
+        "Limnocharis flava": 1,
+        "Broussonetia papyrifera": 1,
+        "Gmelina arborea": 1
+      },
+      "mean_score_correct": 0.7398504614830017,
+      "mean_score_incorrect": 0.4167506694793701
+    },
+    {
+      "species": "Pistia stratiotes",
+      "support": 49,
+      "true_positives": 40,
+      "false_negatives": 9,
+      "false_positives": 9,
+      "false_negatives_predicted_as": {
+        "Salvinia molesta": 5,
+        "Pontederia crassipes": 2,
+        "Mikania micrantha": 1,
+        "Broussonetia papyrifera": 1
+      },
+      "false_positives_true_species": {
+        "Salvinia molesta": 3,
+        "Mikania micrantha": 2,
+        "Pontederia vaginalis": 2,
+        "Ageratum conyzoides": 1,
+        "Broussonetia papyrifera": 1
+      },
+      "mean_score_correct": 0.7974026799201965,
+      "mean_score_incorrect": 0.5162673592567444
+    },
+    {
+      "species": "Pontederia vaginalis",
+      "support": 45,
+      "true_positives": 31,
+      "false_negatives": 14,
+      "false_positives": 6,
+      "false_negatives_predicted_as": {
+        "Piper aduncum": 3,
+        "Pontederia crassipes": 3,
+        "Mikania micrantha": 2,
+        "Pistia stratiotes": 2,
+        "Acacia auriculiformis": 2,
+        "Acacia mangium": 1,
+        "Salvinia molesta": 1
+      },
+      "false_positives_true_species": {
+        "Ageratum conyzoides": 2,
+        "Limnocharis flava": 2,
+        "Pontederia crassipes": 1,
+        "Duranta erecta": 1
+      },
+      "mean_score_correct": 0.6909797787666321,
+      "mean_score_incorrect": 0.4271683394908905
+    },
+    {
+      "species": "Limnocharis flava",
+      "support": 43,
+      "true_positives": 39,
+      "false_negatives": 4,
+      "false_positives": 3,
+      "false_negatives_predicted_as": {
+        "Pontederia vaginalis": 2,
+        "Duranta erecta": 1,
+        "Pontederia crassipes": 1
+      },
+      "false_positives_true_species": {
+        "Gmelina arborea": 2,
+        "Chromolaena odorata": 1
+      },
+      "mean_score_correct": 0.7288511991500854,
+      "mean_score_incorrect": 0.3562238812446594
+    },
+    {
+      "species": "Imperata cylindrica",
+      "support": 29,
+      "true_positives": 29,
+      "false_negatives": 0,
+      "false_positives": 1,
+      "false_negatives_predicted_as": {},
+      "false_positives_true_species": {
+        "Pontederia crassipes": 1
+      },
+      "mean_score_correct": 0.8201555609703064,
+      "mean_score_incorrect": null
+    },
+    {
+      "species": "Leucaena leucocephala",
+      "support": 44,
+      "true_positives": 37,
+      "false_negatives": 7,
+      "false_positives": 2,
+      "false_negatives_predicted_as": {
+        "Swietenia macrophylla": 2,
+        "Acacia mangium": 1,
+        "Piper aduncum": 1,
+        "Lantana montevidensis": 1,
+        "Eucalyptus deglupta": 1,
+        "Broussonetia papyrifera": 1
+      },
+      "false_positives_true_species": {
+        "Swietenia macrophylla": 1,
+        "Acacia auriculiformis": 1
+      },
+      "mean_score_correct": 0.8544290661811829,
+      "mean_score_incorrect": 0.41507330536842346
+    },
+    {
+      "species": "Spathodea campanulata",
+      "support": 24,
+      "true_positives": 23,
+      "false_negatives": 1,
+      "false_positives": 4,
+      "false_negatives_predicted_as": {
+        "Gmelina arborea": 1
+      },
+      "false_positives_true_species": {
+        "Lantana camara": 2,
+        "Duranta erecta": 1,
+        "Eucalyptus deglupta": 1
+      },
+      "mean_score_correct": 0.8679813146591187,
+      "mean_score_incorrect": 0.5932103395462036
+    },
+    {
+      "species": "Piper aduncum",
+      "support": 56,
+      "true_positives": 56,
+      "false_negatives": 0,
+      "false_positives": 19,
+      "false_negatives_predicted_as": {},
+      "false_positives_true_species": {
+        "Broussonetia papyrifera": 4,
+        "Chromolaena odorata": 3,
+        "Pontederia vaginalis": 3,
+        "Acacia mangium": 3,
+        "Acacia auriculiformis": 3,
+        "Pontederia crassipes": 2,
+        "Leucaena leucocephala": 1
+      },
+      "mean_score_correct": 0.8631176352500916,
+      "mean_score_incorrect": null
+    },
+    {
+      "species": "Salvinia molesta",
+      "support": 51,
+      "true_positives": 41,
+      "false_negatives": 10,
+      "false_positives": 8,
+      "false_negatives_predicted_as": {
+        "Swietenia macrophylla": 3,
+        "Pistia stratiotes": 3,
+        "Broussonetia papyrifera": 2,
+        "Acacia mangium": 1,
+        "Pontederia crassipes": 1
+      },
+      "false_positives_true_species": {
+        "Pistia stratiotes": 5,
+        "Pontederia vaginalis": 1,
+        "Broussonetia papyrifera": 1,
+        "Gmelina arborea": 1
+      },
+      "mean_score_correct": 0.788532555103302,
+      "mean_score_incorrect": 0.36270850896835327
+    },
+    {
+      "species": "Broussonetia papyrifera",
+      "support": 51,
+      "true_positives": 35,
+      "false_negatives": 16,
+      "false_positives": 20,
+      "false_negatives_predicted_as": {
+        "Gmelina arborea": 6,
+        "Piper aduncum": 4,
+        "Pistia stratiotes": 1,
+        "Duranta erecta": 1,
+        "Salvinia molesta": 1,
+        "Mikania micrantha": 1,
+        "Swietenia macrophylla": 1,
+        "Eucalyptus deglupta": 1
+      },
+      "false_positives_true_species": {
+        "Mikania micrantha": 7,
+        "Gmelina arborea": 4,
+        "Chromolaena odorata": 2,
+        "Salvinia molesta": 2,
+        "Ageratum conyzoides": 1,
+        "Lantana montevidensis": 1,
+        "Duranta erecta": 1,
+        "Pistia stratiotes": 1,
+        "Leucaena leucocephala": 1
+      },
+      "mean_score_correct": 0.7193976044654846,
+      "mean_score_incorrect": 0.41640836000442505
+    },
+    {
+      "species": "Acacia mangium",
+      "support": 27,
+      "true_positives": 23,
+      "false_negatives": 4,
+      "false_positives": 15,
+      "false_negatives_predicted_as": {
+        "Piper aduncum": 3,
+        "Acacia auriculiformis": 1
+      },
+      "false_positives_true_species": {
+        "Acacia auriculiformis": 7,
+        "Chromolaena odorata": 2,
+        "Pontederia crassipes": 1,
+        "Mikania micrantha": 1,
+        "Pontederia vaginalis": 1,
+        "Leucaena leucocephala": 1,
+        "Salvinia molesta": 1,
+        "Swietenia macrophylla": 1
+      },
+      "mean_score_correct": 0.6774059534072876,
+      "mean_score_incorrect": 0.6870397329330444
+    },
+    {
+      "species": "Swietenia macrophylla",
+      "support": 36,
+      "true_positives": 31,
+      "false_negatives": 5,
+      "false_positives": 10,
+      "false_negatives_predicted_as": {
+        "Acacia mangium": 1,
+        "Mikania micrantha": 1,
+        "Pontederia crassipes": 1,
+        "Acacia auriculiformis": 1,
+        "Leucaena leucocephala": 1
+      },
+      "false_positives_true_species": {
+        "Salvinia molesta": 3,
+        "Leucaena leucocephala": 2,
+        "Ageratum conyzoides": 1,
+        "Mikania micrantha": 1,
+        "Duranta erecta": 1,
+        "Broussonetia papyrifera": 1,
+        "Acacia auriculiformis": 1
+      },
+      "mean_score_correct": 0.7903472185134888,
+      "mean_score_incorrect": 0.3603525459766388
+    },
+    {
+      "species": "Gmelina arborea",
+      "support": 46,
+      "true_positives": 38,
+      "false_negatives": 8,
+      "false_positives": 8,
+      "false_negatives_predicted_as": {
+        "Broussonetia papyrifera": 4,
+        "Limnocharis flava": 2,
+        "Duranta erecta": 1,
+        "Salvinia molesta": 1
+      },
+      "false_positives_true_species": {
+        "Broussonetia papyrifera": 6,
+        "Duranta erecta": 1,
+        "Spathodea campanulata": 1
+      },
+      "mean_score_correct": 0.7652043104171753,
+      "mean_score_incorrect": 0.43964776396751404
+    },
+    {
+      "species": "Eucalyptus deglupta",
+      "support": 41,
+      "true_positives": 39,
+      "false_negatives": 2,
+      "false_positives": 3,
+      "false_negatives_predicted_as": {
+        "Mikania micrantha": 1,
+        "Spathodea campanulata": 1
+      },
+      "false_positives_true_species": {
+        "Leucaena leucocephala": 1,
+        "Broussonetia papyrifera": 1,
+        "Acacia auriculiformis": 1
+      },
+      "mean_score_correct": 0.9089588522911072,
+      "mean_score_incorrect": 0.5248779058456421
+    },
+    {
+      "species": "Acacia auriculiformis",
+      "support": 41,
+      "true_positives": 28,
+      "false_negatives": 13,
+      "false_positives": 6,
+      "false_negatives_predicted_as": {
+        "Acacia mangium": 7,
+        "Piper aduncum": 3,
+        "Eucalyptus deglupta": 1,
+        "Leucaena leucocephala": 1,
+        "Swietenia macrophylla": 1
+      },
+      "false_positives_true_species": {
+        "Pontederia vaginalis": 2,
+        "Ageratum conyzoides": 1,
+        "Duranta erecta": 1,
+        "Acacia mangium": 1,
+        "Swietenia macrophylla": 1
+      },
+      "mean_score_correct": 0.7031081318855286,
+      "mean_score_incorrect": 0.5218213796615601
+    }
+  ],
+  "unsupported_species": {
+    "threshold": {
+      "strategy": "youden",
+      "threshold": 0.6863738894462585,
+      "val_known_acceptance": 0.6134185303514377,
+      "val_unknown_false_acceptance": 0.15625,
+      "youden_j": 0.4571685303514377,
+      "score_type": "max_softmax",
+      "selected_on": "validation (val + unknown_val); test sets not used"
+    },
+    "test": {
+      "known_images": 931,
+      "known_acceptance_rate": 0.6036519871106337,
+      "accuracy_on_accepted_known": 0.9644128113879004,
+      "known_correct_and_accepted_rate": 0.5821697099892589,
+      "unknown_images": 408,
+      "unknown_false_acceptance_rate_without_rejection": 1.0,
+      "unknown_false_acceptance_rate_with_threshold": 0.22794117647058823,
+      "auroc_known_vs_unknown": 0.7639002969608897
+    },
+    "per_unknown_species": {
+      "Hibiscus rosa-sinensis": {
+        "images": 140,
+        "false_acceptance_rate_with_threshold": 0.4,
+        "assigned_labels_without_rejection": {
+          "Spathodea campanulata": 114,
+          "Pontederia crassipes": 8,
+          "Pistia stratiotes": 4,
+          "Lantana montevidensis": 3,
+          "Lantana camara": 2,
+          "Swietenia macrophylla": 2,
+          "Gmelina arborea": 1,
+          "Acacia auriculiformis": 1,
+          "Piper aduncum": 1,
+          "Duranta erecta": 1,
+          "Acacia mangium": 1,
+          "Ageratum conyzoides": 1,
+          "Limnocharis flava": 1
+        }
+      },
+      "Ipomoea aquatica": {
+        "images": 135,
+        "false_acceptance_rate_with_threshold": 0.08888888888888889,
+        "assigned_labels_without_rejection": {
+          "Piper aduncum": 21,
+          "Acacia auriculiformis": 16,
+          "Swietenia macrophylla": 13,
+          "Pontederia vaginalis": 13,
+          "Lantana montevidensis": 13,
+          "Broussonetia papyrifera": 9,
+          "Gmelina arborea": 8,
+          "Chromolaena odorata": 7,
+          "Mikania micrantha": 7,
+          "Pontederia crassipes": 6,
+          "Ageratum conyzoides": 5,
+          "Limnocharis flava": 5,
+          "Acacia mangium": 5,
+          "Pistia stratiotes": 4,
+          "Imperata cylindrica": 3
+        }
+      },
+      "Mimosa pudica": {
+        "images": 133,
+        "false_acceptance_rate_with_threshold": 0.18796992481203006,
+        "assigned_labels_without_rejection": {
+          "Leucaena leucocephala": 72,
+          "Swietenia macrophylla": 20,
+          "Lantana montevidensis": 19,
+          "Ageratum conyzoides": 7,
+          "Broussonetia papyrifera": 4,
+          "Chromolaena odorata": 3,
+          "Imperata cylindrica": 2,
+          "Mikania micrantha": 2,
+          "Acacia mangium": 1,
+          "Lantana camara": 1,
+          "Pistia stratiotes": 1,
+          "Limnocharis flava": 1
+        }
+      }
+    },
+    "unknown_val_species": [
+      "Bidens pilosa",
+      "Ixora coccinea"
+    ],
+    "unknown_test_species": [
+      "Hibiscus rosa-sinensis",
+      "Ipomoea aquatica",
+      "Mimosa pudica"
+    ],
+    "val": {
+      "known_images": 939,
+      "known_acceptance_rate": 0.6134185303514377,
+      "accuracy_on_accepted_known": 0.9513888888888888,
+      "known_correct_and_accepted_rate": 0.5835995740149095,
+      "unknown_images": 256,
+      "unknown_false_acceptance_rate_without_rejection": 1.0,
+      "unknown_false_acceptance_rate_with_threshold": 0.15625,
+      "auroc_known_vs_unknown": 0.7789120740149095
+    }
+  },
+  "calibration": {
+    "ece_raw_test": 0.10470266720214028,
+    "temperature_fitted_on_val": 0.7330111864777299,
+    "ece_temperature_scaled_test": 0.022381386106431665,
+    "note": "Softmax scores are not calibrated identification confidence."
+  },
+  "condition_breakdown": {},
+  "runtime": {
+    "device": "CPU",
+    "batch1_latency_ms_median": 24.161049997928785,
+    "batch1_latency_ms_p95": 26.815604999865172,
+    "batch32_throughput_images_per_s": 103.55513851568602,
+    "timing_runs": 50,
+    "model_file_bytes": 26068867,
+    "model_file_mb": 26.07,
+    "total_params": 2284885,
+    "note": "Model forward pass only (excludes image decoding/resizing). Measured on this machine."
+  },
+  "robustness_synthetic": {
+    "darker_40pct": {
+      "accuracy": 0.7701396348012889,
+      "macro_f1": 0.7770588264352973
+    },
+    "brighter_40pct": {
+      "accuracy": 0.8023630504833512,
+      "macro_f1": 0.8068905725061633
+    },
+    "low_contrast": {
+      "accuracy": 0.7336197636949516,
+      "macro_f1": 0.7387070872672848
+    },
+    "gaussian_blur": {
+      "accuracy": 0.6885069817400644,
+      "macro_f1": 0.701474269178496
+    },
+    "rotate_90": {
+      "accuracy": 0.7647690655209453,
+      "macro_f1": 0.7730415358554571
+    },
+    "jpeg_q20": {
+      "accuracy": 0.6906552094522019,
+      "macro_f1": 0.6945784121374908
+    },
+    "center_crop_60pct": {
+      "accuracy": 0.8442534908700322,
+      "macro_f1": 0.8476665861734987
+    }
+  }
+}

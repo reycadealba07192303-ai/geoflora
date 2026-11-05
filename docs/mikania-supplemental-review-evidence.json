@@ -1,0 +1,14 @@
+{
+  "species": "Mikania micrantha",
+  "images": 30,
+  "source_groups": 22,
+  "licenses": {
+    "cc-by": 19,
+    "cc0": 11
+  },
+  "owner_photo_review": "approved",
+  "owner_approval_date": "2026-10-31",
+  "overlap_rule": "Exact SHA-256 checksums already in the owner-approved invasive Mikania gallery were excluded.",
+  "queue": "storage/datasets/staging/invasive_mikania_micrantha_ph/supplemental_review_queue.csv",
+  "gallery": "storage/datasets/staging/invasive_mikania_micrantha_ph/supplemental_review_gallery.html"
+}

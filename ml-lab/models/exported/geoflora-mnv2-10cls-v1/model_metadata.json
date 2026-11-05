@@ -1,0 +1,158 @@
+{
+  "model_version": "geoflora-mnv2-10cls-v1",
+  "status": "candidate_not_activated",
+  "status_note": "Exported for review only. Not deployed or activated. Activation must be a manual decision in GeoFlora.",
+  "exported": "2026-11-04T10:59:21+00:00",
+  "source_run": "run-20261104T104925Z-tenclass-v1",
+  "dataset_version": "ds-20261104-00998fdf5b",
+  "architecture": "MobileNetV2 (alpha=1.0, initial weights=imagenet) + Dense(10, softmax)",
+  "framework": {
+    "python": "3.11.9",
+    "tensorflow_version": "2.20.0",
+    "keras_version": "3.15.1"
+  },
+  "model_file": "model.keras",
+  "model_sha256": "d0b0e4df55189ae9e1bae9c1455c12de0a51d08c10d0ebcc6e8f25907e0e5194",
+  "num_classes": 10,
+  "supported_species": [
+    {
+      "index": 0,
+      "species_id": "GF-SP-0001",
+      "scientific_name": "Chromolaena odorata",
+      "common_name": "Hagonoy",
+      "ecological_status": "target_invasive",
+      "status_verification": "unverified",
+      "is_target_invasive": true,
+      "description_review_status": "draft_unverified"
+    },
+    {
+      "index": 1,
+      "species_id": "GF-SP-0002",
+      "scientific_name": "Lantana camara",
+      "common_name": "Lantana",
+      "ecological_status": "target_invasive",
+      "status_verification": "unverified",
+      "is_target_invasive": true,
+      "description_review_status": "draft_unverified"
+    },
+    {
+      "index": 2,
+      "species_id": "GF-SP-0003",
+      "scientific_name": "Pontederia crassipes",
+      "common_name": "Water hyacinth",
+      "ecological_status": "target_invasive",
+      "status_verification": "unverified",
+      "is_target_invasive": true,
+      "description_review_status": "draft_unverified"
+    },
+    {
+      "index": 3,
+      "species_id": "GF-SP-0101",
+      "scientific_name": "Ageratum conyzoides",
+      "common_name": "Billygoat weed",
+      "ecological_status": "unresolved",
+      "status_verification": "unverified",
+      "is_target_invasive": false,
+      "description_review_status": "draft_unverified"
+    },
+    {
+      "index": 4,
+      "species_id": "GF-SP-0102",
+      "scientific_name": "Mikania micrantha",
+      "common_name": "Mile-a-minute vine",
+      "ecological_status": "unresolved",
+      "status_verification": "unverified",
+      "is_target_invasive": false,
+      "description_review_status": "draft_unverified"
+    },
+    {
+      "index": 5,
+      "species_id": "GF-SP-0103",
+      "scientific_name": "Lantana montevidensis",
+      "common_name": "Trailing lantana",
+      "ecological_status": "unresolved",
+      "status_verification": "unverified",
+      "is_target_invasive": false,
+      "description_review_status": "draft_unverified"
+    },
+    {
+      "index": 6,
+      "species_id": "GF-SP-0104",
+      "scientific_name": "Duranta erecta",
+      "common_name": "Golden dewdrop",
+      "ecological_status": "unresolved",
+      "status_verification": "unverified",
+      "is_target_invasive": false,
+      "description_review_status": "draft_unverified"
+    },
+    {
+      "index": 7,
+      "species_id": "GF-SP-0105",
+      "scientific_name": "Pistia stratiotes",
+      "common_name": "Water lettuce",
+      "ecological_status": "unresolved",
+      "status_verification": "unverified",
+      "is_target_invasive": false,
+      "description_review_status": "draft_unverified"
+    },
+    {
+      "index": 8,
+      "species_id": "GF-SP-0106",
+      "scientific_name": "Pontederia vaginalis",
+      "common_name": "Gabi-gabi",
+      "ecological_status": "unresolved",
+      "status_verification": "unverified",
+      "is_target_invasive": false,
+      "description_review_status": "draft_unverified"
+    },
+    {
+      "index": 9,
+      "species_id": "GF-SP-0107",
+      "scientific_name": "Limnocharis flava",
+      "common_name": "Yellow velvetleaf",
+      "ecological_status": "unresolved",
+      "status_verification": "unverified",
+      "is_target_invasive": false,
+      "description_review_status": "draft_unverified"
+    }
+  ],
+  "unknown_handling": {
+    "score_type": "max_softmax",
+    "threshold": 0.7203630805015564,
+    "strategy": "youden",
+    "selected_on": "validation (val + unknown_val); test sets not used"
+  },
+  "evaluation_summary": {
+    "test_images": 215,
+    "test_accuracy": 0.7953488372093023,
+    "test_accuracy_ci": [
+      0.7351736673385105,
+      0.847186165700204
+    ],
+    "test_macro_f1": 0.7938067058901307,
+    "test_macro_f1_ci": [
+      0.7313081001708974,
+      0.8481713606592746
+    ],
+    "unknown_false_acceptance_with_threshold": 0.14035087719298245,
+    "unknown_test_images": 57,
+    "batch1_latency_ms_median": 20.784999999705178,
+    "device": "CPU"
+  },
+  "training": {
+    "selected_phase": "finetune",
+    "epochs_run": 33,
+    "images": {
+      "train": 986,
+      "val": 217,
+      "test": 215
+    },
+    "seed": 42
+  },
+  "integration_notes": [
+    "Load with tensorflow.keras.models.load_model('model.keras') (TensorFlow/Keras versions in 'framework').",
+    "Follow preprocessing.json exactly; key all downstream logic on species_id, not on output index.",
+    "Verify model_sha256 before loading. Store model_version with each prediction record in GeoFlora.",
+    "Location, occurrence records and administrative verification remain the responsibility of GeoFlora."
+  ]
+}

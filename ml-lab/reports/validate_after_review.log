@@ -1,0 +1,23 @@
+{
+  "generated": "2026-11-04T08:59:28+00:00",
+  "total_images": 1620,
+  "total_observation_groups": 1496,
+  "readable": 1620,
+  "quality_pass": 1617,
+  "license_eligible": 1620,
+  "review_status": {
+    "pending": 1171,
+    "approved": 438,
+    "rejected": 8,
+    "uncertain": 3
+  },
+  "training_eligible_images": 435,
+  "quality_flag_counts": {
+    "low_resolution": 2,
+    "too_dark": 1
+  },
+  "label_issue_images": [],
+  "class_balance_ratio_max_min": 1.094890510948905
+}
+
+Inventory: reports/dataset_inventory.md

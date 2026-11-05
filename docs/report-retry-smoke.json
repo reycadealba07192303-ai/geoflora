@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "database": "geoflora_sightings_validation",
+  "report_id": "6adf6bfbb548612b573e7f6f",
+  "checks": [
+    "unchanged saved-report retry survives identification expiry",
+    "changed data still conflicts after expiry",
+    "PDF generated with online map fetching enabled"
+  ]
+}

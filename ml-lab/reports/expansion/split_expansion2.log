@@ -1,0 +1,225 @@
+{
+  "generated": "2026-11-04T15:14:30+00:00",
+  "dataset_version": "ds-20261104-6529c8c7f1",
+  "provisional": false,
+  "ready_for_training": true,
+  "model_classes": [
+    "Chromolaena odorata",
+    "Lantana camara",
+    "Pontederia crassipes",
+    "Ageratum conyzoides",
+    "Mikania micrantha",
+    "Lantana montevidensis",
+    "Duranta erecta",
+    "Pistia stratiotes",
+    "Pontederia vaginalis",
+    "Limnocharis flava"
+  ],
+  "unsupported_species_pool": {
+    "Mimosa pudica": {
+      "unknown_val": 133
+    },
+    "Hibiscus rosa-sinensis": {
+      "unknown_test": 140
+    },
+    "Ixora coccinea": {
+      "unknown_val": 135
+    },
+    "Bidens pilosa": {
+      "unknown_test": 121
+    },
+    "Ipomoea aquatica": {
+      "unknown_test": 135
+    },
+    "Imperata cylindrica": {
+      "unknown_val": 101
+    }
+  },
+  "class_readiness": [
+    {
+      "species_id": "GF-SP-0001",
+      "scientific_name": "Chromolaena odorata",
+      "eligible_images": 376,
+      "eligible_groups": 349,
+      "ready": true,
+      "reasons": []
+    },
+    {
+      "species_id": "GF-SP-0002",
+      "scientific_name": "Lantana camara",
+      "eligible_images": 348,
+      "eligible_groups": 311,
+      "ready": true,
+      "reasons": []
+    },
+    {
+      "species_id": "GF-SP-0003",
+      "scientific_name": "Pontederia crassipes",
+      "eligible_images": 285,
+      "eligible_groups": 264,
+      "ready": true,
+      "reasons": []
+    },
+    {
+      "species_id": "GF-SP-0101",
+      "scientific_name": "Ageratum conyzoides",
+      "eligible_images": 368,
+      "eligible_groups": 348,
+      "ready": true,
+      "reasons": []
+    },
+    {
+      "species_id": "GF-SP-0102",
+      "scientific_name": "Mikania micrantha",
+      "eligible_images": 337,
+      "eligible_groups": 314,
+      "ready": true,
+      "reasons": []
+    },
+    {
+      "species_id": "GF-SP-0103",
+      "scientific_name": "Lantana montevidensis",
+      "eligible_images": 307,
+      "eligible_groups": 287,
+      "ready": true,
+      "reasons": []
+    },
+    {
+      "species_id": "GF-SP-0104",
+      "scientific_name": "Duranta erecta",
+      "eligible_images": 294,
+      "eligible_groups": 282,
+      "ready": true,
+      "reasons": []
+    },
+    {
+      "species_id": "GF-SP-0105",
+      "scientific_name": "Pistia stratiotes",
+      "eligible_images": 326,
+      "eligible_groups": 288,
+      "ready": true,
+      "reasons": []
+    },
+    {
+      "species_id": "GF-SP-0106",
+      "scientific_name": "Pontederia vaginalis",
+      "eligible_images": 302,
+      "eligible_groups": 276,
+      "ready": true,
+      "reasons": []
+    },
+    {
+      "species_id": "GF-SP-0107",
+      "scientific_name": "Limnocharis flava",
+      "eligible_images": 289,
+      "eligible_groups": 281,
+      "ready": true,
+      "reasons": []
+    }
+  ],
+  "image_counts": {
+    "train": {
+      "Ageratum conyzoides": 257,
+      "Chromolaena odorata": 262,
+      "Duranta erecta": 206,
+      "Lantana camara": 243,
+      "Lantana montevidensis": 215,
+      "Limnocharis flava": 201,
+      "Mikania micrantha": 235,
+      "Pistia stratiotes": 228,
+      "Pontederia crassipes": 199,
+      "Pontederia vaginalis": 211
+    },
+    "val": {
+      "Ageratum conyzoides": 56,
+      "Chromolaena odorata": 57,
+      "Duranta erecta": 44,
+      "Lantana camara": 53,
+      "Lantana montevidensis": 46,
+      "Limnocharis flava": 45,
+      "Mikania micrantha": 51,
+      "Pistia stratiotes": 49,
+      "Pontederia crassipes": 43,
+      "Pontederia vaginalis": 46
+    },
+    "test": {
+      "Ageratum conyzoides": 55,
+      "Chromolaena odorata": 57,
+      "Duranta erecta": 44,
+      "Lantana camara": 52,
+      "Lantana montevidensis": 46,
+      "Limnocharis flava": 43,
+      "Mikania micrantha": 51,
+      "Pistia stratiotes": 49,
+      "Pontederia crassipes": 43,
+      "Pontederia vaginalis": 45
+    },
+    "unknown_val": {
+      "Imperata cylindrica": 101,
+      "Ixora coccinea": 135,
+      "Mimosa pudica": 133
+    },
+    "unknown_test": {
+      "Bidens pilosa": 121,
+      "Hibiscus rosa-sinensis": 140,
+      "Ipomoea aquatica": 135
+    }
+  },
+  "observation_group_counts": {
+    "train": {
+      "Ageratum conyzoides": 244,
+      "Chromolaena odorata": 245,
+      "Duranta erecta": 197,
+      "Lantana camara": 218,
+      "Lantana montevidensis": 201,
+      "Limnocharis flava": 194,
+      "Mikania micrantha": 217,
+      "Pistia stratiotes": 198,
+      "Pontederia crassipes": 188,
+      "Pontederia vaginalis": 193
+    },
+    "val": {
+      "Ageratum conyzoides": 53,
+      "Chromolaena odorata": 52,
+      "Duranta erecta": 43,
+      "Lantana camara": 47,
+      "Lantana montevidensis": 42,
+      "Limnocharis flava": 44,
+      "Mikania micrantha": 49,
+      "Pistia stratiotes": 44,
+      "Pontederia crassipes": 40,
+      "Pontederia vaginalis": 42
+    },
+    "test": {
+      "Ageratum conyzoides": 51,
+      "Chromolaena odorata": 52,
+      "Duranta erecta": 42,
+      "Lantana camara": 46,
+      "Lantana montevidensis": 44,
+      "Limnocharis flava": 43,
+      "Mikania micrantha": 48,
+      "Pistia stratiotes": 46,
+      "Pontederia crassipes": 36,
+      "Pontederia vaginalis": 41
+    },
+    "unknown_val": {
+      "Imperata cylindrica": 97,
+      "Ixora coccinea": 130,
+      "Mimosa pudica": 123
+    },
+    "unknown_test": {
+      "Bidens pilosa": 107,
+      "Hibiscus rosa-sinensis": 134,
+      "Ipomoea aquatica": 120
+    }
+  },
+  "leakage_check": {
+    "images_checked": 3997,
+    "violations": 0,
+    "observation_group_cross_split": 0,
+    "observation_id_cross_split": 0,
+    "file_sha256_cross_split": 0,
+    "near_duplicate_cross_split": 0
+  },
+  "notes": []
+}

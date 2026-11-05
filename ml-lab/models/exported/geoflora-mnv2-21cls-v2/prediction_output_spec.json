@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GeoFlora-ML-Lab prediction output",
+  "description": "Returned per image by geoflora_ml.inference.Predictor.predict. The model never returns GPS coordinates or occurrence records; GeoFlora attaches location from the user's observation.",
+  "type": "object",
+  "required": [
+    "model_version",
+    "prediction",
+    "top_k",
+    "unknown_handling",
+    "disclaimer"
+  ],
+  "properties": {
+    "model_version": {
+      "type": "string"
+    },
+    "dataset_version": {
+      "type": "string"
+    },
+    "image": {
+      "type": "object",
+      "properties": {
+        "filename": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string"
+        }
+      }
+    },
+    "prediction": {
+      "type": "object",
+      "required": [
+        "species_id",
+        "scientific_name",
+        "softmax_score"
+      ],
+      "properties": {
+        "species_id": {
+          "type": "string",
+          "description": "Stable GeoFlora-ML-Lab species identifier (GF-SP-xxxx)."
+        },
+        "scientific_name": {
+          "type": "string"
+        },
+        "common_name": {
+          "type": "string"
+        },
+        "gbif_taxon_key": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "ecological_status": {
+          "enum": [
+            "target_invasive",
+            "introduced_naturalized",
+            "native_nontarget",
+            "unresolved"
+          ]
+        },
+        "status_verification": {
+          "enum": [
+            "unverified",
+            "verified"
+          ]
+        },
+        "is_target_invasive": {
+          "type": "boolean"
+        },
+        "softmax_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Uncalibrated model score - not a probability of correctness."
+        },
+        "description": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "description": "Species description from species_descriptions.json (summary, identifying features, impacts, look-alikes, references, review_status); null if none."
+        }
+      }
+    },
+    "top_k": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "rank": {
+            "type": "integer"
+          },
+          "species_id": {
+            "type": "string"
+          },
+          "scientific_name": {
+            "type": "string"
+          },
+          "softmax_score": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "unknown_handling": {
+      "type": "object",
+      "properties": {
+        "score_type": {
+          "type": "string"
+        },
+        "score": {
+          "type": "number"
+        },
+        "threshold": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "decision": {
+          "enum": [
+            "supported_species",
+            "unsupported_or_uncertain",
+            null
+          ]
+        }
+      }
+    },
+    "inference_ms": {
+      "type": "number"
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "disclaimer": {
+      "type": "string"
+    }
+  }
+}

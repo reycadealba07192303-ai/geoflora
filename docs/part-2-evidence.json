@@ -1,0 +1,38 @@
+{
+  "records": 243,
+  "invalid_records": 0,
+  "species": {
+    "chromolaena_odorata": {
+      "records": 93,
+      "observation_groups": 67,
+      "sources": {
+        "gbif": 51,
+        "inaturalist": 42
+      },
+      "missing_country_field": 93,
+      "approved": 0
+    },
+    "lantana_camara": {
+      "records": 114,
+      "observation_groups": 82,
+      "sources": {
+        "gbif": 69,
+        "inaturalist": 45
+      },
+      "missing_country_field": 114,
+      "approved": 0
+    },
+    "pontederia_crassipes": {
+      "records": 36,
+      "observation_groups": 28,
+      "sources": {
+        "gbif": 20,
+        "inaturalist": 16
+      },
+      "missing_country_field": 36,
+      "approved": 0
+    }
+  },
+  "review_decisions_changed": false,
+  "approved_export": "storage\\datasets\\curated\\approved_manifest.csv"
+}

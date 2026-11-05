@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-30T17:53:52.084Z",
+  "viewport": "390x844 mobile emulation",
+  "checks": [
+    "tapping the map drops a pin and fills the coordinates",
+    "tapping again moves the pin and updates the coordinates",
+    "report form with the map picker fits 390px",
+    "saved report shows the map-pin location method",
+    "report carries the identification it was created from",
+    "owner correction saves and shows the last-corrected time",
+    "corrected report fits 390px",
+    "withdrawal asks for confirmation and explains the deletion",
+    "withdrawal completes and confirms what was deleted"
+  ],
+  "screenshots": [
+    "storage/logs/ui-preview/part8-map-pin-mobile.png",
+    "storage/logs/ui-preview/part8-withdraw-confirm-mobile.png",
+    "storage/logs/ui-preview/part8-withdrawn-mobile.png"
+  ]
+}

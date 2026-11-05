@@ -1,0 +1,39 @@
+{
+  "queue_rows": 100,
+  "ecology_status_counts": {
+    "exact_record_found_context_review_needed": 77,
+    "native_status_conflict_hold": 7,
+    "origin_uncertain_hold": 4,
+    "exact_record_unresolved": 12
+  },
+  "availability_status_counts": {
+    "completed": 92,
+    "taxonomy_unresolved": 8
+  },
+  "completed_queries_with_ph_results": 48,
+  "completed_queries_with_zero_ph_results": 44,
+  "next_action_counts": {
+    "ph_image_gap_context_review": 2,
+    "priority_context_and_image_review": 6,
+    "hold_ecological_conflict": 11,
+    "resolve_taxonomy_or_source": 14,
+    "verify_ph_invasive_status_first": 67
+  },
+  "native_conflict_names": [
+    "Hiptage benghalensis",
+    "Abrus precatorius",
+    "Alternanthera sessilis",
+    "Alysicarpus vaginalis",
+    "Areca catechu",
+    "Biophytum sensitivum",
+    "Chloris barbata"
+  ],
+  "origin_uncertain_names": [
+    "Imperata cylindrica",
+    "Coccinia grandis",
+    "Aleurites moluccanus",
+    "Basella alba"
+  ],
+  "new_classes_approved": 0,
+  "new_images_downloaded": 0
+}

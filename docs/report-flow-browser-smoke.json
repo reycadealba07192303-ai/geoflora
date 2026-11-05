@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "database": "geoflora_report_flow_validation_run2",
+  "checks": [
+    "upload opens a dedicated identified-result screen",
+    "result includes a species citation",
+    "GPS and observation time fill automatically",
+    "success screen offers View result report and Create another report",
+    "saved report includes species, description, location map and timestamps",
+    "Download PDF button saves a real PDF file",
+    "saved report survives refresh using its report URL",
+    "saved report fits a 390px mobile viewport",
+    "Create another report resets the upload workflow",
+    "uncertain result requires a user description",
+    "Admin can review an unknown report without training consent",
+    "Admin approves the species description through the UI",
+    "same approved photo is identified as a reviewed reference, without a fabricated model score"
+  ]
+}

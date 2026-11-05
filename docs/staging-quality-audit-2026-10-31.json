@@ -1,0 +1,176 @@
+{
+  "generated_at_utc": "2026-10-31T15:02:03.335171+00:00",
+  "scope": "Read-only integrity, metadata, source, and resolution checks for staging queues; does not verify visible taxonomic identity or field-photo suitability.",
+  "classes": {
+    "chromolaena_odorata": {
+      "species_id": "chromolaena_odorata",
+      "images": 302,
+      "observation_groups": 217,
+      "near_duplicate_groups": 4,
+      "exact_duplicate_groups": {
+        "757d87f8265462d3b344a1b8f0eb05d2fcb1a3c0794913878fbb2c195622af41": [
+          "inaturalist:60162530",
+          "inaturalist:60173350"
+        ],
+        "54f77bf310147fe5524b247e4525866260e17a36a8adce36e169520d633b97ea": [
+          "inaturalist:373824895",
+          "inaturalist:373856525"
+        ]
+      },
+      "review_status_counts": {
+        "research_grade": 302
+      },
+      "source_counts": {
+        "inaturalist": 302
+      },
+      "issue_counts": {
+        "below_224px": 4,
+        "exact_duplicate_group_member": 4
+      },
+      "issues": [
+        {
+          "record": "inaturalist:478803993",
+          "issue": "below_224px",
+          "dimensions": [
+            223,
+            500
+          ]
+        },
+        {
+          "record": "inaturalist:478804024",
+          "issue": "below_224px",
+          "dimensions": [
+            223,
+            500
+          ]
+        },
+        {
+          "record": "inaturalist:478804058",
+          "issue": "below_224px",
+          "dimensions": [
+            223,
+            500
+          ]
+        },
+        {
+          "record": "inaturalist:478804105",
+          "issue": "below_224px",
+          "dimensions": [
+            223,
+            500
+          ]
+        },
+        {
+          "record": "inaturalist:60162530",
+          "issue": "exact_duplicate_group_member",
+          "sha256": "757d87f8265462d3b344a1b8f0eb05d2fcb1a3c0794913878fbb2c195622af41"
+        },
+        {
+          "record": "inaturalist:60173350",
+          "issue": "exact_duplicate_group_member",
+          "sha256": "757d87f8265462d3b344a1b8f0eb05d2fcb1a3c0794913878fbb2c195622af41"
+        },
+        {
+          "record": "inaturalist:373824895",
+          "issue": "exact_duplicate_group_member",
+          "sha256": "54f77bf310147fe5524b247e4525866260e17a36a8adce36e169520d633b97ea"
+        },
+        {
+          "record": "inaturalist:373856525",
+          "issue": "exact_duplicate_group_member",
+          "sha256": "54f77bf310147fe5524b247e4525866260e17a36a8adce36e169520d633b97ea"
+        }
+      ]
+    },
+    "lantana_camara": {
+      "species_id": "lantana_camara",
+      "images": 300,
+      "observation_groups": 209,
+      "near_duplicate_groups": 1,
+      "exact_duplicate_groups": {},
+      "review_status_counts": {
+        "research_grade": 300
+      },
+      "source_counts": {
+        "inaturalist": 300
+      },
+      "issue_counts": {},
+      "issues": []
+    },
+    "pontederia_crassipes": {
+      "species_id": "pontederia_crassipes",
+      "images": 129,
+      "observation_groups": 87,
+      "near_duplicate_groups": 2,
+      "exact_duplicate_groups": {
+        "5889f3d895c9315772639e16c39d822a52d496edf31a0830a916a27ca4eedf91": [
+          "inaturalist:93574052",
+          "inaturalist:93573998"
+        ],
+        "c8a9df9f08de480137afe00b3ab9cba4766e99550c092d49d2f2b2f826860ac5": [
+          "inaturalist:373983611",
+          "inaturalist:374104035"
+        ],
+        "d1e19fdd392605673026350a4de8f9f00b6f388f578dd323ae75a3efdc174c14": [
+          "inaturalist:476494896",
+          "inaturalist:477728490"
+        ],
+        "4d86d932a22c98f83d8f760f305f7702c4af861f9344c3a86838c4d9d3047836": [
+          "inaturalist:505134380",
+          "inaturalist:505134600"
+        ]
+      },
+      "review_status_counts": {
+        "research_grade": 129
+      },
+      "source_counts": {
+        "inaturalist": 129
+      },
+      "issue_counts": {
+        "exact_duplicate_group_member": 8
+      },
+      "issues": [
+        {
+          "record": "inaturalist:93574052",
+          "issue": "exact_duplicate_group_member",
+          "sha256": "5889f3d895c9315772639e16c39d822a52d496edf31a0830a916a27ca4eedf91"
+        },
+        {
+          "record": "inaturalist:93573998",
+          "issue": "exact_duplicate_group_member",
+          "sha256": "5889f3d895c9315772639e16c39d822a52d496edf31a0830a916a27ca4eedf91"
+        },
+        {
+          "record": "inaturalist:373983611",
+          "issue": "exact_duplicate_group_member",
+          "sha256": "c8a9df9f08de480137afe00b3ab9cba4766e99550c092d49d2f2b2f826860ac5"
+        },
+        {
+          "record": "inaturalist:374104035",
+          "issue": "exact_duplicate_group_member",
+          "sha256": "c8a9df9f08de480137afe00b3ab9cba4766e99550c092d49d2f2b2f826860ac5"
+        },
+        {
+          "record": "inaturalist:476494896",
+          "issue": "exact_duplicate_group_member",
+          "sha256": "d1e19fdd392605673026350a4de8f9f00b6f388f578dd323ae75a3efdc174c14"
+        },
+        {
+          "record": "inaturalist:477728490",
+          "issue": "exact_duplicate_group_member",
+          "sha256": "d1e19fdd392605673026350a4de8f9f00b6f388f578dd323ae75a3efdc174c14"
+        },
+        {
+          "record": "inaturalist:505134380",
+          "issue": "exact_duplicate_group_member",
+          "sha256": "4d86d932a22c98f83d8f760f305f7702c4af861f9344c3a86838c4d9d3047836"
+        },
+        {
+          "record": "inaturalist:505134600",
+          "issue": "exact_duplicate_group_member",
+          "sha256": "4d86d932a22c98f83d8f760f305f7702c4af861f9344c3a86838c4d9d3047836"
+        }
+      ]
+    }
+  }
+}

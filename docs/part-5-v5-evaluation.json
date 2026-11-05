@@ -1,0 +1,491 @@
+{
+  "generated_at_utc": "2026-10-26T16:22:26.574861+00:00",
+  "candidate": "storage/models/candidates/mobilenetv2_v5_five_seed42",
+  "dataset": "storage/datasets/curated/v5_part2_final_five_classes",
+  "class_order": [
+    "chromolaena_odorata",
+    "lantana_camara",
+    "mikania_micrantha",
+    "pistia_stratiotes",
+    "pontederia_crassipes"
+  ],
+  "threshold_selection": {
+    "split": "validation",
+    "rule": "lowest threshold in 0.4-0.95 (step 0.05) with validation selective accuracy >= 0.9",
+    "validation_images": 34,
+    "sweep": [
+      {
+        "threshold": 0.4,
+        "coverage": 1.0,
+        "accepted": 34,
+        "accepted_correct": 23,
+        "selective_accuracy": 0.6764705882352942,
+        "top1_accuracy": 0.6764705882352942
+      },
+      {
+        "threshold": 0.45,
+        "coverage": 0.9705882352941176,
+        "accepted": 33,
+        "accepted_correct": 23,
+        "selective_accuracy": 0.696969696969697,
+        "top1_accuracy": 0.6764705882352942
+      },
+      {
+        "threshold": 0.5,
+        "coverage": 0.9411764705882353,
+        "accepted": 32,
+        "accepted_correct": 23,
+        "selective_accuracy": 0.71875,
+        "top1_accuracy": 0.6764705882352942
+      },
+      {
+        "threshold": 0.55,
+        "coverage": 0.9117647058823529,
+        "accepted": 31,
+        "accepted_correct": 22,
+        "selective_accuracy": 0.7096774193548387,
+        "top1_accuracy": 0.6764705882352942
+      },
+      {
+        "threshold": 0.6,
+        "coverage": 0.8529411764705882,
+        "accepted": 29,
+        "accepted_correct": 20,
+        "selective_accuracy": 0.6896551724137931,
+        "top1_accuracy": 0.6764705882352942
+      },
+      {
+        "threshold": 0.65,
+        "coverage": 0.6470588235294118,
+        "accepted": 22,
+        "accepted_correct": 16,
+        "selective_accuracy": 0.7272727272727273,
+        "top1_accuracy": 0.6764705882352942
+      },
+      {
+        "threshold": 0.7,
+        "coverage": 0.6176470588235294,
+        "accepted": 21,
+        "accepted_correct": 16,
+        "selective_accuracy": 0.7619047619047619,
+        "top1_accuracy": 0.6764705882352942
+      },
+      {
+        "threshold": 0.75,
+        "coverage": 0.5294117647058824,
+        "accepted": 18,
+        "accepted_correct": 15,
+        "selective_accuracy": 0.8333333333333334,
+        "top1_accuracy": 0.6764705882352942
+      },
+      {
+        "threshold": 0.8,
+        "coverage": 0.47058823529411764,
+        "accepted": 16,
+        "accepted_correct": 14,
+        "selective_accuracy": 0.875,
+        "top1_accuracy": 0.6764705882352942
+      },
+      {
+        "threshold": 0.85,
+        "coverage": 0.4411764705882353,
+        "accepted": 15,
+        "accepted_correct": 13,
+        "selective_accuracy": 0.8666666666666667,
+        "top1_accuracy": 0.6764705882352942
+      },
+      {
+        "threshold": 0.9,
+        "coverage": 0.35294117647058826,
+        "accepted": 12,
+        "accepted_correct": 11,
+        "selective_accuracy": 0.9166666666666666,
+        "top1_accuracy": 0.6764705882352942
+      },
+      {
+        "threshold": 0.95,
+        "coverage": 0.23529411764705882,
+        "accepted": 8,
+        "accepted_correct": 8,
+        "selective_accuracy": 1.0,
+        "top1_accuracy": 0.6764705882352942
+      }
+    ],
+    "selected_threshold": 0.9,
+    "fallback": null,
+    "current_service_threshold": 0.65
+  },
+  "test_at_selected_threshold": {
+    "threshold": 0.9,
+    "coverage": 0.4722222222222222,
+    "accepted": 17,
+    "accepted_correct": 15,
+    "selective_accuracy": 0.8823529411764706,
+    "top1_accuracy": 0.75
+  },
+  "test_at_current_threshold": {
+    "threshold": 0.65,
+    "coverage": 0.6388888888888888,
+    "accepted": 23,
+    "accepted_correct": 18,
+    "selective_accuracy": 0.782608695652174,
+    "top1_accuracy": 0.75
+  },
+  "test_errors": [
+    {
+      "source": "inaturalist",
+      "source_id": "389759114",
+      "source_url": "https://www.inaturalist.org/observations/220159274",
+      "expected": "chromolaena_odorata",
+      "predicted": "lantana_camara",
+      "confidence": 0.9817506670951843,
+      "accepted_at_threshold": true
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "389759146",
+      "source_url": "https://www.inaturalist.org/observations/220159274",
+      "expected": "chromolaena_odorata",
+      "predicted": "lantana_camara",
+      "confidence": 0.7261284589767456,
+      "accepted_at_threshold": false
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "389759174",
+      "source_url": "https://www.inaturalist.org/observations/220159274",
+      "expected": "chromolaena_odorata",
+      "predicted": "lantana_camara",
+      "confidence": 0.5648535490036011,
+      "accepted_at_threshold": false
+    },
+    {
+      "source": "gbif",
+      "source_id": "5006856951:https://inaturalist-open-data.s3.amazonaws.com/photos/389759114/original.jpg",
+      "source_url": "https://www.gbif.org/occurrence/5006856951",
+      "expected": "chromolaena_odorata",
+      "predicted": "lantana_camara",
+      "confidence": 0.9852907657623291,
+      "accepted_at_threshold": true
+    },
+    {
+      "source": "gbif",
+      "source_id": "5006856951:https://inaturalist-open-data.s3.amazonaws.com/photos/389759146/original.jpg",
+      "source_url": "https://www.gbif.org/occurrence/5006856951",
+      "expected": "chromolaena_odorata",
+      "predicted": "lantana_camara",
+      "confidence": 0.801502525806427,
+      "accepted_at_threshold": false
+    },
+    {
+      "source": "gbif",
+      "source_id": "5006856951:https://inaturalist-open-data.s3.amazonaws.com/photos/389759174/original.jpg",
+      "source_url": "https://www.gbif.org/occurrence/5006856951",
+      "expected": "chromolaena_odorata",
+      "predicted": "lantana_camara",
+      "confidence": 0.5861587524414062,
+      "accepted_at_threshold": false
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "28386564",
+      "source_url": "https://www.inaturalist.org/observations/18554448",
+      "expected": "mikania_micrantha",
+      "predicted": "chromolaena_odorata",
+      "confidence": 0.7392439246177673,
+      "accepted_at_threshold": false
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "391800856",
+      "source_url": "https://www.inaturalist.org/observations/221244872",
+      "expected": "pistia_stratiotes",
+      "predicted": "chromolaena_odorata",
+      "confidence": 0.4867488443851471,
+      "accepted_at_threshold": false
+    },
+    {
+      "source": "gbif",
+      "source_id": "4891799768:https://inaturalist-open-data.s3.amazonaws.com/photos/391800856/original.jpg",
+      "source_url": "https://www.gbif.org/occurrence/4891799768",
+      "expected": "pistia_stratiotes",
+      "predicted": "chromolaena_odorata",
+      "confidence": 0.5073076486587524,
+      "accepted_at_threshold": false
+    }
+  ],
+  "unsupported_species": {
+    "images": 147,
+    "false_acceptance_rate": 0.35374149659863946,
+    "falsely_accepted": 52,
+    "mean_top_confidence": 0.761189877986908,
+    "max_top_confidence": 0.9978219270706177,
+    "accepted_as": {
+      "pontederia_crassipes": 34,
+      "lantana_camara": 10,
+      "chromolaena_odorata": 8
+    },
+    "species": 76,
+    "source": "storage/datasets/staging/species_100_ph (outside candidate classes; no shared checksums)",
+    "at_current_threshold": {
+      "images": 147,
+      "false_acceptance_rate": 0.6870748299319728,
+      "falsely_accepted": 101,
+      "mean_top_confidence": 0.761189877986908,
+      "max_top_confidence": 0.9978219270706177,
+      "accepted_as": {
+        "pontederia_crassipes": 56,
+        "lantana_camara": 21,
+        "chromolaena_odorata": 22,
+        "mikania_micrantha": 2
+      }
+    },
+    "highest_scores": [
+      {
+        "scientific_name": "Bidens pilosa",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.9978219270706177
+      },
+      {
+        "scientific_name": "Coccinia grandis",
+        "predicted": "chromolaena_odorata",
+        "confidence": 0.993648111820221
+      },
+      {
+        "scientific_name": "Basella alba",
+        "predicted": "lantana_camara",
+        "confidence": 0.9921586513519287
+      },
+      {
+        "scientific_name": "Averrhoa carambola",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.9920501112937927
+      },
+      {
+        "scientific_name": "Arachis hypogaea",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.990420937538147
+      },
+      {
+        "scientific_name": "Averrhoa carambola",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.9901296496391296
+      },
+      {
+        "scientific_name": "Alternanthera sessilis",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.9895156621932983
+      },
+      {
+        "scientific_name": "Centrosema plumieri",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.9883231520652771
+      },
+      {
+        "scientific_name": "Amaranthus tricolor",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.9861263632774353
+      },
+      {
+        "scientific_name": "Alysicarpus vaginalis",
+        "predicted": "lantana_camara",
+        "confidence": 0.984931230545044
+      }
+    ]
+  },
+  "synthetic_non_plants": {
+    "images": 18,
+    "false_acceptance_rate": 0.05555555555555555,
+    "falsely_accepted": 1,
+    "mean_top_confidence": 0.6965278387069702,
+    "max_top_confidence": 0.9207160472869873,
+    "accepted_as": {
+      "pontederia_crassipes": 1
+    },
+    "at_current_threshold": {
+      "images": 18,
+      "false_acceptance_rate": 0.5555555555555556,
+      "falsely_accepted": 10,
+      "mean_top_confidence": 0.6965278387069702,
+      "max_top_confidence": 0.9207160472869873,
+      "accepted_as": {
+        "pontederia_crassipes": 10
+      }
+    },
+    "per_image": [
+      {
+        "name": "solid_black",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.4884883463382721
+      },
+      {
+        "name": "solid_white",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.7903857827186584
+      },
+      {
+        "name": "solid_grey",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.5926274061203003
+      },
+      {
+        "name": "solid_red",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.5110577344894409
+      },
+      {
+        "name": "solid_green",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.5623353123664856
+      },
+      {
+        "name": "solid_blue",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.6360111832618713
+      },
+      {
+        "name": "solid_brown",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.5916750431060791
+      },
+      {
+        "name": "solid_sky",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.6052472591400146
+      },
+      {
+        "name": "noise_0",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.8802743554115295
+      },
+      {
+        "name": "noise_1",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.8133885860443115
+      },
+      {
+        "name": "noise_2",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.8146253824234009
+      },
+      {
+        "name": "noise_3",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.7425434589385986
+      },
+      {
+        "name": "noise_4",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.7704328298568726
+      },
+      {
+        "name": "noise_5",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.8577536940574646
+      },
+      {
+        "name": "gradient_horizontal",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.82033771276474
+      },
+      {
+        "name": "gradient_green",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.7317714691162109
+      },
+      {
+        "name": "checkerboard",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.407829612493515
+      },
+      {
+        "name": "stripes",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.9207160472869873
+      }
+    ]
+  },
+  "robustness_test_perturbations": {
+    "original": {
+      "threshold": 0.9,
+      "coverage": 0.4722222222222222,
+      "accepted": 17,
+      "accepted_correct": 15,
+      "selective_accuracy": 0.8823529411764706,
+      "top1_accuracy": 0.75
+    },
+    "blur_radius_2": {
+      "threshold": 0.9,
+      "coverage": 0.5,
+      "accepted": 18,
+      "accepted_correct": 17,
+      "selective_accuracy": 0.9444444444444444,
+      "top1_accuracy": 0.7222222222222222
+    },
+    "blur_radius_5": {
+      "threshold": 0.9,
+      "coverage": 0.4722222222222222,
+      "accepted": 17,
+      "accepted_correct": 16,
+      "selective_accuracy": 0.9411764705882353,
+      "top1_accuracy": 0.6944444444444444
+    },
+    "dark_brightness_0.4": {
+      "threshold": 0.9,
+      "coverage": 0.3611111111111111,
+      "accepted": 13,
+      "accepted_correct": 11,
+      "selective_accuracy": 0.8461538461538461,
+      "top1_accuracy": 0.5277777777777778
+    },
+    "bright_brightness_1.8": {
+      "threshold": 0.9,
+      "coverage": 0.3333333333333333,
+      "accepted": 12,
+      "accepted_correct": 12,
+      "selective_accuracy": 1.0,
+      "top1_accuracy": 0.3611111111111111
+    },
+    "low_contrast_0.5": {
+      "threshold": 0.9,
+      "coverage": 0.4166666666666667,
+      "accepted": 15,
+      "accepted_correct": 13,
+      "selective_accuracy": 0.8666666666666667,
+      "top1_accuracy": 0.6388888888888888
+    }
+  },
+  "latency": {
+    "requests": 36,
+    "concurrency": 1,
+    "cold_model_load_seconds": 0.5069267999988369,
+    "payload_bytes": {
+      "min": 49931,
+      "median": 126855.5,
+      "max": 1580893
+    },
+    "in_process_predict_ms": {
+      "p50": 76.6845000007379,
+      "p95": 107.11459999993167,
+      "max": 107.44940000040515
+    },
+    "fastapi_testclient_predict_ms": {
+      "p50": 83.60309999989113,
+      "p95": 116.10477500016714,
+      "max": 122.29529999967781
+    },
+    "scope": "Local in-process/ASGI timing on held-out photos; excludes browser upload, network and the Next.js proxy (Part 6)."
+  },
+  "environment": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "cpu_count": 16,
+    "python": "3.11.9",
+    "tensorflow": "2.17.1",
+    "tf_threads": {
+      "TF_NUM_INTRAOP_THREADS": null,
+      "TF_NUM_INTEROP_THREADS": null
+    }
+  },
+  "active_model_unchanged": true
+}

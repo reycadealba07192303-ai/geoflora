@@ -1,0 +1,16 @@
+{
+  "onnx": "model.onnx",
+  "bytes": 8923433,
+  "checked_photos": 156,
+  "top1_agreement": 1.0,
+  "max_abs_diff_probs": 4.231929779052734e-06,
+  "max_abs_diff_features": 2.5987625122070312e-05,
+  "inputs": [
+    "image"
+  ],
+  "outputs": [
+    "probs",
+    "features"
+  ],
+  "preprocess": "RGB, resize 224x224, x / 127.5 - 1"
+}

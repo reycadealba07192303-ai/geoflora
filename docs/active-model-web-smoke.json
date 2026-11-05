@@ -1,0 +1,134 @@
+{
+  "health": {
+    "service": "geoflora-ml-inference",
+    "ready": true,
+    "model_version": "mobilenetv2",
+    "supported_species_count": 3,
+    "reason": null
+  },
+  "requests": [
+    {
+      "input_label": "chromolaena_odorata",
+      "status": 200,
+      "result": {
+        "status": "identified",
+        "species": {
+          "id": "chromolaena_odorata",
+          "scientific_name": "Chromolaena odorata",
+          "common_name": "Hagonoy"
+        },
+        "confidence": 0.9015771150588989,
+        "confidence_threshold": 0.65,
+        "candidates": [
+          {
+            "species": {
+              "id": "chromolaena_odorata",
+              "scientific_name": "Chromolaena odorata",
+              "common_name": "Hagonoy"
+            },
+            "confidence": 0.9015771150588989
+          },
+          {
+            "species": {
+              "id": "lantana_camara",
+              "scientific_name": "Lantana camara",
+              "common_name": "Lantana"
+            },
+            "confidence": 0.09571883827447891
+          },
+          {
+            "species": {
+              "id": "pontederia_crassipes",
+              "scientific_name": "Pontederia crassipes",
+              "common_name": "Water Hyacinth"
+            },
+            "confidence": 0.002703979378566146
+          }
+        ],
+        "model_version": "mobilenetv2"
+      },
+      "seconds": 1.781
+    },
+    {
+      "input_label": "lantana_camara",
+      "status": 200,
+      "result": {
+        "status": "identified",
+        "species": {
+          "id": "lantana_camara",
+          "scientific_name": "Lantana camara",
+          "common_name": "Lantana"
+        },
+        "confidence": 0.8369742631912231,
+        "confidence_threshold": 0.65,
+        "candidates": [
+          {
+            "species": {
+              "id": "lantana_camara",
+              "scientific_name": "Lantana camara",
+              "common_name": "Lantana"
+            },
+            "confidence": 0.8369742631912231
+          },
+          {
+            "species": {
+              "id": "chromolaena_odorata",
+              "scientific_name": "Chromolaena odorata",
+              "common_name": "Hagonoy"
+            },
+            "confidence": 0.1372816562652588
+          },
+          {
+            "species": {
+              "id": "pontederia_crassipes",
+              "scientific_name": "Pontederia crassipes",
+              "common_name": "Water Hyacinth"
+            },
+            "confidence": 0.025744086131453514
+          }
+        ],
+        "model_version": "mobilenetv2"
+      },
+      "seconds": 0.266
+    },
+    {
+      "input_label": "pontederia_crassipes",
+      "status": 200,
+      "result": {
+        "status": "uncertain",
+        "species": null,
+        "confidence": 0.5602369904518127,
+        "confidence_threshold": 0.65,
+        "candidates": [
+          {
+            "species": {
+              "id": "pontederia_crassipes",
+              "scientific_name": "Pontederia crassipes",
+              "common_name": "Water Hyacinth"
+            },
+            "confidence": 0.5602369904518127
+          },
+          {
+            "species": {
+              "id": "lantana_camara",
+              "scientific_name": "Lantana camara",
+              "common_name": "Lantana"
+            },
+            "confidence": 0.3271099328994751
+          },
+          {
+            "species": {
+              "id": "chromolaena_odorata",
+              "scientific_name": "Chromolaena odorata",
+              "common_name": "Hagonoy"
+            },
+            "confidence": 0.11265300214290619
+          }
+        ],
+        "model_version": "mobilenetv2"
+      },
+      "seconds": 0.125
+    }
+  ],
+  "note": "Smoke checks on previously evaluated examples; not new accuracy evaluation"
+}

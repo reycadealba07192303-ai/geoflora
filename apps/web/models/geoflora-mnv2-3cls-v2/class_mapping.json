@@ -1,0 +1,23 @@
+{
+  "classes": [
+    {
+      "id": "chromolaena_odorata",
+      "scientific_name": "Chromolaena odorata",
+      "common_name": "Hagonoy",
+      "role": "invasive"
+    },
+    {
+      "id": "lantana_camara",
+      "scientific_name": "Lantana camara",
+      "common_name": "Lantana",
+      "role": "invasive"
+    },
+    {
+      "id": "pontederia_crassipes",
+      "scientific_name": "Pontederia crassipes",
+      "common_name": "Water Hyacinth",
+      "role": "invasive"
+    }
+  ],
+  "source": "GeoFlora-ML-Lab bundle geoflora-mnv2-3cls-v2"
+}

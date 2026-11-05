@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-31T19:16:58.457924+00:00",
+  "database": "mongodb://127.0.0.1:27017/geoflora_part10_validation",
+  "seededReports": 20,
+  "checks": [
+    "map and analytics require sign-in",
+    "contributor map shows only their own verified reports by default",
+    "map coordinates and species match the stored records exactly",
+    "verified non-target plant is excluded from confirmed invasive map points",
+    "contributor pending layer adds their pending and correction-requested reports, never rejected or withdrawn",
+    "reviewer map shows every verified workspace report",
+    "species, date and area filters combine correctly on the map",
+    "date filters use Philippine days (00:30 Manila on 1 October counts as 1 October)",
+    "workspace analytics totals, species, months, cells, suppression and hotspots match the database",
+    "verified non-target plant is excluded from confirmed invasive analytics and hotspot counts",
+    "month buckets use Philippine time",
+    "analytics expose only generalized cells: no report IDs, owners or exact coordinates",
+    "a 2-report cell is suppressed and only the dense cell is a hotspot",
+    "contributors cannot add other people's unverified reports to workspace analytics",
+    "contributor's own analytics with the pending layer match the database",
+    "reviewer analytics with the pending layer match the database",
+    "analytics report the status mix of the included layer",
+    "combined filters give matching analytics",
+    "species filter options list the species present in the layer",
+    "a filter with no matches returns empty, sparse-flagged analytics",
+    "a filter with no matches returns no map points",
+    "invalid filter rejected: from=2026-10-05&to=2026-10-01",
+    "invalid filter rejected: from=yesterday",
+    "invalid filter rejected: bbox=1,2,3",
+    "invalid filter rejected: bbox=121,15,120,14"
+  ]
+}

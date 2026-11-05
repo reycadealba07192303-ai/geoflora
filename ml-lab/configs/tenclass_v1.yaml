@@ -1,0 +1,27 @@
+# 10-class model (3 target invasive species + 7 reviewed look-alikes) for the demo, at the developer's request
+# (2026-11-04). Uses the isolated expansion split from configs/expansion_lookalikes.yaml, so the three targets keep
+# the main train/val/test images. The class_expansion experiment ran all 25 epochs without early stopping, so this run
+# allows longer fine-tuning of more layers. It is a single pre-chosen configuration; the test set is not used to pick it.
+#   python scripts/train.py    --config configs/tenclass_v1.yaml --run-name tenclass-v1
+#   python scripts/evaluate.py --config configs/tenclass_v1.yaml
+split:
+  extra_class_species: [GF-SP-0101, GF-SP-0102, GF-SP-0103, GF-SP-0104, GF-SP-0105, GF-SP-0106, GF-SP-0107]
+
+train:
+  head_epochs: 20
+  fine_tune_epochs: 30
+  fine_tune_learning_rate: 0.00003
+  fine_tune_at_layer: 80
+  label_smoothing: 0.1
+
+paths:
+  train: dataset/expansion/train
+  val: dataset/expansion/val
+  test: dataset/expansion/test
+  unknown_val: dataset/expansion/unknown_val
+  unknown_test: dataset/expansion/unknown_test
+  class_mapping: metadata/expansion/class_mapping.json
+  split_assignments: metadata/expansion/split_assignments.csv
+  dataset_version: metadata/expansion/dataset_version.json
+  checkpoints: models/checkpoints/expansion
+  reports: reports/expansion

@@ -1,0 +1,22 @@
+{
+  "run": "run-20261104T155431Z-nissap21-v1",
+  "test_images": 931,
+  "accuracy": 0.8249194414607949,
+  "accuracy_ci": [
+    0.8006345725028077,
+    0.8481331510246175
+  ],
+  "macro_f1": 0.8296333068711166,
+  "weighted_f1": 0.8247698920151562,
+  "unsupported_species": {
+    "known_images": 931,
+    "known_acceptance_rate": 0.6036519871106337,
+    "accuracy_on_accepted_known": 0.9644128113879004,
+    "known_correct_and_accepted_rate": 0.5821697099892589,
+    "unknown_images": 408,
+    "unknown_false_acceptance_rate_without_rejection": 1.0,
+    "unknown_false_acceptance_rate_with_threshold": 0.22794117647058823,
+    "auroc_known_vs_unknown": 0.7639002969608897
+  }
+}
+Report: C:\Users\reyca\geoflowra\GeoFlora-ML-Lab\models\checkpoints\nissap\run-20261104T155431Z-nissap21-v1\evaluation\research_evaluation_report.md

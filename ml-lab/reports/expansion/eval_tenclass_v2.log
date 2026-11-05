@@ -1,0 +1,22 @@
+{
+  "run": "run-20261104T152356Z-tenclass-v2",
+  "test_images": 485,
+  "accuracy": 0.8639175257731959,
+  "accuracy_ci": [
+    0.8302880288028803,
+    0.8938853840291303
+  ],
+  "macro_f1": 0.8680093703980246,
+  "weighted_f1": 0.8639779028186568,
+  "unsupported_species": {
+    "known_images": 485,
+    "known_acceptance_rate": 0.756701030927835,
+    "accuracy_on_accepted_known": 0.9346049046321526,
+    "known_correct_and_accepted_rate": 0.7072164948453609,
+    "unknown_images": 396,
+    "unknown_false_acceptance_rate_without_rejection": 1.0,
+    "unknown_false_acceptance_rate_with_threshold": 0.2601010101010101,
+    "auroc_known_vs_unknown": 0.8340518587941268
+  }
+}
+Report: C:\Users\reyca\geoflowra\GeoFlora-ML-Lab\models\checkpoints\expansion\run-20261104T152356Z-tenclass-v2\evaluation\research_evaluation_report.md

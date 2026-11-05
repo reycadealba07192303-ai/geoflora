@@ -1,0 +1,32 @@
+# 21-class model (2026-11-04, at the developer's request): the 3 target species, the 7 reviewed look-alikes, and the
+# 11 NISSAP-listed species with reviewed photos (cogon, ipil-ipil, African tulip, buyo-buyo, giant salvinia, paper
+# mulberry, mangium, mahogany, gmelina, bagras, auri). Ecological statuses come from the catalog and are not changed
+# here. The 5 remaining unknown_eval species are the unsupported-species test. All outputs are isolated under */nissap/.
+# Seed metadata/nissap/split_assignments.csv from the 10-class expansion assignments, so the 10 shared classes keep
+# their train/val/test images.
+#   python scripts/split_dataset.py --config configs/expansion_nissap.yaml
+#   python scripts/train.py         --config configs/expansion_nissap.yaml --run-name nissap21-v1
+#   python scripts/evaluate.py      --config configs/expansion_nissap.yaml
+split:
+  extra_class_species: [GF-SP-0101, GF-SP-0102, GF-SP-0103, GF-SP-0104, GF-SP-0105, GF-SP-0106, GF-SP-0107,
+                        GF-SP-0206, GF-SP-0303, GF-SP-0304, GF-SP-0305, GF-SP-0308,
+                        GF-SP-0311, GF-SP-0312, GF-SP-0313, GF-SP-0314, GF-SP-0315, GF-SP-0316]
+
+train:
+  head_epochs: 20
+  fine_tune_epochs: 30
+  fine_tune_learning_rate: 0.00003
+  fine_tune_at_layer: 80
+  label_smoothing: 0.1
+
+paths:
+  train: dataset/nissap/train
+  val: dataset/nissap/val
+  test: dataset/nissap/test
+  unknown_val: dataset/nissap/unknown_val
+  unknown_test: dataset/nissap/unknown_test
+  class_mapping: metadata/nissap/class_mapping.json
+  split_assignments: metadata/nissap/split_assignments.csv
+  dataset_version: metadata/nissap/dataset_version.json
+  checkpoints: models/checkpoints/nissap
+  reports: reports/nissap

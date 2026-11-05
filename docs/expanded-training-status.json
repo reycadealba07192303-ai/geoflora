@@ -1,0 +1,11 @@
+{
+  "stage": "completed",
+  "updated_at_utc": "2026-10-25T07:36:52.793974+00:00",
+  "candidate": "storage\\models\\candidates\\mobilenetv2_v4_six_seed42",
+  "accuracy": 0.7894736842105263,
+  "macro_f1": 0.5438842203548085,
+  "images": 221,
+  "classes": 6,
+  "activated": false,
+  "reload_equivalence": "passed"
+}

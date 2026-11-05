@@ -1,0 +1,2 @@
+# One image_id or observation_id per line. Matching observation groups are always assigned to the
+# test partition (e.g. historical GeoFlora test images imported later). Lines starting with # are ignored.

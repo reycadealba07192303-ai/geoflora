@@ -1,0 +1,883 @@
+{
+  "candidate_model": "auto_6ae5cd74af23d762feaa0889",
+  "candidate_count": 38,
+  "frozen_duplicate_files_excluded": 19,
+  "historical_test_predictions_run": false,
+  "purpose": "Weak visual-classification cue to prioritize manual review; scores do not approve labels, establish species identity, or measure accuracy.",
+  "predictions": [
+    {
+      "sha256": "ac110519a1602257d1d2256942b96079db80325e4b0e30b6ae9916ac6b56772b",
+      "species_id": "coccinia_grandis",
+      "group_id": "254716496",
+      "top_predictions": [
+        {
+          "species_id": "coccinia_grandis",
+          "scientific_name": "Coccinia grandis",
+          "score": 0.44979599118232727
+        },
+        {
+          "species_id": "chromolaena_odorata",
+          "scientific_name": "Chromolaena odorata",
+          "score": 0.30726590752601624
+        },
+        {
+          "species_id": "spathodea_campanulata",
+          "scientific_name": "Spathodea campanulata",
+          "score": 0.1894623339176178
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "f82e879e29510d1a8ab0b542fbd69b346a41e8960d06507c6ea3382e1c3fd1a5",
+      "species_id": "coccinia_grandis",
+      "group_id": "259481065",
+      "top_predictions": [
+        {
+          "species_id": "coccinia_grandis",
+          "scientific_name": "Coccinia grandis",
+          "score": 0.955005407333374
+        },
+        {
+          "species_id": "chromolaena_odorata",
+          "scientific_name": "Chromolaena odorata",
+          "score": 0.014679755084216595
+        },
+        {
+          "species_id": "lantana_camara",
+          "scientific_name": "Lantana camara",
+          "score": 0.014356913045048714
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "ddc9f749c99bd857ab8d41e1d4b87e46a131aebfc8cd536930a2ce5af14eb78e",
+      "species_id": "coccinia_grandis",
+      "group_id": "260239376",
+      "top_predictions": [
+        {
+          "species_id": "broussonetia_papyrifera",
+          "scientific_name": "Broussonetia papyrifera",
+          "score": 0.7329578995704651
+        },
+        {
+          "species_id": "coccinia_grandis",
+          "scientific_name": "Coccinia grandis",
+          "score": 0.23168842494487762
+        },
+        {
+          "species_id": "lantana_camara",
+          "scientific_name": "Lantana camara",
+          "score": 0.014204724691808224
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "31d33256e320fa6638b9db2833378d76e08883a195e60e0401d7c9eeb883934c",
+      "species_id": "coccinia_grandis",
+      "group_id": "260239376",
+      "top_predictions": [
+        {
+          "species_id": "chromolaena_odorata",
+          "scientific_name": "Chromolaena odorata",
+          "score": 0.269692987203598
+        },
+        {
+          "species_id": "coccinia_grandis",
+          "scientific_name": "Coccinia grandis",
+          "score": 0.22909583151340485
+        },
+        {
+          "species_id": "lantana_camara",
+          "scientific_name": "Lantana camara",
+          "score": 0.1328429877758026
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "092439a5964f6412e47632db54397167a2e475a035ea35136d51d99bdb4e9ae8",
+      "species_id": "coccinia_grandis",
+      "group_id": "266200317",
+      "top_predictions": [
+        {
+          "species_id": "coccinia_grandis",
+          "scientific_name": "Coccinia grandis",
+          "score": 0.984900951385498
+        },
+        {
+          "species_id": "mikania_micrantha",
+          "scientific_name": "Mikania micrantha",
+          "score": 0.004942258819937706
+        },
+        {
+          "species_id": "pontederia_crassipes",
+          "scientific_name": "Pontederia crassipes",
+          "score": 0.0034075912553817034
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "d35cf2cb87edb5bfbb3d2e00ea2e979d567ea50455adbab85f49082cf4adc135",
+      "species_id": "coccinia_grandis",
+      "group_id": "266200317",
+      "top_predictions": [
+        {
+          "species_id": "mikania_micrantha",
+          "scientific_name": "Mikania micrantha",
+          "score": 0.709014356136322
+        },
+        {
+          "species_id": "coccinia_grandis",
+          "scientific_name": "Coccinia grandis",
+          "score": 0.10489773005247116
+        },
+        {
+          "species_id": "antigonon_leptopus",
+          "scientific_name": "Antigonon leptopus",
+          "score": 0.09918423742055893
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "698df45e4fde6253a4c6730a087e8fe3bd6292d9bf4bd288f2ae64335e6c399e",
+      "species_id": "coccinia_grandis",
+      "group_id": "266200317",
+      "top_predictions": [
+        {
+          "species_id": "coccinia_grandis",
+          "scientific_name": "Coccinia grandis",
+          "score": 0.8220096826553345
+        },
+        {
+          "species_id": "mikania_micrantha",
+          "scientific_name": "Mikania micrantha",
+          "score": 0.16891828179359436
+        },
+        {
+          "species_id": "spathodea_campanulata",
+          "scientific_name": "Spathodea campanulata",
+          "score": 0.00444219121709466
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "584ab85cddbca433118c0e19cf06fc01e362012f593c7acfbc37336f50458f38",
+      "species_id": "coccinia_grandis",
+      "group_id": "266200317",
+      "top_predictions": [
+        {
+          "species_id": "mikania_micrantha",
+          "scientific_name": "Mikania micrantha",
+          "score": 0.9800103306770325
+        },
+        {
+          "species_id": "coccinia_grandis",
+          "scientific_name": "Coccinia grandis",
+          "score": 0.015616873279213905
+        },
+        {
+          "species_id": "spathodea_campanulata",
+          "scientific_name": "Spathodea campanulata",
+          "score": 0.002691772533580661
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "0687d07750e928d2ea834ba82c9c8610a5ec1c6b928d7ebbbdde6c74d8e2cc91",
+      "species_id": "coccinia_grandis",
+      "group_id": "279631878",
+      "top_predictions": [
+        {
+          "species_id": "mikania_micrantha",
+          "scientific_name": "Mikania micrantha",
+          "score": 0.8173684477806091
+        },
+        {
+          "species_id": "chromolaena_odorata",
+          "scientific_name": "Chromolaena odorata",
+          "score": 0.07381042093038559
+        },
+        {
+          "species_id": "broussonetia_papyrifera",
+          "scientific_name": "Broussonetia papyrifera",
+          "score": 0.03472153842449188
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "688561af68de3e4453351df8e1a3ea0a97473a18ba0fd207bc737ac7553cdfdb",
+      "species_id": "coccinia_grandis",
+      "group_id": "279631878",
+      "top_predictions": [
+        {
+          "species_id": "mikania_micrantha",
+          "scientific_name": "Mikania micrantha",
+          "score": 0.8366044759750366
+        },
+        {
+          "species_id": "broussonetia_papyrifera",
+          "scientific_name": "Broussonetia papyrifera",
+          "score": 0.05684088170528412
+        },
+        {
+          "species_id": "spathodea_campanulata",
+          "scientific_name": "Spathodea campanulata",
+          "score": 0.03588664159178734
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "2ce5a6b2d4982160c4ef884b08cdbd96da85f40a1be5be673e1d229704855980",
+      "species_id": "coccinia_grandis",
+      "group_id": "279631878",
+      "top_predictions": [
+        {
+          "species_id": "mikania_micrantha",
+          "scientific_name": "Mikania micrantha",
+          "score": 0.8090332746505737
+        },
+        {
+          "species_id": "spathodea_campanulata",
+          "scientific_name": "Spathodea campanulata",
+          "score": 0.07295496016740799
+        },
+        {
+          "species_id": "antigonon_leptopus",
+          "scientific_name": "Antigonon leptopus",
+          "score": 0.048059187829494476
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "f3f0d35e0eb7984e754fe4f391f4fbdfb592e88cf6832edff33654735ee66f5e",
+      "species_id": "coccinia_grandis",
+      "group_id": "308730938",
+      "top_predictions": [
+        {
+          "species_id": "coccinia_grandis",
+          "scientific_name": "Coccinia grandis",
+          "score": 0.8885528445243835
+        },
+        {
+          "species_id": "mikania_micrantha",
+          "scientific_name": "Mikania micrantha",
+          "score": 0.05948517844080925
+        },
+        {
+          "species_id": "broussonetia_papyrifera",
+          "scientific_name": "Broussonetia papyrifera",
+          "score": 0.030226577073335648
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "a06c14dd42f1ffb3676f3c6369142584fe4b1a581081f5cd818f3ff97a5ec40f",
+      "species_id": "coccinia_grandis",
+      "group_id": "308730938",
+      "top_predictions": [
+        {
+          "species_id": "coccinia_grandis",
+          "scientific_name": "Coccinia grandis",
+          "score": 0.9812843203544617
+        },
+        {
+          "species_id": "broussonetia_papyrifera",
+          "scientific_name": "Broussonetia papyrifera",
+          "score": 0.012154568918049335
+        },
+        {
+          "species_id": "chromolaena_odorata",
+          "scientific_name": "Chromolaena odorata",
+          "score": 0.0015229607233777642
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "bdd84a101a140ae8f8d5e1202da22e74a21a28c3df6c17d6670c087ccbf4efd4",
+      "species_id": "coccinia_grandis",
+      "group_id": "329050903",
+      "top_predictions": [
+        {
+          "species_id": "broussonetia_papyrifera",
+          "scientific_name": "Broussonetia papyrifera",
+          "score": 0.5801311135292053
+        },
+        {
+          "species_id": "spathodea_campanulata",
+          "scientific_name": "Spathodea campanulata",
+          "score": 0.19948343932628632
+        },
+        {
+          "species_id": "chromolaena_odorata",
+          "scientific_name": "Chromolaena odorata",
+          "score": 0.1088409349322319
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "876cb500c548ee0f51c8fb98c501aaa1836bfb12cf8397755dbf5b6b21a81a9a",
+      "species_id": "coccinia_grandis",
+      "group_id": "329050903",
+      "top_predictions": [
+        {
+          "species_id": "chromolaena_odorata",
+          "scientific_name": "Chromolaena odorata",
+          "score": 0.5368096828460693
+        },
+        {
+          "species_id": "antigonon_leptopus",
+          "scientific_name": "Antigonon leptopus",
+          "score": 0.11314906179904938
+        },
+        {
+          "species_id": "pontederia_crassipes",
+          "scientific_name": "Pontederia crassipes",
+          "score": 0.08656194806098938
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "f946167d95ac7b3df43a5351e1a7d9a87574e920db07f6543fcb181d26d2855a",
+      "species_id": "coccinia_grandis",
+      "group_id": "349445330",
+      "top_predictions": [
+        {
+          "species_id": "coccinia_grandis",
+          "scientific_name": "Coccinia grandis",
+          "score": 0.9840472340583801
+        },
+        {
+          "species_id": "mikania_micrantha",
+          "scientific_name": "Mikania micrantha",
+          "score": 0.008089735172688961
+        },
+        {
+          "species_id": "chromolaena_odorata",
+          "scientific_name": "Chromolaena odorata",
+          "score": 0.003716857172548771
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "733c5d7ff8c8c0ae11002760e182a803d8612e5ca9776ef95c243c7f11f56f33",
+      "species_id": "coccinia_grandis",
+      "group_id": "360175357",
+      "top_predictions": [
+        {
+          "species_id": "coccinia_grandis",
+          "scientific_name": "Coccinia grandis",
+          "score": 0.7177832722663879
+        },
+        {
+          "species_id": "chromolaena_odorata",
+          "scientific_name": "Chromolaena odorata",
+          "score": 0.2316584289073944
+        },
+        {
+          "species_id": "antigonon_leptopus",
+          "scientific_name": "Antigonon leptopus",
+          "score": 0.012053237296640873
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "0ef6acc9af3363b4a44df00585c11ac70f24a441463d42ea314e7decbd0ab63b",
+      "species_id": "coccinia_grandis",
+      "group_id": "379313194",
+      "top_predictions": [
+        {
+          "species_id": "coccinia_grandis",
+          "scientific_name": "Coccinia grandis",
+          "score": 0.9685903191566467
+        },
+        {
+          "species_id": "pistia_stratiotes",
+          "scientific_name": "Pistia stratiotes",
+          "score": 0.013354930095374584
+        },
+        {
+          "species_id": "broussonetia_papyrifera",
+          "scientific_name": "Broussonetia papyrifera",
+          "score": 0.012139045633375645
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "f0e9a52994f7292e51ba361231da4248ad1b3d8a2ebdd76ce8be0f227f5e9c80",
+      "species_id": "coccinia_grandis",
+      "group_id": "379377422",
+      "top_predictions": [
+        {
+          "species_id": "coccinia_grandis",
+          "scientific_name": "Coccinia grandis",
+          "score": 0.7520173788070679
+        },
+        {
+          "species_id": "chromolaena_odorata",
+          "scientific_name": "Chromolaena odorata",
+          "score": 0.14006921648979187
+        },
+        {
+          "species_id": "mikania_micrantha",
+          "scientific_name": "Mikania micrantha",
+          "score": 0.0913403183221817
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "94d0fd1648408dfd6411a087eb57bf3985d4d9d1856289e7cbdeb1fa4ae27683",
+      "species_id": "coccinia_grandis",
+      "group_id": "379377422",
+      "top_predictions": [
+        {
+          "species_id": "mikania_micrantha",
+          "scientific_name": "Mikania micrantha",
+          "score": 0.5681999325752258
+        },
+        {
+          "species_id": "coccinia_grandis",
+          "scientific_name": "Coccinia grandis",
+          "score": 0.36921513080596924
+        },
+        {
+          "species_id": "chromolaena_odorata",
+          "scientific_name": "Chromolaena odorata",
+          "score": 0.03920844569802284
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "c78310c8e8a2556a49314e748c27c1c582b1b3f40d603886dd364cc3717e4713",
+      "species_id": "coccinia_grandis",
+      "group_id": "379378254",
+      "top_predictions": [
+        {
+          "species_id": "coccinia_grandis",
+          "scientific_name": "Coccinia grandis",
+          "score": 0.9635357856750488
+        },
+        {
+          "species_id": "lantana_camara",
+          "scientific_name": "Lantana camara",
+          "score": 0.01077958382666111
+        },
+        {
+          "species_id": "antigonon_leptopus",
+          "scientific_name": "Antigonon leptopus",
+          "score": 0.0098214540630579
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "31f05c17c90abd202f4ca49d305e5dc835ce2263130b1875a37ca71c20b56e66",
+      "species_id": "coccinia_grandis",
+      "group_id": "379395097",
+      "top_predictions": [
+        {
+          "species_id": "coccinia_grandis",
+          "scientific_name": "Coccinia grandis",
+          "score": 0.36138466000556946
+        },
+        {
+          "species_id": "mikania_micrantha",
+          "scientific_name": "Mikania micrantha",
+          "score": 0.30396637320518494
+        },
+        {
+          "species_id": "antigonon_leptopus",
+          "scientific_name": "Antigonon leptopus",
+          "score": 0.20375701785087585
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "74e86fbaa1bbe2a83067ad410d363ca8583759db357ac9df990172694772f0b9",
+      "species_id": "coccinia_grandis",
+      "group_id": "379395986",
+      "top_predictions": [
+        {
+          "species_id": "mikania_micrantha",
+          "scientific_name": "Mikania micrantha",
+          "score": 0.8604027032852173
+        },
+        {
+          "species_id": "coccinia_grandis",
+          "scientific_name": "Coccinia grandis",
+          "score": 0.08876475691795349
+        },
+        {
+          "species_id": "antigonon_leptopus",
+          "scientific_name": "Antigonon leptopus",
+          "score": 0.02459847927093506
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "eebdf5797f5d81947571d63438afc868a298faab8cc370e459f19181ae52d6b9",
+      "species_id": "coccinia_grandis",
+      "group_id": "380526737",
+      "top_predictions": [
+        {
+          "species_id": "coccinia_grandis",
+          "scientific_name": "Coccinia grandis",
+          "score": 0.5232268571853638
+        },
+        {
+          "species_id": "mikania_micrantha",
+          "scientific_name": "Mikania micrantha",
+          "score": 0.26034682989120483
+        },
+        {
+          "species_id": "chromolaena_odorata",
+          "scientific_name": "Chromolaena odorata",
+          "score": 0.18113407492637634
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "b4e38b46a167e6692ac422bcf78f96c3dce46bab958cca36441faa410db6caa3",
+      "species_id": "coccinia_grandis",
+      "group_id": "380526737",
+      "top_predictions": [
+        {
+          "species_id": "mikania_micrantha",
+          "scientific_name": "Mikania micrantha",
+          "score": 0.33638864755630493
+        },
+        {
+          "species_id": "spathodea_campanulata",
+          "scientific_name": "Spathodea campanulata",
+          "score": 0.2697225511074066
+        },
+        {
+          "species_id": "lantana_camara",
+          "scientific_name": "Lantana camara",
+          "score": 0.13419413566589355
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "d5b67b527b7caa1638cc3149c1f7eabe71e123269159e85193c61d39e91be924",
+      "species_id": "coccinia_grandis",
+      "group_id": "397127257",
+      "top_predictions": [
+        {
+          "species_id": "mikania_micrantha",
+          "scientific_name": "Mikania micrantha",
+          "score": 0.5205131769180298
+        },
+        {
+          "species_id": "antigonon_leptopus",
+          "scientific_name": "Antigonon leptopus",
+          "score": 0.3342824876308441
+        },
+        {
+          "species_id": "coccinia_grandis",
+          "scientific_name": "Coccinia grandis",
+          "score": 0.09142334014177322
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "fc3ef4a2730bd78c7236763891604a457b2be7b73a5eee7926ad9d4e2891af52",
+      "species_id": "coccinia_grandis",
+      "group_id": "397133750",
+      "top_predictions": [
+        {
+          "species_id": "lantana_camara",
+          "scientific_name": "Lantana camara",
+          "score": 0.37741389870643616
+        },
+        {
+          "species_id": "antigonon_leptopus",
+          "scientific_name": "Antigonon leptopus",
+          "score": 0.35732877254486084
+        },
+        {
+          "species_id": "coccinia_grandis",
+          "scientific_name": "Coccinia grandis",
+          "score": 0.1806861311197281
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "2ebe9ed4676b7c5d60708cdfbd252a8afc3be8a6d125b8e58090b9bc7cd390ea",
+      "species_id": "mikania_micrantha",
+      "group_id": "18554448",
+      "top_predictions": [
+        {
+          "species_id": "mikania_micrantha",
+          "scientific_name": "Mikania micrantha",
+          "score": 0.5247768759727478
+        },
+        {
+          "species_id": "antigonon_leptopus",
+          "scientific_name": "Antigonon leptopus",
+          "score": 0.23733441531658173
+        },
+        {
+          "species_id": "coccinia_grandis",
+          "scientific_name": "Coccinia grandis",
+          "score": 0.131646990776062
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "40b7a674739a655f9c74856fa4b40a9a015bd3fb1c3eebebeffc11ab56f056f8",
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:1317800492",
+      "top_predictions": [
+        {
+          "species_id": "nymphaea",
+          "scientific_name": "Nymphaea",
+          "score": 0.5033448338508606
+        },
+        {
+          "species_id": "coccinia_grandis",
+          "scientific_name": "Coccinia grandis",
+          "score": 0.1783648282289505
+        },
+        {
+          "species_id": "pistia_stratiotes",
+          "scientific_name": "Pistia stratiotes",
+          "score": 0.12922945618629456
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "34a207cd5d6266bdb264ef6208c2536fef739e710a423389e3af844f42e6b9be",
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:1317800492",
+      "top_predictions": [
+        {
+          "species_id": "pistia_stratiotes",
+          "scientific_name": "Pistia stratiotes",
+          "score": 0.26640188694000244
+        },
+        {
+          "species_id": "spathodea_campanulata",
+          "scientific_name": "Spathodea campanulata",
+          "score": 0.23344241082668304
+        },
+        {
+          "species_id": "coccinia_grandis",
+          "scientific_name": "Coccinia grandis",
+          "score": 0.16400815546512604
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "8e9ebeffdf264fc73247942412a274e9cb44dca1685e87404d2786c65af4c62f",
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:1456014546",
+      "top_predictions": [
+        {
+          "species_id": "nymphaea",
+          "scientific_name": "Nymphaea",
+          "score": 0.6256148815155029
+        },
+        {
+          "species_id": "leucaena_leucocephala",
+          "scientific_name": "Leucaena leucocephala",
+          "score": 0.11766889691352844
+        },
+        {
+          "species_id": "pistia_stratiotes",
+          "scientific_name": "Pistia stratiotes",
+          "score": 0.068589948117733
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "d30d1ef7cdb73a68ea1c1382ad7d1b28845c4e6cf37922bc08b51b174e25ac43",
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:1456378848",
+      "top_predictions": [
+        {
+          "species_id": "pistia_stratiotes",
+          "scientific_name": "Pistia stratiotes",
+          "score": 0.6107096076011658
+        },
+        {
+          "species_id": "nymphaea",
+          "scientific_name": "Nymphaea",
+          "score": 0.2716342806816101
+        },
+        {
+          "species_id": "leucaena_leucocephala",
+          "scientific_name": "Leucaena leucocephala",
+          "score": 0.05199303478002548
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "d14644e3ff6dcc78acace779a732a1a249af1374567be15d6daa0e0eaa0b7620",
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:2514863556",
+      "top_predictions": [
+        {
+          "species_id": "nymphaea",
+          "scientific_name": "Nymphaea",
+          "score": 0.7144070267677307
+        },
+        {
+          "species_id": "mikania_micrantha",
+          "scientific_name": "Mikania micrantha",
+          "score": 0.0775960236787796
+        },
+        {
+          "species_id": "spathodea_campanulata",
+          "scientific_name": "Spathodea campanulata",
+          "score": 0.057204682379961014
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "6883949881fbd5f8877ca5291e11e402f527fa84495f76c03e547310ae2ab4bf",
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:2514928539",
+      "top_predictions": [
+        {
+          "species_id": "spathodea_campanulata",
+          "scientific_name": "Spathodea campanulata",
+          "score": 0.46723705530166626
+        },
+        {
+          "species_id": "mikania_micrantha",
+          "scientific_name": "Mikania micrantha",
+          "score": 0.3244812488555908
+        },
+        {
+          "species_id": "chromolaena_odorata",
+          "scientific_name": "Chromolaena odorata",
+          "score": 0.0921073630452156
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "1e10d500f5a0ae8df9674be7f9dab2f50baf40f0b6cbc3bcd30a321bec83dc89",
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:2514964965",
+      "top_predictions": [
+        {
+          "species_id": "nymphaea",
+          "scientific_name": "Nymphaea",
+          "score": 0.5931651592254639
+        },
+        {
+          "species_id": "spathodea_campanulata",
+          "scientific_name": "Spathodea campanulata",
+          "score": 0.2334872931241989
+        },
+        {
+          "species_id": "pontederia_crassipes",
+          "scientific_name": "Pontederia crassipes",
+          "score": 0.0512227788567543
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "d6136b44e52361ce492a0f77abf758c6d8e4f50604e398539d12de8b0765fb69",
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:2516970419",
+      "top_predictions": [
+        {
+          "species_id": "spathodea_campanulata",
+          "scientific_name": "Spathodea campanulata",
+          "score": 0.7793557643890381
+        },
+        {
+          "species_id": "leucaena_leucocephala",
+          "scientific_name": "Leucaena leucocephala",
+          "score": 0.14628024399280548
+        },
+        {
+          "species_id": "mikania_micrantha",
+          "scientific_name": "Mikania micrantha",
+          "score": 0.015216553583741188
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "08208078ea4ba711237b95c52ffd1691aa450751e491bd2e95e3f4ec7edd9f2e",
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:4072672343",
+      "top_predictions": [
+        {
+          "species_id": "spathodea_campanulata",
+          "scientific_name": "Spathodea campanulata",
+          "score": 0.3564818501472473
+        },
+        {
+          "species_id": "nymphaea",
+          "scientific_name": "Nymphaea",
+          "score": 0.2812812626361847
+        },
+        {
+          "species_id": "pistia_stratiotes",
+          "scientific_name": "Pistia stratiotes",
+          "score": 0.13320894539356232
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    },
+    {
+      "sha256": "37c68ea0dbf6ab90c0125c2003bd7c92f27217836b56fe91e9eaed8ed0e3b1ac",
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:4073070633",
+      "top_predictions": [
+        {
+          "species_id": "leucaena_leucocephala",
+          "scientific_name": "Leucaena leucocephala",
+          "score": 0.2827698290348053
+        },
+        {
+          "species_id": "nymphaea",
+          "scientific_name": "Nymphaea",
+          "score": 0.2356625199317932
+        },
+        {
+          "species_id": "pistia_stratiotes",
+          "scientific_name": "Pistia stratiotes",
+          "score": 0.16472014784812927
+        }
+      ],
+      "status": "non_binding_model_triage_only"
+    }
+  ]
+}

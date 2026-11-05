@@ -1,0 +1,43 @@
+{
+  "started_at_utc": "2026-10-31T15:16:40.839032+00:00",
+  "group": "Water Lettuce (Pistia stratiotes)",
+  "role": "invasive",
+  "status_note": "Listed as invasive in the Philippines by GRIIS (source-flagged); see docs/species_100_verification_ledger.csv.",
+  "country_filter": "PH",
+  "bounds": {
+    "new_unique_images_per_species": 150,
+    "api_pages": 3,
+    "additional_gb": 0.4
+  },
+  "licensing_filter": "CC0/CC BY/CC BY-SA/CC BY-NC only",
+  "pagination": {
+    "strategy": "continue after highest existing iNaturalist observation id for each species",
+    "id_above_by_species": {
+      "pistia_stratiotes": 410642461
+    }
+  },
+  "label_basis": "iNaturalist research grade (community-agreed identification); AI screen as quota allows",
+  "runs": [
+    {
+      "species": "Pistia stratiotes",
+      "source": "inaturalist",
+      "status": "completed",
+      "new_unique_images": 0,
+      "download_rejections": 0
+    }
+  ],
+  "finished_at_utc": "2026-10-31T15:16:44.595644+00:00",
+  "new_records": 0,
+  "valid_records": 168,
+  "invalid_records": [],
+  "licences": {
+    "cc-by-nc": 161,
+    "cc-by": 5,
+    "cc0": 2
+  },
+  "observation_groups": 148,
+  "near_duplicate_groups": 8,
+  "additional_image_bytes": 0,
+  "review_queue": "storage\\datasets\\staging\\invasive_pistia_stratiotes_ph\\review_queue.csv",
+  "gallery": "storage\\datasets\\staging\\invasive_pistia_stratiotes_ph\\review_gallery.html"
+}

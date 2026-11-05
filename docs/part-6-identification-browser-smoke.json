@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-26T16:36:53.894Z",
+  "viewport": "390x844 mobile emulation",
+  "checks": [
+    "rear-camera capture input accepts only supported image types",
+    "Take a photo button is offered beside the file chooser",
+    "identify page fits a 390px mobile viewport",
+    "camera-input photo produces a real identified result",
+    "identified result shows model version and threshold",
+    "identified result fits 390px",
+    "low-score photo is shown as uncertain with no species label",
+    "uncertain result explains the threshold and lists closest candidates as not a label",
+    "uncertain result fits 390px"
+  ],
+  "screenshots": [
+    "storage/logs/ui-preview/identification-mobile-start.png",
+    "storage/logs/ui-preview/identification-mobile-identified.png",
+    "storage/logs/ui-preview/identification-mobile-uncertain.png"
+  ]
+}

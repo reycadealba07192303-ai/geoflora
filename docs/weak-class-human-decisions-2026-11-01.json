@@ -1,0 +1,402 @@
+{
+  "decisions": {
+    "coccinia_grandis|254716496": {
+      "species_id": "coccinia_grandis",
+      "group_id": "254716496",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "human_visual_review_pending_independent_taxonomic_citation",
+      "reviewedAt": "2026-10-31T17:07:08.122219+00:00"
+    },
+    "coccinia_grandis|259481065": {
+      "species_id": "coccinia_grandis",
+      "group_id": "259481065",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "human_visual_review_pending_independent_taxonomic_citation",
+      "reviewedAt": "2026-10-31T17:07:15.639886+00:00"
+    },
+    "coccinia_grandis|260239376": {
+      "species_id": "coccinia_grandis",
+      "group_id": "260239376",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "human_visual_review_pending_independent_taxonomic_citation",
+      "reviewedAt": "2026-10-31T17:07:34.208987+00:00"
+    },
+    "coccinia_grandis|279631878": {
+      "species_id": "coccinia_grandis",
+      "group_id": "279631878",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:09:40.855214+00:00"
+    },
+    "coccinia_grandis|308730938": {
+      "species_id": "coccinia_grandis",
+      "group_id": "308730938",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:09:50.140164+00:00"
+    },
+    "coccinia_grandis|329050903": {
+      "species_id": "coccinia_grandis",
+      "group_id": "329050903",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:10:09.559950+00:00"
+    },
+    "coccinia_grandis|349445330": {
+      "species_id": "coccinia_grandis",
+      "group_id": "349445330",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:10:18.159877+00:00"
+    },
+    "coccinia_grandis|360175357": {
+      "species_id": "coccinia_grandis",
+      "group_id": "360175357",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:10:26.370165+00:00"
+    },
+    "coccinia_grandis|379313194": {
+      "species_id": "coccinia_grandis",
+      "group_id": "379313194",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:10:33.193852+00:00"
+    },
+    "coccinia_grandis|379377422": {
+      "species_id": "coccinia_grandis",
+      "group_id": "379377422",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:10:40.689467+00:00"
+    },
+    "coccinia_grandis|379378254": {
+      "species_id": "coccinia_grandis",
+      "group_id": "379378254",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:10:58.978332+00:00"
+    },
+    "coccinia_grandis|379395097": {
+      "species_id": "coccinia_grandis",
+      "group_id": "379395097",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:11:08.655612+00:00"
+    },
+    "coccinia_grandis|379395986": {
+      "species_id": "coccinia_grandis",
+      "group_id": "379395986",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:11:15.765586+00:00"
+    },
+    "coccinia_grandis|380526737": {
+      "species_id": "coccinia_grandis",
+      "group_id": "380526737",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:11:24.617584+00:00"
+    },
+    "coccinia_grandis|397127257": {
+      "species_id": "coccinia_grandis",
+      "group_id": "397127257",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:11:31.536356+00:00"
+    },
+    "coccinia_grandis|397133750": {
+      "species_id": "coccinia_grandis",
+      "group_id": "397133750",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:11:40.234500+00:00"
+    },
+    "mikania_micrantha|18554448": {
+      "species_id": "mikania_micrantha",
+      "group_id": "18554448",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:11:49.549042+00:00"
+    },
+    "mikania_micrantha|gbif:occurrence:1317800492": {
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:1317800492",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:12:04.654943+00:00"
+    },
+    "mikania_micrantha|gbif:occurrence:1456014546": {
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:1456014546",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:12:11.406093+00:00"
+    },
+    "mikania_micrantha|gbif:occurrence:1456378848": {
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:1456378848",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:12:18.983440+00:00"
+    },
+    "mikania_micrantha|gbif:occurrence:1945468596": {
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:1945468596",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:12:26.897491+00:00"
+    },
+    "mikania_micrantha|gbif:occurrence:1946346961": {
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:1946346961",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:12:35.655437+00:00"
+    },
+    "mikania_micrantha|gbif:occurrence:2514863556": {
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:2514863556",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:12:43.177686+00:00"
+    },
+    "mikania_micrantha|gbif:occurrence:2514928539": {
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:2514928539",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:12:51.633295+00:00"
+    },
+    "mikania_micrantha|gbif:occurrence:2514964965": {
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:2514964965",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:13:00.038190+00:00"
+    },
+    "mikania_micrantha|gbif:occurrence:2516970419": {
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:2516970419",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:13:05.862301+00:00"
+    },
+    "mikania_micrantha|gbif:occurrence:3383898912": {
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:3383898912",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:13:22.766312+00:00"
+    },
+    "mikania_micrantha|gbif:occurrence:3383950946": {
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:3383950946",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:13:30.246430+00:00"
+    },
+    "mikania_micrantha|gbif:occurrence:3455262753": {
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:3455262753",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:13:37.738355+00:00"
+    },
+    "mikania_micrantha|gbif:occurrence:3455359576": {
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:3455359576",
+      "decision": "reject",
+      "rationale": "yung nasa likod yung mikania marintha e. reject to",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:14:29.661645+00:00"
+    },
+    "mikania_micrantha|gbif:occurrence:4072672343": {
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:4072672343",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:14:38.166621+00:00"
+    },
+    "mikania_micrantha|gbif:occurrence:4073070633": {
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:4073070633",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:14:45.477881+00:00"
+    },
+    "mikania_micrantha|gbif:occurrence:4465511978": {
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:4465511978",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:14:54.079057+00:00"
+    },
+    "mikania_micrantha|gbif:occurrence:5205883322": {
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:5205883322",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:15:01.015125+00:00"
+    },
+    "mikania_micrantha|gbif:occurrence:5205903479": {
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:5205903479",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:15:10.295652+00:00"
+    },
+    "mikania_micrantha|gbif:occurrence:5206188316": {
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:5206188316",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:15:16.491039+00:00"
+    },
+    "mikania_micrantha|gbif:occurrence:5206286496": {
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:5206286496",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:15:23.160173+00:00"
+    },
+    "mikania_micrantha|gbif:occurrence:5215725327": {
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:5215725327",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:15:31.652113+00:00"
+    },
+    "mikania_micrantha|gbif:occurrence:5215757347": {
+      "species_id": "mikania_micrantha",
+      "group_id": "gbif:occurrence:5215757347",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:15:40.284381+00:00"
+    },
+    "coccinia_grandis|266200317": {
+      "species_id": "coccinia_grandis",
+      "group_id": "266200317",
+      "decision": "approve",
+      "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+      "reviewer": "owner_local_review",
+      "basis": "owner_visual_review_not_independent_expert_verification",
+      "training_eligible": false,
+      "reviewedAt": "2026-10-31T17:22:04.699721+00:00"
+    }
+  },
+  "updated_at_utc": "2026-10-31T17:22:04.699721+00:00"
+}

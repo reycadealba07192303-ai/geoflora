@@ -1,0 +1,49 @@
+{
+  "started_utc": "2026-10-31T17:44:37.085700+00:00",
+  "policy": "iNaturalist PH research-grade only; CC0/CC BY/CC BY-SA; attribution required except CC0; every record pending; no expert verification inferred",
+  "page_limit_per_class": 15,
+  "pagination": "bounded scan from earliest observations; known photos and observation groups skipped",
+  "max_new_observation_groups_per_class": 20,
+  "classes": {
+    "broussonetia_papyrifera": {
+      "new_images": 0,
+      "new_observation_groups": 0,
+      "duplicate_photo_ids_skipped": 0,
+      "existing_observation_groups_skipped": 0,
+      "exact_duplicate_images_skipped": 0,
+      "download_or_decode_failures": 0,
+      "all_pool_images": 0,
+      "all_pool_groups": 0,
+      "licenses": {}
+    },
+    "mikania_micrantha": {
+      "new_images": 0,
+      "new_observation_groups": 0,
+      "duplicate_photo_ids_skipped": 20,
+      "existing_observation_groups_skipped": 0,
+      "exact_duplicate_images_skipped": 0,
+      "download_or_decode_failures": 0,
+      "all_pool_images": 0,
+      "all_pool_groups": 0,
+      "licenses": {}
+    },
+    "coccinia_grandis": {
+      "new_images": 0,
+      "new_observation_groups": 0,
+      "duplicate_photo_ids_skipped": 54,
+      "existing_observation_groups_skipped": 0,
+      "exact_duplicate_images_skipped": 0,
+      "download_or_decode_failures": 0,
+      "all_pool_images": 0,
+      "all_pool_groups": 0,
+      "licenses": {}
+    }
+  },
+  "finished_utc": "2026-10-31T17:44:46.927797+00:00",
+  "total_pending_images": 0,
+  "total_pending_observation_groups": 0,
+  "review_queue": "storage/datasets/review_pools/weak_classes_followup_20261101/review_queue.csv",
+  "manifest": "storage/datasets/review_pools/weak_classes_followup_20261101/manifest.jsonl",
+  "training_and_active_models_modified": false,
+  "test_images_opened": false
+}

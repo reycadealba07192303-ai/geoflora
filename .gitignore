@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+node_modules/
+dist/
+.next/
+out/
+
+# Local configuration and runtime ML data
+.env
+.env.*
+!.env.example
+kaggle.json
+.kaggle/
+storage/datasets/
+storage/models/
+storage/model_cache/
+storage/npm-cache/
+storage/logs/
+storage/backups/
+storage/uploads/
+storage/species_catalog/downloads/
+
+# Added 2026-11-06 before the first GitHub push
+storage/tmp/
+storage/study/
+storage/species_catalog/
+ml-lab/.venv-onnx/
+.qodo/
+0038372-260928105237408/
+# Signed or draft contracts with the client stay private
+docs/*Agreement*

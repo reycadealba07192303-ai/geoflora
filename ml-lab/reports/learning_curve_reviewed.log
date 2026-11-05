@@ -1,0 +1,193 @@
+C:\Users\reyca\geoflowra\GeoFlora-ML-Lab\.venv\Lib\site-packages\keras\src\trainers\epoch_iterator.py:74: UserWarning: `shuffle=True` was passed, but will be ignored since the data `x` was provided as a tf.data.Dataset. The Dataset is expected to already be shuffled (via `.shuffle(buffer_size)`).
+  self.data_adapter = data_adapters.get_data_adapter(
+Epoch 1/15
+5/5 - 6s - 1s/step - accuracy: 0.3974 - loss: 1.2852 - val_accuracy: 0.2687 - val_loss: 1.1921 - learning_rate: 0.0010
+Epoch 2/15
+5/5 - 2s - 406ms/step - accuracy: 0.4872 - loss: 1.0066 - val_accuracy: 0.5224 - val_loss: 1.0279 - learning_rate: 0.0010
+Epoch 3/15
+5/5 - 2s - 427ms/step - accuracy: 0.5641 - loss: 0.9244 - val_accuracy: 0.6119 - val_loss: 0.8748 - learning_rate: 0.0010
+Epoch 4/15
+5/5 - 2s - 409ms/step - accuracy: 0.6538 - loss: 0.7908 - val_accuracy: 0.6418 - val_loss: 0.7723 - learning_rate: 0.0010
+Epoch 5/15
+5/5 - 2s - 435ms/step - accuracy: 0.7308 - loss: 0.5997 - val_accuracy: 0.7015 - val_loss: 0.6985 - learning_rate: 0.0010
+Epoch 6/15
+5/5 - 3s - 552ms/step - accuracy: 0.7436 - loss: 0.6386 - val_accuracy: 0.7164 - val_loss: 0.6759 - learning_rate: 0.0010
+Epoch 7/15
+5/5 - 2s - 419ms/step - accuracy: 0.8462 - loss: 0.5203 - val_accuracy: 0.7463 - val_loss: 0.6535 - learning_rate: 0.0010
+Epoch 8/15
+5/5 - 2s - 433ms/step - accuracy: 0.8846 - loss: 0.4252 - val_accuracy: 0.8209 - val_loss: 0.5973 - learning_rate: 0.0010
+Epoch 9/15
+5/5 - 2s - 440ms/step - accuracy: 0.8590 - loss: 0.3632 - val_accuracy: 0.8209 - val_loss: 0.5547 - learning_rate: 0.0010
+Epoch 10/15
+5/5 - 3s - 503ms/step - accuracy: 0.8718 - loss: 0.3605 - val_accuracy: 0.8209 - val_loss: 0.5378 - learning_rate: 0.0010
+Epoch 11/15
+5/5 - 2s - 469ms/step - accuracy: 0.9103 - loss: 0.3374 - val_accuracy: 0.8209 - val_loss: 0.5200 - learning_rate: 0.0010
+Epoch 12/15
+5/5 - 2s - 453ms/step - accuracy: 0.9487 - loss: 0.3189 - val_accuracy: 0.8358 - val_loss: 0.5072 - learning_rate: 0.0010
+Epoch 13/15
+5/5 - 2s - 397ms/step - accuracy: 0.9744 - loss: 0.2566 - val_accuracy: 0.8657 - val_loss: 0.5188 - learning_rate: 0.0010
+Epoch 14/15
+
+Epoch 14: ReduceLROnPlateau reducing learning rate to 0.0003000000142492354.
+5/5 - 2s - 334ms/step - accuracy: 0.8846 - loss: 0.2915 - val_accuracy: 0.8507 - val_loss: 0.5251 - learning_rate: 0.0010
+Epoch 15/15
+5/5 - 2s - 349ms/step - accuracy: 0.8974 - loss: 0.3030 - val_accuracy: 0.8657 - val_loss: 0.5157 - learning_rate: 3.0000e-04
+Restoring model weights from the end of the best epoch: 12.
+Epoch 1/10
+5/5 - 7s - 1s/step - accuracy: 0.8462 - loss: 0.3589 - val_accuracy: 0.8507 - val_loss: 0.5069 - learning_rate: 1.0000e-05
+Epoch 2/10
+5/5 - 2s - 402ms/step - accuracy: 0.9231 - loss: 0.2375 - val_accuracy: 0.8657 - val_loss: 0.5199 - learning_rate: 1.0000e-05
+Epoch 3/10
+
+Epoch 3: ReduceLROnPlateau reducing learning rate to 2.9999999242136253e-06.
+5/5 - 2s - 369ms/step - accuracy: 0.9103 - loss: 0.2612 - val_accuracy: 0.8657 - val_loss: 0.5429 - learning_rate: 1.0000e-05
+Epoch 4/10
+5/5 - 2s - 399ms/step - accuracy: 0.9231 - loss: 0.2293 - val_accuracy: 0.8657 - val_loss: 0.5221 - learning_rate: 3.0000e-06
+Epoch 5/10
+
+Epoch 5: ReduceLROnPlateau reducing learning rate to 8.999999636216671e-07.
+5/5 - 2s - 371ms/step - accuracy: 0.9359 - loss: 0.1982 - val_accuracy: 0.8657 - val_loss: 0.5086 - learning_rate: 3.0000e-06
+Epoch 6/10
+5/5 - 2s - 447ms/step - accuracy: 0.9359 - loss: 0.2200 - val_accuracy: 0.8657 - val_loss: 0.5058 - learning_rate: 9.0000e-07
+Epoch 7/10
+5/5 - 2s - 430ms/step - accuracy: 0.9231 - loss: 0.1992 - val_accuracy: 0.8657 - val_loss: 0.5035 - learning_rate: 9.0000e-07
+Epoch 8/10
+5/5 - 2s - 439ms/step - accuracy: 0.8974 - loss: 0.1942 - val_accuracy: 0.8657 - val_loss: 0.5033 - learning_rate: 9.0000e-07
+Epoch 9/10
+5/5 - 2s - 437ms/step - accuracy: 0.9487 - loss: 0.1490 - val_accuracy: 0.8657 - val_loss: 0.5018 - learning_rate: 9.0000e-07
+Epoch 10/10
+5/5 - 3s - 538ms/step - accuracy: 0.9359 - loss: 0.2015 - val_accuracy: 0.8507 - val_loss: 0.4978 - learning_rate: 9.0000e-07
+Restoring model weights from the end of the best epoch: 10.
+18:34:21 INFO geoflora_ml.training: training complete: C:\Users\reyca\geoflowra\GeoFlora-ML-Lab\models\checkpoints\run-20261104T103317Z-learning_curve-fraction0.25
+C:\Users\reyca\geoflowra\GeoFlora-ML-Lab\.venv\Lib\site-packages\keras\src\trainers\epoch_iterator.py:74: UserWarning: `shuffle=True` was passed, but will be ignored since the data `x` was provided as a tf.data.Dataset. The Dataset is expected to already be shuffled (via `.shuffle(buffer_size)`).
+  self.data_adapter = data_adapters.get_data_adapter(
+Epoch 1/15
+10/10 - 8s - 795ms/step - accuracy: 0.3816 - loss: 1.3769 - val_accuracy: 0.3731 - val_loss: 1.1462 - learning_rate: 0.0010
+Epoch 2/15
+10/10 - 3s - 341ms/step - accuracy: 0.5987 - loss: 0.9623 - val_accuracy: 0.5672 - val_loss: 0.8188 - learning_rate: 0.0010
+Epoch 3/15
+10/10 - 5s - 471ms/step - accuracy: 0.6513 - loss: 0.7903 - val_accuracy: 0.6567 - val_loss: 0.7201 - learning_rate: 0.0010
+Epoch 4/15
+10/10 - 3s - 283ms/step - accuracy: 0.7434 - loss: 0.6536 - val_accuracy: 0.7015 - val_loss: 0.6085 - learning_rate: 0.0010
+Epoch 5/15
+10/10 - 3s - 277ms/step - accuracy: 0.8026 - loss: 0.5407 - val_accuracy: 0.7164 - val_loss: 0.5584 - learning_rate: 0.0010
+Epoch 6/15
+10/10 - 3s - 285ms/step - accuracy: 0.7961 - loss: 0.5541 - val_accuracy: 0.7910 - val_loss: 0.5070 - learning_rate: 0.0010
+Epoch 7/15
+10/10 - 3s - 271ms/step - accuracy: 0.8487 - loss: 0.4384 - val_accuracy: 0.8209 - val_loss: 0.4670 - learning_rate: 0.0010
+Epoch 8/15
+10/10 - 3s - 278ms/step - accuracy: 0.8487 - loss: 0.4374 - val_accuracy: 0.8060 - val_loss: 0.4585 - learning_rate: 0.0010
+Epoch 9/15
+10/10 - 3s - 285ms/step - accuracy: 0.8553 - loss: 0.3702 - val_accuracy: 0.8209 - val_loss: 0.4237 - learning_rate: 0.0010
+Epoch 10/15
+10/10 - 4s - 363ms/step - accuracy: 0.8816 - loss: 0.3567 - val_accuracy: 0.8358 - val_loss: 0.4199 - learning_rate: 0.0010
+Epoch 11/15
+10/10 - 4s - 368ms/step - accuracy: 0.8158 - loss: 0.4236 - val_accuracy: 0.8507 - val_loss: 0.3945 - learning_rate: 0.0010
+Epoch 12/15
+10/10 - 3s - 326ms/step - accuracy: 0.8816 - loss: 0.3447 - val_accuracy: 0.8507 - val_loss: 0.4000 - learning_rate: 0.0010
+Epoch 13/15
+10/10 - 3s - 308ms/step - accuracy: 0.9211 - loss: 0.2510 - val_accuracy: 0.8507 - val_loss: 0.3866 - learning_rate: 0.0010
+Epoch 14/15
+10/10 - 5s - 513ms/step - accuracy: 0.8947 - loss: 0.2986 - val_accuracy: 0.8507 - val_loss: 0.3804 - learning_rate: 0.0010
+Epoch 15/15
+10/10 - 3s - 295ms/step - accuracy: 0.8816 - loss: 0.3225 - val_accuracy: 0.8507 - val_loss: 0.3532 - learning_rate: 0.0010
+Restoring model weights from the end of the best epoch: 15.
+Epoch 1/10
+10/10 - 9s - 891ms/step - accuracy: 0.8882 - loss: 0.3162 - val_accuracy: 0.8657 - val_loss: 0.3506 - learning_rate: 1.0000e-05
+Epoch 2/10
+10/10 - 4s - 356ms/step - accuracy: 0.9342 - loss: 0.1945 - val_accuracy: 0.8955 - val_loss: 0.3491 - learning_rate: 1.0000e-05
+Epoch 3/10
+10/10 - 4s - 363ms/step - accuracy: 0.9408 - loss: 0.1961 - val_accuracy: 0.8657 - val_loss: 0.3391 - learning_rate: 1.0000e-05
+Epoch 4/10
+10/10 - 3s - 340ms/step - accuracy: 0.9211 - loss: 0.2014 - val_accuracy: 0.8955 - val_loss: 0.2808 - learning_rate: 1.0000e-05
+Epoch 5/10
+10/10 - 3s - 297ms/step - accuracy: 0.9342 - loss: 0.1783 - val_accuracy: 0.9104 - val_loss: 0.3376 - learning_rate: 1.0000e-05
+Epoch 6/10
+
+Epoch 6: ReduceLROnPlateau reducing learning rate to 2.9999999242136253e-06.
+10/10 - 3s - 304ms/step - accuracy: 0.9211 - loss: 0.2109 - val_accuracy: 0.9104 - val_loss: 0.2954 - learning_rate: 1.0000e-05
+Epoch 7/10
+10/10 - 3s - 336ms/step - accuracy: 0.9211 - loss: 0.2174 - val_accuracy: 0.8955 - val_loss: 0.3104 - learning_rate: 3.0000e-06
+Epoch 8/10
+
+Epoch 8: ReduceLROnPlateau reducing learning rate to 8.999999636216671e-07.
+10/10 - 3s - 337ms/step - accuracy: 0.9539 - loss: 0.1410 - val_accuracy: 0.8955 - val_loss: 0.3390 - learning_rate: 3.0000e-06
+Epoch 9/10
+10/10 - 3s - 309ms/step - accuracy: 0.9408 - loss: 0.1748 - val_accuracy: 0.8955 - val_loss: 0.3353 - learning_rate: 9.0000e-07
+Epoch 9: early stopping
+Restoring model weights from the end of the best epoch: 4.
+18:36:29 INFO geoflora_ml.training: training complete: C:\Users\reyca\geoflowra\GeoFlora-ML-Lab\models\checkpoints\run-20261104T103457Z-learning_curve-fraction0.5
+C:\Users\reyca\geoflowra\GeoFlora-ML-Lab\.venv\Lib\site-packages\keras\src\trainers\epoch_iterator.py:74: UserWarning: `shuffle=True` was passed, but will be ignored since the data `x` was provided as a tf.data.Dataset. The Dataset is expected to already be shuffled (via `.shuffle(buffer_size)`).
+  self.data_adapter = data_adapters.get_data_adapter(
+Epoch 1/15
+19/19 - 9s - 500ms/step - accuracy: 0.5033 - loss: 1.0772 - val_accuracy: 0.6866 - val_loss: 0.7542 - learning_rate: 0.0010
+Epoch 2/15
+19/19 - 5s - 283ms/step - accuracy: 0.7219 - loss: 0.6861 - val_accuracy: 0.8209 - val_loss: 0.5694 - learning_rate: 0.0010
+Epoch 3/15
+19/19 - 6s - 295ms/step - accuracy: 0.8046 - loss: 0.5342 - val_accuracy: 0.7761 - val_loss: 0.5077 - learning_rate: 0.0010
+Epoch 4/15
+19/19 - 5s - 282ms/step - accuracy: 0.8344 - loss: 0.4525 - val_accuracy: 0.8507 - val_loss: 0.4033 - learning_rate: 0.0010
+Epoch 5/15
+19/19 - 5s - 257ms/step - accuracy: 0.8576 - loss: 0.4020 - val_accuracy: 0.8507 - val_loss: 0.3892 - learning_rate: 0.0010
+Epoch 6/15
+19/19 - 4s - 222ms/step - accuracy: 0.8477 - loss: 0.4136 - val_accuracy: 0.8358 - val_loss: 0.4022 - learning_rate: 0.0010
+Epoch 7/15
+19/19 - 5s - 237ms/step - accuracy: 0.8709 - loss: 0.3588 - val_accuracy: 0.8358 - val_loss: 0.3552 - learning_rate: 0.0010
+Epoch 8/15
+19/19 - 5s - 246ms/step - accuracy: 0.8742 - loss: 0.3509 - val_accuracy: 0.8507 - val_loss: 0.3314 - learning_rate: 0.0010
+Epoch 9/15
+19/19 - 5s - 237ms/step - accuracy: 0.8974 - loss: 0.2867 - val_accuracy: 0.8657 - val_loss: 0.3170 - learning_rate: 0.0010
+Epoch 10/15
+19/19 - 5s - 243ms/step - accuracy: 0.9106 - loss: 0.2700 - val_accuracy: 0.8806 - val_loss: 0.3147 - learning_rate: 0.0010
+Epoch 11/15
+19/19 - 5s - 246ms/step - accuracy: 0.8974 - loss: 0.2437 - val_accuracy: 0.8806 - val_loss: 0.3089 - learning_rate: 0.0010
+Epoch 12/15
+19/19 - 5s - 254ms/step - accuracy: 0.9106 - loss: 0.2359 - val_accuracy: 0.8806 - val_loss: 0.3188 - learning_rate: 0.0010
+Epoch 13/15
+
+Epoch 13: ReduceLROnPlateau reducing learning rate to 0.0003000000142492354.
+19/19 - 5s - 281ms/step - accuracy: 0.9338 - loss: 0.2138 - val_accuracy: 0.8657 - val_loss: 0.3250 - learning_rate: 0.0010
+Epoch 14/15
+19/19 - 5s - 269ms/step - accuracy: 0.9106 - loss: 0.2225 - val_accuracy: 0.8657 - val_loss: 0.3125 - learning_rate: 3.0000e-04
+Epoch 15/15
+19/19 - 5s - 272ms/step - accuracy: 0.9106 - loss: 0.2617 - val_accuracy: 0.8657 - val_loss: 0.3073 - learning_rate: 3.0000e-04
+Restoring model weights from the end of the best epoch: 15.
+Epoch 1/10
+19/19 - 11s - 563ms/step - accuracy: 0.9106 - loss: 0.2791 - val_accuracy: 0.8806 - val_loss: 0.3161 - learning_rate: 1.0000e-05
+Epoch 2/10
+19/19 - 5s - 285ms/step - accuracy: 0.9238 - loss: 0.2141 - val_accuracy: 0.8507 - val_loss: 0.4061 - learning_rate: 1.0000e-05
+Epoch 3/10
+19/19 - 6s - 296ms/step - accuracy: 0.9305 - loss: 0.1649 - val_accuracy: 0.8806 - val_loss: 0.2862 - learning_rate: 1.0000e-05
+Epoch 4/10
+19/19 - 5s - 261ms/step - accuracy: 0.9371 - loss: 0.1630 - val_accuracy: 0.8806 - val_loss: 0.3085 - learning_rate: 1.0000e-05
+Epoch 5/10
+19/19 - 6s - 302ms/step - accuracy: 0.9371 - loss: 0.1782 - val_accuracy: 0.8806 - val_loss: 0.2723 - learning_rate: 1.0000e-05
+Epoch 6/10
+19/19 - 6s - 297ms/step - accuracy: 0.9570 - loss: 0.1212 - val_accuracy: 0.9104 - val_loss: 0.2686 - learning_rate: 1.0000e-05
+Epoch 7/10
+19/19 - 5s - 263ms/step - accuracy: 0.9603 - loss: 0.1272 - val_accuracy: 0.9104 - val_loss: 0.2996 - learning_rate: 1.0000e-05
+Epoch 8/10
+
+Epoch 8: ReduceLROnPlateau reducing learning rate to 2.9999999242136253e-06.
+19/19 - 5s - 265ms/step - accuracy: 0.9536 - loss: 0.1051 - val_accuracy: 0.8955 - val_loss: 0.2896 - learning_rate: 1.0000e-05
+Epoch 9/10
+19/19 - 5s - 258ms/step - accuracy: 0.9669 - loss: 0.0935 - val_accuracy: 0.8806 - val_loss: 0.2691 - learning_rate: 3.0000e-06
+Epoch 10/10
+
+Epoch 10: ReduceLROnPlateau reducing learning rate to 8.999999636216671e-07.
+19/19 - 5s - 258ms/step - accuracy: 0.9868 - loss: 0.0592 - val_accuracy: 0.8806 - val_loss: 0.2701 - learning_rate: 3.0000e-06
+Restoring model weights from the end of the best epoch: 6.
+18:39:25 INFO geoflora_ml.training: training complete: C:\Users\reyca\geoflowra\GeoFlora-ML-Lab\models\checkpoints\run-20261104T103707Z-learning_curve-fraction1.0
+# Experiment: learning_curve (20261104T104000Z)
+
+Dataset version: ds-20261104-8b1b716af8
+
+Accuracy CI: exact binomial 95%. Macro F1 CI: observation-group bootstrap 95%.
+
+| Config | Train imgs | Test imgs | Accuracy (CI) | Macro F1 (CI) | Unknown FAR |
+|---|---|---|---|---|---|
+| fraction=0.25 | 78 | 66 | 0.909 (0.813-0.966) | 0.906 (0.826-0.969) | 0.610 |
+| fraction=0.5 | 152 | 66 | 0.955 (0.873-0.991) | 0.953 (0.901-1.000) | 0.253 |
+| fraction=1.0 | 302 | 66 | 0.970 (0.895-0.996) | 0.969 (0.925-1.000) | 0.187 |
+
+Each row is an independent training run; class-expansion rows are evaluated only on their own classes.

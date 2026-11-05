@@ -1,0 +1,61 @@
+{
+  "started_at_utc": "2026-10-31T10:10:32.789038+00:00",
+  "group": "Water lily (Nymphaea)",
+  "role": "non_invasive_lookalike",
+  "confused_with": "Pontederia crassipes (water hyacinth)",
+  "status_note": "No GeoFlora source lists these as introduced or invasive in the Philippines; N. nouchali is native.",
+  "country_filter": "PH",
+  "status": "pending_review",
+  "bounds": {
+    "new_unique_images_per_source_per_species": 40,
+    "api_pages_per_source": 3,
+    "additional_gb": 0.15
+  },
+  "label_evidence": "Source labels only; not visually verified",
+  "runs": [
+    {
+      "species": "Nymphaea rubra",
+      "source": "inaturalist",
+      "status": "completed",
+      "new_unique_images": 40,
+      "download_rejections": 0
+    },
+    {
+      "species": "Nymphaea pubescens",
+      "source": "inaturalist",
+      "status": "completed",
+      "new_unique_images": 0,
+      "download_rejections": 0
+    },
+    {
+      "species": "Nymphaea nouchali",
+      "source": "inaturalist",
+      "status": "completed",
+      "new_unique_images": 2,
+      "download_rejections": 0
+    }
+  ],
+  "finished_at_utc": "2026-10-31T10:11:26.089846+00:00",
+  "before_records": 15,
+  "total_records": 57,
+  "new_records": 42,
+  "valid_records": 57,
+  "invalid_records": [],
+  "per_species": {
+    "nymphaea_pubescens": 7,
+    "nymphaea_nouchali": 10,
+    "nymphaea_rubra": 40
+  },
+  "unique_checksums": 57,
+  "observation_groups": 53,
+  "near_duplicate_groups": 0,
+  "source_counts": {
+    "gbif": 15,
+    "inaturalist": 42
+  },
+  "additional_image_bytes": 3826769,
+  "active_manifest_unchanged": true,
+  "review_queue": "storage\\datasets\\staging\\lookalike_nymphaea_ph\\review_queue.csv",
+  "gallery": "storage\\datasets\\staging\\lookalike_nymphaea_ph\\review_gallery.html",
+  "note": "No labels approved, no training, no active classes changed."
+}

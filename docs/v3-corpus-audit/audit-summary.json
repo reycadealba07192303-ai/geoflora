@@ -1,0 +1,1873 @@
+{
+  "generated_at_utc": "2026-10-31T14:39:16.741872+00:00",
+  "source_manifest": "storage\\datasets\\curated\\v3\\manifest.csv",
+  "source_manifest_sha256": "92610540ef74c6944a16567a7029ec88a52406f48ca7694f3376268df3272789",
+  "source_files_modified": false,
+  "label_or_review_decisions_modified": false,
+  "total_rows": 243,
+  "by_species": {
+    "chromolaena_odorata": 93,
+    "pontederia_crassipes": 36,
+    "lantana_camara": 114
+  },
+  "by_species_and_split": {
+    "chromolaena_odorata:train": 64,
+    "pontederia_crassipes:train": 23,
+    "lantana_camara:train": 79,
+    "pontederia_crassipes:validation": 5,
+    "pontederia_crassipes:test": 8,
+    "chromolaena_odorata:validation": 15,
+    "lantana_camara:validation": 18,
+    "lantana_camara:test": 17,
+    "chromolaena_odorata:test": 14
+  },
+  "by_source": {
+    "gbif": 140,
+    "inaturalist": 103
+  },
+  "by_license": {
+    "cc0": 87,
+    "cc-by": 147,
+    "cc-by-sa": 9
+  },
+  "by_current_review": {
+    "approved": 243
+  },
+  "image_readability_or_checksum_flags": {},
+  "metadata_keyword_visual_triage_count": 23,
+  "geographic_limitation": "PH-filtered sources; row-level country and field context are not independently verified",
+  "visual_contact_sheet_counts": {
+    "chromolaena_odorata": 93,
+    "lantana_camara": 114,
+    "pontederia_crassipes": 36
+  },
+  "provisional_candidate_manifest": "candidate-review-manifest.csv",
+  "provisional_candidate_summary": {
+    "training_ready": false,
+    "purpose": "Assistant-screened field-photo candidate list; pending qualified label/provenance review and not approved for training",
+    "source_rows": 243,
+    "preliminary_field_photo_candidates": 103,
+    "pending_qualified_label_and_provenance_review": 103,
+    "held": 140,
+    "by_status": {
+      "hold_specimen_sheet": 46,
+      "preliminary_field_photo_singleton": 10,
+      "preliminary_field_photo_representative": 93,
+      "hold_near_duplicate_copy": 93,
+      "hold_context_review": 1
+    },
+    "provisional_by_species_and_split": {
+      "pontederia_crassipes:validation": 3,
+      "pontederia_crassipes:test": 4,
+      "chromolaena_odorata:validation": 7,
+      "chromolaena_odorata:test": 7,
+      "lantana_camara:train": 29,
+      "lantana_camara:validation": 7,
+      "chromolaena_odorata:train": 30,
+      "pontederia_crassipes:train": 8,
+      "lantana_camara:test": 8
+    },
+    "provisional_source_observation_groups_by_species_and_split": {
+      "pontederia_crassipes:validation": 3,
+      "pontederia_crassipes:test": 2,
+      "chromolaena_odorata:validation": 5,
+      "chromolaena_odorata:test": 7,
+      "lantana_camara:train": 16,
+      "lantana_camara:validation": 5,
+      "chromolaena_odorata:train": 19,
+      "pontederia_crassipes:train": 6,
+      "lantana_camara:test": 6
+    },
+    "provisional_source_observation_groups_total": 69,
+    "specimen_sheet_holds": 46,
+    "context_review_holds": 1,
+    "keyword_detected_specimen_sheet_holds": 23,
+    "additional_visual_specimen_sheet_holds": 23,
+    "source_data_modified": false,
+    "approved_labels_modified": false,
+    "rule": "Retain one iNaturalist-first representative per recomputed near-duplicate group, unless the group contains a preliminary visual/context hold. Candidate photos look field-like but species and geography are not independently verified.",
+    "provisional_contact_sheet_counts": {
+      "chromolaena_odorata": 44,
+      "lantana_camara": 44,
+      "pontederia_crassipes": 15
+    }
+  },
+  "cross_split_group_keys": [],
+  "exact_duplicate_groups": {},
+  "recomputed_near_duplicate_groups": [
+    {
+      "group_id": "near-duplicate:00001",
+      "species_id": "pontederia_crassipes",
+      "count": 2,
+      "source_ids": [
+        "17505712",
+        "1847451448:https://inaturalist-open-data.s3.amazonaws.com/photos/17505712/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "17505712"
+        },
+        {
+          "source": "gbif",
+          "source_id": "1847451448:https://inaturalist-open-data.s3.amazonaws.com/photos/17505712/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00002",
+      "species_id": "pontederia_crassipes",
+      "count": 2,
+      "source_ids": [
+        "17505701",
+        "1847451448:https://inaturalist-open-data.s3.amazonaws.com/photos/17505701/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "17505701"
+        },
+        {
+          "source": "gbif",
+          "source_id": "1847451448:https://inaturalist-open-data.s3.amazonaws.com/photos/17505701/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00003",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "389759114",
+        "5006856951:https://inaturalist-open-data.s3.amazonaws.com/photos/389759114/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "389759114"
+        },
+        {
+          "source": "gbif",
+          "source_id": "5006856951:https://inaturalist-open-data.s3.amazonaws.com/photos/389759114/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00004",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "389759146",
+        "5006856951:https://inaturalist-open-data.s3.amazonaws.com/photos/389759146/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "389759146"
+        },
+        {
+          "source": "gbif",
+          "source_id": "5006856951:https://inaturalist-open-data.s3.amazonaws.com/photos/389759146/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00005",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "389759174",
+        "5006856951:https://inaturalist-open-data.s3.amazonaws.com/photos/389759174/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "389759174"
+        },
+        {
+          "source": "gbif",
+          "source_id": "5006856951:https://inaturalist-open-data.s3.amazonaws.com/photos/389759174/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00006",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "62401354",
+        "3031648603:https://inaturalist-open-data.s3.amazonaws.com/photos/62401354/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "62401354"
+        },
+        {
+          "source": "gbif",
+          "source_id": "3031648603:https://inaturalist-open-data.s3.amazonaws.com/photos/62401354/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00007",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "62401393",
+        "3031648603:https://inaturalist-open-data.s3.amazonaws.com/photos/62401393/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "62401393"
+        },
+        {
+          "source": "gbif",
+          "source_id": "3031648603:https://inaturalist-open-data.s3.amazonaws.com/photos/62401393/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00008",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "179808151",
+        "3698100427:https://inaturalist-open-data.s3.amazonaws.com/photos/179808151/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "179808151"
+        },
+        {
+          "source": "gbif",
+          "source_id": "3698100427:https://inaturalist-open-data.s3.amazonaws.com/photos/179808151/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00009",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "188244244",
+        "3764558442:https://inaturalist-open-data.s3.amazonaws.com/photos/188244244/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "188244244"
+        },
+        {
+          "source": "gbif",
+          "source_id": "3764558442:https://inaturalist-open-data.s3.amazonaws.com/photos/188244244/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00010",
+      "species_id": "pontederia_crassipes",
+      "count": 2,
+      "source_ids": [
+        "144002832",
+        "3902166916:https://inaturalist-open-data.s3.amazonaws.com/photos/144002832/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "144002832"
+        },
+        {
+          "source": "gbif",
+          "source_id": "3902166916:https://inaturalist-open-data.s3.amazonaws.com/photos/144002832/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00011",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "392697048",
+        "4891761172:https://inaturalist-open-data.s3.amazonaws.com/photos/392697048/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "392697048"
+        },
+        {
+          "source": "gbif",
+          "source_id": "4891761172:https://inaturalist-open-data.s3.amazonaws.com/photos/392697048/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00012",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "392697105",
+        "4891761172:https://inaturalist-open-data.s3.amazonaws.com/photos/392697105/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "392697105"
+        },
+        {
+          "source": "gbif",
+          "source_id": "4891761172:https://inaturalist-open-data.s3.amazonaws.com/photos/392697105/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00013",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "392699290",
+        "4891761172:https://inaturalist-open-data.s3.amazonaws.com/photos/392699290/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "392699290"
+        },
+        {
+          "source": "gbif",
+          "source_id": "4891761172:https://inaturalist-open-data.s3.amazonaws.com/photos/392699290/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00014",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "392699334",
+        "4891761172:https://inaturalist-open-data.s3.amazonaws.com/photos/392699334/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "392699334"
+        },
+        {
+          "source": "gbif",
+          "source_id": "4891761172:https://inaturalist-open-data.s3.amazonaws.com/photos/392699334/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00015",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "42071893",
+        "2269259354:https://inaturalist-open-data.s3.amazonaws.com/photos/42071893/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "42071893"
+        },
+        {
+          "source": "gbif",
+          "source_id": "2269259354:https://inaturalist-open-data.s3.amazonaws.com/photos/42071893/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00016",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "42071947",
+        "2269259354:https://inaturalist-open-data.s3.amazonaws.com/photos/42071947/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "42071947"
+        },
+        {
+          "source": "gbif",
+          "source_id": "2269259354:https://inaturalist-open-data.s3.amazonaws.com/photos/42071947/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00017",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "106628038",
+        "3005180580:https://inaturalist-open-data.s3.amazonaws.com/photos/106628038/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "106628038"
+        },
+        {
+          "source": "gbif",
+          "source_id": "3005180580:https://inaturalist-open-data.s3.amazonaws.com/photos/106628038/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00018",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "58222880",
+        "3415733393:https://inaturalist-open-data.s3.amazonaws.com/photos/58222880/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "58222880"
+        },
+        {
+          "source": "gbif",
+          "source_id": "3415733393:https://inaturalist-open-data.s3.amazonaws.com/photos/58222880/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00019",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "83988330",
+        "2818582967:https://inaturalist-open-data.s3.amazonaws.com/photos/83988330/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "83988330"
+        },
+        {
+          "source": "gbif",
+          "source_id": "2818582967:https://inaturalist-open-data.s3.amazonaws.com/photos/83988330/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00020",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "83989141",
+        "2818582967:https://inaturalist-open-data.s3.amazonaws.com/photos/83989141/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "83989141"
+        },
+        {
+          "source": "gbif",
+          "source_id": "2818582967:https://inaturalist-open-data.s3.amazonaws.com/photos/83989141/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00021",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "492478482",
+        "5206708495:https://inaturalist-open-data.s3.amazonaws.com/photos/492478482/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "492478482"
+        },
+        {
+          "source": "gbif",
+          "source_id": "5206708495:https://inaturalist-open-data.s3.amazonaws.com/photos/492478482/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00022",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "116766776",
+        "3408195407:https://inaturalist-open-data.s3.amazonaws.com/photos/116766776/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "116766776"
+        },
+        {
+          "source": "gbif",
+          "source_id": "3408195407:https://inaturalist-open-data.s3.amazonaws.com/photos/116766776/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00023",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "104437316",
+        "2988276093:https://inaturalist-open-data.s3.amazonaws.com/photos/104437316/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "104437316"
+        },
+        {
+          "source": "gbif",
+          "source_id": "2988276093:https://inaturalist-open-data.s3.amazonaws.com/photos/104437316/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00024",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "120738486",
+        "3384252626:https://inaturalist-open-data.s3.amazonaws.com/photos/120738486/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "120738486"
+        },
+        {
+          "source": "gbif",
+          "source_id": "3384252626:https://inaturalist-open-data.s3.amazonaws.com/photos/120738486/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00025",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "603559126",
+        "5938210094:https://inaturalist-open-data.s3.amazonaws.com/photos/603559126/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "603559126"
+        },
+        {
+          "source": "gbif",
+          "source_id": "5938210094:https://inaturalist-open-data.s3.amazonaws.com/photos/603559126/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00026",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "603559138",
+        "5938210094:https://inaturalist-open-data.s3.amazonaws.com/photos/603559138/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "603559138"
+        },
+        {
+          "source": "gbif",
+          "source_id": "5938210094:https://inaturalist-open-data.s3.amazonaws.com/photos/603559138/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00027",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "603559163",
+        "5938210094:https://inaturalist-open-data.s3.amazonaws.com/photos/603559163/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "603559163"
+        },
+        {
+          "source": "gbif",
+          "source_id": "5938210094:https://inaturalist-open-data.s3.amazonaws.com/photos/603559163/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00028",
+      "species_id": "pontederia_crassipes",
+      "count": 2,
+      "source_ids": [
+        "115380276",
+        "3058967605:https://inaturalist-open-data.s3.amazonaws.com/photos/115380276/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "115380276"
+        },
+        {
+          "source": "gbif",
+          "source_id": "3058967605:https://inaturalist-open-data.s3.amazonaws.com/photos/115380276/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00029",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "115381149",
+        "3061668534:https://inaturalist-open-data.s3.amazonaws.com/photos/115381149/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "115381149"
+        },
+        {
+          "source": "gbif",
+          "source_id": "3061668534:https://inaturalist-open-data.s3.amazonaws.com/photos/115381149/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00030",
+      "species_id": "pontederia_crassipes",
+      "count": 2,
+      "source_ids": [
+        "386899666",
+        "4875444181:https://inaturalist-open-data.s3.amazonaws.com/photos/386899666/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "386899666"
+        },
+        {
+          "source": "gbif",
+          "source_id": "4875444181:https://inaturalist-open-data.s3.amazonaws.com/photos/386899666/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00031",
+      "species_id": "pontederia_crassipes",
+      "count": 2,
+      "source_ids": [
+        "386899699",
+        "4875444181:https://inaturalist-open-data.s3.amazonaws.com/photos/386899699/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "386899699"
+        },
+        {
+          "source": "gbif",
+          "source_id": "4875444181:https://inaturalist-open-data.s3.amazonaws.com/photos/386899699/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00032",
+      "species_id": "pontederia_crassipes",
+      "count": 2,
+      "source_ids": [
+        "229873138",
+        "5133247902:https://inaturalist-open-data.s3.amazonaws.com/photos/229873138/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "229873138"
+        },
+        {
+          "source": "gbif",
+          "source_id": "5133247902:https://inaturalist-open-data.s3.amazonaws.com/photos/229873138/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00033",
+      "species_id": "pontederia_crassipes",
+      "count": 2,
+      "source_ids": [
+        "229873559",
+        "5133247902:https://inaturalist-open-data.s3.amazonaws.com/photos/229873559/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "229873559"
+        },
+        {
+          "source": "gbif",
+          "source_id": "5133247902:https://inaturalist-open-data.s3.amazonaws.com/photos/229873559/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00034",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "13209229",
+        "104442082"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "13209229"
+        },
+        {
+          "source": "inaturalist",
+          "source_id": "104442082"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00035",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "601970140",
+        "5936094962:https://inaturalist-open-data.s3.amazonaws.com/photos/601970140/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "601970140"
+        },
+        {
+          "source": "gbif",
+          "source_id": "5936094962:https://inaturalist-open-data.s3.amazonaws.com/photos/601970140/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00036",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "601970149",
+        "5936094962:https://inaturalist-open-data.s3.amazonaws.com/photos/601970149/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "601970149"
+        },
+        {
+          "source": "gbif",
+          "source_id": "5936094962:https://inaturalist-open-data.s3.amazonaws.com/photos/601970149/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00037",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "601970783",
+        "5936094962:https://inaturalist-open-data.s3.amazonaws.com/photos/601970783/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "601970783"
+        },
+        {
+          "source": "gbif",
+          "source_id": "5936094962:https://inaturalist-open-data.s3.amazonaws.com/photos/601970783/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00038",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "601970789",
+        "5936094962:https://inaturalist-open-data.s3.amazonaws.com/photos/601970789/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "601970789"
+        },
+        {
+          "source": "gbif",
+          "source_id": "5936094962:https://inaturalist-open-data.s3.amazonaws.com/photos/601970789/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00039",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "115380703",
+        "3408248427:https://inaturalist-open-data.s3.amazonaws.com/photos/115380703/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "115380703"
+        },
+        {
+          "source": "gbif",
+          "source_id": "3408248427:https://inaturalist-open-data.s3.amazonaws.com/photos/115380703/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00040",
+      "species_id": "pontederia_crassipes",
+      "count": 2,
+      "source_ids": [
+        "59543164",
+        "2563485049:https://inaturalist-open-data.s3.amazonaws.com/photos/59543164/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "59543164"
+        },
+        {
+          "source": "gbif",
+          "source_id": "2563485049:https://inaturalist-open-data.s3.amazonaws.com/photos/59543164/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00041",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "58348894",
+        "2543007694:https://inaturalist-open-data.s3.amazonaws.com/photos/58348894/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "58348894"
+        },
+        {
+          "source": "gbif",
+          "source_id": "2543007694:https://inaturalist-open-data.s3.amazonaws.com/photos/58348894/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00042",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "13248734",
+        "1933603039:https://inaturalist-open-data.s3.amazonaws.com/photos/13248734/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "13248734"
+        },
+        {
+          "source": "gbif",
+          "source_id": "1933603039:https://inaturalist-open-data.s3.amazonaws.com/photos/13248734/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00043",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "13248741",
+        "1933603039:https://inaturalist-open-data.s3.amazonaws.com/photos/13248741/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "13248741"
+        },
+        {
+          "source": "gbif",
+          "source_id": "1933603039:https://inaturalist-open-data.s3.amazonaws.com/photos/13248741/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00044",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "13248753",
+        "1933603039:https://inaturalist-open-data.s3.amazonaws.com/photos/13248753/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "13248753"
+        },
+        {
+          "source": "gbif",
+          "source_id": "1933603039:https://inaturalist-open-data.s3.amazonaws.com/photos/13248753/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00045",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "495078181",
+        "5206086495:https://inaturalist-open-data.s3.amazonaws.com/photos/495078181/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "495078181"
+        },
+        {
+          "source": "gbif",
+          "source_id": "5206086495:https://inaturalist-open-data.s3.amazonaws.com/photos/495078181/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00046",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "515489028",
+        "5938295276:https://inaturalist-open-data.s3.amazonaws.com/photos/515489028/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "515489028"
+        },
+        {
+          "source": "gbif",
+          "source_id": "5938295276:https://inaturalist-open-data.s3.amazonaws.com/photos/515489028/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00047",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "117187241",
+        "3068045313:https://inaturalist-open-data.s3.amazonaws.com/photos/117187241/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "117187241"
+        },
+        {
+          "source": "gbif",
+          "source_id": "3068045313:https://inaturalist-open-data.s3.amazonaws.com/photos/117187241/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00048",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "117553225",
+        "3097058524:https://inaturalist-open-data.s3.amazonaws.com/photos/117553225/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "117553225"
+        },
+        {
+          "source": "gbif",
+          "source_id": "3097058524:https://inaturalist-open-data.s3.amazonaws.com/photos/117553225/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00049",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "117553355",
+        "3097058524:https://inaturalist-open-data.s3.amazonaws.com/photos/117553355/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "117553355"
+        },
+        {
+          "source": "gbif",
+          "source_id": "3097058524:https://inaturalist-open-data.s3.amazonaws.com/photos/117553355/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00050",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "117553530",
+        "3097058524:https://inaturalist-open-data.s3.amazonaws.com/photos/117553530/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "117553530"
+        },
+        {
+          "source": "gbif",
+          "source_id": "3097058524:https://inaturalist-open-data.s3.amazonaws.com/photos/117553530/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00051",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "466510686",
+        "5063571781:https://inaturalist-open-data.s3.amazonaws.com/photos/466510686/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "466510686"
+        },
+        {
+          "source": "gbif",
+          "source_id": "5063571781:https://inaturalist-open-data.s3.amazonaws.com/photos/466510686/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00052",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "211565759",
+        "4954444430:https://inaturalist-open-data.s3.amazonaws.com/photos/211565759/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "211565759"
+        },
+        {
+          "source": "gbif",
+          "source_id": "4954444430:https://inaturalist-open-data.s3.amazonaws.com/photos/211565759/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00053",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "134228910",
+        "3302432266:https://inaturalist-open-data.s3.amazonaws.com/photos/134228910/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "134228910"
+        },
+        {
+          "source": "gbif",
+          "source_id": "3302432266:https://inaturalist-open-data.s3.amazonaws.com/photos/134228910/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00054",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "387202086",
+        "4908106256:https://inaturalist-open-data.s3.amazonaws.com/photos/387202086/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "387202086"
+        },
+        {
+          "source": "gbif",
+          "source_id": "4908106256:https://inaturalist-open-data.s3.amazonaws.com/photos/387202086/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00055",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "387202312",
+        "4908106256:https://inaturalist-open-data.s3.amazonaws.com/photos/387202312/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "387202312"
+        },
+        {
+          "source": "gbif",
+          "source_id": "4908106256:https://inaturalist-open-data.s3.amazonaws.com/photos/387202312/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00056",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "387202398",
+        "4908106256:https://inaturalist-open-data.s3.amazonaws.com/photos/387202398/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "387202398"
+        },
+        {
+          "source": "gbif",
+          "source_id": "4908106256:https://inaturalist-open-data.s3.amazonaws.com/photos/387202398/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00057",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "387202449",
+        "4908106256:https://inaturalist-open-data.s3.amazonaws.com/photos/387202449/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "387202449"
+        },
+        {
+          "source": "gbif",
+          "source_id": "4908106256:https://inaturalist-open-data.s3.amazonaws.com/photos/387202449/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00058",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "387202486",
+        "4908106256:https://inaturalist-open-data.s3.amazonaws.com/photos/387202486/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "387202486"
+        },
+        {
+          "source": "gbif",
+          "source_id": "4908106256:https://inaturalist-open-data.s3.amazonaws.com/photos/387202486/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00059",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "519731064",
+        "5198370902:https://inaturalist-open-data.s3.amazonaws.com/photos/519731064/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "519731064"
+        },
+        {
+          "source": "gbif",
+          "source_id": "5198370902:https://inaturalist-open-data.s3.amazonaws.com/photos/519731064/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00060",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "114265681",
+        "3384334611:https://inaturalist-open-data.s3.amazonaws.com/photos/114265681/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "114265681"
+        },
+        {
+          "source": "gbif",
+          "source_id": "3384334611:https://inaturalist-open-data.s3.amazonaws.com/photos/114265681/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00061",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "104432427",
+        "3031862091:https://inaturalist-open-data.s3.amazonaws.com/photos/104432427/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "104432427"
+        },
+        {
+          "source": "gbif",
+          "source_id": "3031862091:https://inaturalist-open-data.s3.amazonaws.com/photos/104432427/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00062",
+      "species_id": "pontederia_crassipes",
+      "count": 2,
+      "source_ids": [
+        "104090008",
+        "4954785875:https://inaturalist-open-data.s3.amazonaws.com/photos/104090008/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "104090008"
+        },
+        {
+          "source": "gbif",
+          "source_id": "4954785875:https://inaturalist-open-data.s3.amazonaws.com/photos/104090008/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00063",
+      "species_id": "pontederia_crassipes",
+      "count": 2,
+      "source_ids": [
+        "104436513",
+        "2992856551:https://inaturalist-open-data.s3.amazonaws.com/photos/104436513/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "104436513"
+        },
+        {
+          "source": "gbif",
+          "source_id": "2992856551:https://inaturalist-open-data.s3.amazonaws.com/photos/104436513/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00064",
+      "species_id": "pontederia_crassipes",
+      "count": 2,
+      "source_ids": [
+        "217596545",
+        "3881529600:https://inaturalist-open-data.s3.amazonaws.com/photos/217596545/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "217596545"
+        },
+        {
+          "source": "gbif",
+          "source_id": "3881529600:https://inaturalist-open-data.s3.amazonaws.com/photos/217596545/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00065",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "478256058",
+        "5108128786:https://inaturalist-open-data.s3.amazonaws.com/photos/478256058/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "478256058"
+        },
+        {
+          "source": "gbif",
+          "source_id": "5108128786:https://inaturalist-open-data.s3.amazonaws.com/photos/478256058/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00066",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "478256074",
+        "5108128786:https://inaturalist-open-data.s3.amazonaws.com/photos/478256074/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "478256074"
+        },
+        {
+          "source": "gbif",
+          "source_id": "5108128786:https://inaturalist-open-data.s3.amazonaws.com/photos/478256074/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00067",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "478256070",
+        "5108128786:https://inaturalist-open-data.s3.amazonaws.com/photos/478256070/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "478256070"
+        },
+        {
+          "source": "gbif",
+          "source_id": "5108128786:https://inaturalist-open-data.s3.amazonaws.com/photos/478256070/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00068",
+      "species_id": "pontederia_crassipes",
+      "count": 2,
+      "source_ids": [
+        "62771596",
+        "2579258815:https://inaturalist-open-data.s3.amazonaws.com/photos/62771596/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "62771596"
+        },
+        {
+          "source": "gbif",
+          "source_id": "2579258815:https://inaturalist-open-data.s3.amazonaws.com/photos/62771596/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00069",
+      "species_id": "pontederia_crassipes",
+      "count": 2,
+      "source_ids": [
+        "62771583",
+        "2579258815:https://inaturalist-open-data.s3.amazonaws.com/photos/62771583/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "62771583"
+        },
+        {
+          "source": "gbif",
+          "source_id": "2579258815:https://inaturalist-open-data.s3.amazonaws.com/photos/62771583/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00070",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "482886875",
+        "5206707467:https://inaturalist-open-data.s3.amazonaws.com/photos/482886875/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "482886875"
+        },
+        {
+          "source": "gbif",
+          "source_id": "5206707467:https://inaturalist-open-data.s3.amazonaws.com/photos/482886875/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00071",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "13383610",
+        "5292246460:https://inaturalist-open-data.s3.amazonaws.com/photos/13383610/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "13383610"
+        },
+        {
+          "source": "gbif",
+          "source_id": "5292246460:https://inaturalist-open-data.s3.amazonaws.com/photos/13383610/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00072",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "519721202",
+        "5292192228:https://inaturalist-open-data.s3.amazonaws.com/photos/519721202/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "519721202"
+        },
+        {
+          "source": "gbif",
+          "source_id": "5292192228:https://inaturalist-open-data.s3.amazonaws.com/photos/519721202/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00073",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "6413975009:https://inaturalist-open-data.s3.amazonaws.com/photos/644196838/original.jpg",
+        "644196838"
+      ],
+      "record_keys": [
+        {
+          "source": "gbif",
+          "source_id": "6413975009:https://inaturalist-open-data.s3.amazonaws.com/photos/644196838/original.jpg"
+        },
+        {
+          "source": "inaturalist",
+          "source_id": "644196838"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00074",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "6413975009:https://inaturalist-open-data.s3.amazonaws.com/photos/644196965/original.jpg",
+        "644196965"
+      ],
+      "record_keys": [
+        {
+          "source": "gbif",
+          "source_id": "6413975009:https://inaturalist-open-data.s3.amazonaws.com/photos/644196965/original.jpg"
+        },
+        {
+          "source": "inaturalist",
+          "source_id": "644196965"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00075",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "28877979",
+        "3061683323:https://inaturalist-open-data.s3.amazonaws.com/photos/28877979/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "28877979"
+        },
+        {
+          "source": "gbif",
+          "source_id": "3061683323:https://inaturalist-open-data.s3.amazonaws.com/photos/28877979/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00076",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "28877984",
+        "3061683323:https://inaturalist-open-data.s3.amazonaws.com/photos/28877984/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "28877984"
+        },
+        {
+          "source": "gbif",
+          "source_id": "3061683323:https://inaturalist-open-data.s3.amazonaws.com/photos/28877984/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00077",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "28877989",
+        "3061683323:https://inaturalist-open-data.s3.amazonaws.com/photos/28877989/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "28877989"
+        },
+        {
+          "source": "gbif",
+          "source_id": "3061683323:https://inaturalist-open-data.s3.amazonaws.com/photos/28877989/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00078",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "120739022",
+        "3090654798:https://inaturalist-open-data.s3.amazonaws.com/photos/120739022/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "120739022"
+        },
+        {
+          "source": "gbif",
+          "source_id": "3090654798:https://inaturalist-open-data.s3.amazonaws.com/photos/120739022/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00079",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "445214299",
+        "4976422247:https://inaturalist-open-data.s3.amazonaws.com/photos/445214299/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "445214299"
+        },
+        {
+          "source": "gbif",
+          "source_id": "4976422247:https://inaturalist-open-data.s3.amazonaws.com/photos/445214299/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00080",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "60396173",
+        "2563620783:https://inaturalist-open-data.s3.amazonaws.com/photos/60396173/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "60396173"
+        },
+        {
+          "source": "gbif",
+          "source_id": "2563620783:https://inaturalist-open-data.s3.amazonaws.com/photos/60396173/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00081",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "58225247",
+        "2550110532:https://inaturalist-open-data.s3.amazonaws.com/photos/58225247/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "58225247"
+        },
+        {
+          "source": "gbif",
+          "source_id": "2550110532:https://inaturalist-open-data.s3.amazonaws.com/photos/58225247/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00082",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "106629336",
+        "3355098437:https://inaturalist-open-data.s3.amazonaws.com/photos/106629336/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "106629336"
+        },
+        {
+          "source": "gbif",
+          "source_id": "3355098437:https://inaturalist-open-data.s3.amazonaws.com/photos/106629336/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00083",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "493039530",
+        "5205993465:https://inaturalist-open-data.s3.amazonaws.com/photos/493039530/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "493039530"
+        },
+        {
+          "source": "gbif",
+          "source_id": "5205993465:https://inaturalist-open-data.s3.amazonaws.com/photos/493039530/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00084",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "372740675",
+        "4863814685:https://inaturalist-open-data.s3.amazonaws.com/photos/372740675/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "372740675"
+        },
+        {
+          "source": "gbif",
+          "source_id": "4863814685:https://inaturalist-open-data.s3.amazonaws.com/photos/372740675/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00085",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "372740786",
+        "4863814685:https://inaturalist-open-data.s3.amazonaws.com/photos/372740786/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "372740786"
+        },
+        {
+          "source": "gbif",
+          "source_id": "4863814685:https://inaturalist-open-data.s3.amazonaws.com/photos/372740786/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00086",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "372740922",
+        "4863814685:https://inaturalist-open-data.s3.amazonaws.com/photos/372740922/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "372740922"
+        },
+        {
+          "source": "gbif",
+          "source_id": "4863814685:https://inaturalist-open-data.s3.amazonaws.com/photos/372740922/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00087",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "248329147",
+        "4034839692:https://inaturalist-open-data.s3.amazonaws.com/photos/248329147/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "248329147"
+        },
+        {
+          "source": "gbif",
+          "source_id": "4034839692:https://inaturalist-open-data.s3.amazonaws.com/photos/248329147/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00088",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "353766774",
+        "4954731048:https://inaturalist-open-data.s3.amazonaws.com/photos/353766774/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "353766774"
+        },
+        {
+          "source": "gbif",
+          "source_id": "4954731048:https://inaturalist-open-data.s3.amazonaws.com/photos/353766774/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00089",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "456125064",
+        "5008237207:https://inaturalist-open-data.s3.amazonaws.com/photos/456125064/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "456125064"
+        },
+        {
+          "source": "gbif",
+          "source_id": "5008237207:https://inaturalist-open-data.s3.amazonaws.com/photos/456125064/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00090",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "58360071",
+        "2540792090:https://inaturalist-open-data.s3.amazonaws.com/photos/58360071/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "58360071"
+        },
+        {
+          "source": "gbif",
+          "source_id": "2540792090:https://inaturalist-open-data.s3.amazonaws.com/photos/58360071/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00091",
+      "species_id": "lantana_camara",
+      "count": 2,
+      "source_ids": [
+        "104437357",
+        "3031650063:https://inaturalist-open-data.s3.amazonaws.com/photos/104437357/original.jpg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "104437357"
+        },
+        {
+          "source": "gbif",
+          "source_id": "3031650063:https://inaturalist-open-data.s3.amazonaws.com/photos/104437357/original.jpg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00092",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "58915134",
+        "3415731409:https://inaturalist-open-data.s3.amazonaws.com/photos/58915134/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "58915134"
+        },
+        {
+          "source": "gbif",
+          "source_id": "3415731409:https://inaturalist-open-data.s3.amazonaws.com/photos/58915134/original.jpeg"
+        }
+      ]
+    },
+    {
+      "group_id": "near-duplicate:00093",
+      "species_id": "chromolaena_odorata",
+      "count": 2,
+      "source_ids": [
+        "355413306",
+        "4954690099:https://inaturalist-open-data.s3.amazonaws.com/photos/355413306/original.jpeg"
+      ],
+      "record_keys": [
+        {
+          "source": "inaturalist",
+          "source_id": "355413306"
+        },
+        {
+          "source": "gbif",
+          "source_id": "4954690099:https://inaturalist-open-data.s3.amazonaws.com/photos/355413306/original.jpeg"
+        }
+      ]
+    }
+  ],
+  "recomputed_near_duplicate_group_count": 93,
+  "review_instructions": [
+    "Open the species contact sheets and enter field_photo, specimen, unclear, or unreadable in human_visual_review.",
+    "Enter confirmed, incorrect, or uncertain in human_label_review only when qualified evidence is available.",
+    "Source keyword flags are prompts for review, not automatic exclusions or label changes.",
+    "Do not use the old test split as a fresh blind test; its performance has already been inspected."
+  ]
+}

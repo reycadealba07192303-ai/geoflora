@@ -1,0 +1,23 @@
+{
+  "name": "geoflora-catalog",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "import:gbif": "tsx src/gbif-importer.ts",
+    "test": "tsx --test src/gbif-importer.test.ts"
+  },
+  "dependencies": {
+    "csv-parse": "^7.0.3",
+    "mongoose": "^8.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "~5.7.2"
+  }
+}

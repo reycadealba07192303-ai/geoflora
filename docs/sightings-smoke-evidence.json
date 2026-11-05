@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "database": "geoflora_sightings_validation",
+  "checks": [
+    "persistent pending report and normalized photo",
+    "GeoJSON longitude/latitude order",
+    "separate observation/submission time",
+    "identical retry and concurrent retry saved once",
+    "changed-payload conflict",
+    "invalid coordinates/consent/time/accuracy/image rejected",
+    "foreign-origin write rejected",
+    "map listing returns saved place, dates and coordinates without photo/internal fields",
+    "listing rejects foreign origin",
+    "retry retains original report creation time",
+    "place-name validation and conflict"
+  ],
+  "fixture_request_ids": [
+    "7ef4c09c-9e93-49e2-86f1-617021257903",
+    "fb0c6ff1-1562-4efe-9bb8-2f48daf7bc2b"
+  ],
+  "photo_checks": [
+    "saved report photo returns JPEG with expected dimensions",
+    "map thumbnail is 120x120 JPEG",
+    "foreign origin rejected",
+    "invalid ID rejected",
+    "missing photo returns 404"
+  ],
+  "training_feedback_checks": [
+    "description and suggestion persisted separately from unknown label",
+    "explicit opt-in creates only pending candidate",
+    "omitted consent excludes report from training queue",
+    "client cannot approve training status",
+    "invalid feedback rejected",
+    "changed suggestion produces retry conflict"
+  ]
+}

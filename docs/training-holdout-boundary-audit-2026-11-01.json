@@ -1,0 +1,76 @@
+{
+  "checked_at_utc": "2026-10-31T18:15:27.079377+00:00",
+  "method": "Manifest metadata plus perceptual-hash comparison; images were decoded for duplicate screening but not scored by a classifier.",
+  "manifest_counts": {
+    "v3": {
+      "rows": 243,
+      "splits": {
+        "train": 166,
+        "validation": 38,
+        "test": 39
+      }
+    },
+    "v5": {
+      "rows": 211,
+      "splits": {
+        "train": 141,
+        "validation": 34,
+        "test": 36
+      }
+    },
+    "11class": {
+      "rows": 1594,
+      "splits": {
+        "train": 1091,
+        "validation": 250,
+        "test": 253
+      }
+    }
+  },
+  "automatic_worker_policy": "Worker excludes hashes and normalized observation identities for every curated historical test partition, then excludes perceptual near-duplicates against historical test images from baseline and consented additions.",
+  "auto_training_source_overlap": {
+    "v5_test_exact_hashes_in_v5_train_validation": 0,
+    "v5_test_observation_or_near_duplicate_groups_in_v5_train_validation": 0,
+    "any_curated_test_partition_rows": 1097,
+    "unique_any_curated_test_hashes": 413,
+    "any_curated_test_hashes_in_v5_train_validation": 143,
+    "any_curated_test_group_ids_in_v5_train_validation": 285,
+    "historical_test_hashes_in_candidate_train_validation_after_worker_filter": 0,
+    "historical_test_groups_in_candidate_train_validation_after_worker_filter": 0,
+    "effective_held_out_hash_count": 413,
+    "effective_held_out_group_key_count": 1043,
+    "v5_train_validation_rows_left_after_exact_and_observation_group_filter": 32,
+    "v5_train_validation_rows_left_after_perceptual_duplicate_filter": 24,
+    "test_manifests": {
+      "storage/datasets/curated/auto_6addbdd362b22c5e6f85094e/manifest.csv": 37,
+      "storage/datasets/curated/auto_6adf68d5782d1cdd3e86ad8d/manifest.csv": 42,
+      "storage/datasets/curated/auto_6ae4e1cd7b909d6bac8b08c0/manifest.csv": 38,
+      "storage/datasets/curated/auto_6ae5cd74af23d762feaa0889/manifest.csv": 253,
+      "storage/datasets/curated/auto_6ae5cd74af23d762feaa0889_weakreview_v2_20261101/manifest.csv": 253,
+      "storage/datasets/curated/auto_6ae5cd74af23d762feaa0889_weakreview_v3_20261101/manifest.csv": 253,
+      "storage/datasets/curated/owner_approved_five_class_20261031/manifest.csv": 14,
+      "storage/datasets/curated/owner_approved_five_class_plus_mikania_supplement_20261031/manifest.csv": 23,
+      "storage/datasets/curated/three_class_recovery_20261031/manifest.csv": 14,
+      "storage/datasets/curated/three_class_recovery_v2_20261031/manifest.csv": 11,
+      "storage/datasets/curated/v1/manifest.csv": 11,
+      "storage/datasets/curated/v2/manifest.csv": 35,
+      "storage/datasets/curated/v3/manifest.csv": 39,
+      "storage/datasets/curated/v4_six_classes/manifest.csv": 38,
+      "storage/datasets/curated/v5_part2_final_five_classes/manifest.csv": 36
+    }
+  },
+  "earlier_historical_test_overlap_with_auto_training_base": {
+    "v3": {
+      "test_rows": 39,
+      "exact_hashes_in_v5_train_validation": 33,
+      "observation_or_near_duplicate_groups_in_v5_train_validation": 33
+    },
+    "11class": {
+      "test_rows": 253,
+      "exact_hashes_in_v5_train_validation": 46,
+      "observation_or_near_duplicate_groups_in_v5_train_validation": 31
+    }
+  },
+  "user_report_training_gate": "Automatic job query requires trainingConsent=true AND trainingCandidateStatus=approved AND trainingJobId=null. Report approval without contributor consent leaves trainingCandidateStatus=not_requested.",
+  "interpretation": "All historical curated test exact hashes and normalized source observation keys are held out, and baseline/eligible contribution images are also perceptually compared with historical test photos (Hamming distance <= 6). 24 v5 train/validation rows remain from the baseline; pending, AI-only, research-grade-only, rejected, non-consented, and license-ineligible additions are excluded. No training was run."
+}

@@ -1,0 +1,50 @@
+{
+  "training_ready": false,
+  "purpose": "Assistant-screened field-photo candidate list; pending qualified label/provenance review and not approved for training",
+  "source_rows": 243,
+  "preliminary_field_photo_candidates": 103,
+  "pending_qualified_label_and_provenance_review": 103,
+  "held": 140,
+  "by_status": {
+    "hold_specimen_sheet": 46,
+    "preliminary_field_photo_singleton": 10,
+    "preliminary_field_photo_representative": 93,
+    "hold_near_duplicate_copy": 93,
+    "hold_context_review": 1
+  },
+  "provisional_by_species_and_split": {
+    "pontederia_crassipes:validation": 3,
+    "pontederia_crassipes:test": 4,
+    "chromolaena_odorata:validation": 7,
+    "chromolaena_odorata:test": 7,
+    "lantana_camara:train": 29,
+    "lantana_camara:validation": 7,
+    "chromolaena_odorata:train": 30,
+    "pontederia_crassipes:train": 8,
+    "lantana_camara:test": 8
+  },
+  "provisional_source_observation_groups_by_species_and_split": {
+    "pontederia_crassipes:validation": 3,
+    "pontederia_crassipes:test": 2,
+    "chromolaena_odorata:validation": 5,
+    "chromolaena_odorata:test": 7,
+    "lantana_camara:train": 16,
+    "lantana_camara:validation": 5,
+    "chromolaena_odorata:train": 19,
+    "pontederia_crassipes:train": 6,
+    "lantana_camara:test": 6
+  },
+  "provisional_source_observation_groups_total": 69,
+  "specimen_sheet_holds": 46,
+  "context_review_holds": 1,
+  "keyword_detected_specimen_sheet_holds": 23,
+  "additional_visual_specimen_sheet_holds": 23,
+  "source_data_modified": false,
+  "approved_labels_modified": false,
+  "rule": "Retain one iNaturalist-first representative per recomputed near-duplicate group, unless the group contains a preliminary visual/context hold. Candidate photos look field-like but species and geography are not independently verified.",
+  "provisional_contact_sheet_counts": {
+    "chromolaena_odorata": 44,
+    "lantana_camara": 44,
+    "pontederia_crassipes": 15
+  }
+}

@@ -1,0 +1,453 @@
+{
+  "generated_at_utc": "2026-10-26T16:30:57.249779+00:00",
+  "candidate": "storage/models/candidates/mobilenetv2_v3_seed42",
+  "dataset": "storage/datasets/curated/v3",
+  "class_order": [
+    "chromolaena_odorata",
+    "lantana_camara",
+    "pontederia_crassipes"
+  ],
+  "threshold_selection": {
+    "split": "validation",
+    "rule": "lowest threshold in 0.4-0.95 (step 0.05) with validation selective accuracy >= 0.9",
+    "validation_images": 38,
+    "sweep": [
+      {
+        "threshold": 0.4,
+        "coverage": 1.0,
+        "accepted": 38,
+        "accepted_correct": 30,
+        "selective_accuracy": 0.7894736842105263,
+        "top1_accuracy": 0.7894736842105263
+      },
+      {
+        "threshold": 0.45,
+        "coverage": 1.0,
+        "accepted": 38,
+        "accepted_correct": 30,
+        "selective_accuracy": 0.7894736842105263,
+        "top1_accuracy": 0.7894736842105263
+      },
+      {
+        "threshold": 0.5,
+        "coverage": 0.9736842105263158,
+        "accepted": 37,
+        "accepted_correct": 29,
+        "selective_accuracy": 0.7837837837837838,
+        "top1_accuracy": 0.7894736842105263
+      },
+      {
+        "threshold": 0.55,
+        "coverage": 0.9473684210526315,
+        "accepted": 36,
+        "accepted_correct": 28,
+        "selective_accuracy": 0.7777777777777778,
+        "top1_accuracy": 0.7894736842105263
+      },
+      {
+        "threshold": 0.6,
+        "coverage": 0.868421052631579,
+        "accepted": 33,
+        "accepted_correct": 26,
+        "selective_accuracy": 0.7878787878787878,
+        "top1_accuracy": 0.7894736842105263
+      },
+      {
+        "threshold": 0.65,
+        "coverage": 0.7631578947368421,
+        "accepted": 29,
+        "accepted_correct": 23,
+        "selective_accuracy": 0.7931034482758621,
+        "top1_accuracy": 0.7894736842105263
+      },
+      {
+        "threshold": 0.7,
+        "coverage": 0.7631578947368421,
+        "accepted": 29,
+        "accepted_correct": 23,
+        "selective_accuracy": 0.7931034482758621,
+        "top1_accuracy": 0.7894736842105263
+      },
+      {
+        "threshold": 0.75,
+        "coverage": 0.7105263157894737,
+        "accepted": 27,
+        "accepted_correct": 23,
+        "selective_accuracy": 0.8518518518518519,
+        "top1_accuracy": 0.7894736842105263
+      },
+      {
+        "threshold": 0.8,
+        "coverage": 0.5789473684210527,
+        "accepted": 22,
+        "accepted_correct": 20,
+        "selective_accuracy": 0.9090909090909091,
+        "top1_accuracy": 0.7894736842105263
+      },
+      {
+        "threshold": 0.85,
+        "coverage": 0.5263157894736842,
+        "accepted": 20,
+        "accepted_correct": 20,
+        "selective_accuracy": 1.0,
+        "top1_accuracy": 0.7894736842105263
+      },
+      {
+        "threshold": 0.9,
+        "coverage": 0.34210526315789475,
+        "accepted": 13,
+        "accepted_correct": 13,
+        "selective_accuracy": 1.0,
+        "top1_accuracy": 0.7894736842105263
+      },
+      {
+        "threshold": 0.95,
+        "coverage": 0.15789473684210525,
+        "accepted": 6,
+        "accepted_correct": 6,
+        "selective_accuracy": 1.0,
+        "top1_accuracy": 0.7894736842105263
+      }
+    ],
+    "selected_threshold": 0.8,
+    "fallback": null,
+    "current_service_threshold": 0.65
+  },
+  "test_at_selected_threshold": {
+    "threshold": 0.8,
+    "coverage": 0.6923076923076923,
+    "accepted": 27,
+    "accepted_correct": 25,
+    "selective_accuracy": 0.9259259259259259,
+    "top1_accuracy": 0.8717948717948718
+  },
+  "test_at_current_threshold": {
+    "threshold": 0.65,
+    "coverage": 0.8717948717948718,
+    "accepted": 34,
+    "accepted_correct": 32,
+    "selective_accuracy": 0.9411764705882353,
+    "top1_accuracy": 0.8717948717948718
+  },
+  "test_errors": [
+    {
+      "source": "inaturalist",
+      "source_id": "17505701",
+      "source_url": "https://www.inaturalist.org/observations/12189201",
+      "expected": "pontederia_crassipes",
+      "predicted": "lantana_camara",
+      "confidence": 0.8020988702774048,
+      "accepted_at_threshold": true
+    },
+    {
+      "source": "gbif",
+      "source_id": "1847451448:https://inaturalist-open-data.s3.amazonaws.com/photos/17505701/original.jpg",
+      "source_url": "https://www.gbif.org/occurrence/1847451448",
+      "expected": "pontederia_crassipes",
+      "predicted": "lantana_camara",
+      "confidence": 0.812620997428894,
+      "accepted_at_threshold": true
+    },
+    {
+      "source": "gbif",
+      "source_id": "2516664957:https://medialib.naturalis.nl/file/id/L.3033401/format/large",
+      "source_url": "https://www.gbif.org/occurrence/2516664957",
+      "expected": "chromolaena_odorata",
+      "predicted": "lantana_camara",
+      "confidence": 0.5230105519294739,
+      "accepted_at_threshold": false
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "62771596",
+      "source_url": "https://www.inaturalist.org/observations/39558590",
+      "expected": "pontederia_crassipes",
+      "predicted": "chromolaena_odorata",
+      "confidence": 0.47703874111175537,
+      "accepted_at_threshold": false
+    },
+    {
+      "source": "gbif",
+      "source_id": "2579258815:https://inaturalist-open-data.s3.amazonaws.com/photos/62771596/original.jpg",
+      "source_url": "https://www.gbif.org/occurrence/2579258815",
+      "expected": "pontederia_crassipes",
+      "predicted": "chromolaena_odorata",
+      "confidence": 0.38405150175094604,
+      "accepted_at_threshold": false
+    }
+  ],
+  "unsupported_species": {
+    "images": 151,
+    "false_acceptance_rate": 0.3708609271523179,
+    "falsely_accepted": 56,
+    "mean_top_confidence": 0.7134708166122437,
+    "max_top_confidence": 0.9935983419418335,
+    "accepted_as": {
+      "lantana_camara": 29,
+      "chromolaena_odorata": 23,
+      "pontederia_crassipes": 4
+    },
+    "species": 78,
+    "source": "storage/datasets/staging/species_100_ph (outside candidate classes; no shared checksums)",
+    "at_current_threshold": {
+      "images": 151,
+      "false_acceptance_rate": 0.6225165562913907,
+      "falsely_accepted": 94,
+      "mean_top_confidence": 0.7134708166122437,
+      "max_top_confidence": 0.9935983419418335,
+      "accepted_as": {
+        "lantana_camara": 49,
+        "chromolaena_odorata": 36,
+        "pontederia_crassipes": 9
+      }
+    },
+    "highest_scores": [
+      {
+        "scientific_name": "Averrhoa carambola",
+        "predicted": "lantana_camara",
+        "confidence": 0.9935983419418335
+      },
+      {
+        "scientific_name": "Ageratum conyzoides",
+        "predicted": "chromolaena_odorata",
+        "confidence": 0.9855920076370239
+      },
+      {
+        "scientific_name": "Arachis hypogaea",
+        "predicted": "lantana_camara",
+        "confidence": 0.9847028851509094
+      },
+      {
+        "scientific_name": "Ananas comosus",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.9781935214996338
+      },
+      {
+        "scientific_name": "Bougainvillea spectabilis",
+        "predicted": "lantana_camara",
+        "confidence": 0.9723746180534363
+      },
+      {
+        "scientific_name": "Albizia lebbeck",
+        "predicted": "chromolaena_odorata",
+        "confidence": 0.9720399975776672
+      },
+      {
+        "scientific_name": "Abelmoschus esculentus",
+        "predicted": "lantana_camara",
+        "confidence": 0.9601070284843445
+      },
+      {
+        "scientific_name": "Imperata cylindrica",
+        "predicted": "chromolaena_odorata",
+        "confidence": 0.9598800539970398
+      },
+      {
+        "scientific_name": "Averrhoa carambola",
+        "predicted": "lantana_camara",
+        "confidence": 0.9588639736175537
+      },
+      {
+        "scientific_name": "Brunfelsia americana",
+        "predicted": "lantana_camara",
+        "confidence": 0.9567147493362427
+      }
+    ]
+  },
+  "synthetic_non_plants": {
+    "images": 18,
+    "false_acceptance_rate": 0.1111111111111111,
+    "falsely_accepted": 2,
+    "mean_top_confidence": 0.642408549785614,
+    "max_top_confidence": 0.8696714043617249,
+    "accepted_as": {
+      "pontederia_crassipes": 2
+    },
+    "at_current_threshold": {
+      "images": 18,
+      "false_acceptance_rate": 0.5,
+      "falsely_accepted": 9,
+      "mean_top_confidence": 0.642408549785614,
+      "max_top_confidence": 0.8696714043617249,
+      "accepted_as": {
+        "lantana_camara": 3,
+        "pontederia_crassipes": 6
+      }
+    },
+    "per_image": [
+      {
+        "name": "solid_black",
+        "predicted": "lantana_camara",
+        "confidence": 0.519332230091095
+      },
+      {
+        "name": "solid_white",
+        "predicted": "lantana_camara",
+        "confidence": 0.5567665696144104
+      },
+      {
+        "name": "solid_grey",
+        "predicted": "lantana_camara",
+        "confidence": 0.6463703513145447
+      },
+      {
+        "name": "solid_red",
+        "predicted": "lantana_camara",
+        "confidence": 0.47048714756965637
+      },
+      {
+        "name": "solid_green",
+        "predicted": "lantana_camara",
+        "confidence": 0.6601724624633789
+      },
+      {
+        "name": "solid_blue",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.5494381189346313
+      },
+      {
+        "name": "solid_brown",
+        "predicted": "lantana_camara",
+        "confidence": 0.509539783000946
+      },
+      {
+        "name": "solid_sky",
+        "predicted": "lantana_camara",
+        "confidence": 0.6853370070457458
+      },
+      {
+        "name": "noise_0",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.7511574029922485
+      },
+      {
+        "name": "noise_1",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.7225484251976013
+      },
+      {
+        "name": "noise_2",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.8174303770065308
+      },
+      {
+        "name": "noise_3",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.7542130947113037
+      },
+      {
+        "name": "noise_4",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.6192590594291687
+      },
+      {
+        "name": "noise_5",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.8696714043617249
+      },
+      {
+        "name": "gradient_horizontal",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.5953794121742249
+      },
+      {
+        "name": "gradient_green",
+        "predicted": "pontederia_crassipes",
+        "confidence": 0.6983463764190674
+      },
+      {
+        "name": "checkerboard",
+        "predicted": "lantana_camara",
+        "confidence": 0.4586680829524994
+      },
+      {
+        "name": "stripes",
+        "predicted": "lantana_camara",
+        "confidence": 0.679236650466919
+      }
+    ]
+  },
+  "robustness_test_perturbations": {
+    "original": {
+      "threshold": 0.8,
+      "coverage": 0.6923076923076923,
+      "accepted": 27,
+      "accepted_correct": 25,
+      "selective_accuracy": 0.9259259259259259,
+      "top1_accuracy": 0.8717948717948718
+    },
+    "blur_radius_2": {
+      "threshold": 0.8,
+      "coverage": 0.717948717948718,
+      "accepted": 28,
+      "accepted_correct": 26,
+      "selective_accuracy": 0.9285714285714286,
+      "top1_accuracy": 0.8205128205128205
+    },
+    "blur_radius_5": {
+      "threshold": 0.8,
+      "coverage": 0.7435897435897436,
+      "accepted": 29,
+      "accepted_correct": 26,
+      "selective_accuracy": 0.896551724137931,
+      "top1_accuracy": 0.8205128205128205
+    },
+    "dark_brightness_0.4": {
+      "threshold": 0.8,
+      "coverage": 0.6923076923076923,
+      "accepted": 27,
+      "accepted_correct": 27,
+      "selective_accuracy": 1.0,
+      "top1_accuracy": 0.9743589743589743
+    },
+    "bright_brightness_1.8": {
+      "threshold": 0.8,
+      "coverage": 0.48717948717948717,
+      "accepted": 19,
+      "accepted_correct": 19,
+      "selective_accuracy": 1.0,
+      "top1_accuracy": 0.7948717948717948
+    },
+    "low_contrast_0.5": {
+      "threshold": 0.8,
+      "coverage": 0.6666666666666666,
+      "accepted": 26,
+      "accepted_correct": 26,
+      "selective_accuracy": 1.0,
+      "top1_accuracy": 0.8974358974358975
+    }
+  },
+  "latency": {
+    "requests": 36,
+    "concurrency": 1,
+    "cold_model_load_seconds": 0.8107019999988552,
+    "payload_bytes": {
+      "min": 52667,
+      "median": 349456.0,
+      "max": 1270536
+    },
+    "in_process_predict_ms": {
+      "p50": 143.52204999977403,
+      "p95": 181.48110000038287,
+      "max": 187.6273999987461
+    },
+    "fastapi_testclient_predict_ms": {
+      "p50": 139.02164999944944,
+      "p95": 204.44547499982946,
+      "max": 211.33700000063982
+    },
+    "scope": "Local in-process/ASGI timing on held-out photos; excludes browser upload, network and the Next.js proxy (Part 6)."
+  },
+  "environment": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "cpu_count": 16,
+    "python": "3.11.9",
+    "tensorflow": "2.17.1",
+    "tf_threads": {
+      "TF_NUM_INTRAOP_THREADS": null,
+      "TF_NUM_INTEROP_THREADS": null
+    }
+  },
+  "active_model_unchanged": true
+}

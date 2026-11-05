@@ -1,0 +1,1378 @@
+{
+  "checked_at_utc": "2026-10-22T17:30:24.896236+00:00",
+  "candidates": [
+    {
+      "source_taxon_id": "126575",
+      "search_name_candidate": "Broussonetia papyrifera",
+      "griis_evidence_bucket": "source_flagged_invasive",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Moraceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "62408c3b78ff49bd080c514c17b85e0425083d1bd968763b686e44d90cf1a491",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": true,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126621",
+      "search_name_candidate": "Chromolaena odorata",
+      "griis_evidence_bucket": "source_flagged_invasive",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Asteraceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "346d8a554b025ada7240fb658dd8c8cec02f787daae4fa157d6691ef509af219",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": true,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126761",
+      "search_name_candidate": "Lantana camara",
+      "griis_evidence_bucket": "source_flagged_invasive",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Verbenaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "f21d4d0e8b4b345d1a3ba60d65b27c94c4064b600e6ad6221fbceed71d170f77",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": true,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126794",
+      "search_name_candidate": "Mikania micrantha",
+      "griis_evidence_bucket": "source_flagged_invasive",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Asteraceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "346d8a554b025ada7240fb658dd8c8cec02f787daae4fa157d6691ef509af219",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126723",
+      "search_name_candidate": "Hiptage benghalensis",
+      "griis_evidence_bucket": "source_flagged_invasive",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Malpighiaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "56e35e44eacfe9859ee85f9678e98c76653ed1d52f6e40ef753986d124ca8baa",
+      "cdfp_annotations": [
+        "Native."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "native_status_conflict_hold"
+    },
+    {
+      "source_taxon_id": "126737",
+      "search_name_candidate": "Imperata cylindrica",
+      "griis_evidence_bucket": "source_flagged_invasive",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Poaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "a1ebbc4e62abae6fdbbc6457759919b8fb2723a21c282ef48cf32439b64bf706",
+      "cdfp_annotations": [
+        "Cryptogenic."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "origin_uncertain_hold"
+    },
+    {
+      "source_taxon_id": "126795",
+      "search_name_candidate": "Mimosa pigra",
+      "griis_evidence_bucket": "source_flagged_invasive",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Fabaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "3a1d5b6182ea782daee9122575a7e23ffcedada90997ee55d1c82385ac9a8a18",
+      "crosscheck_status": "exact_record_unresolved",
+      "matching_records": 0
+    },
+    {
+      "source_taxon_id": "126817",
+      "search_name_candidate": "Opuntia monacantha",
+      "griis_evidence_bucket": "source_flagged_invasive",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Cactaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "0ad7ff77346c84d3eeeab05a15217cf602caf044df529d2e1d325a688fce212b",
+      "crosscheck_status": "exact_record_unresolved",
+      "matching_records": 0
+    },
+    {
+      "source_taxon_id": "126827",
+      "search_name_candidate": "Pachystachys coccinea",
+      "griis_evidence_bucket": "source_flagged_invasive",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Acanthaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "5f2d9bbdfad4e2f604fab315013e5cbe0eba2815a505eac06991320c479b627c",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": true,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126853",
+      "search_name_candidate": "Piper aduncum",
+      "griis_evidence_bucket": "source_flagged_invasive",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Piperaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "ae32b26fcef5fd2f7ac72f4d25abb0716f1565878dfd20a174b85cee4790e6d4",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": true,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126856",
+      "search_name_candidate": "Pistia stratiotes",
+      "griis_evidence_bucket": "source_flagged_invasive",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Araceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "2327f3024a010b5ef4507c398cf2dc3433ccf18080804480a234445998beab14",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": true,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126900",
+      "search_name_candidate": "Salvinia molesta",
+      "griis_evidence_bucket": "source_flagged_invasive",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Salviniaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "b29b7a55e3bda90d520e535d53c3f7fe32e51a8fd67018778b30b00a0b5df25f",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": true,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126503",
+      "search_name_candidate": "Acacia auriculiformis",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Fabaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "3a1d5b6182ea782daee9122575a7e23ffcedada90997ee55d1c82385ac9a8a18",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126505",
+      "search_name_candidate": "Acacia mangium",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Fabaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "3a1d5b6182ea782daee9122575a7e23ffcedada90997ee55d1c82385ac9a8a18",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126634",
+      "search_name_candidate": "Coccinia grandis",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Cucurbitaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "dab783a302757d43049ac26b5873e01ab9e921ca8b77ade1f854600a53d54d4b",
+      "cdfp_annotations": [
+        "Cryptogenic."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "origin_uncertain_hold"
+    },
+    {
+      "source_taxon_id": "126676",
+      "search_name_candidate": "Eichhornia crassipes",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Pontederiaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "e35e6fc6fd515e92da09f70d9f576ff2f61c45ba3462e8cc5d68371878ae869a",
+      "crosscheck_status": "exact_record_unresolved",
+      "matching_records": 0
+    },
+    {
+      "source_taxon_id": "126921",
+      "search_name_candidate": "Swietenia macrophylla",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Meliaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "77132f2b7dc8d60e3e7952149ce821d379212e2089ce9a2686bc687f8526c645",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126500",
+      "search_name_candidate": "Abelmoschus esculentus",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Malvaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "f6f8beb2d6c0aabadc162f56029b9497e9e393eb22e8204e20d5766506e7e863",
+      "cdfp_annotations": [
+        "Cultivated, not naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126501",
+      "search_name_candidate": "Abrus precatorius",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Fabaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "3a1d5b6182ea782daee9122575a7e23ffcedada90997ee55d1c82385ac9a8a18",
+      "cdfp_annotations": [
+        "Native.",
+        "Native."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "native_status_conflict_hold"
+    },
+    {
+      "source_taxon_id": "126502",
+      "search_name_candidate": "Abutilon indicum",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Malvaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "f6f8beb2d6c0aabadc162f56029b9497e9e393eb22e8204e20d5766506e7e863",
+      "cdfp_annotations": [
+        "Naturalized.",
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126506",
+      "search_name_candidate": "Acalypha hispida",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Euphorbiaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "37f4f6aeac6a5d34e1e2e3247a3397f3f7b4175040dac5484e4562d36b9d6820",
+      "cdfp_annotations": [
+        "Cultivated, not naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126507",
+      "search_name_candidate": "Acalypha wilkesiana",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Euphorbiaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "37f4f6aeac6a5d34e1e2e3247a3397f3f7b4175040dac5484e4562d36b9d6820",
+      "cdfp_annotations": [
+        "Cultivated, not naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126509",
+      "search_name_candidate": "Achyranthes aspera",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Amaranthaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "25973b27c71d66754efb8be20dbce8c9528cdf186cf85849014e1a8d7b8a5102",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126511",
+      "search_name_candidate": "Acorus calamus",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Acoraceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "2f0422456073d1081012dd557fb641ae52b1cd35909ab09a6b28fc3ff05886b9",
+      "cdfp_annotations": [
+        "Naturalized.",
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126512",
+      "search_name_candidate": "Agave cantula",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Asparagaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "840fa90f8f4c08013e91c59c45ff5eb5a1bfbc8677445b472bb3b28319097a5d",
+      "crosscheck_status": "exact_record_unresolved",
+      "matching_records": 0
+    },
+    {
+      "source_taxon_id": "126513",
+      "search_name_candidate": "Ageratum conyzoides",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Asteraceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "346d8a554b025ada7240fb658dd8c8cec02f787daae4fa157d6691ef509af219",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126514",
+      "search_name_candidate": "Aglaia odorata",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Meliaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "77132f2b7dc8d60e3e7952149ce821d379212e2089ce9a2686bc687f8526c645",
+      "cdfp_annotations": [
+        "Cultivated, not naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126515",
+      "search_name_candidate": "Albizia lebbeck",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Fabaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "3a1d5b6182ea782daee9122575a7e23ffcedada90997ee55d1c82385ac9a8a18",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126686",
+      "search_name_candidate": "Albizia saman",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Fabaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "3a1d5b6182ea782daee9122575a7e23ffcedada90997ee55d1c82385ac9a8a18",
+      "crosscheck_status": "exact_record_unresolved",
+      "matching_records": 0
+    },
+    {
+      "source_taxon_id": "126516",
+      "search_name_candidate": "Aleurites moluccanus",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Euphorbiaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "37f4f6aeac6a5d34e1e2e3247a3397f3f7b4175040dac5484e4562d36b9d6820",
+      "cdfp_annotations": [
+        "Cryptogenic."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "origin_uncertain_hold"
+    },
+    {
+      "source_taxon_id": "126521",
+      "search_name_candidate": "Allium ampeloprasum",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Amaryllidaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "aa38231c1afb1c6b408042881bd194928a3f17201b5458891d836fb66997440b",
+      "cdfp_annotations": [
+        "Cultivated, not naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126520",
+      "search_name_candidate": "Allium cepa",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Amaryllidaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "aa38231c1afb1c6b408042881bd194928a3f17201b5458891d836fb66997440b",
+      "cdfp_annotations": [
+        "Cultivated, not naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126524",
+      "search_name_candidate": "Alternanthera ficoidea",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Amaranthaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "25973b27c71d66754efb8be20dbce8c9528cdf186cf85849014e1a8d7b8a5102",
+      "crosscheck_status": "exact_record_unresolved",
+      "matching_records": 0
+    },
+    {
+      "source_taxon_id": "126522",
+      "search_name_candidate": "Alternanthera halimifolia",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Amaranthaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "25973b27c71d66754efb8be20dbce8c9528cdf186cf85849014e1a8d7b8a5102",
+      "crosscheck_status": "exact_record_unresolved",
+      "matching_records": 0
+    },
+    {
+      "source_taxon_id": "126523",
+      "search_name_candidate": "Alternanthera sessilis",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Amaranthaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "25973b27c71d66754efb8be20dbce8c9528cdf186cf85849014e1a8d7b8a5102",
+      "cdfp_annotations": [
+        "Native."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "native_status_conflict_hold"
+    },
+    {
+      "source_taxon_id": "126525",
+      "search_name_candidate": "Alysicarpus vaginalis",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Fabaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "3a1d5b6182ea782daee9122575a7e23ffcedada90997ee55d1c82385ac9a8a18",
+      "cdfp_annotations": [
+        "Native."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "native_status_conflict_hold"
+    },
+    {
+      "source_taxon_id": "126526",
+      "search_name_candidate": "Amaranthus caudatus",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Amaranthaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "25973b27c71d66754efb8be20dbce8c9528cdf186cf85849014e1a8d7b8a5102",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126528",
+      "search_name_candidate": "Amaranthus spinosus",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Amaranthaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "25973b27c71d66754efb8be20dbce8c9528cdf186cf85849014e1a8d7b8a5102",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126527",
+      "search_name_candidate": "Amaranthus tricolor",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Amaranthaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "25973b27c71d66754efb8be20dbce8c9528cdf186cf85849014e1a8d7b8a5102",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126529",
+      "search_name_candidate": "Amaranthus viridis",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Amaranthaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "25973b27c71d66754efb8be20dbce8c9528cdf186cf85849014e1a8d7b8a5102",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126533",
+      "search_name_candidate": "Anacardium occidentale",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Anacardiaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "70afbd270503aa0af7574a4c3067f85d9eaa5ecab843636cfa83caf5369ae489",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126534",
+      "search_name_candidate": "Ananas comosus",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Bromeliaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "4ca07649bf65ccaed77d6397b983c514efcbbfb3360ceba05f3b58a22d8c2444",
+      "cdfp_annotations": [
+        "Cultivated, not naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126538",
+      "search_name_candidate": "Annona muricata",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Annonaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "c68d89c3bd8d24dc3affca017e5684d58cf586660fea731402cd8a1cacf76f1b",
+      "cdfp_annotations": [
+        "Cultivated, not naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126539",
+      "search_name_candidate": "Annona reticulata",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Annonaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "c68d89c3bd8d24dc3affca017e5684d58cf586660fea731402cd8a1cacf76f1b",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126540",
+      "search_name_candidate": "Annona squamosa",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Annonaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "c68d89c3bd8d24dc3affca017e5684d58cf586660fea731402cd8a1cacf76f1b",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126542",
+      "search_name_candidate": "Antigonon leptopus",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Polygonaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "cfe0583a0fe825af7f832fdaea3bd9bca47ba553f1419a6b27c8dfca995fcebf",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126544",
+      "search_name_candidate": "Arachis hypogaea",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Fabaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "3a1d5b6182ea782daee9122575a7e23ffcedada90997ee55d1c82385ac9a8a18",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126546",
+      "search_name_candidate": "Areca catechu",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Arecaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "742c10b16e40e2cf369b39642956f36f23ffead73a1b4cad3efdbc6baeb74772",
+      "cdfp_annotations": [
+        "Native."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "native_status_conflict_hold"
+    },
+    {
+      "source_taxon_id": "126547",
+      "search_name_candidate": "Argemone mexicana",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Papaveraceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "984fbb6eb8f7733e3862305518129b571d84aa25f7905d80089a4ae3e1d6987a",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126548",
+      "search_name_candidate": "Argyreia nervosa",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Convolvulaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "7abdc783951f23aba9c03bb61cb723d5d878153a0b73a869179eb47f53c7a818",
+      "cdfp_annotations": [
+        "Cultivated, not naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126550",
+      "search_name_candidate": "Aristolochia elegans",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Aristolochiaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "6402c0e15188131984de8f85952648421d51c6c97237fec43c36683fb2d9c2fe",
+      "cdfp_annotations": [
+        "Cultivated, not naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126551",
+      "search_name_candidate": "Artemisia vulgaris",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Asteraceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "346d8a554b025ada7240fb658dd8c8cec02f787daae4fa157d6691ef509af219",
+      "crosscheck_status": "exact_record_unresolved",
+      "matching_records": 0
+    },
+    {
+      "source_taxon_id": "126552",
+      "search_name_candidate": "Artocarpus altilis",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Moraceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "62408c3b78ff49bd080c514c17b85e0425083d1bd968763b686e44d90cf1a491",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126553",
+      "search_name_candidate": "Asclepias curassavica",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Apocynaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "b3b494b396f9439d42031d16be642e44450bbafb9f87b2971757eabeb5b4022a",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126556",
+      "search_name_candidate": "Asparagus aethiopicus",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Asparagaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "840fa90f8f4c08013e91c59c45ff5eb5a1bfbc8677445b472bb3b28319097a5d",
+      "cdfp_annotations": [
+        "Cultivated, not naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126554",
+      "search_name_candidate": "Asparagus officinalis",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Asparagaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "840fa90f8f4c08013e91c59c45ff5eb5a1bfbc8677445b472bb3b28319097a5d",
+      "cdfp_annotations": [
+        "Cultivated, not naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126555",
+      "search_name_candidate": "Asparagus setaceus",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Asparagaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "840fa90f8f4c08013e91c59c45ff5eb5a1bfbc8677445b472bb3b28319097a5d",
+      "cdfp_annotations": [
+        "Cultivated, not naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126558",
+      "search_name_candidate": "Averrhoa bilimbi",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Oxalidaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "71e5393e5a249870b3a3ac2cff0ddb3f8304ba090064543843bc00a627f94e2d",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126559",
+      "search_name_candidate": "Averrhoa carambola",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Oxalidaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "71e5393e5a249870b3a3ac2cff0ddb3f8304ba090064543843bc00a627f94e2d",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126693",
+      "search_name_candidate": "Ayapana triplinervis",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Asteraceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "346d8a554b025ada7240fb658dd8c8cec02f787daae4fa157d6691ef509af219",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126561",
+      "search_name_candidate": "Barleria lupulina",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Acanthaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "5f2d9bbdfad4e2f604fab315013e5cbe0eba2815a505eac06991320c479b627c",
+      "cdfp_annotations": [
+        "Cultivated, not naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126562",
+      "search_name_candidate": "Basella alba",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Basellaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "bba132612cf44ad4cedfec4a45dee488226e13ed4642531bc96337e444030b2f",
+      "cdfp_annotations": [
+        "Cryptogenic."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "origin_uncertain_hold"
+    },
+    {
+      "source_taxon_id": "126563",
+      "search_name_candidate": "Bauhinia monandra",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Fabaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "3a1d5b6182ea782daee9122575a7e23ffcedada90997ee55d1c82385ac9a8a18",
+      "cdfp_annotations": [
+        "Cultivated, not naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126564",
+      "search_name_candidate": "Bauhinia tomentosa",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Fabaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "3a1d5b6182ea782daee9122575a7e23ffcedada90997ee55d1c82385ac9a8a18",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126566",
+      "search_name_candidate": "Benincasa pruriens",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Cucurbitaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "dab783a302757d43049ac26b5873e01ab9e921ca8b77ade1f854600a53d54d4b",
+      "cdfp_annotations": [
+        "Naturalized.",
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126567",
+      "search_name_candidate": "Bidens pilosa",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Asteraceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "346d8a554b025ada7240fb658dd8c8cec02f787daae4fa157d6691ef509af219",
+      "cdfp_annotations": [
+        "Naturalized.",
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126568",
+      "search_name_candidate": "Biophytum sensitivum",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Oxalidaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "71e5393e5a249870b3a3ac2cff0ddb3f8304ba090064543843bc00a627f94e2d",
+      "cdfp_annotations": [
+        "Native."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "native_status_conflict_hold"
+    },
+    {
+      "source_taxon_id": "126569",
+      "search_name_candidate": "Bixa orellana",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Bixaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "bc27da347813bedf82a75125d52c823625f4d028608e01801c8bcb2b6c5271ad",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126571",
+      "search_name_candidate": "Boehmeria nivea",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Urticaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "16eebd857447c7c1a7a48763fbaa3283d9768b9c431da6c38f251037f6a09e6f",
+      "cdfp_annotations": [
+        "Naturalized.",
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126572",
+      "search_name_candidate": "Boerhaavia diffusa",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Nyctaginaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "331e25fc878eecbc8f980713062b3c5195365f1d4aecd0eb10d1b108e83d658b",
+      "crosscheck_status": "exact_record_unresolved",
+      "matching_records": 0
+    },
+    {
+      "source_taxon_id": "126573",
+      "search_name_candidate": "Bougainvillea spectabilis",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Nyctaginaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "331e25fc878eecbc8f980713062b3c5195365f1d4aecd0eb10d1b108e83d658b",
+      "cdfp_annotations": [
+        "Cultivated, not naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126574",
+      "search_name_candidate": "Brassica juncea",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Brassicaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "443836682181462686b1ad607716205c47a6ecdf353d5673acb6765d8dfc1a71",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126577",
+      "search_name_candidate": "Brunfelsia americana",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Solanaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "e70b44a61ba07747b0ce1df943119685e85b6ae5bd9b92943e2f911c1cefd0e7",
+      "cdfp_annotations": [
+        "Cultivated, not naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126576",
+      "search_name_candidate": "Brunfelsia brasiliensis",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Solanaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "e70b44a61ba07747b0ce1df943119685e85b6ae5bd9b92943e2f911c1cefd0e7",
+      "cdfp_annotations": [
+        "Cultivated, not naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126579",
+      "search_name_candidate": "Caesalpinia pulcherrima",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Fabaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "3a1d5b6182ea782daee9122575a7e23ffcedada90997ee55d1c82385ac9a8a18",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126580",
+      "search_name_candidate": "Cajanus cajan",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Fabaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "3a1d5b6182ea782daee9122575a7e23ffcedada90997ee55d1c82385ac9a8a18",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126581",
+      "search_name_candidate": "Caladium bicolor",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Araceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "2327f3024a010b5ef4507c398cf2dc3433ccf18080804480a234445998beab14",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126584",
+      "search_name_candidate": "Canavalia ensiformis",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Fabaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "3a1d5b6182ea782daee9122575a7e23ffcedada90997ee55d1c82385ac9a8a18",
+      "cdfp_annotations": [
+        "Cultivated, not naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126585",
+      "search_name_candidate": "Canavalia gladiata",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Fabaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "3a1d5b6182ea782daee9122575a7e23ffcedada90997ee55d1c82385ac9a8a18",
+      "cdfp_annotations": [
+        "Cultivated, not naturalized.",
+        "Cultivated, not naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126588",
+      "search_name_candidate": "Canna flaccida",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Cannaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "95b773a55e71f887c96e250b7299f37b4dea5743d82b2fdd592ae18a686b746a",
+      "cdfp_annotations": [
+        "Cultivated, not naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126589",
+      "search_name_candidate": "Canna glauca",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Cannaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "95b773a55e71f887c96e250b7299f37b4dea5743d82b2fdd592ae18a686b746a",
+      "cdfp_annotations": [
+        "Cultivated, not naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126733",
+      "search_name_candidate": "Cantinoa americana",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Lamiaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "6546936350147d9f0c0da83c502b3b5ed281b3e244157ae8d01e8c39a629270f",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126592",
+      "search_name_candidate": "Capsicum annuum",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Solanaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "e70b44a61ba07747b0ce1df943119685e85b6ae5bd9b92943e2f911c1cefd0e7",
+      "cdfp_annotations": [
+        "Cultivated, not naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126593",
+      "search_name_candidate": "Capsicum frutescens",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Solanaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "e70b44a61ba07747b0ce1df943119685e85b6ae5bd9b92943e2f911c1cefd0e7",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126596",
+      "search_name_candidate": "Cardiospermum halicacabum",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Sapindaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "38b0be11a760b8cd557a6ae3ad302a0459a62b5a7b27dabcc9514743a9854b2a",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126597",
+      "search_name_candidate": "Carica papaya",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Caricaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "03b48bdf3d98059f2403f739c0205390799862328bfe180c5d4c715f367a63e4",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126929",
+      "search_name_candidate": "Cascabela thevetia",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Apocynaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "b3b494b396f9439d42031d16be642e44450bbafb9f87b2971757eabeb5b4022a",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126603",
+      "search_name_candidate": "Castilloa elastica",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Moraceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "62408c3b78ff49bd080c514c17b85e0425083d1bd968763b686e44d90cf1a491",
+      "crosscheck_status": "exact_record_unresolved",
+      "matching_records": 0
+    },
+    {
+      "source_taxon_id": "126772",
+      "search_name_candidate": "Catharanthus roseus",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Apocynaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "b3b494b396f9439d42031d16be642e44450bbafb9f87b2971757eabeb5b4022a",
+      "cdfp_annotations": [
+        "Naturalized.",
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126605",
+      "search_name_candidate": "Ceiba pentandra",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Malvaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "f6f8beb2d6c0aabadc162f56029b9497e9e393eb22e8204e20d5766506e7e863",
+      "crosscheck_status": "exact_record_unresolved",
+      "matching_records": 0
+    },
+    {
+      "source_taxon_id": "126606",
+      "search_name_candidate": "Celosia argentea",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Amaranthaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "25973b27c71d66754efb8be20dbce8c9528cdf186cf85849014e1a8d7b8a5102",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126607",
+      "search_name_candidate": "Cenchrus echinatus",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Poaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "a1ebbc4e62abae6fdbbc6457759919b8fb2723a21c282ef48cf32439b64bf706",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126608",
+      "search_name_candidate": "Centrosema plumieri",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Fabaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "3a1d5b6182ea782daee9122575a7e23ffcedada90997ee55d1c82385ac9a8a18",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126609",
+      "search_name_candidate": "Cereus hexagonus",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Cactaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "0ad7ff77346c84d3eeeab05a15217cf602caf044df529d2e1d325a688fce212b",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126610",
+      "search_name_candidate": "Cereus triangularis",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Cactaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "0ad7ff77346c84d3eeeab05a15217cf602caf044df529d2e1d325a688fce212b",
+      "crosscheck_status": "exact_record_unresolved",
+      "matching_records": 0
+    },
+    {
+      "source_taxon_id": "126611",
+      "search_name_candidate": "Cestrum nocturnum",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Solanaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "e70b44a61ba07747b0ce1df943119685e85b6ae5bd9b92943e2f911c1cefd0e7",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126620",
+      "search_name_candidate": "Chloris barbata",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Poaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "a1ebbc4e62abae6fdbbc6457759919b8fb2723a21c282ef48cf32439b64bf706",
+      "cdfp_annotations": [
+        "Native."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "native_status_conflict_hold"
+    },
+    {
+      "source_taxon_id": "126622",
+      "search_name_candidate": "Chrysanthemum indicum",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Asteraceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "346d8a554b025ada7240fb658dd8c8cec02f787daae4fa157d6691ef509af219",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126537",
+      "search_name_candidate": "Chrysopogon zizanioides",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Poaceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "a1ebbc4e62abae6fdbbc6457759919b8fb2723a21c282ef48cf32439b64bf706",
+      "cdfp_annotations": [
+        "Naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    },
+    {
+      "source_taxon_id": "126625",
+      "search_name_candidate": "Cinnamomum verum",
+      "griis_evidence_bucket": "introduced_status_review_needed",
+      "crosscheck_url": "https://www.philippineplants.org/Families/Lauraceae.html",
+      "crosscheck_method": "Automated exact species-record match; requires contextual review",
+      "ai_model_supported": false,
+      "page_sha256": "0d12b72ca7f3201559f369664063e2e3977e19f00ea6b51bd844b20dec98bc7e",
+      "cdfp_annotations": [
+        "Cultivated, not naturalized."
+      ],
+      "invasive_term_present_needs_context_review": false,
+      "crosscheck_status": "exact_record_found_context_review_needed"
+    }
+  ],
+  "method_limit": "Annotations and keyword detection do not establish invasion impact. Missing matches do not establish absence. Family names and synonyms may need reconciliation."
+}

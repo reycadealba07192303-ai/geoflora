@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "database": "geoflora_report_flow_validation_run2",
+  "synthetic_training_only": true,
+  "checks": [
+    "server-bound identification, description and citation",
+    "report includes location and two timestamps",
+    "actual PDF with photo, map and required text",
+    "report/PDF owner authorization",
+    "different-photo identification reuse rejected",
+    "unknown description required",
+    "review without training consent",
+    "approved exact-photo lookup with no fabricated confidence",
+    "private reference not shared without consent",
+    "normalized-photo lookup",
+    "new species waits for independent groups",
+    "third independent sample triggers real seven-class training",
+    "cumulative contributions retained",
+    "active model unchanged"
+  ],
+  "known_report_id": "6adf68d0782d1cdd3e86ad2e",
+  "reviewed_report_id": "6adf68d0782d1cdd3e86ad4b",
+  "synthetic_report_ids": [
+    "6adf68d0782d1cdd3e86ad75",
+    "6adf68d5782d1cdd3e86ad84",
+    "6adf68d5782d1cdd3e86ad93"
+  ],
+  "training_job_id": "6adf68d5782d1cdd3e86ad8d",
+  "candidate_path": "storage/models/candidates/auto_6adf68d5782d1cdd3e86ad8d"
+}

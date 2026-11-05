@@ -1,0 +1,100 @@
+{
+  "dataset_version": "ds-20261104-ab732151f2",
+  "created": "2026-11-04T15:13:48+00:00",
+  "num_classes": 3,
+  "image_counts": {
+    "train": {
+      "Chromolaena odorata": 262,
+      "Lantana camara": 243,
+      "Pontederia crassipes": 199
+    },
+    "val": {
+      "Chromolaena odorata": 57,
+      "Lantana camara": 53,
+      "Pontederia crassipes": 43
+    },
+    "test": {
+      "Chromolaena odorata": 57,
+      "Lantana camara": 52,
+      "Pontederia crassipes": 43
+    },
+    "unknown_val": {
+      "Duranta erecta": 294,
+      "Imperata cylindrica": 101,
+      "Ipomoea aquatica": 135,
+      "Limnocharis flava": 289,
+      "Mimosa pudica": 133,
+      "Pistia stratiotes": 326
+    },
+    "unknown_test": {
+      "Ageratum conyzoides": 368,
+      "Bidens pilosa": 121,
+      "Hibiscus rosa-sinensis": 140,
+      "Ixora coccinea": 135,
+      "Lantana montevidensis": 307,
+      "Mikania micrantha": 337,
+      "Pontederia vaginalis": 302
+    }
+  },
+  "observation_group_counts": {
+    "train": {
+      "Chromolaena odorata": 245,
+      "Lantana camara": 218,
+      "Pontederia crassipes": 188
+    },
+    "val": {
+      "Chromolaena odorata": 52,
+      "Lantana camara": 47,
+      "Pontederia crassipes": 40
+    },
+    "test": {
+      "Chromolaena odorata": 52,
+      "Lantana camara": 46,
+      "Pontederia crassipes": 36
+    },
+    "unknown_val": {
+      "Duranta erecta": 282,
+      "Imperata cylindrica": 97,
+      "Ipomoea aquatica": 120,
+      "Limnocharis flava": 281,
+      "Mimosa pudica": 123,
+      "Pistia stratiotes": 288
+    },
+    "unknown_test": {
+      "Ageratum conyzoides": 348,
+      "Bidens pilosa": 107,
+      "Hibiscus rosa-sinensis": 134,
+      "Ixora coccinea": 130,
+      "Lantana montevidensis": 287,
+      "Mikania micrantha": 314,
+      "Pontederia vaginalis": 276
+    }
+  },
+  "split_config": {
+    "ratios": {
+      "train": 0.7,
+      "val": 0.15,
+      "test": 0.15
+    },
+    "group_by_recorder_and_date": true,
+    "min_images_per_class": 60,
+    "min_groups_per_class": 30,
+    "min_test_images_per_class": 8,
+    "unknown_val_fraction": 0.5,
+    "normalize_max_side": 1024,
+    "jpeg_quality": 95
+  },
+  "validation_config": {
+    "min_width": 224,
+    "min_height": 224,
+    "max_aspect_ratio": 4.0,
+    "min_blur_variance": 40.0,
+    "min_mean_brightness": 15.0,
+    "max_mean_brightness": 245.0,
+    "phash_hamming_threshold": 6,
+    "allowed_review_statuses_for_training": [
+      "approved"
+    ]
+  },
+  "manifest_sha256": "504e293e16ef56dc2c33c9e5f4c25f938179629160c488a43642ae897cce2a53"
+}

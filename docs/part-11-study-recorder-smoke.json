@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-26T17:51:27.249986+00:00",
+  "database": "mongodb://127.0.0.1:27017/geoflora_study_validation",
+  "checks": [
+    "only administrators can read or record study sessions",
+    "a session cannot be saved without consent to the current script",
+    "participant codes must not be names",
+    "all ten SUS answers from 1 to 5 are required",
+    "tasks outside the participant's group are rejected",
+    "a valid session saves and the server computes SUS (all-positive answers = 100)",
+    "a participant code can only be used once",
+    "consent version, time and facilitator are stored with the session",
+    "summary computes core unassisted completion and mean SUS",
+    "summary compares results with the Part 1 targets",
+    "assisted completions do not count as unassisted",
+    "CSV export has one row per task attempt and no names",
+    "withdrawing a participant deletes their session and updates the summary"
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "generated_at_utc": "2026-10-31T16:49:04.199669+00:00",
+  "purpose": "Prevent newly collected weak-class candidates from entering automatic training before human review.",
+  "changed_count": 28,
+  "changes": [
+    {
+      "species_id": "mikania_micrantha",
+      "sha256": "2ebe9ed4676b7c5d60708cdfbd252a8afc3be8a6d125b8e58090b9bc7cd390ea",
+      "source_id": "28386564",
+      "group_id": "inaturalist:observation:18554448",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "sha256": "ac110519a1602257d1d2256942b96079db80325e4b0e30b6ae9916ac6b56772b",
+      "source_id": "456310276",
+      "group_id": "inaturalist:observation:254716496",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "sha256": "f82e879e29510d1a8ab0b542fbd69b346a41e8960d06507c6ea3382e1c3fd1a5",
+      "source_id": "465797020",
+      "group_id": "inaturalist:observation:259481065",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "sha256": "ddc9f749c99bd857ab8d41e1d4b87e46a131aebfc8cd536930a2ce5af14eb78e",
+      "source_id": "467311122",
+      "group_id": "inaturalist:observation:260239376",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "sha256": "31d33256e320fa6638b9db2833378d76e08883a195e60e0401d7c9eeb883934c",
+      "source_id": "467311141",
+      "group_id": "inaturalist:observation:260239376",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "sha256": "092439a5964f6412e47632db54397167a2e475a035ea35136d51d99bdb4e9ae8",
+      "source_id": "478264274",
+      "group_id": "inaturalist:observation:266200317",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "sha256": "d35cf2cb87edb5bfbb3d2e00ea2e979d567ea50455adbab85f49082cf4adc135",
+      "source_id": "478264276",
+      "group_id": "inaturalist:observation:266200317",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "sha256": "698df45e4fde6253a4c6730a087e8fe3bd6292d9bf4bd288f2ae64335e6c399e",
+      "source_id": "478264269",
+      "group_id": "inaturalist:observation:266200317",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "sha256": "584ab85cddbca433118c0e19cf06fc01e362012f593c7acfbc37336f50458f38",
+      "source_id": "478264284",
+      "group_id": "inaturalist:observation:266200317",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "sha256": "0687d07750e928d2ea834ba82c9c8610a5ec1c6b928d7ebbbdde6c74d8e2cc91",
+      "source_id": "502163392",
+      "group_id": "inaturalist:observation:279631878",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "sha256": "688561af68de3e4453351df8e1a3ea0a97473a18ba0fd207bc737ac7553cdfdb",
+      "source_id": "502163429",
+      "group_id": "inaturalist:observation:279631878",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "sha256": "2ce5a6b2d4982160c4ef884b08cdbd96da85f40a1be5be673e1d229704855980",
+      "source_id": "502163449",
+      "group_id": "inaturalist:observation:279631878",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "sha256": "f3f0d35e0eb7984e754fe4f391f4fbdfb592e88cf6832edff33654735ee66f5e",
+      "source_id": "557017422",
+      "group_id": "inaturalist:observation:308730938",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "sha256": "a06c14dd42f1ffb3676f3c6369142584fe4b1a581081f5cd818f3ff97a5ec40f",
+      "source_id": "557017363",
+      "group_id": "inaturalist:observation:308730938",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "sha256": "bdd84a101a140ae8f8d5e1202da22e74a21a28c3df6c17d6670c087ccbf4efd4",
+      "source_id": "596389465",
+      "group_id": "inaturalist:observation:329050903",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "sha256": "876cb500c548ee0f51c8fb98c501aaa1836bfb12cf8397755dbf5b6b21a81a9a",
+      "source_id": "596389484",
+      "group_id": "inaturalist:observation:329050903",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "sha256": "f946167d95ac7b3df43a5351e1a7d9a87574e920db07f6543fcb181d26d2855a",
+      "source_id": "637461220",
+      "group_id": "inaturalist:observation:349445330",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "sha256": "733c5d7ff8c8c0ae11002760e182a803d8612e5ca9776ef95c243c7f11f56f33",
+      "source_id": "657208720",
+      "group_id": "inaturalist:observation:360175357",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "sha256": "0ef6acc9af3363b4a44df00585c11ac70f24a441463d42ea314e7decbd0ab63b",
+      "source_id": "693833647",
+      "group_id": "inaturalist:observation:379313194",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "sha256": "f0e9a52994f7292e51ba361231da4248ad1b3d8a2ebdd76ce8be0f227f5e9c80",
+      "source_id": "693956006",
+      "group_id": "inaturalist:observation:379377422",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "sha256": "94d0fd1648408dfd6411a087eb57bf3985d4d9d1856289e7cbdeb1fa4ae27683",
+      "source_id": "693956039",
+      "group_id": "inaturalist:observation:379377422",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "sha256": "c78310c8e8a2556a49314e748c27c1c582b1b3f40d603886dd364cc3717e4713",
+      "source_id": "693957274",
+      "group_id": "inaturalist:observation:379378254",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "sha256": "31f05c17c90abd202f4ca49d305e5dc835ce2263130b1875a37ca71c20b56e66",
+      "source_id": "693988746",
+      "group_id": "inaturalist:observation:379395097",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "sha256": "74e86fbaa1bbe2a83067ad410d363ca8583759db357ac9df990172694772f0b9",
+      "source_id": "693990810",
+      "group_id": "inaturalist:observation:379395986",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "sha256": "eebdf5797f5d81947571d63438afc868a298faab8cc370e459f19181ae52d6b9",
+      "source_id": "696178655",
+      "group_id": "inaturalist:observation:380526737",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "sha256": "b4e38b46a167e6692ac422bcf78f96c3dce46bab958cca36441faa410db6caa3",
+      "source_id": "696178677",
+      "group_id": "inaturalist:observation:380526737",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "sha256": "d5b67b527b7caa1638cc3149c1f7eabe71e123269159e85193c61d39e91be924",
+      "source_id": "728343891",
+      "group_id": "inaturalist:observation:397127257",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "sha256": "fc3ef4a2730bd78c7236763891604a457b2be7b73a5eee7926ad9d4e2891af52",
+      "source_id": "728356906",
+      "group_id": "inaturalist:observation:397133750",
+      "previous_status": "research_grade",
+      "new_status": "pending"
+    }
+  ]
+}

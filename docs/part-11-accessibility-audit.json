@@ -1,0 +1,157 @@
+{
+  "checkedAt": "2026-10-26T17:52:13.531Z",
+  "tool": "axe-core 4.10.2 (WCAG 2.0/2.1 A and AA tags)",
+  "checks": [
+    "denied GPS hands off to the report form without coordinates",
+    "denied GPS shows a clear message and the map-pin/typed fallback",
+    "report saves with manually entered coordinates after GPS was denied"
+  ],
+  "pages": [
+    {
+      "page": "Setup / sign-in",
+      "viewport": "desktop",
+      "overflowPx": 0,
+      "violations": []
+    },
+    {
+      "page": "Setup / sign-in",
+      "viewport": "mobile",
+      "overflowPx": 0,
+      "violations": []
+    },
+    {
+      "page": "Overview",
+      "viewport": "desktop",
+      "overflowPx": 0,
+      "violations": []
+    },
+    {
+      "page": "Overview",
+      "viewport": "mobile",
+      "overflowPx": 0,
+      "violations": []
+    },
+    {
+      "page": "Identify",
+      "viewport": "desktop",
+      "overflowPx": 0,
+      "violations": []
+    },
+    {
+      "page": "Identify",
+      "viewport": "mobile",
+      "overflowPx": 0,
+      "violations": []
+    },
+    {
+      "page": "Identification result",
+      "viewport": "desktop",
+      "overflowPx": 0,
+      "violations": []
+    },
+    {
+      "page": "Identification result",
+      "viewport": "mobile",
+      "overflowPx": 0,
+      "violations": []
+    },
+    {
+      "page": "Report form (GPS denied)",
+      "viewport": "desktop",
+      "overflowPx": 0,
+      "violations": []
+    },
+    {
+      "page": "Report form (GPS denied)",
+      "viewport": "mobile",
+      "overflowPx": 0,
+      "violations": []
+    },
+    {
+      "page": "Report view",
+      "viewport": "desktop",
+      "overflowPx": 0,
+      "violations": []
+    },
+    {
+      "page": "Report view",
+      "viewport": "mobile",
+      "overflowPx": 0,
+      "violations": []
+    },
+    {
+      "page": "Occurrence map",
+      "viewport": "desktop",
+      "overflowPx": 0,
+      "violations": []
+    },
+    {
+      "page": "Occurrence map",
+      "viewport": "mobile",
+      "overflowPx": 0,
+      "violations": []
+    },
+    {
+      "page": "Review queue",
+      "viewport": "desktop",
+      "overflowPx": 0,
+      "violations": []
+    },
+    {
+      "page": "Review queue",
+      "viewport": "mobile",
+      "overflowPx": 0,
+      "violations": []
+    },
+    {
+      "page": "Species catalog",
+      "viewport": "desktop",
+      "overflowPx": 0,
+      "violations": []
+    },
+    {
+      "page": "Species catalog",
+      "viewport": "mobile",
+      "overflowPx": 0,
+      "violations": []
+    },
+    {
+      "page": "Account settings",
+      "viewport": "desktop",
+      "overflowPx": 0,
+      "violations": []
+    },
+    {
+      "page": "Account settings",
+      "viewport": "mobile",
+      "overflowPx": 0,
+      "violations": []
+    },
+    {
+      "page": "Manage accounts",
+      "viewport": "desktop",
+      "overflowPx": 0,
+      "violations": []
+    },
+    {
+      "page": "Manage accounts",
+      "viewport": "mobile",
+      "overflowPx": 0,
+      "violations": []
+    },
+    {
+      "page": "Usability study (consent ticked)",
+      "viewport": "desktop",
+      "overflowPx": 0,
+      "violations": []
+    },
+    {
+      "page": "Usability study (consent ticked)",
+      "viewport": "mobile",
+      "overflowPx": 0,
+      "violations": []
+    }
+  ],
+  "seriousOrCritical": 0,
+  "overflowing": []
+}

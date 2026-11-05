@@ -1,0 +1,3914 @@
+{
+  "generated_at_utc": "2026-10-31T17:22:08.844548+00:00",
+  "image_count": 58,
+  "observation_group_count": 40,
+  "class_counts": {
+    "mikania_micrantha": {
+      "images": 31,
+      "groups": 23
+    },
+    "coccinia_grandis": {
+      "images": 27,
+      "groups": 17
+    }
+  },
+  "triage_counts": {
+    "suitable_for_human_botanical_review": 15,
+    "questionable_quality": 3,
+    "source_alias_duplicate": 2,
+    "field_photo_check": 8,
+    "exclude_frozen_duplicate": 12
+  },
+  "near_duplicate_matches_to_frozen": [
+    {
+      "sha256": "8e11face6e3a37087c101ff28e68136919043be5a1ee944a07d727438ccbb815",
+      "species_id": "mikania_micrantha",
+      "matches": [
+        {
+          "distance": 0,
+          "frozen_sha256": "5adf39786f9b11cb399620aefe71d36fbd78ed1bbd0753b8e0dfba79464ee712",
+          "frozen_source_id": "494382561",
+          "frozen_split": "train"
+        }
+      ]
+    },
+    {
+      "sha256": "d9931a75810e3c4c4ef52254418dde2242bef1c69651dc14c5f9f1fd4110cd74",
+      "species_id": "mikania_micrantha",
+      "matches": [
+        {
+          "distance": 0,
+          "frozen_sha256": "4dcbb9caa172dc2e9e32cdc88e8ad764107574cb44f44925c54a0cc914af8ff5",
+          "frozen_source_id": "479568096",
+          "frozen_split": "validation"
+        }
+      ]
+    },
+    {
+      "sha256": "dc29569226e0f2c80b0d8e9652bdc50a715c3f13bb246d74eca773c3d7b18240",
+      "species_id": "mikania_micrantha",
+      "matches": [
+        {
+          "distance": 0,
+          "frozen_sha256": "ada54721a7b20ce6927ea66098930a82d255a851c571d355b7516a64ce63cc28",
+          "frozen_source_id": "479568098",
+          "frozen_split": "validation"
+        }
+      ]
+    },
+    {
+      "sha256": "bbe2d64690015852258ce41c59b53fdcbd444fc7ca349d2f18f30c2dfc486416",
+      "species_id": "mikania_micrantha",
+      "matches": [
+        {
+          "distance": 0,
+          "frozen_sha256": "d804d51170bff31e2a96df38d5a0e90adcc274b3852b21c996253c97e4ae4ecf",
+          "frozen_source_id": "479568100",
+          "frozen_split": "validation"
+        }
+      ]
+    },
+    {
+      "sha256": "bb106f68155b4b90a02f8da3e925272c290f6cf6468112b719215bef9d4a7ae4",
+      "species_id": "mikania_micrantha",
+      "matches": [
+        {
+          "distance": 0,
+          "frozen_sha256": "c5c3abdcfb51813ade370ae9b523cceded45ae2d4e6bd89f1a8b0637c3403105",
+          "frozen_source_id": "340257255",
+          "frozen_split": "train"
+        }
+      ]
+    },
+    {
+      "sha256": "71bd2f1f74a4e1ad682b4bbf19bcf75967505e07430ca589c379e68ffc10ec8f",
+      "species_id": "mikania_micrantha",
+      "matches": [
+        {
+          "distance": 0,
+          "frozen_sha256": "00fc77f2aaf9b8ad6f08611ad66e9bf57e684cd5d270fd8014628f302b12e2d1",
+          "frozen_source_id": "191462732",
+          "frozen_split": "test"
+        }
+      ]
+    },
+    {
+      "sha256": "87072e71dfd8dd7053dd602ff14e161fd253a802d9e1cfb4f5cf459e53a5cb5b",
+      "species_id": "mikania_micrantha",
+      "matches": [
+        {
+          "distance": 0,
+          "frozen_sha256": "01c19c9f9f528a14c9b37d19d35666e9e3467021180c30cb1165b5499f34f491",
+          "frozen_source_id": "114266128",
+          "frozen_split": "test"
+        },
+        {
+          "distance": 0,
+          "frozen_sha256": "01c19c9f9f528a14c9b37d19d35666e9e3467021180c30cb1165b5499f34f491",
+          "frozen_source_id": "114266128",
+          "frozen_split": "test"
+        }
+      ]
+    },
+    {
+      "sha256": "1936385f7efe3341411f49f62c5bf1b860a6d4265ccbfb7c58cc63a582eb5f1d",
+      "species_id": "mikania_micrantha",
+      "matches": [
+        {
+          "distance": 0,
+          "frozen_sha256": "191d861c5e20051a60b476cc0d2803bba4dc27f921480a0b1021e687812c61e7",
+          "frozen_source_id": "115272091",
+          "frozen_split": "train"
+        }
+      ]
+    },
+    {
+      "sha256": "3ee943b6635834d43e76b90af3b3b17b09102b15363c720b3e5ed25bce133bfd",
+      "species_id": "mikania_micrantha",
+      "matches": [
+        {
+          "distance": 0,
+          "frozen_sha256": "ce25ecfebe3d78b65f0b54e23d4459823d4c27ffbae0896edc079b43052c9cec",
+          "frozen_source_id": "115200931",
+          "frozen_split": "train"
+        },
+        {
+          "distance": 0,
+          "frozen_sha256": "ce25ecfebe3d78b65f0b54e23d4459823d4c27ffbae0896edc079b43052c9cec",
+          "frozen_source_id": "115200931",
+          "frozen_split": "train"
+        }
+      ]
+    },
+    {
+      "sha256": "306c9e50028201b59d5a2c728ffea47bd2b52ce645bea91e581180d5f53fc56a",
+      "species_id": "mikania_micrantha",
+      "matches": [
+        {
+          "distance": 0,
+          "frozen_sha256": "e03205fca8473727d4e9e75a8c1beb5e345d991d4fabdacafc7bced0d5bd5c29",
+          "frozen_source_id": "115202501",
+          "frozen_split": "train"
+        },
+        {
+          "distance": 0,
+          "frozen_sha256": "e03205fca8473727d4e9e75a8c1beb5e345d991d4fabdacafc7bced0d5bd5c29",
+          "frozen_source_id": "115202501",
+          "frozen_split": "train"
+        }
+      ]
+    },
+    {
+      "sha256": "3d4c3cfd0bde564cf577d0124d61ab6d98ba4fc26624c03951a14004d49e999c",
+      "species_id": "mikania_micrantha",
+      "matches": [
+        {
+          "distance": 0,
+          "frozen_sha256": "3cce59474e3c8faf8128bbc3e2e08d5453fc400ade5b7a4d8d61e1e80927f02f",
+          "frozen_source_id": "115202910",
+          "frozen_split": "train"
+        },
+        {
+          "distance": 0,
+          "frozen_sha256": "3cce59474e3c8faf8128bbc3e2e08d5453fc400ade5b7a4d8d61e1e80927f02f",
+          "frozen_source_id": "115202910",
+          "frozen_split": "train"
+        }
+      ]
+    },
+    {
+      "sha256": "48a7c5d55eeaf9a3e56821d9288d4ee01d0f04be9b2fc028d2edffce9a3036f3",
+      "species_id": "mikania_micrantha",
+      "matches": [
+        {
+          "distance": 0,
+          "frozen_sha256": "aed1e3250a66b137e0a394c80c148c829230ed502eae8cdc12ae7f9b270bc328",
+          "frozen_source_id": "115203191",
+          "frozen_split": "train"
+        },
+        {
+          "distance": 0,
+          "frozen_sha256": "aed1e3250a66b137e0a394c80c148c829230ed502eae8cdc12ae7f9b270bc328",
+          "frozen_source_id": "115203191",
+          "frozen_split": "train"
+        }
+      ]
+    },
+    {
+      "sha256": "7c604a87f366ecd6510a682dd2cb3fac568e19e98b80bfb07a6ad586ff810995",
+      "species_id": "mikania_micrantha",
+      "matches": [
+        {
+          "distance": 0,
+          "frozen_sha256": "c46053fa75d3a36717e9fea11f24d4049eddfc1695dca9f29ebdec2af1afa666",
+          "frozen_source_id": "145287886",
+          "frozen_split": "train"
+        }
+      ]
+    },
+    {
+      "sha256": "045ec8ea6071a48d3dd5d1dac2545cec7917016d83e9476e007e8694e676ab79",
+      "species_id": "mikania_micrantha",
+      "matches": [
+        {
+          "distance": 0,
+          "frozen_sha256": "2158297e68d0e465676378bcfd43d0a4db7e12fa53016145d13808ae8776bae4",
+          "frozen_source_id": "145287915",
+          "frozen_split": "train"
+        }
+      ]
+    },
+    {
+      "sha256": "29edb0535c75c7c9c227e5652f397dff2f53ef4d853e8f8ddb8b9cd6acc5cd85",
+      "species_id": "mikania_micrantha",
+      "matches": [
+        {
+          "distance": 0,
+          "frozen_sha256": "9599de1963cacb98140b16fb17b8bd151a9f03b19049b0c09e16e7739ef61a87",
+          "frozen_source_id": "171377650",
+          "frozen_split": "test"
+        }
+      ]
+    },
+    {
+      "sha256": "589298ab49ec563499394eac097fdf72f664704dd088f1aafc3adc02456c9696",
+      "species_id": "mikania_micrantha",
+      "matches": [
+        {
+          "distance": 0,
+          "frozen_sha256": "74ce41e8073a565855074d09c28b434ce12ef9d73155899b004e9b5dd0ad5373",
+          "frozen_source_id": "105246201",
+          "frozen_split": "train"
+        }
+      ]
+    },
+    {
+      "sha256": "30ea28d237a601b60e0cca3eb558c37d4ce906ccae5f1ab73cc48f079e92d082",
+      "species_id": "mikania_micrantha",
+      "matches": [
+        {
+          "distance": 0,
+          "frozen_sha256": "8dccade72f1a96e25725747591c1403b9a432d992170c821e47c7386734bd123",
+          "frozen_source_id": "105246227",
+          "frozen_split": "train"
+        }
+      ]
+    },
+    {
+      "sha256": "aa4fcceabf00b0cf0c8a536b8af141ade64806df9728f340c23da621d2b19e29",
+      "species_id": "mikania_micrantha",
+      "matches": [
+        {
+          "distance": 0,
+          "frozen_sha256": "cd35e6bb13aa9c0a10681c24e68b626083686a407ca7653ee80c7ccec6f637af",
+          "frozen_source_id": "28580319",
+          "frozen_split": "train"
+        },
+        {
+          "distance": 0,
+          "frozen_sha256": "cd35e6bb13aa9c0a10681c24e68b626083686a407ca7653ee80c7ccec6f637af",
+          "frozen_source_id": "28580319",
+          "frozen_split": "train"
+        }
+      ]
+    },
+    {
+      "sha256": "65fd41db0f2663987650257a31ecdfb14952e0c77258e868d0f3651be6e94f12",
+      "species_id": "mikania_micrantha",
+      "matches": [
+        {
+          "distance": 0,
+          "frozen_sha256": "46562444ec68e157f9ff17b13c2118e379d5eb396cd9509e60f844d3a1a709a6",
+          "frozen_source_id": "28580305",
+          "frozen_split": "train"
+        }
+      ]
+    }
+  ],
+  "near_duplicate_matches_within_review_queue": {
+    "2ebe9ed4676b7c5d60708cdfbd252a8afc3be8a6d125b8e58090b9bc7cd390ea": [
+      {
+        "distance": 0,
+        "sha256": "31f6fc2407e632f4dbd9470a781403d63bb825a60bb930638690be19335c2e92",
+        "group_id": "gbif:occurrence:1945468596"
+      }
+    ],
+    "31f6fc2407e632f4dbd9470a781403d63bb825a60bb930638690be19335c2e92": [
+      {
+        "distance": 0,
+        "sha256": "2ebe9ed4676b7c5d60708cdfbd252a8afc3be8a6d125b8e58090b9bc7cd390ea",
+        "group_id": "18554448"
+      }
+    ]
+  },
+  "groups": [
+    {
+      "species_id": "coccinia_grandis",
+      "species_name": "Coccinia grandis",
+      "group_id": "254716496",
+      "records": [
+        {
+          "species_id": "coccinia_grandis",
+          "source": "inaturalist",
+          "source_id": "456310276",
+          "group_id": "254716496",
+          "source_url": "https://www.inaturalist.org/observations/254716496",
+          "country_code": "PH",
+          "locality": "Ilanin Forest West, Morong, Bataan, Philippines",
+          "observed_at": "2024-12-09",
+          "local_image_path": "storage/datasets/staging/invasive_coccinia_grandis_ph/raw/coccinia_grandis/ac110519a1602257d1d2256942b96079db80325e4b0e30b6ae9916ac6b56772b.jpg",
+          "license": "cc-by",
+          "attribution": "(c) Mathieu Soetens, some rights reserved (CC BY)",
+          "sha256": "ac110519a1602257d1d2256942b96079db80325e4b0e30b6ae9916ac6b56772b",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/ac110519a1602257d1d2256942b96079db80325e4b0e30b6ae9916ac6b56772b",
+          "quality": {
+            "width": 375,
+            "height": 500,
+            "bytes": 72386,
+            "laplacian_variance": 2634.57,
+            "green_pixel_fraction": 0.612,
+            "dark_or_clipped_fraction": 0.001,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "ac110519a1602257d1d2256942b96079db80325e4b0e30b6ae9916ac6b56772b",
+            "species_id": "coccinia_grandis",
+            "group_id": "254716496",
+            "top_predictions": [
+              {
+                "species_id": "coccinia_grandis",
+                "scientific_name": "Coccinia grandis",
+                "score": 0.44979599118232727
+              },
+              {
+                "species_id": "chromolaena_odorata",
+                "scientific_name": "Chromolaena odorata",
+                "score": 0.30726590752601624
+              },
+              {
+                "species_id": "spathodea_campanulata",
+                "scientific_name": "Spathodea campanulata",
+                "score": 0.1894623339176178
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        }
+      ],
+      "triage": "suitable_for_human_botanical_review",
+      "decision": {
+        "species_id": "coccinia_grandis",
+        "group_id": "254716496",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "human_visual_review_pending_independent_taxonomic_citation",
+        "reviewedAt": "2026-10-31T17:07:08.122219+00:00"
+      }
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "species_name": "Coccinia grandis",
+      "group_id": "259481065",
+      "records": [
+        {
+          "species_id": "coccinia_grandis",
+          "source": "inaturalist",
+          "source_id": "465797020",
+          "group_id": "259481065",
+          "source_url": "https://www.inaturalist.org/observations/259481065",
+          "country_code": "PH",
+          "locality": "4J29+FW2, Buhangin, Davao City, Davao del Sur, Philippines",
+          "observed_at": "2025-01-17",
+          "local_image_path": "storage/datasets/staging/invasive_coccinia_grandis_ph/raw/coccinia_grandis/f82e879e29510d1a8ab0b542fbd69b346a41e8960d06507c6ea3382e1c3fd1a5.jpg",
+          "license": "cc-by",
+          "attribution": "(c) Nielbert Raner, some rights reserved (CC BY)",
+          "sha256": "f82e879e29510d1a8ab0b542fbd69b346a41e8960d06507c6ea3382e1c3fd1a5",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/f82e879e29510d1a8ab0b542fbd69b346a41e8960d06507c6ea3382e1c3fd1a5",
+          "quality": {
+            "width": 500,
+            "height": 500,
+            "bytes": 78382,
+            "laplacian_variance": 1033.4,
+            "green_pixel_fraction": 0.82,
+            "dark_or_clipped_fraction": 0.002,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "f82e879e29510d1a8ab0b542fbd69b346a41e8960d06507c6ea3382e1c3fd1a5",
+            "species_id": "coccinia_grandis",
+            "group_id": "259481065",
+            "top_predictions": [
+              {
+                "species_id": "coccinia_grandis",
+                "scientific_name": "Coccinia grandis",
+                "score": 0.955005407333374
+              },
+              {
+                "species_id": "chromolaena_odorata",
+                "scientific_name": "Chromolaena odorata",
+                "score": 0.014679755084216595
+              },
+              {
+                "species_id": "lantana_camara",
+                "scientific_name": "Lantana camara",
+                "score": 0.014356913045048714
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        }
+      ],
+      "triage": "suitable_for_human_botanical_review",
+      "decision": {
+        "species_id": "coccinia_grandis",
+        "group_id": "259481065",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "human_visual_review_pending_independent_taxonomic_citation",
+        "reviewedAt": "2026-10-31T17:07:15.639886+00:00"
+      }
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "species_name": "Coccinia grandis",
+      "group_id": "260239376",
+      "records": [
+        {
+          "species_id": "coccinia_grandis",
+          "source": "inaturalist",
+          "source_id": "467311122",
+          "group_id": "260239376",
+          "source_url": "https://www.inaturalist.org/observations/260239376",
+          "country_code": "PH",
+          "locality": "PQJ5+4VG, \u041f\u0443\u044d\u0440\u0442\u043e-\u041f\u0440\u0438\u043d\u0446\u0435\u0441\u0430, \u041f\u0430\u043b\u0430\u0432\u0430\u043d, \u0424\u0438\u043b\u0438\u043f\u043f\u0438\u043d\u044b",
+          "observed_at": "2025-02-01",
+          "local_image_path": "storage/datasets/staging/invasive_coccinia_grandis_ph/raw/coccinia_grandis/ddc9f749c99bd857ab8d41e1d4b87e46a131aebfc8cd536930a2ce5af14eb78e.jpg",
+          "license": "cc-by",
+          "attribution": "(c) insect ID, some rights reserved (CC BY)",
+          "sha256": "ddc9f749c99bd857ab8d41e1d4b87e46a131aebfc8cd536930a2ce5af14eb78e",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/ddc9f749c99bd857ab8d41e1d4b87e46a131aebfc8cd536930a2ce5af14eb78e",
+          "quality": {
+            "width": 225,
+            "height": 500,
+            "bytes": 63997,
+            "laplacian_variance": 2976.68,
+            "green_pixel_fraction": 0.838,
+            "dark_or_clipped_fraction": 0.003,
+            "flags": [
+              "small_image"
+            ]
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "ddc9f749c99bd857ab8d41e1d4b87e46a131aebfc8cd536930a2ce5af14eb78e",
+            "species_id": "coccinia_grandis",
+            "group_id": "260239376",
+            "top_predictions": [
+              {
+                "species_id": "broussonetia_papyrifera",
+                "scientific_name": "Broussonetia papyrifera",
+                "score": 0.7329578995704651
+              },
+              {
+                "species_id": "coccinia_grandis",
+                "scientific_name": "Coccinia grandis",
+                "score": 0.23168842494487762
+              },
+              {
+                "species_id": "lantana_camara",
+                "scientific_name": "Lantana camara",
+                "score": 0.014204724691808224
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        },
+        {
+          "species_id": "coccinia_grandis",
+          "source": "inaturalist",
+          "source_id": "467311141",
+          "group_id": "260239376",
+          "source_url": "https://www.inaturalist.org/observations/260239376",
+          "country_code": "PH",
+          "locality": "PQJ5+4VG, \u041f\u0443\u044d\u0440\u0442\u043e-\u041f\u0440\u0438\u043d\u0446\u0435\u0441\u0430, \u041f\u0430\u043b\u0430\u0432\u0430\u043d, \u0424\u0438\u043b\u0438\u043f\u043f\u0438\u043d\u044b",
+          "observed_at": "2025-02-01",
+          "local_image_path": "storage/datasets/staging/invasive_coccinia_grandis_ph/raw/coccinia_grandis/31d33256e320fa6638b9db2833378d76e08883a195e60e0401d7c9eeb883934c.jpg",
+          "license": "cc-by",
+          "attribution": "(c) insect ID, some rights reserved (CC BY)",
+          "sha256": "31d33256e320fa6638b9db2833378d76e08883a195e60e0401d7c9eeb883934c",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/31d33256e320fa6638b9db2833378d76e08883a195e60e0401d7c9eeb883934c",
+          "quality": {
+            "width": 225,
+            "height": 500,
+            "bytes": 58509,
+            "laplacian_variance": 3311.3,
+            "green_pixel_fraction": 0.859,
+            "dark_or_clipped_fraction": 0.0,
+            "flags": [
+              "small_image"
+            ]
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "31d33256e320fa6638b9db2833378d76e08883a195e60e0401d7c9eeb883934c",
+            "species_id": "coccinia_grandis",
+            "group_id": "260239376",
+            "top_predictions": [
+              {
+                "species_id": "chromolaena_odorata",
+                "scientific_name": "Chromolaena odorata",
+                "score": 0.269692987203598
+              },
+              {
+                "species_id": "coccinia_grandis",
+                "scientific_name": "Coccinia grandis",
+                "score": 0.22909583151340485
+              },
+              {
+                "species_id": "lantana_camara",
+                "scientific_name": "Lantana camara",
+                "score": 0.1328429877758026
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        }
+      ],
+      "triage": "questionable_quality",
+      "decision": {
+        "species_id": "coccinia_grandis",
+        "group_id": "260239376",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "human_visual_review_pending_independent_taxonomic_citation",
+        "reviewedAt": "2026-10-31T17:07:34.208987+00:00"
+      }
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "species_name": "Coccinia grandis",
+      "group_id": "266200317",
+      "records": [
+        {
+          "species_id": "coccinia_grandis",
+          "source": "inaturalist",
+          "source_id": "478264274",
+          "group_id": "266200317",
+          "source_url": "https://www.inaturalist.org/observations/266200317",
+          "country_code": "PH",
+          "locality": "San Juan, Rizal, Philippines",
+          "observed_at": "2024-12-30",
+          "local_image_path": "storage/datasets/staging/invasive_coccinia_grandis_ph/raw/coccinia_grandis/092439a5964f6412e47632db54397167a2e475a035ea35136d51d99bdb4e9ae8.jpg",
+          "license": "cc0",
+          "attribution": "no rights reserved",
+          "sha256": "092439a5964f6412e47632db54397167a2e475a035ea35136d51d99bdb4e9ae8",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/092439a5964f6412e47632db54397167a2e475a035ea35136d51d99bdb4e9ae8",
+          "quality": {
+            "width": 375,
+            "height": 500,
+            "bytes": 72751,
+            "laplacian_variance": 2384.14,
+            "green_pixel_fraction": 0.624,
+            "dark_or_clipped_fraction": 0.002,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "092439a5964f6412e47632db54397167a2e475a035ea35136d51d99bdb4e9ae8",
+            "species_id": "coccinia_grandis",
+            "group_id": "266200317",
+            "top_predictions": [
+              {
+                "species_id": "coccinia_grandis",
+                "scientific_name": "Coccinia grandis",
+                "score": 0.984900951385498
+              },
+              {
+                "species_id": "mikania_micrantha",
+                "scientific_name": "Mikania micrantha",
+                "score": 0.004942258819937706
+              },
+              {
+                "species_id": "pontederia_crassipes",
+                "scientific_name": "Pontederia crassipes",
+                "score": 0.0034075912553817034
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        },
+        {
+          "species_id": "coccinia_grandis",
+          "source": "inaturalist",
+          "source_id": "478264276",
+          "group_id": "266200317",
+          "source_url": "https://www.inaturalist.org/observations/266200317",
+          "country_code": "PH",
+          "locality": "San Juan, Rizal, Philippines",
+          "observed_at": "2024-12-30",
+          "local_image_path": "storage/datasets/staging/invasive_coccinia_grandis_ph/raw/coccinia_grandis/d35cf2cb87edb5bfbb3d2e00ea2e979d567ea50455adbab85f49082cf4adc135.jpg",
+          "license": "cc0",
+          "attribution": "no rights reserved",
+          "sha256": "d35cf2cb87edb5bfbb3d2e00ea2e979d567ea50455adbab85f49082cf4adc135",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/d35cf2cb87edb5bfbb3d2e00ea2e979d567ea50455adbab85f49082cf4adc135",
+          "quality": {
+            "width": 375,
+            "height": 500,
+            "bytes": 86445,
+            "laplacian_variance": 3772.88,
+            "green_pixel_fraction": 0.761,
+            "dark_or_clipped_fraction": 0.003,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "d35cf2cb87edb5bfbb3d2e00ea2e979d567ea50455adbab85f49082cf4adc135",
+            "species_id": "coccinia_grandis",
+            "group_id": "266200317",
+            "top_predictions": [
+              {
+                "species_id": "mikania_micrantha",
+                "scientific_name": "Mikania micrantha",
+                "score": 0.709014356136322
+              },
+              {
+                "species_id": "coccinia_grandis",
+                "scientific_name": "Coccinia grandis",
+                "score": 0.10489773005247116
+              },
+              {
+                "species_id": "antigonon_leptopus",
+                "scientific_name": "Antigonon leptopus",
+                "score": 0.09918423742055893
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        },
+        {
+          "species_id": "coccinia_grandis",
+          "source": "inaturalist",
+          "source_id": "478264269",
+          "group_id": "266200317",
+          "source_url": "https://www.inaturalist.org/observations/266200317",
+          "country_code": "PH",
+          "locality": "San Juan, Rizal, Philippines",
+          "observed_at": "2024-12-30",
+          "local_image_path": "storage/datasets/staging/invasive_coccinia_grandis_ph/raw/coccinia_grandis/698df45e4fde6253a4c6730a087e8fe3bd6292d9bf4bd288f2ae64335e6c399e.jpg",
+          "license": "cc0",
+          "attribution": "no rights reserved",
+          "sha256": "698df45e4fde6253a4c6730a087e8fe3bd6292d9bf4bd288f2ae64335e6c399e",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/698df45e4fde6253a4c6730a087e8fe3bd6292d9bf4bd288f2ae64335e6c399e",
+          "quality": {
+            "width": 375,
+            "height": 500,
+            "bytes": 64771,
+            "laplacian_variance": 2084.09,
+            "green_pixel_fraction": 0.736,
+            "dark_or_clipped_fraction": 0.0,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "698df45e4fde6253a4c6730a087e8fe3bd6292d9bf4bd288f2ae64335e6c399e",
+            "species_id": "coccinia_grandis",
+            "group_id": "266200317",
+            "top_predictions": [
+              {
+                "species_id": "coccinia_grandis",
+                "scientific_name": "Coccinia grandis",
+                "score": 0.8220096826553345
+              },
+              {
+                "species_id": "mikania_micrantha",
+                "scientific_name": "Mikania micrantha",
+                "score": 0.16891828179359436
+              },
+              {
+                "species_id": "spathodea_campanulata",
+                "scientific_name": "Spathodea campanulata",
+                "score": 0.00444219121709466
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        },
+        {
+          "species_id": "coccinia_grandis",
+          "source": "inaturalist",
+          "source_id": "478264284",
+          "group_id": "266200317",
+          "source_url": "https://www.inaturalist.org/observations/266200317",
+          "country_code": "PH",
+          "locality": "San Juan, Rizal, Philippines",
+          "observed_at": "2024-12-30",
+          "local_image_path": "storage/datasets/staging/invasive_coccinia_grandis_ph/raw/coccinia_grandis/584ab85cddbca433118c0e19cf06fc01e362012f593c7acfbc37336f50458f38.jpg",
+          "license": "cc0",
+          "attribution": "no rights reserved",
+          "sha256": "584ab85cddbca433118c0e19cf06fc01e362012f593c7acfbc37336f50458f38",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/584ab85cddbca433118c0e19cf06fc01e362012f593c7acfbc37336f50458f38",
+          "quality": {
+            "width": 375,
+            "height": 500,
+            "bytes": 98441,
+            "laplacian_variance": 4291.85,
+            "green_pixel_fraction": 0.812,
+            "dark_or_clipped_fraction": 0.02,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "584ab85cddbca433118c0e19cf06fc01e362012f593c7acfbc37336f50458f38",
+            "species_id": "coccinia_grandis",
+            "group_id": "266200317",
+            "top_predictions": [
+              {
+                "species_id": "mikania_micrantha",
+                "scientific_name": "Mikania micrantha",
+                "score": 0.9800103306770325
+              },
+              {
+                "species_id": "coccinia_grandis",
+                "scientific_name": "Coccinia grandis",
+                "score": 0.015616873279213905
+              },
+              {
+                "species_id": "spathodea_campanulata",
+                "scientific_name": "Spathodea campanulata",
+                "score": 0.002691772533580661
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        }
+      ],
+      "triage": "suitable_for_human_botanical_review",
+      "decision": {
+        "species_id": "coccinia_grandis",
+        "group_id": "266200317",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:22:04.699721+00:00"
+      }
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "species_name": "Coccinia grandis",
+      "group_id": "279631878",
+      "records": [
+        {
+          "species_id": "coccinia_grandis",
+          "source": "inaturalist",
+          "source_id": "502163392",
+          "group_id": "279631878",
+          "source_url": "https://www.inaturalist.org/observations/279631878",
+          "country_code": "PH",
+          "locality": "Atmosphere Resorts & Spa, Dauin, Negros Oriental, PH",
+          "observed_at": "2025-05-09",
+          "local_image_path": "storage/datasets/staging/invasive_coccinia_grandis_ph/raw/coccinia_grandis/0687d07750e928d2ea834ba82c9c8610a5ec1c6b928d7ebbbdde6c74d8e2cc91.jpg",
+          "license": "cc-by",
+          "attribution": "(c) betsyyyy, some rights reserved (CC BY)",
+          "sha256": "0687d07750e928d2ea834ba82c9c8610a5ec1c6b928d7ebbbdde6c74d8e2cc91",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/0687d07750e928d2ea834ba82c9c8610a5ec1c6b928d7ebbbdde6c74d8e2cc91",
+          "quality": {
+            "width": 375,
+            "height": 500,
+            "bytes": 109375,
+            "laplacian_variance": 4834.78,
+            "green_pixel_fraction": 0.26,
+            "dark_or_clipped_fraction": 0.002,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "0687d07750e928d2ea834ba82c9c8610a5ec1c6b928d7ebbbdde6c74d8e2cc91",
+            "species_id": "coccinia_grandis",
+            "group_id": "279631878",
+            "top_predictions": [
+              {
+                "species_id": "mikania_micrantha",
+                "scientific_name": "Mikania micrantha",
+                "score": 0.8173684477806091
+              },
+              {
+                "species_id": "chromolaena_odorata",
+                "scientific_name": "Chromolaena odorata",
+                "score": 0.07381042093038559
+              },
+              {
+                "species_id": "broussonetia_papyrifera",
+                "scientific_name": "Broussonetia papyrifera",
+                "score": 0.03472153842449188
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        },
+        {
+          "species_id": "coccinia_grandis",
+          "source": "inaturalist",
+          "source_id": "502163429",
+          "group_id": "279631878",
+          "source_url": "https://www.inaturalist.org/observations/279631878",
+          "country_code": "PH",
+          "locality": "Atmosphere Resorts & Spa, Dauin, Negros Oriental, PH",
+          "observed_at": "2025-05-09",
+          "local_image_path": "storage/datasets/staging/invasive_coccinia_grandis_ph/raw/coccinia_grandis/688561af68de3e4453351df8e1a3ea0a97473a18ba0fd207bc737ac7553cdfdb.jpg",
+          "license": "cc-by",
+          "attribution": "(c) betsyyyy, some rights reserved (CC BY)",
+          "sha256": "688561af68de3e4453351df8e1a3ea0a97473a18ba0fd207bc737ac7553cdfdb",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/688561af68de3e4453351df8e1a3ea0a97473a18ba0fd207bc737ac7553cdfdb",
+          "quality": {
+            "width": 375,
+            "height": 500,
+            "bytes": 118001,
+            "laplacian_variance": 5859.16,
+            "green_pixel_fraction": 0.221,
+            "dark_or_clipped_fraction": 0.007,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "688561af68de3e4453351df8e1a3ea0a97473a18ba0fd207bc737ac7553cdfdb",
+            "species_id": "coccinia_grandis",
+            "group_id": "279631878",
+            "top_predictions": [
+              {
+                "species_id": "mikania_micrantha",
+                "scientific_name": "Mikania micrantha",
+                "score": 0.8366044759750366
+              },
+              {
+                "species_id": "broussonetia_papyrifera",
+                "scientific_name": "Broussonetia papyrifera",
+                "score": 0.05684088170528412
+              },
+              {
+                "species_id": "spathodea_campanulata",
+                "scientific_name": "Spathodea campanulata",
+                "score": 0.03588664159178734
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        },
+        {
+          "species_id": "coccinia_grandis",
+          "source": "inaturalist",
+          "source_id": "502163449",
+          "group_id": "279631878",
+          "source_url": "https://www.inaturalist.org/observations/279631878",
+          "country_code": "PH",
+          "locality": "Atmosphere Resorts & Spa, Dauin, Negros Oriental, PH",
+          "observed_at": "2025-05-09",
+          "local_image_path": "storage/datasets/staging/invasive_coccinia_grandis_ph/raw/coccinia_grandis/2ce5a6b2d4982160c4ef884b08cdbd96da85f40a1be5be673e1d229704855980.jpg",
+          "license": "cc-by",
+          "attribution": "(c) betsyyyy, some rights reserved (CC BY)",
+          "sha256": "2ce5a6b2d4982160c4ef884b08cdbd96da85f40a1be5be673e1d229704855980",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/2ce5a6b2d4982160c4ef884b08cdbd96da85f40a1be5be673e1d229704855980",
+          "quality": {
+            "width": 375,
+            "height": 500,
+            "bytes": 97855,
+            "laplacian_variance": 4356.69,
+            "green_pixel_fraction": 0.552,
+            "dark_or_clipped_fraction": 0.007,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "2ce5a6b2d4982160c4ef884b08cdbd96da85f40a1be5be673e1d229704855980",
+            "species_id": "coccinia_grandis",
+            "group_id": "279631878",
+            "top_predictions": [
+              {
+                "species_id": "mikania_micrantha",
+                "scientific_name": "Mikania micrantha",
+                "score": 0.8090332746505737
+              },
+              {
+                "species_id": "spathodea_campanulata",
+                "scientific_name": "Spathodea campanulata",
+                "score": 0.07295496016740799
+              },
+              {
+                "species_id": "antigonon_leptopus",
+                "scientific_name": "Antigonon leptopus",
+                "score": 0.048059187829494476
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        }
+      ],
+      "triage": "suitable_for_human_botanical_review",
+      "decision": {
+        "species_id": "coccinia_grandis",
+        "group_id": "279631878",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:09:40.855214+00:00"
+      }
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "species_name": "Coccinia grandis",
+      "group_id": "308730938",
+      "records": [
+        {
+          "species_id": "coccinia_grandis",
+          "source": "inaturalist",
+          "source_id": "557017422",
+          "group_id": "308730938",
+          "source_url": "https://www.inaturalist.org/observations/308730938",
+          "country_code": "PH",
+          "locality": "Partida, Norzagaray, Bulacan, Philippines",
+          "observed_at": "2025-08-10",
+          "local_image_path": "storage/datasets/staging/invasive_coccinia_grandis_ph/raw/coccinia_grandis/f3f0d35e0eb7984e754fe4f391f4fbdfb592e88cf6832edff33654735ee66f5e.jpg",
+          "license": "cc0",
+          "attribution": "no rights reserved",
+          "sha256": "f3f0d35e0eb7984e754fe4f391f4fbdfb592e88cf6832edff33654735ee66f5e",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/f3f0d35e0eb7984e754fe4f391f4fbdfb592e88cf6832edff33654735ee66f5e",
+          "quality": {
+            "width": 375,
+            "height": 500,
+            "bytes": 85608,
+            "laplacian_variance": 3828.26,
+            "green_pixel_fraction": 0.642,
+            "dark_or_clipped_fraction": 0.007,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "f3f0d35e0eb7984e754fe4f391f4fbdfb592e88cf6832edff33654735ee66f5e",
+            "species_id": "coccinia_grandis",
+            "group_id": "308730938",
+            "top_predictions": [
+              {
+                "species_id": "coccinia_grandis",
+                "scientific_name": "Coccinia grandis",
+                "score": 0.8885528445243835
+              },
+              {
+                "species_id": "mikania_micrantha",
+                "scientific_name": "Mikania micrantha",
+                "score": 0.05948517844080925
+              },
+              {
+                "species_id": "broussonetia_papyrifera",
+                "scientific_name": "Broussonetia papyrifera",
+                "score": 0.030226577073335648
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        },
+        {
+          "species_id": "coccinia_grandis",
+          "source": "inaturalist",
+          "source_id": "557017363",
+          "group_id": "308730938",
+          "source_url": "https://www.inaturalist.org/observations/308730938",
+          "country_code": "PH",
+          "locality": "Partida, Norzagaray, Bulacan, Philippines",
+          "observed_at": "2025-08-10",
+          "local_image_path": "storage/datasets/staging/invasive_coccinia_grandis_ph/raw/coccinia_grandis/a06c14dd42f1ffb3676f3c6369142584fe4b1a581081f5cd818f3ff97a5ec40f.jpg",
+          "license": "cc0",
+          "attribution": "no rights reserved",
+          "sha256": "a06c14dd42f1ffb3676f3c6369142584fe4b1a581081f5cd818f3ff97a5ec40f",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/a06c14dd42f1ffb3676f3c6369142584fe4b1a581081f5cd818f3ff97a5ec40f",
+          "quality": {
+            "width": 375,
+            "height": 500,
+            "bytes": 61331,
+            "laplacian_variance": 1373.4,
+            "green_pixel_fraction": 0.68,
+            "dark_or_clipped_fraction": 0.012,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "a06c14dd42f1ffb3676f3c6369142584fe4b1a581081f5cd818f3ff97a5ec40f",
+            "species_id": "coccinia_grandis",
+            "group_id": "308730938",
+            "top_predictions": [
+              {
+                "species_id": "coccinia_grandis",
+                "scientific_name": "Coccinia grandis",
+                "score": 0.9812843203544617
+              },
+              {
+                "species_id": "broussonetia_papyrifera",
+                "scientific_name": "Broussonetia papyrifera",
+                "score": 0.012154568918049335
+              },
+              {
+                "species_id": "chromolaena_odorata",
+                "scientific_name": "Chromolaena odorata",
+                "score": 0.0015229607233777642
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        }
+      ],
+      "triage": "suitable_for_human_botanical_review",
+      "decision": {
+        "species_id": "coccinia_grandis",
+        "group_id": "308730938",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:09:50.140164+00:00"
+      }
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "species_name": "Coccinia grandis",
+      "group_id": "329050903",
+      "records": [
+        {
+          "species_id": "coccinia_grandis",
+          "source": "inaturalist",
+          "source_id": "596389465",
+          "group_id": "329050903",
+          "source_url": "https://www.inaturalist.org/observations/329050903",
+          "country_code": "PH",
+          "locality": "Batong Malake, Los Ba\u00f1os, Laguna, Philippinen",
+          "observed_at": "2025-11-27",
+          "local_image_path": "storage/datasets/staging/invasive_coccinia_grandis_ph/raw/coccinia_grandis/bdd84a101a140ae8f8d5e1202da22e74a21a28c3df6c17d6670c087ccbf4efd4.jpg",
+          "license": "cc0",
+          "attribution": "no rights reserved",
+          "sha256": "bdd84a101a140ae8f8d5e1202da22e74a21a28c3df6c17d6670c087ccbf4efd4",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/bdd84a101a140ae8f8d5e1202da22e74a21a28c3df6c17d6670c087ccbf4efd4",
+          "quality": {
+            "width": 375,
+            "height": 500,
+            "bytes": 121514,
+            "laplacian_variance": 8001.57,
+            "green_pixel_fraction": 0.446,
+            "dark_or_clipped_fraction": 0.122,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "bdd84a101a140ae8f8d5e1202da22e74a21a28c3df6c17d6670c087ccbf4efd4",
+            "species_id": "coccinia_grandis",
+            "group_id": "329050903",
+            "top_predictions": [
+              {
+                "species_id": "broussonetia_papyrifera",
+                "scientific_name": "Broussonetia papyrifera",
+                "score": 0.5801311135292053
+              },
+              {
+                "species_id": "spathodea_campanulata",
+                "scientific_name": "Spathodea campanulata",
+                "score": 0.19948343932628632
+              },
+              {
+                "species_id": "chromolaena_odorata",
+                "scientific_name": "Chromolaena odorata",
+                "score": 0.1088409349322319
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        },
+        {
+          "species_id": "coccinia_grandis",
+          "source": "inaturalist",
+          "source_id": "596389484",
+          "group_id": "329050903",
+          "source_url": "https://www.inaturalist.org/observations/329050903",
+          "country_code": "PH",
+          "locality": "Batong Malake, Los Ba\u00f1os, Laguna, Philippinen",
+          "observed_at": "2025-11-27",
+          "local_image_path": "storage/datasets/staging/invasive_coccinia_grandis_ph/raw/coccinia_grandis/876cb500c548ee0f51c8fb98c501aaa1836bfb12cf8397755dbf5b6b21a81a9a.jpg",
+          "license": "cc0",
+          "attribution": "no rights reserved",
+          "sha256": "876cb500c548ee0f51c8fb98c501aaa1836bfb12cf8397755dbf5b6b21a81a9a",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/876cb500c548ee0f51c8fb98c501aaa1836bfb12cf8397755dbf5b6b21a81a9a",
+          "quality": {
+            "width": 376,
+            "height": 500,
+            "bytes": 81228,
+            "laplacian_variance": 4050.87,
+            "green_pixel_fraction": 0.348,
+            "dark_or_clipped_fraction": 0.162,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "876cb500c548ee0f51c8fb98c501aaa1836bfb12cf8397755dbf5b6b21a81a9a",
+            "species_id": "coccinia_grandis",
+            "group_id": "329050903",
+            "top_predictions": [
+              {
+                "species_id": "chromolaena_odorata",
+                "scientific_name": "Chromolaena odorata",
+                "score": 0.5368096828460693
+              },
+              {
+                "species_id": "antigonon_leptopus",
+                "scientific_name": "Antigonon leptopus",
+                "score": 0.11314906179904938
+              },
+              {
+                "species_id": "pontederia_crassipes",
+                "scientific_name": "Pontederia crassipes",
+                "score": 0.08656194806098938
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        }
+      ],
+      "triage": "suitable_for_human_botanical_review",
+      "decision": {
+        "species_id": "coccinia_grandis",
+        "group_id": "329050903",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:10:09.559950+00:00"
+      }
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "species_name": "Coccinia grandis",
+      "group_id": "349445330",
+      "records": [
+        {
+          "species_id": "coccinia_grandis",
+          "source": "inaturalist",
+          "source_id": "637461220",
+          "group_id": "349445330",
+          "source_url": "https://www.inaturalist.org/observations/349445330",
+          "country_code": "PH",
+          "locality": "Moalboal, Cebu, PH",
+          "observed_at": "2026-03-05",
+          "local_image_path": "storage/datasets/staging/invasive_coccinia_grandis_ph/raw/coccinia_grandis/f946167d95ac7b3df43a5351e1a7d9a87574e920db07f6543fcb181d26d2855a.jpg",
+          "license": "cc-by",
+          "attribution": "(c) Annika Lindqvist, some rights reserved (CC BY)",
+          "sha256": "f946167d95ac7b3df43a5351e1a7d9a87574e920db07f6543fcb181d26d2855a",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/f946167d95ac7b3df43a5351e1a7d9a87574e920db07f6543fcb181d26d2855a",
+          "quality": {
+            "width": 500,
+            "height": 404,
+            "bytes": 85437,
+            "laplacian_variance": 4680.97,
+            "green_pixel_fraction": 0.532,
+            "dark_or_clipped_fraction": 0.01,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "f946167d95ac7b3df43a5351e1a7d9a87574e920db07f6543fcb181d26d2855a",
+            "species_id": "coccinia_grandis",
+            "group_id": "349445330",
+            "top_predictions": [
+              {
+                "species_id": "coccinia_grandis",
+                "scientific_name": "Coccinia grandis",
+                "score": 0.9840472340583801
+              },
+              {
+                "species_id": "mikania_micrantha",
+                "scientific_name": "Mikania micrantha",
+                "score": 0.008089735172688961
+              },
+              {
+                "species_id": "chromolaena_odorata",
+                "scientific_name": "Chromolaena odorata",
+                "score": 0.003716857172548771
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        }
+      ],
+      "triage": "suitable_for_human_botanical_review",
+      "decision": {
+        "species_id": "coccinia_grandis",
+        "group_id": "349445330",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:10:18.159877+00:00"
+      }
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "species_name": "Coccinia grandis",
+      "group_id": "360175357",
+      "records": [
+        {
+          "species_id": "coccinia_grandis",
+          "source": "inaturalist",
+          "source_id": "657208720",
+          "group_id": "360175357",
+          "source_url": "https://www.inaturalist.org/observations/360175357",
+          "country_code": "PH",
+          "locality": "Moalboal, Cebu, Philippines",
+          "observed_at": "2026-05-10",
+          "local_image_path": "storage/datasets/staging/invasive_coccinia_grandis_ph/raw/coccinia_grandis/733c5d7ff8c8c0ae11002760e182a803d8612e5ca9776ef95c243c7f11f56f33.jpg",
+          "license": "cc-by",
+          "attribution": "(c) Graham Cleaver, some rights reserved (CC BY)",
+          "sha256": "733c5d7ff8c8c0ae11002760e182a803d8612e5ca9776ef95c243c7f11f56f33",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/733c5d7ff8c8c0ae11002760e182a803d8612e5ca9776ef95c243c7f11f56f33",
+          "quality": {
+            "width": 500,
+            "height": 281,
+            "bytes": 56514,
+            "laplacian_variance": 1743.81,
+            "green_pixel_fraction": 0.69,
+            "dark_or_clipped_fraction": 0.0,
+            "flags": [
+              "small_image"
+            ]
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "733c5d7ff8c8c0ae11002760e182a803d8612e5ca9776ef95c243c7f11f56f33",
+            "species_id": "coccinia_grandis",
+            "group_id": "360175357",
+            "top_predictions": [
+              {
+                "species_id": "coccinia_grandis",
+                "scientific_name": "Coccinia grandis",
+                "score": 0.7177832722663879
+              },
+              {
+                "species_id": "chromolaena_odorata",
+                "scientific_name": "Chromolaena odorata",
+                "score": 0.2316584289073944
+              },
+              {
+                "species_id": "antigonon_leptopus",
+                "scientific_name": "Antigonon leptopus",
+                "score": 0.012053237296640873
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        }
+      ],
+      "triage": "questionable_quality",
+      "decision": {
+        "species_id": "coccinia_grandis",
+        "group_id": "360175357",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:10:26.370165+00:00"
+      }
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "species_name": "Coccinia grandis",
+      "group_id": "379313194",
+      "records": [
+        {
+          "species_id": "coccinia_grandis",
+          "source": "inaturalist",
+          "source_id": "693833647",
+          "group_id": "379313194",
+          "source_url": "https://www.inaturalist.org/observations/379313194",
+          "country_code": "PH",
+          "locality": "Boracay Island, Malay, Western Visayas, PH",
+          "observed_at": "2026-07-08",
+          "local_image_path": "storage/datasets/staging/invasive_coccinia_grandis_ph/raw/coccinia_grandis/0ef6acc9af3363b4a44df00585c11ac70f24a441463d42ea314e7decbd0ab63b.jpg",
+          "license": "cc0",
+          "attribution": "no rights reserved",
+          "sha256": "0ef6acc9af3363b4a44df00585c11ac70f24a441463d42ea314e7decbd0ab63b",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/0ef6acc9af3363b4a44df00585c11ac70f24a441463d42ea314e7decbd0ab63b",
+          "quality": {
+            "width": 500,
+            "height": 495,
+            "bytes": 105518,
+            "laplacian_variance": 5979.66,
+            "green_pixel_fraction": 0.815,
+            "dark_or_clipped_fraction": 0.017,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "0ef6acc9af3363b4a44df00585c11ac70f24a441463d42ea314e7decbd0ab63b",
+            "species_id": "coccinia_grandis",
+            "group_id": "379313194",
+            "top_predictions": [
+              {
+                "species_id": "coccinia_grandis",
+                "scientific_name": "Coccinia grandis",
+                "score": 0.9685903191566467
+              },
+              {
+                "species_id": "pistia_stratiotes",
+                "scientific_name": "Pistia stratiotes",
+                "score": 0.013354930095374584
+              },
+              {
+                "species_id": "broussonetia_papyrifera",
+                "scientific_name": "Broussonetia papyrifera",
+                "score": 0.012139045633375645
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        }
+      ],
+      "triage": "suitable_for_human_botanical_review",
+      "decision": {
+        "species_id": "coccinia_grandis",
+        "group_id": "379313194",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:10:33.193852+00:00"
+      }
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "species_name": "Coccinia grandis",
+      "group_id": "379377422",
+      "records": [
+        {
+          "species_id": "coccinia_grandis",
+          "source": "inaturalist",
+          "source_id": "693956006",
+          "group_id": "379377422",
+          "source_url": "https://www.inaturalist.org/observations/379377422",
+          "country_code": "PH",
+          "locality": "Boracay Island, Malay, Western Visayas, PH",
+          "observed_at": "2026-07-08",
+          "local_image_path": "storage/datasets/staging/invasive_coccinia_grandis_ph/raw/coccinia_grandis/f0e9a52994f7292e51ba361231da4248ad1b3d8a2ebdd76ce8be0f227f5e9c80.jpg",
+          "license": "cc0",
+          "attribution": "no rights reserved",
+          "sha256": "f0e9a52994f7292e51ba361231da4248ad1b3d8a2ebdd76ce8be0f227f5e9c80",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/f0e9a52994f7292e51ba361231da4248ad1b3d8a2ebdd76ce8be0f227f5e9c80",
+          "quality": {
+            "width": 375,
+            "height": 500,
+            "bytes": 73330,
+            "laplacian_variance": 2661.81,
+            "green_pixel_fraction": 0.883,
+            "dark_or_clipped_fraction": 0.011,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "f0e9a52994f7292e51ba361231da4248ad1b3d8a2ebdd76ce8be0f227f5e9c80",
+            "species_id": "coccinia_grandis",
+            "group_id": "379377422",
+            "top_predictions": [
+              {
+                "species_id": "coccinia_grandis",
+                "scientific_name": "Coccinia grandis",
+                "score": 0.7520173788070679
+              },
+              {
+                "species_id": "chromolaena_odorata",
+                "scientific_name": "Chromolaena odorata",
+                "score": 0.14006921648979187
+              },
+              {
+                "species_id": "mikania_micrantha",
+                "scientific_name": "Mikania micrantha",
+                "score": 0.0913403183221817
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        },
+        {
+          "species_id": "coccinia_grandis",
+          "source": "inaturalist",
+          "source_id": "693956039",
+          "group_id": "379377422",
+          "source_url": "https://www.inaturalist.org/observations/379377422",
+          "country_code": "PH",
+          "locality": "Boracay Island, Malay, Western Visayas, PH",
+          "observed_at": "2026-07-08",
+          "local_image_path": "storage/datasets/staging/invasive_coccinia_grandis_ph/raw/coccinia_grandis/94d0fd1648408dfd6411a087eb57bf3985d4d9d1856289e7cbdeb1fa4ae27683.jpg",
+          "license": "cc0",
+          "attribution": "no rights reserved",
+          "sha256": "94d0fd1648408dfd6411a087eb57bf3985d4d9d1856289e7cbdeb1fa4ae27683",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/94d0fd1648408dfd6411a087eb57bf3985d4d9d1856289e7cbdeb1fa4ae27683",
+          "quality": {
+            "width": 375,
+            "height": 500,
+            "bytes": 67401,
+            "laplacian_variance": 2570.29,
+            "green_pixel_fraction": 0.905,
+            "dark_or_clipped_fraction": 0.007,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "94d0fd1648408dfd6411a087eb57bf3985d4d9d1856289e7cbdeb1fa4ae27683",
+            "species_id": "coccinia_grandis",
+            "group_id": "379377422",
+            "top_predictions": [
+              {
+                "species_id": "mikania_micrantha",
+                "scientific_name": "Mikania micrantha",
+                "score": 0.5681999325752258
+              },
+              {
+                "species_id": "coccinia_grandis",
+                "scientific_name": "Coccinia grandis",
+                "score": 0.36921513080596924
+              },
+              {
+                "species_id": "chromolaena_odorata",
+                "scientific_name": "Chromolaena odorata",
+                "score": 0.03920844569802284
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        }
+      ],
+      "triage": "suitable_for_human_botanical_review",
+      "decision": {
+        "species_id": "coccinia_grandis",
+        "group_id": "379377422",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:10:40.689467+00:00"
+      }
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "species_name": "Coccinia grandis",
+      "group_id": "379378254",
+      "records": [
+        {
+          "species_id": "coccinia_grandis",
+          "source": "inaturalist",
+          "source_id": "693957274",
+          "group_id": "379378254",
+          "source_url": "https://www.inaturalist.org/observations/379378254",
+          "country_code": "PH",
+          "locality": "Boracay Island, Malay, Western Visayas, PH",
+          "observed_at": "2026-07-08",
+          "local_image_path": "storage/datasets/staging/invasive_coccinia_grandis_ph/raw/coccinia_grandis/c78310c8e8a2556a49314e748c27c1c582b1b3f40d603886dd364cc3717e4713.jpg",
+          "license": "cc0",
+          "attribution": "no rights reserved",
+          "sha256": "c78310c8e8a2556a49314e748c27c1c582b1b3f40d603886dd364cc3717e4713",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/c78310c8e8a2556a49314e748c27c1c582b1b3f40d603886dd364cc3717e4713",
+          "quality": {
+            "width": 375,
+            "height": 500,
+            "bytes": 86171,
+            "laplacian_variance": 2987.42,
+            "green_pixel_fraction": 0.908,
+            "dark_or_clipped_fraction": 0.001,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "c78310c8e8a2556a49314e748c27c1c582b1b3f40d603886dd364cc3717e4713",
+            "species_id": "coccinia_grandis",
+            "group_id": "379378254",
+            "top_predictions": [
+              {
+                "species_id": "coccinia_grandis",
+                "scientific_name": "Coccinia grandis",
+                "score": 0.9635357856750488
+              },
+              {
+                "species_id": "lantana_camara",
+                "scientific_name": "Lantana camara",
+                "score": 0.01077958382666111
+              },
+              {
+                "species_id": "antigonon_leptopus",
+                "scientific_name": "Antigonon leptopus",
+                "score": 0.0098214540630579
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        }
+      ],
+      "triage": "suitable_for_human_botanical_review",
+      "decision": {
+        "species_id": "coccinia_grandis",
+        "group_id": "379378254",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:10:58.978332+00:00"
+      }
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "species_name": "Coccinia grandis",
+      "group_id": "379395097",
+      "records": [
+        {
+          "species_id": "coccinia_grandis",
+          "source": "inaturalist",
+          "source_id": "693988746",
+          "group_id": "379395097",
+          "source_url": "https://www.inaturalist.org/observations/379395097",
+          "country_code": "PH",
+          "locality": "Boracay Island, Malay, Western Visayas, PH",
+          "observed_at": "2026-07-08",
+          "local_image_path": "storage/datasets/staging/invasive_coccinia_grandis_ph/raw/coccinia_grandis/31f05c17c90abd202f4ca49d305e5dc835ce2263130b1875a37ca71c20b56e66.jpg",
+          "license": "cc0",
+          "attribution": "no rights reserved",
+          "sha256": "31f05c17c90abd202f4ca49d305e5dc835ce2263130b1875a37ca71c20b56e66",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/31f05c17c90abd202f4ca49d305e5dc835ce2263130b1875a37ca71c20b56e66",
+          "quality": {
+            "width": 375,
+            "height": 500,
+            "bytes": 66142,
+            "laplacian_variance": 2262.72,
+            "green_pixel_fraction": 0.641,
+            "dark_or_clipped_fraction": 0.018,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "31f05c17c90abd202f4ca49d305e5dc835ce2263130b1875a37ca71c20b56e66",
+            "species_id": "coccinia_grandis",
+            "group_id": "379395097",
+            "top_predictions": [
+              {
+                "species_id": "coccinia_grandis",
+                "scientific_name": "Coccinia grandis",
+                "score": 0.36138466000556946
+              },
+              {
+                "species_id": "mikania_micrantha",
+                "scientific_name": "Mikania micrantha",
+                "score": 0.30396637320518494
+              },
+              {
+                "species_id": "antigonon_leptopus",
+                "scientific_name": "Antigonon leptopus",
+                "score": 0.20375701785087585
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        }
+      ],
+      "triage": "suitable_for_human_botanical_review",
+      "decision": {
+        "species_id": "coccinia_grandis",
+        "group_id": "379395097",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:11:08.655612+00:00"
+      }
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "species_name": "Coccinia grandis",
+      "group_id": "379395986",
+      "records": [
+        {
+          "species_id": "coccinia_grandis",
+          "source": "inaturalist",
+          "source_id": "693990810",
+          "group_id": "379395986",
+          "source_url": "https://www.inaturalist.org/observations/379395986",
+          "country_code": "PH",
+          "locality": "Boracay Island, Malay, Western Visayas, PH",
+          "observed_at": "2026-07-08",
+          "local_image_path": "storage/datasets/staging/invasive_coccinia_grandis_ph/raw/coccinia_grandis/74e86fbaa1bbe2a83067ad410d363ca8583759db357ac9df990172694772f0b9.jpg",
+          "license": "cc0",
+          "attribution": "no rights reserved",
+          "sha256": "74e86fbaa1bbe2a83067ad410d363ca8583759db357ac9df990172694772f0b9",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/74e86fbaa1bbe2a83067ad410d363ca8583759db357ac9df990172694772f0b9",
+          "quality": {
+            "width": 375,
+            "height": 500,
+            "bytes": 79736,
+            "laplacian_variance": 1604.28,
+            "green_pixel_fraction": 0.939,
+            "dark_or_clipped_fraction": 0.003,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "74e86fbaa1bbe2a83067ad410d363ca8583759db357ac9df990172694772f0b9",
+            "species_id": "coccinia_grandis",
+            "group_id": "379395986",
+            "top_predictions": [
+              {
+                "species_id": "mikania_micrantha",
+                "scientific_name": "Mikania micrantha",
+                "score": 0.8604027032852173
+              },
+              {
+                "species_id": "coccinia_grandis",
+                "scientific_name": "Coccinia grandis",
+                "score": 0.08876475691795349
+              },
+              {
+                "species_id": "antigonon_leptopus",
+                "scientific_name": "Antigonon leptopus",
+                "score": 0.02459847927093506
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        }
+      ],
+      "triage": "suitable_for_human_botanical_review",
+      "decision": {
+        "species_id": "coccinia_grandis",
+        "group_id": "379395986",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:11:15.765586+00:00"
+      }
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "species_name": "Coccinia grandis",
+      "group_id": "380526737",
+      "records": [
+        {
+          "species_id": "coccinia_grandis",
+          "source": "inaturalist",
+          "source_id": "696178655",
+          "group_id": "380526737",
+          "source_url": "https://www.inaturalist.org/observations/380526737",
+          "country_code": "PH",
+          "locality": "Freedom Island Trail, Para\u00f1aque, Metro Manila, PH",
+          "observed_at": "2026-07-11",
+          "local_image_path": "storage/datasets/staging/invasive_coccinia_grandis_ph/raw/coccinia_grandis/eebdf5797f5d81947571d63438afc868a298faab8cc370e459f19181ae52d6b9.jpg",
+          "license": "cc-by",
+          "attribution": "(c) Gabriel, some rights reserved (CC BY)",
+          "sha256": "eebdf5797f5d81947571d63438afc868a298faab8cc370e459f19181ae52d6b9",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/eebdf5797f5d81947571d63438afc868a298faab8cc370e459f19181ae52d6b9",
+          "quality": {
+            "width": 500,
+            "height": 500,
+            "bytes": 104208,
+            "laplacian_variance": 5198.33,
+            "green_pixel_fraction": 0.956,
+            "dark_or_clipped_fraction": 0.003,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "eebdf5797f5d81947571d63438afc868a298faab8cc370e459f19181ae52d6b9",
+            "species_id": "coccinia_grandis",
+            "group_id": "380526737",
+            "top_predictions": [
+              {
+                "species_id": "coccinia_grandis",
+                "scientific_name": "Coccinia grandis",
+                "score": 0.5232268571853638
+              },
+              {
+                "species_id": "mikania_micrantha",
+                "scientific_name": "Mikania micrantha",
+                "score": 0.26034682989120483
+              },
+              {
+                "species_id": "chromolaena_odorata",
+                "scientific_name": "Chromolaena odorata",
+                "score": 0.18113407492637634
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        },
+        {
+          "species_id": "coccinia_grandis",
+          "source": "inaturalist",
+          "source_id": "696178677",
+          "group_id": "380526737",
+          "source_url": "https://www.inaturalist.org/observations/380526737",
+          "country_code": "PH",
+          "locality": "Freedom Island Trail, Para\u00f1aque, Metro Manila, PH",
+          "observed_at": "2026-07-11",
+          "local_image_path": "storage/datasets/staging/invasive_coccinia_grandis_ph/raw/coccinia_grandis/b4e38b46a167e6692ac422bcf78f96c3dce46bab958cca36441faa410db6caa3.jpg",
+          "license": "cc-by",
+          "attribution": "(c) Gabriel, some rights reserved (CC BY)",
+          "sha256": "b4e38b46a167e6692ac422bcf78f96c3dce46bab958cca36441faa410db6caa3",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/b4e38b46a167e6692ac422bcf78f96c3dce46bab958cca36441faa410db6caa3",
+          "quality": {
+            "width": 500,
+            "height": 500,
+            "bytes": 178489,
+            "laplacian_variance": 10465.73,
+            "green_pixel_fraction": 0.692,
+            "dark_or_clipped_fraction": 0.032,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "b4e38b46a167e6692ac422bcf78f96c3dce46bab958cca36441faa410db6caa3",
+            "species_id": "coccinia_grandis",
+            "group_id": "380526737",
+            "top_predictions": [
+              {
+                "species_id": "mikania_micrantha",
+                "scientific_name": "Mikania micrantha",
+                "score": 0.33638864755630493
+              },
+              {
+                "species_id": "spathodea_campanulata",
+                "scientific_name": "Spathodea campanulata",
+                "score": 0.2697225511074066
+              },
+              {
+                "species_id": "lantana_camara",
+                "scientific_name": "Lantana camara",
+                "score": 0.13419413566589355
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        }
+      ],
+      "triage": "suitable_for_human_botanical_review",
+      "decision": {
+        "species_id": "coccinia_grandis",
+        "group_id": "380526737",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:11:24.617584+00:00"
+      }
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "species_name": "Coccinia grandis",
+      "group_id": "397127257",
+      "records": [
+        {
+          "species_id": "coccinia_grandis",
+          "source": "inaturalist",
+          "source_id": "728343891",
+          "group_id": "397127257",
+          "source_url": "https://www.inaturalist.org/observations/397127257",
+          "country_code": "PH",
+          "locality": "FJXM+RV6, Cagayan De Oro City, Misamis Oriental, Philippines",
+          "observed_at": "2026-09-04",
+          "local_image_path": "storage/datasets/staging/invasive_coccinia_grandis_ph/raw/coccinia_grandis/d5b67b527b7caa1638cc3149c1f7eabe71e123269159e85193c61d39e91be924.jpg",
+          "license": "cc-by",
+          "attribution": "(c) portioid, some rights reserved (CC BY)",
+          "sha256": "d5b67b527b7caa1638cc3149c1f7eabe71e123269159e85193c61d39e91be924",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/d5b67b527b7caa1638cc3149c1f7eabe71e123269159e85193c61d39e91be924",
+          "quality": {
+            "width": 375,
+            "height": 500,
+            "bytes": 66561,
+            "laplacian_variance": 1355.85,
+            "green_pixel_fraction": 0.261,
+            "dark_or_clipped_fraction": 0.001,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "d5b67b527b7caa1638cc3149c1f7eabe71e123269159e85193c61d39e91be924",
+            "species_id": "coccinia_grandis",
+            "group_id": "397127257",
+            "top_predictions": [
+              {
+                "species_id": "mikania_micrantha",
+                "scientific_name": "Mikania micrantha",
+                "score": 0.5205131769180298
+              },
+              {
+                "species_id": "antigonon_leptopus",
+                "scientific_name": "Antigonon leptopus",
+                "score": 0.3342824876308441
+              },
+              {
+                "species_id": "coccinia_grandis",
+                "scientific_name": "Coccinia grandis",
+                "score": 0.09142334014177322
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        }
+      ],
+      "triage": "suitable_for_human_botanical_review",
+      "decision": {
+        "species_id": "coccinia_grandis",
+        "group_id": "397127257",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:11:31.536356+00:00"
+      }
+    },
+    {
+      "species_id": "coccinia_grandis",
+      "species_name": "Coccinia grandis",
+      "group_id": "397133750",
+      "records": [
+        {
+          "species_id": "coccinia_grandis",
+          "source": "inaturalist",
+          "source_id": "728356906",
+          "group_id": "397133750",
+          "source_url": "https://www.inaturalist.org/observations/397133750",
+          "country_code": "PH",
+          "locality": "FJXM+RV6, Cagayan De Oro City, Misamis Oriental, Philippines",
+          "observed_at": "2026-09-04",
+          "local_image_path": "storage/datasets/staging/invasive_coccinia_grandis_ph/raw/coccinia_grandis/fc3ef4a2730bd78c7236763891604a457b2be7b73a5eee7926ad9d4e2891af52.jpg",
+          "license": "cc-by",
+          "attribution": "(c) portioid, some rights reserved (CC BY)",
+          "sha256": "fc3ef4a2730bd78c7236763891604a457b2be7b73a5eee7926ad9d4e2891af52",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/fc3ef4a2730bd78c7236763891604a457b2be7b73a5eee7926ad9d4e2891af52",
+          "quality": {
+            "width": 375,
+            "height": 500,
+            "bytes": 88442,
+            "laplacian_variance": 2497.91,
+            "green_pixel_fraction": 0.853,
+            "dark_or_clipped_fraction": 0.004,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "fc3ef4a2730bd78c7236763891604a457b2be7b73a5eee7926ad9d4e2891af52",
+            "species_id": "coccinia_grandis",
+            "group_id": "397133750",
+            "top_predictions": [
+              {
+                "species_id": "lantana_camara",
+                "scientific_name": "Lantana camara",
+                "score": 0.37741389870643616
+              },
+              {
+                "species_id": "antigonon_leptopus",
+                "scientific_name": "Antigonon leptopus",
+                "score": 0.35732877254486084
+              },
+              {
+                "species_id": "coccinia_grandis",
+                "scientific_name": "Coccinia grandis",
+                "score": 0.1806861311197281
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        }
+      ],
+      "triage": "suitable_for_human_botanical_review",
+      "decision": {
+        "species_id": "coccinia_grandis",
+        "group_id": "397133750",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:11:40.234500+00:00"
+      }
+    },
+    {
+      "species_id": "mikania_micrantha",
+      "species_name": "Mikania micrantha",
+      "group_id": "18554448",
+      "records": [
+        {
+          "species_id": "mikania_micrantha",
+          "source": "inaturalist",
+          "source_id": "28386564",
+          "group_id": "18554448",
+          "source_url": "https://www.inaturalist.org/observations/18554448",
+          "country_code": "PH",
+          "locality": "Davao City, PH-DS, PH",
+          "observed_at": "2018-11-22",
+          "local_image_path": "storage/datasets/staging/invasive_mikania_micrantha_ph/raw/mikania_micrantha/2ebe9ed4676b7c5d60708cdfbd252a8afc3be8a6d125b8e58090b9bc7cd390ea.jpg",
+          "license": "cc-by",
+          "attribution": "(c) Greg III Espera, some rights reserved (CC BY)",
+          "sha256": "2ebe9ed4676b7c5d60708cdfbd252a8afc3be8a6d125b8e58090b9bc7cd390ea",
+          "review_status_at_collection": "pending",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/2ebe9ed4676b7c5d60708cdfbd252a8afc3be8a6d125b8e58090b9bc7cd390ea",
+          "quality": {
+            "width": 375,
+            "height": 500,
+            "bytes": 83629,
+            "laplacian_variance": 1820.97,
+            "green_pixel_fraction": 0.938,
+            "dark_or_clipped_fraction": 0.0,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [
+            {
+              "distance": 0,
+              "sha256": "31f6fc2407e632f4dbd9470a781403d63bb825a60bb930638690be19335c2e92",
+              "group_id": "gbif:occurrence:1945468596"
+            }
+          ],
+          "cnn_prescreen": {
+            "sha256": "2ebe9ed4676b7c5d60708cdfbd252a8afc3be8a6d125b8e58090b9bc7cd390ea",
+            "species_id": "mikania_micrantha",
+            "group_id": "18554448",
+            "top_predictions": [
+              {
+                "species_id": "mikania_micrantha",
+                "scientific_name": "Mikania micrantha",
+                "score": 0.5247768759727478
+              },
+              {
+                "species_id": "antigonon_leptopus",
+                "scientific_name": "Antigonon leptopus",
+                "score": 0.23733441531658173
+              },
+              {
+                "species_id": "coccinia_grandis",
+                "scientific_name": "Coccinia grandis",
+                "score": 0.131646990776062
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        }
+      ],
+      "triage": "source_alias_duplicate",
+      "decision": {
+        "species_id": "mikania_micrantha",
+        "group_id": "18554448",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:11:49.549042+00:00"
+      }
+    },
+    {
+      "species_id": "mikania_micrantha",
+      "species_name": "Mikania micrantha",
+      "group_id": "gbif:occurrence:1317800492",
+      "records": [
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "1317800492:https://collections.nmnh.si.edu/media/?i=11805744&h=2000",
+          "group_id": "gbif:occurrence:1317800492",
+          "source_url": "https://www.gbif.org/occurrence/1317800492",
+          "country_code": "PH",
+          "locality": "Luzon",
+          "observed_at": "",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/40b7a674739a655f9c74856fa4b40a9a015bd3fb1c3eebebeffc11ab56f056f8.jpg",
+          "license": "cc0",
+          "attribution": "Conveyor Belt | Smithsonian Institution, NMNH, Botany",
+          "sha256": "40b7a674739a655f9c74856fa4b40a9a015bd3fb1c3eebebeffc11ab56f056f8",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/40b7a674739a655f9c74856fa4b40a9a015bd3fb1c3eebebeffc11ab56f056f8",
+          "quality": {
+            "width": 1524,
+            "height": 2000,
+            "bytes": 560611,
+            "laplacian_variance": 3369.05,
+            "green_pixel_fraction": 0.002,
+            "dark_or_clipped_fraction": 0.216,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "40b7a674739a655f9c74856fa4b40a9a015bd3fb1c3eebebeffc11ab56f056f8",
+            "species_id": "mikania_micrantha",
+            "group_id": "gbif:occurrence:1317800492",
+            "top_predictions": [
+              {
+                "species_id": "nymphaea",
+                "scientific_name": "Nymphaea",
+                "score": 0.5033448338508606
+              },
+              {
+                "species_id": "coccinia_grandis",
+                "scientific_name": "Coccinia grandis",
+                "score": 0.1783648282289505
+              },
+              {
+                "species_id": "pistia_stratiotes",
+                "scientific_name": "Pistia stratiotes",
+                "score": 0.12922945618629456
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        },
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "1317800492:https://collections.nmnh.si.edu/media/?i=10215384&h=2000",
+          "group_id": "gbif:occurrence:1317800492",
+          "source_url": "https://www.gbif.org/occurrence/1317800492",
+          "country_code": "PH",
+          "locality": "Luzon",
+          "observed_at": "",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/34a207cd5d6266bdb264ef6208c2536fef739e710a423389e3af844f42e6b9be.jpg",
+          "license": "cc0",
+          "attribution": "Ingrid P. Lin | Smithsonian Institution, NMNH, Botany",
+          "sha256": "34a207cd5d6266bdb264ef6208c2536fef739e710a423389e3af844f42e6b9be",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/34a207cd5d6266bdb264ef6208c2536fef739e710a423389e3af844f42e6b9be",
+          "quality": {
+            "width": 1569,
+            "height": 2000,
+            "bytes": 693586,
+            "laplacian_variance": 5692.09,
+            "green_pixel_fraction": 0.011,
+            "dark_or_clipped_fraction": 0.407,
+            "flags": [
+              "possible_exposure_loss"
+            ]
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "34a207cd5d6266bdb264ef6208c2536fef739e710a423389e3af844f42e6b9be",
+            "species_id": "mikania_micrantha",
+            "group_id": "gbif:occurrence:1317800492",
+            "top_predictions": [
+              {
+                "species_id": "pistia_stratiotes",
+                "scientific_name": "Pistia stratiotes",
+                "score": 0.26640188694000244
+              },
+              {
+                "species_id": "spathodea_campanulata",
+                "scientific_name": "Spathodea campanulata",
+                "score": 0.23344241082668304
+              },
+              {
+                "species_id": "coccinia_grandis",
+                "scientific_name": "Coccinia grandis",
+                "score": 0.16400815546512604
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        }
+      ],
+      "triage": "questionable_quality",
+      "decision": {
+        "species_id": "mikania_micrantha",
+        "group_id": "gbif:occurrence:1317800492",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:12:04.654943+00:00"
+      }
+    },
+    {
+      "species_id": "mikania_micrantha",
+      "species_name": "Mikania micrantha",
+      "group_id": "gbif:occurrence:1456014546",
+      "records": [
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "1456014546:https://collections.nmnh.si.edu/media/?i=11457970&h=2000",
+          "group_id": "gbif:occurrence:1456014546",
+          "source_url": "https://www.gbif.org/occurrence/1456014546",
+          "country_code": "PH",
+          "locality": "Los Banos, Laguna Province",
+          "observed_at": "1955-12-17",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/8e9ebeffdf264fc73247942412a274e9cb44dca1685e87404d2786c65af4c62f.jpg",
+          "license": "cc0",
+          "attribution": "Conveyor Belt | Smithsonian Institution, NMNH, Botany",
+          "sha256": "8e9ebeffdf264fc73247942412a274e9cb44dca1685e87404d2786c65af4c62f",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/8e9ebeffdf264fc73247942412a274e9cb44dca1685e87404d2786c65af4c62f",
+          "quality": {
+            "width": 1508,
+            "height": 2000,
+            "bytes": 446347,
+            "laplacian_variance": 2678.12,
+            "green_pixel_fraction": 0.002,
+            "dark_or_clipped_fraction": 0.032,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "8e9ebeffdf264fc73247942412a274e9cb44dca1685e87404d2786c65af4c62f",
+            "species_id": "mikania_micrantha",
+            "group_id": "gbif:occurrence:1456014546",
+            "top_predictions": [
+              {
+                "species_id": "nymphaea",
+                "scientific_name": "Nymphaea",
+                "score": 0.6256148815155029
+              },
+              {
+                "species_id": "leucaena_leucocephala",
+                "scientific_name": "Leucaena leucocephala",
+                "score": 0.11766889691352844
+              },
+              {
+                "species_id": "pistia_stratiotes",
+                "scientific_name": "Pistia stratiotes",
+                "score": 0.068589948117733
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        }
+      ],
+      "triage": "field_photo_check",
+      "decision": {
+        "species_id": "mikania_micrantha",
+        "group_id": "gbif:occurrence:1456014546",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:12:11.406093+00:00"
+      }
+    },
+    {
+      "species_id": "mikania_micrantha",
+      "species_name": "Mikania micrantha",
+      "group_id": "gbif:occurrence:1456378848",
+      "records": [
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "1456378848:https://collections.nmnh.si.edu/media/?i=11455141&h=2000",
+          "group_id": "gbif:occurrence:1456378848",
+          "source_url": "https://www.gbif.org/occurrence/1456378848",
+          "country_code": "PH",
+          "locality": "Phillipine Island, Benguet Prov.: Baguio",
+          "observed_at": "1953-12",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/d30d1ef7cdb73a68ea1c1382ad7d1b28845c4e6cf37922bc08b51b174e25ac43.jpg",
+          "license": "cc0",
+          "attribution": "Conveyor Belt | Smithsonian Institution, NMNH, Botany",
+          "sha256": "d30d1ef7cdb73a68ea1c1382ad7d1b28845c4e6cf37922bc08b51b174e25ac43",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/d30d1ef7cdb73a68ea1c1382ad7d1b28845c4e6cf37922bc08b51b174e25ac43",
+          "quality": {
+            "width": 1508,
+            "height": 2000,
+            "bytes": 464522,
+            "laplacian_variance": 4168.18,
+            "green_pixel_fraction": 0.002,
+            "dark_or_clipped_fraction": 0.032,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "d30d1ef7cdb73a68ea1c1382ad7d1b28845c4e6cf37922bc08b51b174e25ac43",
+            "species_id": "mikania_micrantha",
+            "group_id": "gbif:occurrence:1456378848",
+            "top_predictions": [
+              {
+                "species_id": "pistia_stratiotes",
+                "scientific_name": "Pistia stratiotes",
+                "score": 0.6107096076011658
+              },
+              {
+                "species_id": "nymphaea",
+                "scientific_name": "Nymphaea",
+                "score": 0.2716342806816101
+              },
+              {
+                "species_id": "leucaena_leucocephala",
+                "scientific_name": "Leucaena leucocephala",
+                "score": 0.05199303478002548
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        }
+      ],
+      "triage": "field_photo_check",
+      "decision": {
+        "species_id": "mikania_micrantha",
+        "group_id": "gbif:occurrence:1456378848",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:12:18.983440+00:00"
+      }
+    },
+    {
+      "species_id": "mikania_micrantha",
+      "species_name": "Mikania micrantha",
+      "group_id": "gbif:occurrence:1945468596",
+      "records": [
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "1945468596:https://inaturalist-open-data.s3.amazonaws.com/photos/28386564/original.jpg",
+          "group_id": "gbif:occurrence:1945468596",
+          "source_url": "https://www.gbif.org/occurrence/1945468596",
+          "country_code": "PH",
+          "locality": "Davao del Sur",
+          "observed_at": "2018-11-22T07:28:16",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/31f6fc2407e632f4dbd9470a781403d63bb825a60bb930638690be19335c2e92.jpg",
+          "license": "cc-by",
+          "attribution": "Greg III Espera | iNaturalist",
+          "sha256": "31f6fc2407e632f4dbd9470a781403d63bb825a60bb930638690be19335c2e92",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/31f6fc2407e632f4dbd9470a781403d63bb825a60bb930638690be19335c2e92",
+          "quality": {
+            "width": 1536,
+            "height": 2048,
+            "bytes": 931387,
+            "laplacian_variance": 1820.26,
+            "green_pixel_fraction": 0.934,
+            "dark_or_clipped_fraction": 0.0,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [
+            {
+              "distance": 0,
+              "sha256": "2ebe9ed4676b7c5d60708cdfbd252a8afc3be8a6d125b8e58090b9bc7cd390ea",
+              "group_id": "18554448"
+            }
+          ],
+          "cnn_prescreen": null
+        }
+      ],
+      "triage": "source_alias_duplicate",
+      "decision": {
+        "species_id": "mikania_micrantha",
+        "group_id": "gbif:occurrence:1945468596",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:12:26.897491+00:00"
+      }
+    },
+    {
+      "species_id": "mikania_micrantha",
+      "species_name": "Mikania micrantha",
+      "group_id": "gbif:occurrence:1946346961",
+      "records": [
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "1946346961:https://inaturalist-open-data.s3.amazonaws.com/photos/28580319/original.jpg",
+          "group_id": "gbif:occurrence:1946346961",
+          "source_url": "https://www.gbif.org/occurrence/1946346961",
+          "country_code": "PH",
+          "locality": "Davao del Sur",
+          "observed_at": "2018-11-27T11:19:46",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/aa4fcceabf00b0cf0c8a536b8af141ade64806df9728f340c23da621d2b19e29.jpg",
+          "license": "cc-by",
+          "attribution": "Greg III Espera | iNaturalist",
+          "sha256": "aa4fcceabf00b0cf0c8a536b8af141ade64806df9728f340c23da621d2b19e29",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/aa4fcceabf00b0cf0c8a536b8af141ade64806df9728f340c23da621d2b19e29",
+          "quality": {
+            "width": 1536,
+            "height": 2048,
+            "bytes": 762613,
+            "laplacian_variance": 4920.2,
+            "green_pixel_fraction": 0.988,
+            "dark_or_clipped_fraction": 0.002,
+            "flags": []
+          },
+          "near_frozen_duplicate": true,
+          "near_frozen_matches": [
+            {
+              "distance": 0,
+              "frozen_sha256": "cd35e6bb13aa9c0a10681c24e68b626083686a407ca7653ee80c7ccec6f637af",
+              "frozen_source_id": "28580319",
+              "frozen_split": "train"
+            },
+            {
+              "distance": 0,
+              "frozen_sha256": "cd35e6bb13aa9c0a10681c24e68b626083686a407ca7653ee80c7ccec6f637af",
+              "frozen_source_id": "28580319",
+              "frozen_split": "train"
+            }
+          ],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": null
+        },
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "1946346961:https://inaturalist-open-data.s3.amazonaws.com/photos/28580305/original.jpg",
+          "group_id": "gbif:occurrence:1946346961",
+          "source_url": "https://www.gbif.org/occurrence/1946346961",
+          "country_code": "PH",
+          "locality": "Davao del Sur",
+          "observed_at": "2018-11-27T11:19:46",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/65fd41db0f2663987650257a31ecdfb14952e0c77258e868d0f3651be6e94f12.jpg",
+          "license": "cc-by",
+          "attribution": "Greg III Espera | iNaturalist",
+          "sha256": "65fd41db0f2663987650257a31ecdfb14952e0c77258e868d0f3651be6e94f12",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/65fd41db0f2663987650257a31ecdfb14952e0c77258e868d0f3651be6e94f12",
+          "quality": {
+            "width": 1536,
+            "height": 2048,
+            "bytes": 625523,
+            "laplacian_variance": 3392.3,
+            "green_pixel_fraction": 0.961,
+            "dark_or_clipped_fraction": 0.002,
+            "flags": []
+          },
+          "near_frozen_duplicate": true,
+          "near_frozen_matches": [
+            {
+              "distance": 0,
+              "frozen_sha256": "46562444ec68e157f9ff17b13c2118e379d5eb396cd9509e60f844d3a1a709a6",
+              "frozen_source_id": "28580305",
+              "frozen_split": "train"
+            }
+          ],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": null
+        }
+      ],
+      "triage": "exclude_frozen_duplicate",
+      "decision": {
+        "species_id": "mikania_micrantha",
+        "group_id": "gbif:occurrence:1946346961",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:12:35.655437+00:00"
+      }
+    },
+    {
+      "species_id": "mikania_micrantha",
+      "species_name": "Mikania micrantha",
+      "group_id": "gbif:occurrence:2514863556",
+      "records": [
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "2514863556:https://medialib.naturalis.nl/file/id/L.3657455/format/large",
+          "group_id": "gbif:occurrence:2514863556",
+          "source_url": "https://www.gbif.org/occurrence/2514863556",
+          "country_code": "PH",
+          "locality": "Philippines, Luzon, Laguna Province, Los Ba\u00f1os, along R.R. track, vicinity of Bo. Tadlac.",
+          "observed_at": "1955-12-17",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/d14644e3ff6dcc78acace779a732a1a249af1374567be15d6daa0e0eaa0b7620.jpg",
+          "license": "cc0",
+          "attribution": "Naturalis Biodiversity Center",
+          "sha256": "d14644e3ff6dcc78acace779a732a1a249af1374567be15d6daa0e0eaa0b7620",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/d14644e3ff6dcc78acace779a732a1a249af1374567be15d6daa0e0eaa0b7620",
+          "quality": {
+            "width": 1085,
+            "height": 1920,
+            "bytes": 381215,
+            "laplacian_variance": 2918.44,
+            "green_pixel_fraction": 0.001,
+            "dark_or_clipped_fraction": 0.025,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "d14644e3ff6dcc78acace779a732a1a249af1374567be15d6daa0e0eaa0b7620",
+            "species_id": "mikania_micrantha",
+            "group_id": "gbif:occurrence:2514863556",
+            "top_predictions": [
+              {
+                "species_id": "nymphaea",
+                "scientific_name": "Nymphaea",
+                "score": 0.7144070267677307
+              },
+              {
+                "species_id": "mikania_micrantha",
+                "scientific_name": "Mikania micrantha",
+                "score": 0.0775960236787796
+              },
+              {
+                "species_id": "spathodea_campanulata",
+                "scientific_name": "Spathodea campanulata",
+                "score": 0.057204682379961014
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        }
+      ],
+      "triage": "field_photo_check",
+      "decision": {
+        "species_id": "mikania_micrantha",
+        "group_id": "gbif:occurrence:2514863556",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:12:43.177686+00:00"
+      }
+    },
+    {
+      "species_id": "mikania_micrantha",
+      "species_name": "Mikania micrantha",
+      "group_id": "gbif:occurrence:2514928539",
+      "records": [
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "2514928539:https://medialib.naturalis.nl/file/id/L.3657453/format/large",
+          "group_id": "gbif:occurrence:2514928539",
+          "source_url": "https://www.gbif.org/occurrence/2514928539",
+          "country_code": "PH",
+          "locality": "Luzon. Ilocos Norte: en route from Mt. Bubungkayo to Santo Nino, in Mt. Sicapoo rang.",
+          "observed_at": "1975-12-06",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/6883949881fbd5f8877ca5291e11e402f527fa84495f76c03e547310ae2ab4bf.jpg",
+          "license": "cc0",
+          "attribution": "Naturalis Biodiversity Center",
+          "sha256": "6883949881fbd5f8877ca5291e11e402f527fa84495f76c03e547310ae2ab4bf",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/6883949881fbd5f8877ca5291e11e402f527fa84495f76c03e547310ae2ab4bf",
+          "quality": {
+            "width": 1093,
+            "height": 1920,
+            "bytes": 301252,
+            "laplacian_variance": 2418.87,
+            "green_pixel_fraction": 0.049,
+            "dark_or_clipped_fraction": 0.063,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "6883949881fbd5f8877ca5291e11e402f527fa84495f76c03e547310ae2ab4bf",
+            "species_id": "mikania_micrantha",
+            "group_id": "gbif:occurrence:2514928539",
+            "top_predictions": [
+              {
+                "species_id": "spathodea_campanulata",
+                "scientific_name": "Spathodea campanulata",
+                "score": 0.46723705530166626
+              },
+              {
+                "species_id": "mikania_micrantha",
+                "scientific_name": "Mikania micrantha",
+                "score": 0.3244812488555908
+              },
+              {
+                "species_id": "chromolaena_odorata",
+                "scientific_name": "Chromolaena odorata",
+                "score": 0.0921073630452156
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        }
+      ],
+      "triage": "field_photo_check",
+      "decision": {
+        "species_id": "mikania_micrantha",
+        "group_id": "gbif:occurrence:2514928539",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:12:51.633295+00:00"
+      }
+    },
+    {
+      "species_id": "mikania_micrantha",
+      "species_name": "Mikania micrantha",
+      "group_id": "gbif:occurrence:2514964965",
+      "records": [
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "2514964965:https://medialib.naturalis.nl/file/id/L.3657454/format/large",
+          "group_id": "gbif:occurrence:2514964965",
+          "source_url": "https://www.gbif.org/occurrence/2514964965",
+          "country_code": "PH",
+          "locality": "Philippines, Province Laguna, Los Ba\u00f1os.",
+          "observed_at": "1954-02-20",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/1e10d500f5a0ae8df9674be7f9dab2f50baf40f0b6cbc3bcd30a321bec83dc89.jpg",
+          "license": "cc0",
+          "attribution": "Naturalis Biodiversity Center",
+          "sha256": "1e10d500f5a0ae8df9674be7f9dab2f50baf40f0b6cbc3bcd30a321bec83dc89",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/1e10d500f5a0ae8df9674be7f9dab2f50baf40f0b6cbc3bcd30a321bec83dc89",
+          "quality": {
+            "width": 1081,
+            "height": 1920,
+            "bytes": 321851,
+            "laplacian_variance": 2405.24,
+            "green_pixel_fraction": 0.001,
+            "dark_or_clipped_fraction": 0.032,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "1e10d500f5a0ae8df9674be7f9dab2f50baf40f0b6cbc3bcd30a321bec83dc89",
+            "species_id": "mikania_micrantha",
+            "group_id": "gbif:occurrence:2514964965",
+            "top_predictions": [
+              {
+                "species_id": "nymphaea",
+                "scientific_name": "Nymphaea",
+                "score": 0.5931651592254639
+              },
+              {
+                "species_id": "spathodea_campanulata",
+                "scientific_name": "Spathodea campanulata",
+                "score": 0.2334872931241989
+              },
+              {
+                "species_id": "pontederia_crassipes",
+                "scientific_name": "Pontederia crassipes",
+                "score": 0.0512227788567543
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        }
+      ],
+      "triage": "field_photo_check",
+      "decision": {
+        "species_id": "mikania_micrantha",
+        "group_id": "gbif:occurrence:2514964965",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:13:00.038190+00:00"
+      }
+    },
+    {
+      "species_id": "mikania_micrantha",
+      "species_name": "Mikania micrantha",
+      "group_id": "gbif:occurrence:2516970419",
+      "records": [
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "2516970419:https://medialib.naturalis.nl/file/id/L.3657452/format/large",
+          "group_id": "gbif:occurrence:2516970419",
+          "source_url": "https://www.gbif.org/occurrence/2516970419",
+          "country_code": "PH",
+          "locality": "Luzon, Laguna: Mt. Makiling.",
+          "observed_at": "1975-12-10",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/d6136b44e52361ce492a0f77abf758c6d8e4f50604e398539d12de8b0765fb69.jpg",
+          "license": "cc0",
+          "attribution": "Naturalis Biodiversity Center",
+          "sha256": "d6136b44e52361ce492a0f77abf758c6d8e4f50604e398539d12de8b0765fb69",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/d6136b44e52361ce492a0f77abf758c6d8e4f50604e398539d12de8b0765fb69",
+          "quality": {
+            "width": 1083,
+            "height": 1920,
+            "bytes": 356118,
+            "laplacian_variance": 2816.77,
+            "green_pixel_fraction": 0.01,
+            "dark_or_clipped_fraction": 0.081,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "d6136b44e52361ce492a0f77abf758c6d8e4f50604e398539d12de8b0765fb69",
+            "species_id": "mikania_micrantha",
+            "group_id": "gbif:occurrence:2516970419",
+            "top_predictions": [
+              {
+                "species_id": "spathodea_campanulata",
+                "scientific_name": "Spathodea campanulata",
+                "score": 0.7793557643890381
+              },
+              {
+                "species_id": "leucaena_leucocephala",
+                "scientific_name": "Leucaena leucocephala",
+                "score": 0.14628024399280548
+              },
+              {
+                "species_id": "mikania_micrantha",
+                "scientific_name": "Mikania micrantha",
+                "score": 0.015216553583741188
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        }
+      ],
+      "triage": "field_photo_check",
+      "decision": {
+        "species_id": "mikania_micrantha",
+        "group_id": "gbif:occurrence:2516970419",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:13:05.862301+00:00"
+      }
+    },
+    {
+      "species_id": "mikania_micrantha",
+      "species_name": "Mikania micrantha",
+      "group_id": "gbif:occurrence:3383898912",
+      "records": [
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "3383898912:https://inaturalist-open-data.s3.amazonaws.com/photos/145287886/original.jpeg",
+          "group_id": "gbif:occurrence:3383898912",
+          "source_url": "https://www.gbif.org/occurrence/3383898912",
+          "country_code": "PH",
+          "locality": "Davao del Sur",
+          "observed_at": "2021-07-14T12:26",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/7c604a87f366ecd6510a682dd2cb3fac568e19e98b80bfb07a6ad586ff810995.jpg",
+          "license": "cc-by",
+          "attribution": "Vreni Gem O. Caasi | iNaturalist",
+          "sha256": "7c604a87f366ecd6510a682dd2cb3fac568e19e98b80bfb07a6ad586ff810995",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/7c604a87f366ecd6510a682dd2cb3fac568e19e98b80bfb07a6ad586ff810995",
+          "quality": {
+            "width": 1536,
+            "height": 2048,
+            "bytes": 1224128,
+            "laplacian_variance": 5308.32,
+            "green_pixel_fraction": 0.664,
+            "dark_or_clipped_fraction": 0.023,
+            "flags": []
+          },
+          "near_frozen_duplicate": true,
+          "near_frozen_matches": [
+            {
+              "distance": 0,
+              "frozen_sha256": "c46053fa75d3a36717e9fea11f24d4049eddfc1695dca9f29ebdec2af1afa666",
+              "frozen_source_id": "145287886",
+              "frozen_split": "train"
+            }
+          ],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": null
+        }
+      ],
+      "triage": "exclude_frozen_duplicate",
+      "decision": {
+        "species_id": "mikania_micrantha",
+        "group_id": "gbif:occurrence:3383898912",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:13:22.766312+00:00"
+      }
+    },
+    {
+      "species_id": "mikania_micrantha",
+      "species_name": "Mikania micrantha",
+      "group_id": "gbif:occurrence:3383950946",
+      "records": [
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "3383950946:https://inaturalist-open-data.s3.amazonaws.com/photos/145287915/original.jpeg",
+          "group_id": "gbif:occurrence:3383950946",
+          "source_url": "https://www.gbif.org/occurrence/3383950946",
+          "country_code": "PH",
+          "locality": "Davao del Sur",
+          "observed_at": "2021-07-14T12:26",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/045ec8ea6071a48d3dd5d1dac2545cec7917016d83e9476e007e8694e676ab79.jpg",
+          "license": "cc-by",
+          "attribution": "Vreni Gem O. Caasi | iNaturalist",
+          "sha256": "045ec8ea6071a48d3dd5d1dac2545cec7917016d83e9476e007e8694e676ab79",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/045ec8ea6071a48d3dd5d1dac2545cec7917016d83e9476e007e8694e676ab79",
+          "quality": {
+            "width": 1536,
+            "height": 2048,
+            "bytes": 906633,
+            "laplacian_variance": 4310.63,
+            "green_pixel_fraction": 0.555,
+            "dark_or_clipped_fraction": 0.076,
+            "flags": []
+          },
+          "near_frozen_duplicate": true,
+          "near_frozen_matches": [
+            {
+              "distance": 0,
+              "frozen_sha256": "2158297e68d0e465676378bcfd43d0a4db7e12fa53016145d13808ae8776bae4",
+              "frozen_source_id": "145287915",
+              "frozen_split": "train"
+            }
+          ],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": null
+        }
+      ],
+      "triage": "exclude_frozen_duplicate",
+      "decision": {
+        "species_id": "mikania_micrantha",
+        "group_id": "gbif:occurrence:3383950946",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:13:30.246430+00:00"
+      }
+    },
+    {
+      "species_id": "mikania_micrantha",
+      "species_name": "Mikania micrantha",
+      "group_id": "gbif:occurrence:3455262753",
+      "records": [
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "3455262753:https://inaturalist-open-data.s3.amazonaws.com/photos/115272091/original.jpeg",
+          "group_id": "gbif:occurrence:3455262753",
+          "source_url": "https://www.gbif.org/occurrence/3455262753",
+          "country_code": "PH",
+          "locality": "Davao del Sur",
+          "observed_at": "2021-03-09T11:59:52",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/1936385f7efe3341411f49f62c5bf1b860a6d4265ccbfb7c58cc63a582eb5f1d.jpg",
+          "license": "cc-by",
+          "attribution": "Greg III Espera | iNaturalist",
+          "sha256": "1936385f7efe3341411f49f62c5bf1b860a6d4265ccbfb7c58cc63a582eb5f1d",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/1936385f7efe3341411f49f62c5bf1b860a6d4265ccbfb7c58cc63a582eb5f1d",
+          "quality": {
+            "width": 1536,
+            "height": 2048,
+            "bytes": 966308,
+            "laplacian_variance": 4225.78,
+            "green_pixel_fraction": 0.458,
+            "dark_or_clipped_fraction": 0.035,
+            "flags": []
+          },
+          "near_frozen_duplicate": true,
+          "near_frozen_matches": [
+            {
+              "distance": 0,
+              "frozen_sha256": "191d861c5e20051a60b476cc0d2803bba4dc27f921480a0b1021e687812c61e7",
+              "frozen_source_id": "115272091",
+              "frozen_split": "train"
+            }
+          ],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": null
+        }
+      ],
+      "triage": "exclude_frozen_duplicate",
+      "decision": {
+        "species_id": "mikania_micrantha",
+        "group_id": "gbif:occurrence:3455262753",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:13:37.738355+00:00"
+      }
+    },
+    {
+      "species_id": "mikania_micrantha",
+      "species_name": "Mikania micrantha",
+      "group_id": "gbif:occurrence:3455359576",
+      "records": [
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "3455359576:https://inaturalist-open-data.s3.amazonaws.com/photos/171377650/original.jpg",
+          "group_id": "gbif:occurrence:3455359576",
+          "source_url": "https://www.gbif.org/occurrence/3455359576",
+          "country_code": "PH",
+          "locality": "Sorsogon",
+          "observed_at": "2021-12-05T07:23:56",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/29edb0535c75c7c9c227e5652f397dff2f53ef4d853e8f8ddb8b9cd6acc5cd85.jpg",
+          "license": "cc-by",
+          "attribution": "Forest Botial-Jarvis | iNaturalist",
+          "sha256": "29edb0535c75c7c9c227e5652f397dff2f53ef4d853e8f8ddb8b9cd6acc5cd85",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/29edb0535c75c7c9c227e5652f397dff2f53ef4d853e8f8ddb8b9cd6acc5cd85",
+          "quality": {
+            "width": 2048,
+            "height": 1536,
+            "bytes": 1238677,
+            "laplacian_variance": 6692.84,
+            "green_pixel_fraction": 0.693,
+            "dark_or_clipped_fraction": 0.001,
+            "flags": []
+          },
+          "near_frozen_duplicate": true,
+          "near_frozen_matches": [
+            {
+              "distance": 0,
+              "frozen_sha256": "9599de1963cacb98140b16fb17b8bd151a9f03b19049b0c09e16e7739ef61a87",
+              "frozen_source_id": "171377650",
+              "frozen_split": "test"
+            }
+          ],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": null
+        }
+      ],
+      "triage": "exclude_frozen_duplicate",
+      "decision": {
+        "species_id": "mikania_micrantha",
+        "group_id": "gbif:occurrence:3455359576",
+        "decision": "reject",
+        "rationale": "yung nasa likod yung mikania marintha e. reject to",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:14:29.661645+00:00"
+      }
+    },
+    {
+      "species_id": "mikania_micrantha",
+      "species_name": "Mikania micrantha",
+      "group_id": "gbif:occurrence:4072672343",
+      "records": [
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "4072672343:https://oxalis.br.fgov.be/images/BR0/000/022/921/062/BR0000022921062.jpg",
+          "group_id": "gbif:occurrence:4072672343",
+          "source_url": "https://www.gbif.org/occurrence/4072672343",
+          "country_code": "PH",
+          "locality": "Caloocan; Rizal Province; Luzon",
+          "observed_at": "1946-11-25",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/08208078ea4ba711237b95c52ffd1691aa450751e491bd2e95e3f4ec7edd9f2e.jpg",
+          "license": "cc-by",
+          "attribution": "Meise Botanic Garden",
+          "sha256": "08208078ea4ba711237b95c52ffd1691aa450751e491bd2e95e3f4ec7edd9f2e",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/08208078ea4ba711237b95c52ffd1691aa450751e491bd2e95e3f4ec7edd9f2e",
+          "quality": {
+            "width": 4760,
+            "height": 7171,
+            "bytes": 6335783,
+            "laplacian_variance": 2632.04,
+            "green_pixel_fraction": 0.007,
+            "dark_or_clipped_fraction": 0.037,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "08208078ea4ba711237b95c52ffd1691aa450751e491bd2e95e3f4ec7edd9f2e",
+            "species_id": "mikania_micrantha",
+            "group_id": "gbif:occurrence:4072672343",
+            "top_predictions": [
+              {
+                "species_id": "spathodea_campanulata",
+                "scientific_name": "Spathodea campanulata",
+                "score": 0.3564818501472473
+              },
+              {
+                "species_id": "nymphaea",
+                "scientific_name": "Nymphaea",
+                "score": 0.2812812626361847
+              },
+              {
+                "species_id": "pistia_stratiotes",
+                "scientific_name": "Pistia stratiotes",
+                "score": 0.13320894539356232
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        }
+      ],
+      "triage": "field_photo_check",
+      "decision": {
+        "species_id": "mikania_micrantha",
+        "group_id": "gbif:occurrence:4072672343",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:14:38.166621+00:00"
+      }
+    },
+    {
+      "species_id": "mikania_micrantha",
+      "species_name": "Mikania micrantha",
+      "group_id": "gbif:occurrence:4073070633",
+      "records": [
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "4073070633:https://oxalis.br.fgov.be/images/BR0/000/022/921/024/BR0000022921024.jpg",
+          "group_id": "gbif:occurrence:4073070633",
+          "source_url": "https://www.gbif.org/occurrence/4073070633",
+          "country_code": "PH",
+          "locality": "Los Ba\u00f1os; Laguna Province; Luzon",
+          "observed_at": "1955-12-17",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/37c68ea0dbf6ab90c0125c2003bd7c92f27217836b56fe91e9eaed8ed0e3b1ac.jpg",
+          "license": "cc-by",
+          "attribution": "Meise Botanic Garden",
+          "sha256": "37c68ea0dbf6ab90c0125c2003bd7c92f27217836b56fe91e9eaed8ed0e3b1ac",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/37c68ea0dbf6ab90c0125c2003bd7c92f27217836b56fe91e9eaed8ed0e3b1ac",
+          "quality": {
+            "width": 4750,
+            "height": 7171,
+            "bytes": 5333216,
+            "laplacian_variance": 1957.74,
+            "green_pixel_fraction": 0.007,
+            "dark_or_clipped_fraction": 0.034,
+            "flags": []
+          },
+          "near_frozen_duplicate": false,
+          "near_frozen_matches": [],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": {
+            "sha256": "37c68ea0dbf6ab90c0125c2003bd7c92f27217836b56fe91e9eaed8ed0e3b1ac",
+            "species_id": "mikania_micrantha",
+            "group_id": "gbif:occurrence:4073070633",
+            "top_predictions": [
+              {
+                "species_id": "leucaena_leucocephala",
+                "scientific_name": "Leucaena leucocephala",
+                "score": 0.2827698290348053
+              },
+              {
+                "species_id": "nymphaea",
+                "scientific_name": "Nymphaea",
+                "score": 0.2356625199317932
+              },
+              {
+                "species_id": "pistia_stratiotes",
+                "scientific_name": "Pistia stratiotes",
+                "score": 0.16472014784812927
+              }
+            ],
+            "status": "non_binding_model_triage_only"
+          }
+        }
+      ],
+      "triage": "field_photo_check",
+      "decision": {
+        "species_id": "mikania_micrantha",
+        "group_id": "gbif:occurrence:4073070633",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:14:45.477881+00:00"
+      }
+    },
+    {
+      "species_id": "mikania_micrantha",
+      "species_name": "Mikania micrantha",
+      "group_id": "gbif:occurrence:4465511978",
+      "records": [
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "4465511978:https://inaturalist-open-data.s3.amazonaws.com/photos/340257255/original.jpeg",
+          "group_id": "gbif:occurrence:4465511978",
+          "source_url": "https://www.gbif.org/occurrence/4465511978",
+          "country_code": "PH",
+          "locality": "Zamboanga del Sur",
+          "observed_at": "2023-10-22T08:07",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/bb106f68155b4b90a02f8da3e925272c290f6cf6468112b719215bef9d4a7ae4.jpg",
+          "license": "cc-by",
+          "attribution": "Forest Botial-Jarvis | iNaturalist",
+          "sha256": "bb106f68155b4b90a02f8da3e925272c290f6cf6468112b719215bef9d4a7ae4",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/bb106f68155b4b90a02f8da3e925272c290f6cf6468112b719215bef9d4a7ae4",
+          "quality": {
+            "width": 1536,
+            "height": 2048,
+            "bytes": 938119,
+            "laplacian_variance": 5870.56,
+            "green_pixel_fraction": 0.912,
+            "dark_or_clipped_fraction": 0.008,
+            "flags": []
+          },
+          "near_frozen_duplicate": true,
+          "near_frozen_matches": [
+            {
+              "distance": 0,
+              "frozen_sha256": "c5c3abdcfb51813ade370ae9b523cceded45ae2d4e6bd89f1a8b0637c3403105",
+              "frozen_source_id": "340257255",
+              "frozen_split": "train"
+            }
+          ],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": null
+        }
+      ],
+      "triage": "exclude_frozen_duplicate",
+      "decision": {
+        "species_id": "mikania_micrantha",
+        "group_id": "gbif:occurrence:4465511978",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:14:54.079057+00:00"
+      }
+    },
+    {
+      "species_id": "mikania_micrantha",
+      "species_name": "Mikania micrantha",
+      "group_id": "gbif:occurrence:5205883322",
+      "records": [
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "5205883322:https://inaturalist-open-data.s3.amazonaws.com/photos/114266128/original.jpeg",
+          "group_id": "gbif:occurrence:5205883322",
+          "source_url": "https://www.gbif.org/occurrence/5205883322",
+          "country_code": "PH",
+          "locality": "Davao del Sur",
+          "observed_at": "2021-02-28T13:38:26",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/87072e71dfd8dd7053dd602ff14e161fd253a802d9e1cfb4f5cf459e53a5cb5b.jpg",
+          "license": "cc-by",
+          "attribution": "Greg III Espera | iNaturalist",
+          "sha256": "87072e71dfd8dd7053dd602ff14e161fd253a802d9e1cfb4f5cf459e53a5cb5b",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/87072e71dfd8dd7053dd602ff14e161fd253a802d9e1cfb4f5cf459e53a5cb5b",
+          "quality": {
+            "width": 1536,
+            "height": 2048,
+            "bytes": 1373581,
+            "laplacian_variance": 11047.28,
+            "green_pixel_fraction": 0.668,
+            "dark_or_clipped_fraction": 0.011,
+            "flags": []
+          },
+          "near_frozen_duplicate": true,
+          "near_frozen_matches": [
+            {
+              "distance": 0,
+              "frozen_sha256": "01c19c9f9f528a14c9b37d19d35666e9e3467021180c30cb1165b5499f34f491",
+              "frozen_source_id": "114266128",
+              "frozen_split": "test"
+            },
+            {
+              "distance": 0,
+              "frozen_sha256": "01c19c9f9f528a14c9b37d19d35666e9e3467021180c30cb1165b5499f34f491",
+              "frozen_source_id": "114266128",
+              "frozen_split": "test"
+            }
+          ],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": null
+        }
+      ],
+      "triage": "exclude_frozen_duplicate",
+      "decision": {
+        "species_id": "mikania_micrantha",
+        "group_id": "gbif:occurrence:5205883322",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:15:01.015125+00:00"
+      }
+    },
+    {
+      "species_id": "mikania_micrantha",
+      "species_name": "Mikania micrantha",
+      "group_id": "gbif:occurrence:5205903479",
+      "records": [
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "5205903479:https://inaturalist-open-data.s3.amazonaws.com/photos/479568096/original.jpeg",
+          "group_id": "gbif:occurrence:5205903479",
+          "source_url": "https://www.gbif.org/occurrence/5205903479",
+          "country_code": "PH",
+          "locality": "Rizal",
+          "observed_at": "2024-12-30T13:04",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/d9931a75810e3c4c4ef52254418dde2242bef1c69651dc14c5f9f1fd4110cd74.jpg",
+          "license": "cc0",
+          "attribution": "Mason Brock | iNaturalist",
+          "sha256": "d9931a75810e3c4c4ef52254418dde2242bef1c69651dc14c5f9f1fd4110cd74",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/d9931a75810e3c4c4ef52254418dde2242bef1c69651dc14c5f9f1fd4110cd74",
+          "quality": {
+            "width": 2048,
+            "height": 1772,
+            "bytes": 665657,
+            "laplacian_variance": 1789.73,
+            "green_pixel_fraction": 0.594,
+            "dark_or_clipped_fraction": 0.005,
+            "flags": []
+          },
+          "near_frozen_duplicate": true,
+          "near_frozen_matches": [
+            {
+              "distance": 0,
+              "frozen_sha256": "4dcbb9caa172dc2e9e32cdc88e8ad764107574cb44f44925c54a0cc914af8ff5",
+              "frozen_source_id": "479568096",
+              "frozen_split": "validation"
+            }
+          ],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": null
+        },
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "5205903479:https://inaturalist-open-data.s3.amazonaws.com/photos/479568098/original.jpeg",
+          "group_id": "gbif:occurrence:5205903479",
+          "source_url": "https://www.gbif.org/occurrence/5205903479",
+          "country_code": "PH",
+          "locality": "Rizal",
+          "observed_at": "2024-12-30T13:04",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/dc29569226e0f2c80b0d8e9652bdc50a715c3f13bb246d74eca773c3d7b18240.jpg",
+          "license": "cc0",
+          "attribution": "Mason Brock | iNaturalist",
+          "sha256": "dc29569226e0f2c80b0d8e9652bdc50a715c3f13bb246d74eca773c3d7b18240",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/dc29569226e0f2c80b0d8e9652bdc50a715c3f13bb246d74eca773c3d7b18240",
+          "quality": {
+            "width": 1536,
+            "height": 2048,
+            "bytes": 965769,
+            "laplacian_variance": 4222.98,
+            "green_pixel_fraction": 0.97,
+            "dark_or_clipped_fraction": 0.0,
+            "flags": []
+          },
+          "near_frozen_duplicate": true,
+          "near_frozen_matches": [
+            {
+              "distance": 0,
+              "frozen_sha256": "ada54721a7b20ce6927ea66098930a82d255a851c571d355b7516a64ce63cc28",
+              "frozen_source_id": "479568098",
+              "frozen_split": "validation"
+            }
+          ],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": null
+        },
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "5205903479:https://inaturalist-open-data.s3.amazonaws.com/photos/479568100/original.jpeg",
+          "group_id": "gbif:occurrence:5205903479",
+          "source_url": "https://www.gbif.org/occurrence/5205903479",
+          "country_code": "PH",
+          "locality": "Rizal",
+          "observed_at": "2024-12-30T13:04",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/bbe2d64690015852258ce41c59b53fdcbd444fc7ca349d2f18f30c2dfc486416.jpg",
+          "license": "cc0",
+          "attribution": "Mason Brock | iNaturalist",
+          "sha256": "bbe2d64690015852258ce41c59b53fdcbd444fc7ca349d2f18f30c2dfc486416",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/bbe2d64690015852258ce41c59b53fdcbd444fc7ca349d2f18f30c2dfc486416",
+          "quality": {
+            "width": 2048,
+            "height": 1927,
+            "bytes": 687450,
+            "laplacian_variance": 2289.76,
+            "green_pixel_fraction": 0.385,
+            "dark_or_clipped_fraction": 0.003,
+            "flags": []
+          },
+          "near_frozen_duplicate": true,
+          "near_frozen_matches": [
+            {
+              "distance": 0,
+              "frozen_sha256": "d804d51170bff31e2a96df38d5a0e90adcc274b3852b21c996253c97e4ae4ecf",
+              "frozen_source_id": "479568100",
+              "frozen_split": "validation"
+            }
+          ],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": null
+        }
+      ],
+      "triage": "exclude_frozen_duplicate",
+      "decision": {
+        "species_id": "mikania_micrantha",
+        "group_id": "gbif:occurrence:5205903479",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:15:10.295652+00:00"
+      }
+    },
+    {
+      "species_id": "mikania_micrantha",
+      "species_name": "Mikania micrantha",
+      "group_id": "gbif:occurrence:5206188316",
+      "records": [
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "5206188316:https://inaturalist-open-data.s3.amazonaws.com/photos/105246201/original.jpg",
+          "group_id": "gbif:occurrence:5206188316",
+          "source_url": "https://www.gbif.org/occurrence/5206188316",
+          "country_code": "PH",
+          "locality": "Davao del Sur",
+          "observed_at": "2020-11-22T17:07:03",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/589298ab49ec563499394eac097fdf72f664704dd088f1aafc3adc02456c9696.jpg",
+          "license": "cc-by",
+          "attribution": "Greg III Espera | iNaturalist",
+          "sha256": "589298ab49ec563499394eac097fdf72f664704dd088f1aafc3adc02456c9696",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/589298ab49ec563499394eac097fdf72f664704dd088f1aafc3adc02456c9696",
+          "quality": {
+            "width": 1536,
+            "height": 2048,
+            "bytes": 1274093,
+            "laplacian_variance": 7568.8,
+            "green_pixel_fraction": 0.261,
+            "dark_or_clipped_fraction": 0.092,
+            "flags": []
+          },
+          "near_frozen_duplicate": true,
+          "near_frozen_matches": [
+            {
+              "distance": 0,
+              "frozen_sha256": "74ce41e8073a565855074d09c28b434ce12ef9d73155899b004e9b5dd0ad5373",
+              "frozen_source_id": "105246201",
+              "frozen_split": "train"
+            }
+          ],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": null
+        },
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "5206188316:https://inaturalist-open-data.s3.amazonaws.com/photos/105246227/original.jpg",
+          "group_id": "gbif:occurrence:5206188316",
+          "source_url": "https://www.gbif.org/occurrence/5206188316",
+          "country_code": "PH",
+          "locality": "Davao del Sur",
+          "observed_at": "2020-11-22T17:07:03",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/30ea28d237a601b60e0cca3eb558c37d4ce906ccae5f1ab73cc48f079e92d082.jpg",
+          "license": "cc-by",
+          "attribution": "Greg III Espera | iNaturalist",
+          "sha256": "30ea28d237a601b60e0cca3eb558c37d4ce906ccae5f1ab73cc48f079e92d082",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/30ea28d237a601b60e0cca3eb558c37d4ce906ccae5f1ab73cc48f079e92d082",
+          "quality": {
+            "width": 1536,
+            "height": 2048,
+            "bytes": 904592,
+            "laplacian_variance": 2797.53,
+            "green_pixel_fraction": 0.721,
+            "dark_or_clipped_fraction": 0.03,
+            "flags": []
+          },
+          "near_frozen_duplicate": true,
+          "near_frozen_matches": [
+            {
+              "distance": 0,
+              "frozen_sha256": "8dccade72f1a96e25725747591c1403b9a432d992170c821e47c7386734bd123",
+              "frozen_source_id": "105246227",
+              "frozen_split": "train"
+            }
+          ],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": null
+        }
+      ],
+      "triage": "exclude_frozen_duplicate",
+      "decision": {
+        "species_id": "mikania_micrantha",
+        "group_id": "gbif:occurrence:5206188316",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:15:16.491039+00:00"
+      }
+    },
+    {
+      "species_id": "mikania_micrantha",
+      "species_name": "Mikania micrantha",
+      "group_id": "gbif:occurrence:5206286496",
+      "records": [
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "5206286496:https://inaturalist-open-data.s3.amazonaws.com/photos/494382561/original.jpg",
+          "group_id": "gbif:occurrence:5206286496",
+          "source_url": "https://www.gbif.org/occurrence/5206286496",
+          "country_code": "PH",
+          "locality": "Davao del Norte",
+          "observed_at": "2025-04-28T05:50",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/8e11face6e3a37087c101ff28e68136919043be5a1ee944a07d727438ccbb815.jpg",
+          "license": "cc-by",
+          "attribution": "Vreni Gem O. Caasi | iNaturalist",
+          "sha256": "8e11face6e3a37087c101ff28e68136919043be5a1ee944a07d727438ccbb815",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/8e11face6e3a37087c101ff28e68136919043be5a1ee944a07d727438ccbb815",
+          "quality": {
+            "width": 1536,
+            "height": 2048,
+            "bytes": 350496,
+            "laplacian_variance": 2533.67,
+            "green_pixel_fraction": 0.466,
+            "dark_or_clipped_fraction": 0.029,
+            "flags": []
+          },
+          "near_frozen_duplicate": true,
+          "near_frozen_matches": [
+            {
+              "distance": 0,
+              "frozen_sha256": "5adf39786f9b11cb399620aefe71d36fbd78ed1bbd0753b8e0dfba79464ee712",
+              "frozen_source_id": "494382561",
+              "frozen_split": "train"
+            }
+          ],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": null
+        }
+      ],
+      "triage": "exclude_frozen_duplicate",
+      "decision": {
+        "species_id": "mikania_micrantha",
+        "group_id": "gbif:occurrence:5206286496",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:15:23.160173+00:00"
+      }
+    },
+    {
+      "species_id": "mikania_micrantha",
+      "species_name": "Mikania micrantha",
+      "group_id": "gbif:occurrence:5215725327",
+      "records": [
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "5215725327:https://inaturalist-open-data.s3.amazonaws.com/photos/115200931/original.jpeg",
+          "group_id": "gbif:occurrence:5215725327",
+          "source_url": "https://www.gbif.org/occurrence/5215725327",
+          "country_code": "PH",
+          "locality": "Capiz",
+          "observed_at": "2021-03-07T07:47:40",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/3ee943b6635834d43e76b90af3b3b17b09102b15363c720b3e5ed25bce133bfd.jpg",
+          "license": "cc-by",
+          "attribution": "Beah Vega | iNaturalist",
+          "sha256": "3ee943b6635834d43e76b90af3b3b17b09102b15363c720b3e5ed25bce133bfd",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/3ee943b6635834d43e76b90af3b3b17b09102b15363c720b3e5ed25bce133bfd",
+          "quality": {
+            "width": 2048,
+            "height": 2048,
+            "bytes": 1579532,
+            "laplacian_variance": 5986.55,
+            "green_pixel_fraction": 0.97,
+            "dark_or_clipped_fraction": 0.001,
+            "flags": []
+          },
+          "near_frozen_duplicate": true,
+          "near_frozen_matches": [
+            {
+              "distance": 0,
+              "frozen_sha256": "ce25ecfebe3d78b65f0b54e23d4459823d4c27ffbae0896edc079b43052c9cec",
+              "frozen_source_id": "115200931",
+              "frozen_split": "train"
+            },
+            {
+              "distance": 0,
+              "frozen_sha256": "ce25ecfebe3d78b65f0b54e23d4459823d4c27ffbae0896edc079b43052c9cec",
+              "frozen_source_id": "115200931",
+              "frozen_split": "train"
+            }
+          ],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": null
+        },
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "5215725327:https://inaturalist-open-data.s3.amazonaws.com/photos/115202501/original.jpeg",
+          "group_id": "gbif:occurrence:5215725327",
+          "source_url": "https://www.gbif.org/occurrence/5215725327",
+          "country_code": "PH",
+          "locality": "Capiz",
+          "observed_at": "2021-03-07T07:47:40",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/306c9e50028201b59d5a2c728ffea47bd2b52ce645bea91e581180d5f53fc56a.jpg",
+          "license": "cc-by",
+          "attribution": "Beah Vega | iNaturalist",
+          "sha256": "306c9e50028201b59d5a2c728ffea47bd2b52ce645bea91e581180d5f53fc56a",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/306c9e50028201b59d5a2c728ffea47bd2b52ce645bea91e581180d5f53fc56a",
+          "quality": {
+            "width": 2048,
+            "height": 2048,
+            "bytes": 1523724,
+            "laplacian_variance": 5553.4,
+            "green_pixel_fraction": 0.938,
+            "dark_or_clipped_fraction": 0.001,
+            "flags": []
+          },
+          "near_frozen_duplicate": true,
+          "near_frozen_matches": [
+            {
+              "distance": 0,
+              "frozen_sha256": "e03205fca8473727d4e9e75a8c1beb5e345d991d4fabdacafc7bced0d5bd5c29",
+              "frozen_source_id": "115202501",
+              "frozen_split": "train"
+            },
+            {
+              "distance": 0,
+              "frozen_sha256": "e03205fca8473727d4e9e75a8c1beb5e345d991d4fabdacafc7bced0d5bd5c29",
+              "frozen_source_id": "115202501",
+              "frozen_split": "train"
+            }
+          ],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": null
+        },
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "5215725327:https://inaturalist-open-data.s3.amazonaws.com/photos/115202910/original.jpeg",
+          "group_id": "gbif:occurrence:5215725327",
+          "source_url": "https://www.gbif.org/occurrence/5215725327",
+          "country_code": "PH",
+          "locality": "Capiz",
+          "observed_at": "2021-03-07T07:47:40",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/3d4c3cfd0bde564cf577d0124d61ab6d98ba4fc26624c03951a14004d49e999c.jpg",
+          "license": "cc-by",
+          "attribution": "Beah Vega | iNaturalist",
+          "sha256": "3d4c3cfd0bde564cf577d0124d61ab6d98ba4fc26624c03951a14004d49e999c",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/3d4c3cfd0bde564cf577d0124d61ab6d98ba4fc26624c03951a14004d49e999c",
+          "quality": {
+            "width": 2048,
+            "height": 2048,
+            "bytes": 1685496,
+            "laplacian_variance": 3633.4,
+            "green_pixel_fraction": 0.889,
+            "dark_or_clipped_fraction": 0.004,
+            "flags": []
+          },
+          "near_frozen_duplicate": true,
+          "near_frozen_matches": [
+            {
+              "distance": 0,
+              "frozen_sha256": "3cce59474e3c8faf8128bbc3e2e08d5453fc400ade5b7a4d8d61e1e80927f02f",
+              "frozen_source_id": "115202910",
+              "frozen_split": "train"
+            },
+            {
+              "distance": 0,
+              "frozen_sha256": "3cce59474e3c8faf8128bbc3e2e08d5453fc400ade5b7a4d8d61e1e80927f02f",
+              "frozen_source_id": "115202910",
+              "frozen_split": "train"
+            }
+          ],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": null
+        },
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "5215725327:https://inaturalist-open-data.s3.amazonaws.com/photos/115203191/original.jpeg",
+          "group_id": "gbif:occurrence:5215725327",
+          "source_url": "https://www.gbif.org/occurrence/5215725327",
+          "country_code": "PH",
+          "locality": "Capiz",
+          "observed_at": "2021-03-07T07:47:40",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/48a7c5d55eeaf9a3e56821d9288d4ee01d0f04be9b2fc028d2edffce9a3036f3.jpg",
+          "license": "cc-by",
+          "attribution": "Beah Vega | iNaturalist",
+          "sha256": "48a7c5d55eeaf9a3e56821d9288d4ee01d0f04be9b2fc028d2edffce9a3036f3",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/48a7c5d55eeaf9a3e56821d9288d4ee01d0f04be9b2fc028d2edffce9a3036f3",
+          "quality": {
+            "width": 2048,
+            "height": 2048,
+            "bytes": 1545608,
+            "laplacian_variance": 7186.29,
+            "green_pixel_fraction": 0.935,
+            "dark_or_clipped_fraction": 0.003,
+            "flags": []
+          },
+          "near_frozen_duplicate": true,
+          "near_frozen_matches": [
+            {
+              "distance": 0,
+              "frozen_sha256": "aed1e3250a66b137e0a394c80c148c829230ed502eae8cdc12ae7f9b270bc328",
+              "frozen_source_id": "115203191",
+              "frozen_split": "train"
+            },
+            {
+              "distance": 0,
+              "frozen_sha256": "aed1e3250a66b137e0a394c80c148c829230ed502eae8cdc12ae7f9b270bc328",
+              "frozen_source_id": "115203191",
+              "frozen_split": "train"
+            }
+          ],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": null
+        }
+      ],
+      "triage": "exclude_frozen_duplicate",
+      "decision": {
+        "species_id": "mikania_micrantha",
+        "group_id": "gbif:occurrence:5215725327",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:15:31.652113+00:00"
+      }
+    },
+    {
+      "species_id": "mikania_micrantha",
+      "species_name": "Mikania micrantha",
+      "group_id": "gbif:occurrence:5215757347",
+      "records": [
+        {
+          "species_id": "mikania_micrantha",
+          "source": "gbif",
+          "source_id": "5215757347:https://inaturalist-open-data.s3.amazonaws.com/photos/191462732/original.jpeg",
+          "group_id": "gbif:occurrence:5215757347",
+          "source_url": "https://www.gbif.org/occurrence/5215757347",
+          "country_code": "PH",
+          "locality": "Davao del Sur",
+          "observed_at": "2022-04-29T11:11:54",
+          "local_image_path": "storage/datasets/staging/mikania_micrantha_ph/raw/mikania_micrantha/71bd2f1f74a4e1ad682b4bbf19bcf75967505e07430ca589c379e68ffc10ec8f.jpg",
+          "license": "cc-by",
+          "attribution": "Greg III Espera | iNaturalist",
+          "sha256": "71bd2f1f74a4e1ad682b4bbf19bcf75967505e07430ca589c379e68ffc10ec8f",
+          "review_status_at_collection": "owner_gallery_approved",
+          "required_human_checks": "visible species identity; field photo suitability; PH locality evidence; duplicate/observation independence",
+          "decision": "pending_human_review",
+          "rationale": "",
+          "image_url": "/image/71bd2f1f74a4e1ad682b4bbf19bcf75967505e07430ca589c379e68ffc10ec8f",
+          "quality": {
+            "width": 1536,
+            "height": 2048,
+            "bytes": 992031,
+            "laplacian_variance": 3980.01,
+            "green_pixel_fraction": 0.595,
+            "dark_or_clipped_fraction": 0.004,
+            "flags": []
+          },
+          "near_frozen_duplicate": true,
+          "near_frozen_matches": [
+            {
+              "distance": 0,
+              "frozen_sha256": "00fc77f2aaf9b8ad6f08611ad66e9bf57e684cd5d270fd8014628f302b12e2d1",
+              "frozen_source_id": "191462732",
+              "frozen_split": "test"
+            }
+          ],
+          "near_candidate_duplicates": [],
+          "cnn_prescreen": null
+        }
+      ],
+      "triage": "exclude_frozen_duplicate",
+      "decision": {
+        "species_id": "mikania_micrantha",
+        "group_id": "gbif:occurrence:5215757347",
+        "decision": "approve",
+        "rationale": "The visible leaf shape, arrangement, and overall plant structure appear consistent with the proposed species identification.",
+        "reviewer": "owner_local_review",
+        "basis": "owner_visual_review_not_independent_expert_verification",
+        "training_eligible": false,
+        "reviewedAt": "2026-10-31T17:15:40.284381+00:00"
+      }
+    }
+  ],
+  "checks": {
+    "all_images_decode_and_checksum_match": true,
+    "license_allowlist": [
+      "cc-by",
+      "cc0"
+    ],
+    "noncommercial_images_included": false,
+    "visible_species_identity": "not automatically determined; requires human botanical review",
+    "green_fraction_and_edge_metrics": "triage signals only; not identity evidence"
+  }
+}

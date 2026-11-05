@@ -1,0 +1,271 @@
+{
+  "started": "2026-11-01T08:46:08+00:00",
+  "finished": "2026-11-01T09:06:55+00:00",
+  "source": "GBIF",
+  "allowed_licenses": [
+    "CC0-1.0",
+    "PDM-1.0",
+    "CC-BY-4.0",
+    "CC-BY-NC-4.0"
+  ],
+  "country_priority": [
+    "PH",
+    null
+  ],
+  "bytes_downloaded": 93799850,
+  "storage_budget_bytes": 500000000,
+  "species": [
+    {
+      "species_id": "GF-SP-0001",
+      "scientific_name": "Chromolaena odorata",
+      "accepted_taxon_key": 3087725,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 80,
+      "already_present": 2,
+      "downloaded": 78,
+      "countries": {
+        "PH": 78
+      },
+      "skipped": {},
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0002",
+      "scientific_name": "Lantana camara",
+      "accepted_taxon_key": 2925303,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 80,
+      "already_present": 0,
+      "downloaded": 80,
+      "countries": {
+        "PH": 80
+      },
+      "skipped": {},
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0003",
+      "scientific_name": "Pontederia crassipes",
+      "accepted_taxon_key": 2765942,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 80,
+      "already_present": 0,
+      "downloaded": 80,
+      "countries": {
+        "PH": 80
+      },
+      "skipped": {},
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0101",
+      "scientific_name": "Ageratum conyzoides",
+      "accepted_taxon_key": 5401673,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 30,
+      "already_present": 0,
+      "downloaded": 30,
+      "countries": {
+        "PH": 30
+      },
+      "skipped": {},
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0102",
+      "scientific_name": "Mikania micrantha",
+      "accepted_taxon_key": 5398421,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 30,
+      "already_present": 0,
+      "downloaded": 30,
+      "countries": {
+        "PH": 30
+      },
+      "skipped": {},
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0103",
+      "scientific_name": "Lantana montevidensis",
+      "accepted_taxon_key": 2925314,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 30,
+      "already_present": 0,
+      "downloaded": 30,
+      "countries": {
+        "AU": 11,
+        "US": 14,
+        "IN": 1,
+        "HK": 1,
+        "IT": 1,
+        "CN": 1,
+        "PY": 1
+      },
+      "skipped": {},
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0104",
+      "scientific_name": "Duranta erecta",
+      "accepted_taxon_key": 2925655,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 30,
+      "already_present": 0,
+      "downloaded": 30,
+      "countries": {
+        "PH": 30
+      },
+      "skipped": {},
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0105",
+      "scientific_name": "Pistia stratiotes",
+      "accepted_taxon_key": 2870583,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 30,
+      "already_present": 0,
+      "downloaded": 30,
+      "countries": {
+        "PH": 30
+      },
+      "skipped": {},
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0106",
+      "scientific_name": "Pontederia vaginalis",
+      "accepted_taxon_key": 8238520,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 30,
+      "already_present": 0,
+      "downloaded": 30,
+      "countries": {
+        "PH": 7,
+        "AU": 2,
+        "IN": 7,
+        "PA": 1,
+        "TW": 11,
+        "MY": 1,
+        "TH": 1
+      },
+      "skipped": {},
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0107",
+      "scientific_name": "Limnocharis flava",
+      "accepted_taxon_key": 5328736,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 30,
+      "already_present": 0,
+      "downloaded": 30,
+      "countries": {
+        "EC": 2,
+        "TH": 6,
+        "PA": 2,
+        "IN": 2,
+        "MY": 8,
+        "ID": 8,
+        "GF": 1,
+        "LA": 1
+      },
+      "skipped": {},
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0201",
+      "scientific_name": "Mimosa pudica",
+      "accepted_taxon_key": 2969284,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 20,
+      "already_present": 0,
+      "downloaded": 20,
+      "countries": {
+        "PH": 20
+      },
+      "skipped": {},
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0202",
+      "scientific_name": "Hibiscus rosa-sinensis",
+      "accepted_taxon_key": 3152559,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 20,
+      "already_present": 0,
+      "downloaded": 20,
+      "countries": {
+        "PH": 20
+      },
+      "skipped": {},
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0203",
+      "scientific_name": "Ixora coccinea",
+      "accepted_taxon_key": 8793122,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 20,
+      "already_present": 0,
+      "downloaded": 20,
+      "countries": {
+        "PH": 20
+      },
+      "skipped": {},
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0204",
+      "scientific_name": "Bidens pilosa",
+      "accepted_taxon_key": 5391845,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 20,
+      "already_present": 0,
+      "downloaded": 20,
+      "countries": {
+        "PH": 8,
+        "ZA": 4,
+        "US": 4,
+        "IL": 1,
+        "AU": 1,
+        "TW": 1,
+        "LS": 1
+      },
+      "skipped": {
+        "no_media_with_allowed_license": 2
+      },
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0205",
+      "scientific_name": "Ipomoea aquatica",
+      "accepted_taxon_key": 2928525,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 20,
+      "already_present": 0,
+      "downloaded": 20,
+      "countries": {
+        "PH": 20
+      },
+      "skipped": {},
+      "error": ""
+    },
+    {
+      "species_id": "GF-SP-0206",
+      "scientific_name": "Imperata cylindrica",
+      "accepted_taxon_key": 8424006,
+      "taxon_note": "GBIF match EXACT status=ACCEPTED",
+      "requested": 20,
+      "already_present": 0,
+      "downloaded": 20,
+      "countries": {
+        "PH": 20
+      },
+      "skipped": {},
+      "error": ""
+    }
+  ],
+  "note": "All downloaded images have review_status=pending and are NOT GeoFlora field observations."
+}

@@ -1,0 +1,2113 @@
+{
+  "started_at_utc": "2026-10-22T17:44:21.078109+00:00",
+  "species": [
+    {
+      "source_taxon_id": "126575",
+      "name": "Broussonetia papyrifera",
+      "ecological_evidence_bucket": "source_flagged_invasive",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:44:33.534743+00:00"
+    },
+    {
+      "source_taxon_id": "126621",
+      "name": "Chromolaena odorata",
+      "ecological_evidence_bucket": "source_flagged_invasive",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:44:47.510579+00:00"
+    },
+    {
+      "source_taxon_id": "126761",
+      "name": "Lantana camara",
+      "ecological_evidence_bucket": "source_flagged_invasive",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:45:02.144361+00:00"
+    },
+    {
+      "source_taxon_id": "126794",
+      "name": "Mikania micrantha",
+      "ecological_evidence_bucket": "source_flagged_invasive",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:45:14.852691+00:00"
+    },
+    {
+      "source_taxon_id": "126723",
+      "name": "Hiptage benghalensis",
+      "ecological_evidence_bucket": "source_flagged_invasive",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 9,
+          "rejected": 2
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:45:44.790212+00:00"
+    },
+    {
+      "source_taxon_id": "126737",
+      "name": "Imperata cylindrica",
+      "ecological_evidence_bucket": "source_flagged_invasive",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:45:57.387428+00:00"
+    },
+    {
+      "source_taxon_id": "126795",
+      "name": "Mimosa pigra",
+      "ecological_evidence_bucket": "source_flagged_invasive",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 0,
+          "rejected": 0
+        }
+      ],
+      "status": "no_eligible_images",
+      "records": 0,
+      "unique_checksums": 0,
+      "finished_at_utc": "2026-10-22T17:45:58.582709+00:00"
+    },
+    {
+      "source_taxon_id": "126817",
+      "name": "Opuntia monacantha",
+      "ecological_evidence_bucket": "source_flagged_invasive",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 1,
+          "rejected": 1
+        }
+      ],
+      "status": "collected",
+      "records": 1,
+      "unique_checksums": 1,
+      "finished_at_utc": "2026-10-22T17:46:03.280031+00:00"
+    },
+    {
+      "source_taxon_id": "126827",
+      "name": "Pachystachys coccinea",
+      "ecological_evidence_bucket": "source_flagged_invasive",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 2,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 8,
+          "rejected": 1
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:46:43.774353+00:00"
+    },
+    {
+      "source_taxon_id": "126853",
+      "name": "Piper aduncum",
+      "ecological_evidence_bucket": "source_flagged_invasive",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 1,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 4,
+          "rejected": 3
+        }
+      ],
+      "status": "collected",
+      "records": 5,
+      "unique_checksums": 5,
+      "finished_at_utc": "2026-10-22T17:47:11.350666+00:00"
+    },
+    {
+      "source_taxon_id": "126856",
+      "name": "Pistia stratiotes",
+      "ecological_evidence_bucket": "source_flagged_invasive",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 7,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 3,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:47:27.753576+00:00"
+    },
+    {
+      "source_taxon_id": "126900",
+      "name": "Salvinia molesta",
+      "ecological_evidence_bucket": "source_flagged_invasive",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 0,
+          "rejected": 0
+        }
+      ],
+      "status": "no_eligible_images",
+      "records": 0,
+      "unique_checksums": 0,
+      "finished_at_utc": "2026-10-22T17:47:28.954452+00:00"
+    },
+    {
+      "source_taxon_id": "126503",
+      "name": "Acacia auriculiformis",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:47:41.663703+00:00"
+    },
+    {
+      "source_taxon_id": "126505",
+      "name": "Acacia mangium",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 7,
+          "rejected": 2
+        }
+      ],
+      "status": "collected",
+      "records": 7,
+      "unique_checksums": 7,
+      "finished_at_utc": "2026-10-22T17:47:59.532312+00:00"
+    },
+    {
+      "source_taxon_id": "126634",
+      "name": "Coccinia grandis",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:48:12.987764+00:00"
+    },
+    {
+      "source_taxon_id": "126676",
+      "name": "Eichhornia crassipes",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [],
+      "status": "taxonomy_unresolved",
+      "records": 0,
+      "unique_checksums": 0,
+      "finished_at_utc": "2026-10-22T17:48:12.988763+00:00"
+    },
+    {
+      "source_taxon_id": "126921",
+      "name": "Swietenia macrophylla",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 1,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 7,
+          "rejected": 1
+        }
+      ],
+      "status": "collected",
+      "records": 8,
+      "unique_checksums": 8,
+      "finished_at_utc": "2026-10-22T17:48:46.034258+00:00"
+    },
+    {
+      "source_taxon_id": "126500",
+      "name": "Abelmoschus esculentus",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 2,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 4,
+          "rejected": 1
+        }
+      ],
+      "status": "collected",
+      "records": 6,
+      "unique_checksums": 6,
+      "finished_at_utc": "2026-10-22T17:49:00.410758+00:00"
+    },
+    {
+      "source_taxon_id": "126501",
+      "name": "Abrus precatorius",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 7,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 3,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:49:15.676005+00:00"
+    },
+    {
+      "source_taxon_id": "126502",
+      "name": "Abutilon indicum",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 7,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 3,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:49:32.940429+00:00"
+    },
+    {
+      "source_taxon_id": "126506",
+      "name": "Acalypha hispida",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 5,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 5,
+      "unique_checksums": 5,
+      "finished_at_utc": "2026-10-22T17:49:45.272613+00:00"
+    },
+    {
+      "source_taxon_id": "126507",
+      "name": "Acalypha wilkesiana",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 4,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 6,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:50:11.406062+00:00"
+    },
+    {
+      "source_taxon_id": "126509",
+      "name": "Achyranthes aspera",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 2,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 8,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:50:31.361989+00:00"
+    },
+    {
+      "source_taxon_id": "126511",
+      "name": "Acorus calamus",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 3,
+          "rejected": 1
+        }
+      ],
+      "status": "collected",
+      "records": 3,
+      "unique_checksums": 3,
+      "finished_at_utc": "2026-10-22T17:51:00.916993+00:00"
+    },
+    {
+      "source_taxon_id": "126512",
+      "name": "Agave cantula",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [],
+      "status": "taxonomy_unresolved",
+      "records": 0,
+      "unique_checksums": 0,
+      "finished_at_utc": "2026-10-22T17:51:00.917992+00:00"
+    },
+    {
+      "source_taxon_id": "126513",
+      "name": "Ageratum conyzoides",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:51:14.070542+00:00"
+    },
+    {
+      "source_taxon_id": "126514",
+      "name": "Aglaia odorata",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 2,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 6,
+          "rejected": 2
+        }
+      ],
+      "status": "collected",
+      "records": 8,
+      "unique_checksums": 8,
+      "finished_at_utc": "2026-10-22T17:51:37.467659+00:00"
+    },
+    {
+      "source_taxon_id": "126515",
+      "name": "Albizia lebbeck",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 7,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 3,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:51:54.371611+00:00"
+    },
+    {
+      "source_taxon_id": "126686",
+      "name": "Albizia saman",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [],
+      "status": "taxonomy_unresolved",
+      "records": 0,
+      "unique_checksums": 0,
+      "finished_at_utc": "2026-10-22T17:51:54.373611+00:00"
+    },
+    {
+      "source_taxon_id": "126516",
+      "name": "Aleurites moluccanus",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 2
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:52:51.928137+00:00"
+    },
+    {
+      "source_taxon_id": "126521",
+      "name": "Allium ampeloprasum",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 0,
+          "rejected": 0
+        }
+      ],
+      "status": "no_eligible_images",
+      "records": 0,
+      "unique_checksums": 0,
+      "finished_at_utc": "2026-10-22T17:52:53.150601+00:00"
+    },
+    {
+      "source_taxon_id": "126520",
+      "name": "Allium cepa",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 0,
+          "rejected": 0
+        }
+      ],
+      "status": "no_eligible_images",
+      "records": 0,
+      "unique_checksums": 0,
+      "finished_at_utc": "2026-10-22T17:52:54.400935+00:00"
+    },
+    {
+      "source_taxon_id": "126524",
+      "name": "Alternanthera ficoidea",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 0,
+          "rejected": 0
+        }
+      ],
+      "status": "no_eligible_images",
+      "records": 0,
+      "unique_checksums": 0,
+      "finished_at_utc": "2026-10-22T17:52:57.302160+00:00"
+    },
+    {
+      "source_taxon_id": "126522",
+      "name": "Alternanthera halimifolia",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 0,
+          "rejected": 2
+        }
+      ],
+      "status": "no_eligible_images",
+      "records": 0,
+      "unique_checksums": 0,
+      "finished_at_utc": "2026-10-22T17:53:14.527141+00:00"
+    },
+    {
+      "source_taxon_id": "126523",
+      "name": "Alternanthera sessilis",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 1,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 9,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:53:38.252809+00:00"
+    },
+    {
+      "source_taxon_id": "126525",
+      "name": "Alysicarpus vaginalis",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 4,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 6,
+          "rejected": 1
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:54:00.881512+00:00"
+    },
+    {
+      "source_taxon_id": "126526",
+      "name": "Amaranthus caudatus",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 1,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 1,
+      "unique_checksums": 1,
+      "finished_at_utc": "2026-10-22T17:54:04.092631+00:00"
+    },
+    {
+      "source_taxon_id": "126528",
+      "name": "Amaranthus spinosus",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 1,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 9,
+          "rejected": 1
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:54:46.441862+00:00"
+    },
+    {
+      "source_taxon_id": "126527",
+      "name": "Amaranthus tricolor",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 2
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:55:17.360613+00:00"
+    },
+    {
+      "source_taxon_id": "126529",
+      "name": "Amaranthus viridis",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 3,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 7,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:55:36.562113+00:00"
+    },
+    {
+      "source_taxon_id": "126533",
+      "name": "Anacardium occidentale",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 4,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 6,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:55:51.793883+00:00"
+    },
+    {
+      "source_taxon_id": "126534",
+      "name": "Ananas comosus",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 1,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 9,
+          "rejected": 3
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:56:23.124545+00:00"
+    },
+    {
+      "source_taxon_id": "126538",
+      "name": "Annona muricata",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 6,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 4,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:56:42.640157+00:00"
+    },
+    {
+      "source_taxon_id": "126539",
+      "name": "Annona reticulata",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 6,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 6,
+      "unique_checksums": 6,
+      "finished_at_utc": "2026-10-22T17:56:57.632714+00:00"
+    },
+    {
+      "source_taxon_id": "126540",
+      "name": "Annona squamosa",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 3,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 7,
+          "rejected": 1
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:57:40.831233+00:00"
+    },
+    {
+      "source_taxon_id": "126542",
+      "name": "Antigonon leptopus",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:57:53.582771+00:00"
+    },
+    {
+      "source_taxon_id": "126544",
+      "name": "Arachis hypogaea",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 6
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:58:58.663522+00:00"
+    },
+    {
+      "source_taxon_id": "126546",
+      "name": "Areca catechu",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 1,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 9,
+          "rejected": 11
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T17:59:35.254957+00:00"
+    },
+    {
+      "source_taxon_id": "126547",
+      "name": "Argemone mexicana",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 1,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 8,
+          "rejected": 4
+        }
+      ],
+      "status": "collected",
+      "records": 9,
+      "unique_checksums": 9,
+      "finished_at_utc": "2026-10-22T18:00:08.693579+00:00"
+    },
+    {
+      "source_taxon_id": "126548",
+      "name": "Argyreia nervosa",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 0,
+          "rejected": 0
+        }
+      ],
+      "status": "no_eligible_images",
+      "records": 0,
+      "unique_checksums": 0,
+      "finished_at_utc": "2026-10-22T18:00:10.043460+00:00"
+    },
+    {
+      "source_taxon_id": "126550",
+      "name": "Aristolochia elegans",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [],
+      "status": "taxonomy_unresolved",
+      "records": 0,
+      "unique_checksums": 0,
+      "finished_at_utc": "2026-10-22T18:00:10.051096+00:00"
+    },
+    {
+      "source_taxon_id": "126551",
+      "name": "Artemisia vulgaris",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T18:00:33.230255+00:00"
+    },
+    {
+      "source_taxon_id": "126552",
+      "name": "Artocarpus altilis",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T18:00:47.549950+00:00"
+    },
+    {
+      "source_taxon_id": "126556",
+      "name": "Asparagus aethiopicus",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 4,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 1,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 5,
+      "unique_checksums": 5,
+      "finished_at_utc": "2026-10-22T18:01:16.792302+00:00"
+    },
+    {
+      "source_taxon_id": "126554",
+      "name": "Asparagus officinalis",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 0,
+          "rejected": 0
+        }
+      ],
+      "status": "no_eligible_images",
+      "records": 0,
+      "unique_checksums": 0,
+      "finished_at_utc": "2026-10-22T18:01:18.077685+00:00"
+    },
+    {
+      "source_taxon_id": "126555",
+      "name": "Asparagus setaceus",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 0,
+          "rejected": 0
+        }
+      ],
+      "status": "no_eligible_images",
+      "records": 0,
+      "unique_checksums": 0,
+      "finished_at_utc": "2026-10-22T18:01:19.660047+00:00"
+    },
+    {
+      "source_taxon_id": "126558",
+      "name": "Averrhoa bilimbi",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T18:01:33.940771+00:00"
+    },
+    {
+      "source_taxon_id": "126559",
+      "name": "Averrhoa carambola",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 3,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 7,
+          "rejected": 1
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T18:01:55.871099+00:00"
+    },
+    {
+      "source_taxon_id": "126693",
+      "name": "Ayapana triplinervis",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 3,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 3,
+      "unique_checksums": 3,
+      "finished_at_utc": "2026-10-22T18:02:05.448172+00:00"
+    },
+    {
+      "source_taxon_id": "126561",
+      "name": "Barleria lupulina",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 1,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 1,
+      "unique_checksums": 1,
+      "finished_at_utc": "2026-10-22T18:02:08.407101+00:00"
+    },
+    {
+      "source_taxon_id": "126562",
+      "name": "Basella alba",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T18:02:21.376842+00:00"
+    },
+    {
+      "source_taxon_id": "126563",
+      "name": "Bauhinia monandra",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 1
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T18:02:41.144421+00:00"
+    },
+    {
+      "source_taxon_id": "126564",
+      "name": "Bauhinia tomentosa",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 7,
+          "rejected": 5
+        }
+      ],
+      "status": "collected",
+      "records": 7,
+      "unique_checksums": 7,
+      "finished_at_utc": "2026-10-22T18:03:38.792397+00:00"
+    },
+    {
+      "source_taxon_id": "126566",
+      "name": "Benincasa pruriens",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [],
+      "status": "taxonomy_unresolved",
+      "records": 0,
+      "unique_checksums": 0,
+      "finished_at_utc": "2026-10-22T18:03:38.795260+00:00"
+    },
+    {
+      "source_taxon_id": "126567",
+      "name": "Bidens pilosa",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 4
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T18:04:07.494535+00:00"
+    },
+    {
+      "source_taxon_id": "126568",
+      "name": "Biophytum sensitivum",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T18:04:20.509109+00:00"
+    },
+    {
+      "source_taxon_id": "126569",
+      "name": "Bixa orellana",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 8,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 2,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T18:04:36.193583+00:00"
+    },
+    {
+      "source_taxon_id": "126571",
+      "name": "Boehmeria nivea",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 5
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T18:05:19.884161+00:00"
+    },
+    {
+      "source_taxon_id": "126572",
+      "name": "Boerhaavia diffusa",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [],
+      "status": "taxonomy_unresolved",
+      "records": 0,
+      "unique_checksums": 0,
+      "finished_at_utc": "2026-10-22T18:05:19.887200+00:00"
+    },
+    {
+      "source_taxon_id": "126573",
+      "name": "Bougainvillea spectabilis",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 6,
+          "rejected": 4
+        }
+      ],
+      "status": "collected",
+      "records": 6,
+      "unique_checksums": 6,
+      "finished_at_utc": "2026-10-22T18:06:38.074566+00:00"
+    },
+    {
+      "source_taxon_id": "126574",
+      "name": "Brassica juncea",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 1
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T18:07:15.711393+00:00"
+    },
+    {
+      "source_taxon_id": "126577",
+      "name": "Brunfelsia americana",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 2,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 2,
+      "unique_checksums": 2,
+      "finished_at_utc": "2026-10-22T18:07:28.627118+00:00"
+    },
+    {
+      "source_taxon_id": "126576",
+      "name": "Brunfelsia brasiliensis",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 0,
+          "rejected": 0
+        }
+      ],
+      "status": "no_eligible_images",
+      "records": 0,
+      "unique_checksums": 0,
+      "finished_at_utc": "2026-10-22T18:07:30.307927+00:00"
+    },
+    {
+      "source_taxon_id": "126579",
+      "name": "Caesalpinia pulcherrima",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T18:07:43.415721+00:00"
+    },
+    {
+      "source_taxon_id": "126580",
+      "name": "Cajanus cajan",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 4
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T18:08:12.027999+00:00"
+    },
+    {
+      "source_taxon_id": "126581",
+      "name": "Caladium bicolor",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T18:08:25.541330+00:00"
+    },
+    {
+      "source_taxon_id": "126584",
+      "name": "Canavalia ensiformis",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 0,
+          "rejected": 2
+        }
+      ],
+      "status": "no_eligible_images",
+      "records": 0,
+      "unique_checksums": 0,
+      "finished_at_utc": "2026-10-22T18:08:44.269719+00:00"
+    },
+    {
+      "source_taxon_id": "126585",
+      "name": "Canavalia gladiata",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 2,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 2,
+      "unique_checksums": 2,
+      "finished_at_utc": "2026-10-22T18:08:54.980132+00:00"
+    },
+    {
+      "source_taxon_id": "126588",
+      "name": "Canna flaccida",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 1,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 1,
+      "unique_checksums": 1,
+      "finished_at_utc": "2026-10-22T18:08:58.497185+00:00"
+    },
+    {
+      "source_taxon_id": "126589",
+      "name": "Canna glauca",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 1,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 1,
+      "unique_checksums": 1,
+      "finished_at_utc": "2026-10-22T18:09:02.070207+00:00"
+    },
+    {
+      "source_taxon_id": "126733",
+      "name": "Cantinoa americana",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 1
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-22T18:09:25.608459+00:00"
+    },
+    {
+      "source_taxon_id": "126592",
+      "name": "Capsicum annuum",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 3,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 5,
+          "rejected": 16
+        }
+      ],
+      "status": "collected",
+      "records": 8,
+      "unique_checksums": 8,
+      "finished_at_utc": "2026-10-23T01:24:40.698105+00:00"
+    },
+    {
+      "source_taxon_id": "126603",
+      "name": "Castilloa elastica",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [],
+      "status": "taxonomy_unresolved",
+      "records": 0,
+      "unique_checksums": 0,
+      "finished_at_utc": "2026-10-23T01:24:42.809527+00:00"
+    },
+    {
+      "source_taxon_id": "126610",
+      "name": "Cereus triangularis",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [],
+      "status": "taxonomy_unresolved",
+      "records": 0,
+      "unique_checksums": 0,
+      "finished_at_utc": "2026-10-23T01:24:45.938160+00:00"
+    },
+    {
+      "source_taxon_id": "126553",
+      "name": "Asclepias curassavica",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-23T01:27:38.114533+00:00"
+    },
+    {
+      "source_taxon_id": "126593",
+      "name": "Capsicum frutescens",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 2,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 8,
+          "rejected": 2
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-23T01:28:08.618058+00:00"
+    },
+    {
+      "source_taxon_id": "126596",
+      "name": "Cardiospermum halicacabum",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 5,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 5,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-23T01:28:30.862885+00:00"
+    },
+    {
+      "source_taxon_id": "126597",
+      "name": "Carica papaya",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-23T01:28:43.442533+00:00"
+    },
+    {
+      "source_taxon_id": "126929",
+      "name": "Cascabela thevetia",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 3,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 7,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-23T01:29:08.628803+00:00"
+    },
+    {
+      "source_taxon_id": "126772",
+      "name": "Catharanthus roseus",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-23T01:29:21.433956+00:00"
+    },
+    {
+      "source_taxon_id": "126605",
+      "name": "Ceiba pentandra",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 3
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-23T01:30:13.780788+00:00"
+    },
+    {
+      "source_taxon_id": "126606",
+      "name": "Celosia argentea",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-23T01:30:27.158057+00:00"
+    },
+    {
+      "source_taxon_id": "126607",
+      "name": "Cenchrus echinatus",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-23T01:30:39.958104+00:00"
+    },
+    {
+      "source_taxon_id": "126608",
+      "name": "Centrosema plumieri",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 5,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 5,
+      "unique_checksums": 5,
+      "finished_at_utc": "2026-10-23T01:30:53.864132+00:00"
+    },
+    {
+      "source_taxon_id": "126609",
+      "name": "Cereus hexagonus",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 0,
+          "rejected": 0
+        }
+      ],
+      "status": "no_eligible_images",
+      "records": 0,
+      "unique_checksums": 0,
+      "finished_at_utc": "2026-10-23T01:30:56.106682+00:00"
+    },
+    {
+      "source_taxon_id": "126611",
+      "name": "Cestrum nocturnum",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 1,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 9,
+          "rejected": 2
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-23T01:31:50.345555+00:00"
+    },
+    {
+      "source_taxon_id": "126620",
+      "name": "Chloris barbata",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "completed",
+          "new_unique_images": 9,
+          "rejected": 0
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 1,
+          "rejected": 0
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-23T01:32:10.791634+00:00"
+    },
+    {
+      "source_taxon_id": "126622",
+      "name": "Chrysanthemum indicum",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 9,
+          "rejected": 4
+        }
+      ],
+      "status": "collected",
+      "records": 9,
+      "unique_checksums": 9,
+      "finished_at_utc": "2026-10-23T01:33:09.185493+00:00"
+    },
+    {
+      "source_taxon_id": "126537",
+      "name": "Chrysopogon zizanioides",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 10,
+          "rejected": 3
+        }
+      ],
+      "status": "collected",
+      "records": 10,
+      "unique_checksums": 10,
+      "finished_at_utc": "2026-10-23T01:34:00.170997+00:00"
+    },
+    {
+      "source_taxon_id": "126625",
+      "name": "Cinnamomum verum",
+      "ecological_evidence_bucket": "introduced_status_review_needed",
+      "review_status": "pending",
+      "sources": [
+        {
+          "source": "inaturalist",
+          "status": "skipped_recent_zero_ph_probe"
+        },
+        {
+          "source": "gbif",
+          "status": "completed",
+          "new_unique_images": 5,
+          "rejected": 2
+        }
+      ],
+      "status": "collected",
+      "records": 5,
+      "unique_checksums": 5,
+      "finished_at_utc": "2026-10-23T01:34:20.161414+00:00"
+    }
+  ],
+  "scope": "PH research candidates; ecological approval NOT granted",
+  "bounds": {
+    "target_unique_images_per_species": 10,
+    "pages_per_source": 1,
+    "candidate_attempts_per_source": 40,
+    "total_staging_gib": 1
+  },
+  "updated_at_utc": "2026-10-23T01:34:20.161414+00:00",
+  "attempted_species": 100,
+  "species_with_images": 80,
+  "total_records": 674,
+  "active_manifest_unchanged": true,
+  "resumed_at_utc": "2026-10-23T01:27:38.107017+00:00",
+  "run_status": "pass_finished",
+  "pass_finished_at_utc": "2026-10-23T01:34:20.164417+00:00"
+}

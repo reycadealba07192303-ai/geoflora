@@ -1,0 +1,11 @@
+{
+  "stage": "completed",
+  "updated_at_utc": "2026-10-31T15:37:58.746065+00:00",
+  "candidate": "storage\\models\\candidates\\mobilenetv2_three_class_recovery_v2_20261031",
+  "accuracy": 0.6363636363636364,
+  "macro_f1": 0.4666666666666666,
+  "images": 75,
+  "classes": 3,
+  "activated": false,
+  "reload_equivalence": "passed"
+}

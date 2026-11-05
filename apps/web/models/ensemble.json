@@ -1,0 +1,12 @@
+{
+  "version": "geoflora-ensemble-21cls-v1v2+3cls",
+  "members": [
+    "geoflora-mnv2-21cls-v1",
+    "geoflora-mnv2-21cls-v2"
+  ],
+  "confirm": "geoflora-mnv2-3cls-v2",
+  "threshold": 0.69,
+  "confirmThreshold": 0.9682667255401611,
+  "notes": "Chosen 2026-11-06 on the developer's request to pick the best option (assistant recommendation). Thresholds chosen on validation only: 0.69 = Youden J of the v1+v2 average (val vs unknown_val); 0.968 = 3-class model's validation threshold. Test (931 photos): top-1 83.2%, answered as sure 63.5%, accuracy when sure 96.4%, Hagonoy/Lantana/water hyacinth found 118/152. confirmFloor 0.6: the 3-class model may confirm only when the ensemble's top score is at least 0.6 (chosen on validation: Youden-style J of val vs unknown_val); without it, unknown plants were confirmed as targets from ensemble scores as low as 0.23.",
+  "confirmFloor": 0.6
+}

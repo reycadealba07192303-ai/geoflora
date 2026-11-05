@@ -1,0 +1,65 @@
+{
+  "config_id": "mobilenetv2-v4-wh-improvement-draft",
+  "status": "draft_requires_owner_approval_not_executed",
+  "model_scope": "three active species; Water Hyacinth data improvement priority",
+  "model_architecture": {
+    "family": "MobileNetV2",
+    "pretrained_weights": "ImageNet",
+    "include_top": false,
+    "pooling": "global_average",
+    "input_shape": [224, 224, 3],
+    "head": [
+      {"type": "dropout", "rate": 0.35},
+      {"type": "dense", "units": 3, "activation": "softmax", "kernel_l2": 0.0001}
+    ],
+    "preprocessing": "shared geoflora_ml.inference.preprocess: RGB resize 224x224 then MobileNetV2 preprocess_input"
+  },
+  "dataset": {
+    "manifest": null,
+    "manifest_sha256": null,
+    "must_be_frozen_after_review": true,
+    "test_manifest": null,
+    "test_manifest_sha256": null,
+    "test_must_remain_unavailable_to_training_and_tuning": true,
+    "group_keys": ["observation_or_plant", "source_id", "sha256", "recomputed_near_duplicate_group", "photographer_site_burst_when_available"],
+    "train_validation_test_groups_must_be_disjoint": true,
+    "unknown_species_training": "separate reviewed set; never mix into the closed-set 3-class accuracy denominator"
+  },
+  "training": {
+    "seed": 42,
+    "batch_size": 16,
+    "frozen_head_optimizer": "Adam",
+    "frozen_head_learning_rate": 0.0003,
+    "max_epochs": 60,
+    "early_stopping_monitor": "grouped_validation_loss",
+    "early_stopping_patience": 8,
+    "checkpoint_selection": "minimum grouped validation cross-entropy",
+    "class_balance": "inverse frequency of independent observation groups, not raw photo rows",
+    "within_class_group_weighting": "divide each observation's per-row weight by that group's row count",
+    "train_only_augmentation": ["original", "horizontal_mirror", "rotate_plus_10_degrees_brightness_0.9"],
+    "validation_and_test_augmentation": "none",
+    "fine_tuning": {
+      "enabled_for_experiment": true,
+      "unfreeze_last_backbone_layers": 20,
+      "learning_rate": 0.00001,
+      "max_epochs": 10,
+      "early_stopping_patience": 3,
+      "batch_normalization_trainable": false,
+      "keep_only_if_grouped_validation_loss_improves": true
+    }
+  },
+  "evaluation": {
+    "blind_test_runs": 1,
+    "metrics": ["top1_accuracy", "macro_f1", "per_class_precision_recall_f1", "confusion_matrix", "non_target_false_acceptance", "confidence_calibration", "coverage", "confidence_intervals"],
+    "confidence_threshold_selection": "validation-only",
+    "model_output_directory": "storage/models/candidates/mobilenetv2_v4_wh_improvement_seed42",
+    "active_model_must_remain_unchanged": true,
+    "rollback_model": "storage/models/mobilenetv2.keras"
+  },
+  "approval_gates": [
+    "reviewed and versioned development dataset approved",
+    "fresh blind test cohort sealed with human-reviewed labels",
+    "group and near-duplicate leakage audit passes",
+    "owner approves this configuration before any training starts"
+  ]
+}

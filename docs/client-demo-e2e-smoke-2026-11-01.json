@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "database": "geoflora_client_demo_cd2006439b3e",
+  "fixture": {
+    "sha256": "54f467341a8f8915935a3c58e29fcde4537cf9d32f10ec1077d2bb5bd26733db",
+    "source_url": "https://www.gbif.org/occurrence/2571495242",
+    "license": "cc0",
+    "training_or_evaluation_use": false
+  },
+  "steps": [
+    "Next.js health proxy reports the active three-class model ready",
+    "uploaded CC0 unsupported-plant photo passed Next.js to real FastAPI/Keras and returned uncertain/no species",
+    "user-provided plant information and map-pin coordinates saved as pending, unverified report",
+    "unverified report is absent from verified map/analytics and visible only in authorized review/pending layer",
+    "administrator verified fixture as a look-alike; original CNN uncertainty preserved; no training job created",
+    "admin map and analytics show the human-confirmed look-alike report and geotag",
+    "active model, mapping, and activation metadata hashes unchanged"
+  ],
+  "prediction": {
+    "method": "model",
+    "status": "uncertain",
+    "species": null,
+    "confidence": 0.4366367757320404,
+    "confidence_threshold": 0.8,
+    "model_version": "mobilenetv2_v3_seed42"
+  },
+  "pending_report": {
+    "id": "6ae62ce9336fd0b0f0df1cfa",
+    "species": "unknown",
+    "suggestedSpecies": "Water lily (Nymphaea)",
+    "status": "pending",
+    "labelReviewStatus": "pending",
+    "trainingConsent": false,
+    "trainingCandidateStatus": "not_requested",
+    "locationMethod": "map_pin",
+    "latitude": 14.5995,
+    "longitude": 120.9842
+  },
+  "review": {
+    "status": "verified",
+    "verified_species_id": "nymphaea_pubescens",
+    "verified_role": "lookalike",
+    "training_queued": false,
+    "job_count": 0,
+    "original_prediction_preserved": true
+  },
+  "map_analytics": {
+    "point": {
+      "id": "6ae62ce9336fd0b0f0df1cfa",
+      "species": "Nymphaea pubescens",
+      "status": "verified",
+      "latitude": 14.5995,
+      "longitude": 120.9842,
+      "observedAt": "2026-10-31T18:01:13.577Z",
+      "submittedAt": "2026-10-31T18:01:13.656Z",
+      "placeName": "Disposable demo site"
+    },
+    "total": 1,
+    "bySpecies": [
+      {
+        "species": "Nymphaea pubescens",
+        "reports": 1
+      }
+    ],
+    "byStatus": {
+      "verified": 1
+    },
+    "interpretation": "Counts are submitted reports (verified unless the pending layer is included). They describe where people reported plants, not invasion severity, abundance or ecological spread."
+  },
+  "active_model": {
+    "version": "mobilenetv2_v3_seed42",
+    "threshold": 0.8,
+    "model_sha256": "7b092e3209f886a3ade0656b14af68a0d671905646b98e0b6be9a3153742e5d1",
+    "mapping_sha256": "097e40e340422b06fda4ec1faca7512207a0c57b98e2ec1db59919f8acbdd452",
+    "active_metadata_sha256": "cb6a037907ca88b4e8eb1be65ee5407ab40466aec2ff0a7d7013f0424a287d78"
+  },
+  "historical_test_photo": false,
+  "training_worker_started": false,
+  "ai_review": "off in isolated test; admin approval was explicit"
+}

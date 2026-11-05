@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-26T17:20:49.029Z",
+  "checks": [
+    "two fixture sightings submitted from the browser session",
+    "queue tab shows two sightings awaiting review",
+    "card shows the original prediction section, location method and place",
+    "request correction keeps the sighting in the awaiting queue, marked as correction requested",
+    "verifying a sighting moves it out of the awaiting queue",
+    "verified view shows the confirmed species and the audit entry",
+    "catalog shows owner-attested approval and its limits",
+    "live-model filter shows the three supported species with the AI badge",
+    "expanded entry links its DOI reference and counts the verified sighting",
+    "catalog fits a 390px mobile viewport",
+    "overview no longer shows the old static counts",
+    "overview metric cards show live verified, awaiting and model values"
+  ],
+  "screenshots": [
+    "storage/logs/ui-preview/part9-review-verified-desktop.png",
+    "storage/logs/ui-preview/part9-catalog-desktop.png",
+    "storage/logs/ui-preview/part9-catalog-mobile.png",
+    "storage/logs/ui-preview/part9-overview-desktop.png"
+  ]
+}

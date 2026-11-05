@@ -1,0 +1,328 @@
+{
+  "started_at_utc": "2026-11-01T07:58:28.613845+00:00",
+  "group": "Paper mulberry (Broussonetia papyrifera)",
+  "role": "invasive",
+  "status_note": "Listed as invasive in the Philippines by GRIIS (source-flagged); see docs/species_100_verification_ledger.csv.",
+  "country_filter": "PH",
+  "bounds": {
+    "new_unique_images_per_species": 150,
+    "api_pages": 3,
+    "additional_gb": 0.4
+  },
+  "licensing_filter": "CC0/CC BY/CC BY-SA only",
+  "pagination": {
+    "strategy": "continue after highest existing iNaturalist observation id for each species",
+    "id_above_by_species": {
+      "broussonetia_papyrifera": 381953673
+    }
+  },
+  "label_basis": "iNaturalist research grade (community-agreed identification); AI screen as quota allows",
+  "runs": [
+    {
+      "species": "Broussonetia papyrifera",
+      "source": "inaturalist",
+      "status": "completed",
+      "new_unique_images": 0,
+      "download_rejections": 0
+    }
+  ],
+  "finished_at_utc": "2026-11-01T07:58:31.907338+00:00",
+  "new_records": 0,
+  "valid_records": 0,
+  "review_queue_records": 41,
+  "invalid_records": [
+    {
+      "source": "inaturalist",
+      "source_id": "44188980",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "110008606",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "110284155",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "185156856",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "186207991",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "278881940",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "278882010",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "278882090",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "379989769",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "380864765",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "381034314",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "381034355",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "381214313",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "381228808",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "381672729",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "381684791",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "381691220",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "381742570",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "381821554",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "381821643",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "382067542",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "382093732",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "382092130",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "382100772",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "382107729",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "382109599",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "382365332",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "389383018",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "389383458",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "468751319",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "575705811",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "575709644",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "575728474",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "575730227",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "606822599",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "624143831",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "624143848",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "653486407",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "685106326",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "698944789",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    },
+    {
+      "source": "inaturalist",
+      "source_id": "698945016",
+      "issues": [
+        "rights_metadata_ineligible"
+      ]
+    }
+  ],
+  "licences": {},
+  "observation_groups": 0,
+  "near_duplicate_groups": 1,
+  "additional_image_bytes": 0,
+  "review_queue": "storage\\datasets\\staging\\invasive_broussonetia_papyrifera_ph\\review_queue.csv",
+  "gallery": "storage\\datasets\\staging\\invasive_broussonetia_papyrifera_ph\\review_gallery.html"
+}

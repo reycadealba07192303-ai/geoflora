@@ -1,0 +1,119 @@
+{
+  "generated_at": "2026-10-22T16:49:12.188174+00:00",
+  "raw_species": {
+    "chromolaena_odorata": 93,
+    "lantana_camara": 114,
+    "pontederia_crassipes": 36
+  },
+  "review_events": 243,
+  "approved_export_exists": true,
+  "manifests": {
+    "storage\\datasets\\curated\\approved_manifest.csv": {
+      "rows": 243,
+      "sha256": "de7815bbe9e5ce60346a579db2f503615b2c4f04fbd6c5a6b8e49accfb18f743",
+      "splits": {
+        "export": 243
+      },
+      "species": {
+        "chromolaena_odorata": 93,
+        "lantana_camara": 114,
+        "pontederia_crassipes": 36
+      },
+      "errors": {},
+      "absent_from_raw": 0,
+      "cross_partition_checksum_or_observation_groups": 0,
+      "cross_partition_near_duplicate_groups": 0,
+      "training_ready": false
+    },
+    "storage\\datasets\\curated\\v1\\manifest.csv": {
+      "rows": 78,
+      "sha256": "40b366987c645cee0f03090ab1ea7d0da5039cfd03fb5f27c28593fd060f9cff",
+      "splits": {
+        "train": 54,
+        "validation": 13,
+        "test": 11
+      },
+      "species": {
+        "chromolaena_odorata": 30,
+        "lantana_camara": 32,
+        "pontederia_crassipes": 16
+      },
+      "errors": {},
+      "absent_from_raw": 0,
+      "cross_partition_checksum_or_observation_groups": 0,
+      "cross_partition_near_duplicate_groups": 1,
+      "training_ready": false
+    },
+    "storage\\datasets\\curated\\v2\\manifest.csv": {
+      "rows": 243,
+      "sha256": "022988f2f151d58a05c40c65c5eb6e49628514eecd5cea8c88a49c768fba2067",
+      "splits": {
+        "train": 170,
+        "validation": 38,
+        "test": 35
+      },
+      "species": {
+        "chromolaena_odorata": 93,
+        "lantana_camara": 114,
+        "pontederia_crassipes": 36
+      },
+      "errors": {},
+      "absent_from_raw": 0,
+      "cross_partition_checksum_or_observation_groups": 0,
+      "cross_partition_near_duplicate_groups": 39,
+      "training_ready": false
+    }
+  },
+  "prepare_guard": "Preparation succeeded",
+  "mongodb": {
+    "ping": 1.0
+  },
+  "http": {
+    "http://127.0.0.1:8000/health": {
+      "status": 200,
+      "already_running": true,
+      "body": {
+        "service": "geoflora-ml-inference",
+        "ready": false,
+        "model_version": null,
+        "supported_species_count": 3,
+        "reason": "No trained MobileNetV2 model is installed yet."
+      }
+    },
+    "http://127.0.0.1:5173/": {
+      "status": 200,
+      "already_running": false
+    },
+    "http://127.0.0.1:8765/": {
+      "status": 200,
+      "already_running": true
+    },
+    "review_stats": {
+      "status": 200,
+      "seconds": 4.42,
+      "records": 243
+    },
+    "proxy_health": {
+      "status": 200,
+      "body": {
+        "service": "geoflora-ml-inference",
+        "ready": false,
+        "model_version": null,
+        "supported_species_count": 3,
+        "reason": "No trained MobileNetV2 model is installed yet."
+      }
+    },
+    "prediction_without_model": {
+      "status": 503,
+      "body": {
+        "detail": "No trained MobileNetV2 model is installed yet."
+      }
+    },
+    "invalid_upload": {
+      "status": 415,
+      "body": {
+        "detail": "Use a JPEG, PNG, or WebP plant photo."
+      }
+    }
+  }
+}

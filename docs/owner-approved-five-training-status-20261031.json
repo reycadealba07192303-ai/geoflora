@@ -1,0 +1,11 @@
+{
+  "stage": "completed",
+  "updated_at_utc": "2026-10-31T15:22:17.761843+00:00",
+  "candidate": "storage\\models\\candidates\\mobilenetv2_owner_approved_five_20261031",
+  "accuracy": 0.7142857142857143,
+  "macro_f1": 0.5054545454545455,
+  "images": 96,
+  "classes": 5,
+  "activated": false,
+  "reload_equivalence": "passed"
+}

@@ -1,0 +1,647 @@
+{
+  "run_id": "run-20261104T152356Z-tenclass-v2",
+  "evaluated": "2026-11-04T15:52:39+00:00",
+  "dataset_version": "ds-20261104-6529c8c7f1",
+  "classes": [
+    "Chromolaena odorata",
+    "Lantana camara",
+    "Pontederia crassipes",
+    "Ageratum conyzoides",
+    "Mikania micrantha",
+    "Lantana montevidensis",
+    "Duranta erecta",
+    "Pistia stratiotes",
+    "Pontederia vaginalis",
+    "Limnocharis flava"
+  ],
+  "validation": {
+    "images": 490,
+    "accuracy": 0.8183673469387756,
+    "top_3_accuracy": 0.963265306122449,
+    "macro_precision": 0.8253267327287629,
+    "macro_recall": 0.8191103216282718,
+    "macro_f1": 0.8203076037639386,
+    "weighted_f1": 0.8195958186651477
+  },
+  "test": {
+    "images": 485,
+    "accuracy": 0.8639175257731959,
+    "top_3_accuracy": 0.9752577319587629,
+    "macro_precision": 0.8695395933004715,
+    "macro_recall": 0.8690312193806022,
+    "macro_f1": 0.8680093703980246,
+    "weighted_f1": 0.8639779028186568,
+    "per_class": [
+      {
+        "species": "Chromolaena odorata",
+        "precision": 0.8235294117647058,
+        "recall": 0.7368421052631579,
+        "f1": 0.7777777777777778,
+        "support": 57
+      },
+      {
+        "species": "Lantana camara",
+        "precision": 0.9807692307692307,
+        "recall": 0.9807692307692307,
+        "f1": 0.9807692307692307,
+        "support": 52
+      },
+      {
+        "species": "Pontederia crassipes",
+        "precision": 0.8666666666666667,
+        "recall": 0.9069767441860465,
+        "f1": 0.8863636363636364,
+        "support": 43
+      },
+      {
+        "species": "Ageratum conyzoides",
+        "precision": 0.8163265306122449,
+        "recall": 0.7272727272727273,
+        "f1": 0.7692307692307693,
+        "support": 55
+      },
+      {
+        "species": "Mikania micrantha",
+        "precision": 0.6949152542372882,
+        "recall": 0.803921568627451,
+        "f1": 0.7454545454545455,
+        "support": 51
+      },
+      {
+        "species": "Lantana montevidensis",
+        "precision": 0.9767441860465116,
+        "recall": 0.9130434782608695,
+        "f1": 0.9438202247191011,
+        "support": 46
+      },
+      {
+        "species": "Duranta erecta",
+        "precision": 0.9333333333333333,
+        "recall": 0.9545454545454546,
+        "f1": 0.9438202247191011,
+        "support": 44
+      },
+      {
+        "species": "Pistia stratiotes",
+        "precision": 0.8846153846153846,
+        "recall": 0.9387755102040817,
+        "f1": 0.9108910891089109,
+        "support": 49
+      },
+      {
+        "species": "Pontederia vaginalis",
+        "precision": 0.7916666666666666,
+        "recall": 0.8444444444444444,
+        "f1": 0.8172043010752689,
+        "support": 45
+      },
+      {
+        "species": "Limnocharis flava",
+        "precision": 0.926829268292683,
+        "recall": 0.8837209302325582,
+        "f1": 0.9047619047619048,
+        "support": 43
+      }
+    ],
+    "uncertainty": {
+      "method": "observation-group bootstrap, 1000 resamples",
+      "confidence_level": 0.95,
+      "accuracy_ci": [
+        0.8302880288028803,
+        0.8938853840291303
+      ],
+      "macro_f1_ci": [
+        0.8357629486800058,
+        0.8936789381359881
+      ],
+      "accuracy_exact_ci": [
+        0.8301476704871925,
+        0.8931667923586158
+      ],
+      "accuracy_exact_ci_method": "Clopper-Pearson exact binomial (treats images as independent)"
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "Chromolaena odorata",
+      "Lantana camara",
+      "Pontederia crassipes",
+      "Ageratum conyzoides",
+      "Mikania micrantha",
+      "Lantana montevidensis",
+      "Duranta erecta",
+      "Pistia stratiotes",
+      "Pontederia vaginalis",
+      "Limnocharis flava"
+    ],
+    "matrix": [
+      [
+        42,
+        0,
+        1,
+        3,
+        10,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        51,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        39,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        6,
+        0,
+        0,
+        40,
+        4,
+        1,
+        0,
+        1,
+        3,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        4,
+        41,
+        0,
+        0,
+        2,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        42,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        42,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        2,
+        0,
+        0,
+        1,
+        38,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        3,
+        38
+      ]
+    ]
+  },
+  "top_confusions": [
+    {
+      "true": "Chromolaena odorata",
+      "predicted": "Mikania micrantha",
+      "count": 10
+    },
+    {
+      "true": "Ageratum conyzoides",
+      "predicted": "Chromolaena odorata",
+      "count": 6
+    },
+    {
+      "true": "Mikania micrantha",
+      "predicted": "Ageratum conyzoides",
+      "count": 4
+    },
+    {
+      "true": "Ageratum conyzoides",
+      "predicted": "Mikania micrantha",
+      "count": 4
+    },
+    {
+      "true": "Limnocharis flava",
+      "predicted": "Pontederia vaginalis",
+      "count": 3
+    },
+    {
+      "true": "Chromolaena odorata",
+      "predicted": "Ageratum conyzoides",
+      "count": 3
+    },
+    {
+      "true": "Ageratum conyzoides",
+      "predicted": "Pontederia vaginalis",
+      "count": 3
+    },
+    {
+      "true": "Pontederia vaginalis",
+      "predicted": "Pontederia crassipes",
+      "count": 2
+    },
+    {
+      "true": "Pontederia vaginalis",
+      "predicted": "Mikania micrantha",
+      "count": 2
+    },
+    {
+      "true": "Pontederia vaginalis",
+      "predicted": "Limnocharis flava",
+      "count": 2
+    }
+  ],
+  "error_analysis": [
+    {
+      "species": "Chromolaena odorata",
+      "support": 57,
+      "true_positives": 42,
+      "false_negatives": 15,
+      "false_positives": 9,
+      "false_negatives_predicted_as": {
+        "Mikania micrantha": 10,
+        "Ageratum conyzoides": 3,
+        "Pontederia crassipes": 1,
+        "Limnocharis flava": 1
+      },
+      "false_positives_true_species": {
+        "Ageratum conyzoides": 6,
+        "Mikania micrantha": 2,
+        "Pontederia crassipes": 1
+      },
+      "mean_score_correct": 0.8088618516921997,
+      "mean_score_incorrect": 0.5332683324813843
+    },
+    {
+      "species": "Lantana camara",
+      "support": 52,
+      "true_positives": 51,
+      "false_negatives": 1,
+      "false_positives": 1,
+      "false_negatives_predicted_as": {
+        "Duranta erecta": 1
+      },
+      "false_positives_true_species": {
+        "Lantana montevidensis": 1
+      },
+      "mean_score_correct": 0.8700717091560364,
+      "mean_score_incorrect": 0.7679902911186218
+    },
+    {
+      "species": "Pontederia crassipes",
+      "support": 43,
+      "true_positives": 39,
+      "false_negatives": 4,
+      "false_positives": 6,
+      "false_negatives_predicted_as": {
+        "Pontederia vaginalis": 2,
+        "Chromolaena odorata": 1,
+        "Mikania micrantha": 1
+      },
+      "false_positives_true_species": {
+        "Pistia stratiotes": 2,
+        "Pontederia vaginalis": 2,
+        "Chromolaena odorata": 1,
+        "Duranta erecta": 1
+      },
+      "mean_score_correct": 0.8218768239021301,
+      "mean_score_incorrect": 0.4524361193180084
+    },
+    {
+      "species": "Ageratum conyzoides",
+      "support": 55,
+      "true_positives": 40,
+      "false_negatives": 15,
+      "false_positives": 9,
+      "false_negatives_predicted_as": {
+        "Chromolaena odorata": 6,
+        "Mikania micrantha": 4,
+        "Pontederia vaginalis": 3,
+        "Lantana montevidensis": 1,
+        "Pistia stratiotes": 1
+      },
+      "false_positives_true_species": {
+        "Mikania micrantha": 4,
+        "Chromolaena odorata": 3,
+        "Lantana montevidensis": 1,
+        "Duranta erecta": 1
+      },
+      "mean_score_correct": 0.673901379108429,
+      "mean_score_incorrect": 0.6210764646530151
+    },
+    {
+      "species": "Mikania micrantha",
+      "support": 51,
+      "true_positives": 41,
+      "false_negatives": 10,
+      "false_positives": 18,
+      "false_negatives_predicted_as": {
+        "Ageratum conyzoides": 4,
+        "Pistia stratiotes": 2,
+        "Chromolaena odorata": 2,
+        "Pontederia vaginalis": 2
+      },
+      "false_positives_true_species": {
+        "Chromolaena odorata": 10,
+        "Ageratum conyzoides": 4,
+        "Pontederia vaginalis": 2,
+        "Pontederia crassipes": 1,
+        "Pistia stratiotes": 1
+      },
+      "mean_score_correct": 0.788290798664093,
+      "mean_score_incorrect": 0.48255467414855957
+    },
+    {
+      "species": "Lantana montevidensis",
+      "support": 46,
+      "true_positives": 42,
+      "false_negatives": 4,
+      "false_positives": 1,
+      "false_negatives_predicted_as": {
+        "Duranta erecta": 1,
+        "Pistia stratiotes": 1,
+        "Ageratum conyzoides": 1,
+        "Lantana camara": 1
+      },
+      "false_positives_true_species": {
+        "Ageratum conyzoides": 1
+      },
+      "mean_score_correct": 0.7447822093963623,
+      "mean_score_incorrect": 0.4192819893360138
+    },
+    {
+      "species": "Duranta erecta",
+      "support": 44,
+      "true_positives": 42,
+      "false_negatives": 2,
+      "false_positives": 3,
+      "false_negatives_predicted_as": {
+        "Ageratum conyzoides": 1,
+        "Pontederia crassipes": 1
+      },
+      "false_positives_true_species": {
+        "Lantana camara": 1,
+        "Lantana montevidensis": 1,
+        "Limnocharis flava": 1
+      },
+      "mean_score_correct": 0.8372244834899902,
+      "mean_score_incorrect": 0.6259768009185791
+    },
+    {
+      "species": "Pistia stratiotes",
+      "support": 49,
+      "true_positives": 46,
+      "false_negatives": 3,
+      "false_positives": 6,
+      "false_negatives_predicted_as": {
+        "Pontederia crassipes": 2,
+        "Mikania micrantha": 1
+      },
+      "false_positives_true_species": {
+        "Mikania micrantha": 2,
+        "Ageratum conyzoides": 1,
+        "Lantana montevidensis": 1,
+        "Pontederia vaginalis": 1,
+        "Limnocharis flava": 1
+      },
+      "mean_score_correct": 0.8419849276542664,
+      "mean_score_incorrect": 0.6013607382774353
+    },
+    {
+      "species": "Pontederia vaginalis",
+      "support": 45,
+      "true_positives": 38,
+      "false_negatives": 7,
+      "false_positives": 10,
+      "false_negatives_predicted_as": {
+        "Mikania micrantha": 2,
+        "Limnocharis flava": 2,
+        "Pontederia crassipes": 2,
+        "Pistia stratiotes": 1
+      },
+      "false_positives_true_species": {
+        "Ageratum conyzoides": 3,
+        "Limnocharis flava": 3,
+        "Pontederia crassipes": 2,
+        "Mikania micrantha": 2
+      },
+      "mean_score_correct": 0.7051374316215515,
+      "mean_score_incorrect": 0.5224272012710571
+    },
+    {
+      "species": "Limnocharis flava",
+      "support": 43,
+      "true_positives": 38,
+      "false_negatives": 5,
+      "false_positives": 3,
+      "false_negatives_predicted_as": {
+        "Pontederia vaginalis": 3,
+        "Duranta erecta": 1,
+        "Pistia stratiotes": 1
+      },
+      "false_positives_true_species": {
+        "Pontederia vaginalis": 2,
+        "Chromolaena odorata": 1
+      },
+      "mean_score_correct": 0.8086497783660889,
+      "mean_score_incorrect": 0.536225438117981
+    }
+  ],
+  "unsupported_species": {
+    "threshold": {
+      "strategy": "youden",
+      "threshold": 0.6062179207801819,
+      "val_known_acceptance": 0.7551020408163265,
+      "val_unknown_false_acceptance": 0.2032520325203252,
+      "youden_j": 0.5518500082960013,
+      "score_type": "max_softmax",
+      "selected_on": "validation (val + unknown_val); test sets not used"
+    },
+    "test": {
+      "known_images": 485,
+      "known_acceptance_rate": 0.756701030927835,
+      "accuracy_on_accepted_known": 0.9346049046321526,
+      "known_correct_and_accepted_rate": 0.7072164948453609,
+      "unknown_images": 396,
+      "unknown_false_acceptance_rate_without_rejection": 1.0,
+      "unknown_false_acceptance_rate_with_threshold": 0.2601010101010101,
+      "auroc_known_vs_unknown": 0.8340518587941268
+    },
+    "per_unknown_species": {
+      "Bidens pilosa": {
+        "images": 121,
+        "false_acceptance_rate_with_threshold": 0.4049586776859504,
+        "assigned_labels_without_rejection": {
+          "Lantana camara": 33,
+          "Ageratum conyzoides": 27,
+          "Chromolaena odorata": 20,
+          "Mikania micrantha": 17,
+          "Limnocharis flava": 7,
+          "Pontederia vaginalis": 5,
+          "Pontederia crassipes": 5,
+          "Duranta erecta": 3,
+          "Lantana montevidensis": 3,
+          "Pistia stratiotes": 1
+        }
+      },
+      "Hibiscus rosa-sinensis": {
+        "images": 140,
+        "false_acceptance_rate_with_threshold": 0.1,
+        "assigned_labels_without_rejection": {
+          "Chromolaena odorata": 33,
+          "Lantana camara": 27,
+          "Pontederia crassipes": 22,
+          "Duranta erecta": 15,
+          "Lantana montevidensis": 12,
+          "Pistia stratiotes": 11,
+          "Limnocharis flava": 10,
+          "Pontederia vaginalis": 5,
+          "Ageratum conyzoides": 4,
+          "Mikania micrantha": 1
+        }
+      },
+      "Ipomoea aquatica": {
+        "images": 135,
+        "false_acceptance_rate_with_threshold": 0.2962962962962963,
+        "assigned_labels_without_rejection": {
+          "Pontederia vaginalis": 45,
+          "Chromolaena odorata": 28,
+          "Mikania micrantha": 23,
+          "Lantana montevidensis": 14,
+          "Pistia stratiotes": 8,
+          "Ageratum conyzoides": 7,
+          "Limnocharis flava": 5,
+          "Pontederia crassipes": 3,
+          "Duranta erecta": 1,
+          "Lantana camara": 1
+        }
+      }
+    },
+    "unknown_val_species": [
+      "Imperata cylindrica",
+      "Ixora coccinea",
+      "Mimosa pudica"
+    ],
+    "unknown_test_species": [
+      "Bidens pilosa",
+      "Hibiscus rosa-sinensis",
+      "Ipomoea aquatica"
+    ],
+    "val": {
+      "known_images": 490,
+      "known_acceptance_rate": 0.7551020408163265,
+      "accuracy_on_accepted_known": 0.9135135135135135,
+      "known_correct_and_accepted_rate": 0.689795918367347,
+      "unknown_images": 369,
+      "unknown_false_acceptance_rate_without_rejection": 1.0,
+      "unknown_false_acceptance_rate_with_threshold": 0.2032520325203252,
+      "auroc_known_vs_unknown": 0.8489132238261158
+    }
+  },
+  "calibration": {
+    "ece_raw_test": 0.1068900939115544,
+    "temperature_fitted_on_val": 0.7941833348134493,
+    "ece_temperature_scaled_test": 0.049322945616908934,
+    "note": "Softmax scores are not calibrated identification confidence."
+  },
+  "condition_breakdown": {},
+  "runtime": {
+    "device": "CPU",
+    "batch1_latency_ms_median": 20.47704999858979,
+    "batch1_latency_ms_p95": 22.47312499821419,
+    "batch32_throughput_images_per_s": 100.76851739593315,
+    "timing_runs": 50,
+    "model_file_bytes": 25899775,
+    "model_file_mb": 25.9,
+    "total_params": 2270794,
+    "note": "Model forward pass only (excludes image decoding/resizing). Measured on this machine."
+  },
+  "robustness_synthetic": {
+    "darker_40pct": {
+      "accuracy": 0.7917525773195876,
+      "macro_f1": 0.7956485150271313
+    },
+    "brighter_40pct": {
+      "accuracy": 0.8082474226804124,
+      "macro_f1": 0.8101316627933297
+    },
+    "low_contrast": {
+      "accuracy": 0.7195876288659794,
+      "macro_f1": 0.7258717913561442
+    },
+    "gaussian_blur": {
+      "accuracy": 0.7072164948453609,
+      "macro_f1": 0.7154943556025636
+    },
+    "rotate_90": {
+      "accuracy": 0.8103092783505155,
+      "macro_f1": 0.8170386145898112
+    },
+    "jpeg_q20": {
+      "accuracy": 0.7525773195876289,
+      "macro_f1": 0.7438540008267052
+    },
+    "center_crop_60pct": {
+      "accuracy": 0.8680412371134021,
+      "macro_f1": 0.8709901377233292
+    }
+  }
+}

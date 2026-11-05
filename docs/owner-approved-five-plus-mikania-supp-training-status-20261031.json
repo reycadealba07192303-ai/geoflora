@@ -1,0 +1,11 @@
+{
+  "stage": "completed",
+  "updated_at_utc": "2026-10-31T15:32:47.061992+00:00",
+  "candidate": "storage\\models\\candidates\\mobilenetv2_owner_approved_five_plus_mikania_supp_20261031",
+  "accuracy": 0.391304347826087,
+  "macro_f1": 0.35244755244755244,
+  "images": 124,
+  "classes": 5,
+  "activated": false,
+  "reload_equivalence": "passed"
+}

@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-26T17:36:10.595Z",
+  "checks": [
+    "verified layer is the default and counts the 14 verified fixture reports",
+    "nearby reports are clustered at the overview zoom (3 clusters, 0 single markers)",
+    "selecting a cluster zooms in and splits it into individual markers",
+    "species bars and monthly columns render from the analytics",
+    "density grid draws the 2 generalized cells and reports the suppressed sparse cell",
+    "species filter narrows both the map list and the analytics",
+    "including the unverified layer is labeled on the map and in the analytics",
+    "clearing filters keeps the chosen layer (14 verified + 3 awaiting review)",
+    "an empty date range shows clear empty states",
+    "data table view lists species and month counts",
+    "map page with filters and charts fits a 390px mobile viewport"
+  ],
+  "screenshots": [
+    "storage/logs/ui-preview/part10-map-desktop.png",
+    "storage/logs/ui-preview/part10-analytics-mobile.png"
+  ]
+}

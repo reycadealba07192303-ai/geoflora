@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "workflow": [
+    "active CNN returned uncertain/no species",
+    "user description and suggested name remained unverified",
+    "report saved pending and user-owned",
+    "unauthorized reviewer action denied",
+    "admin human review confirmed botanical label only",
+    "ecological status remained pending and no training consent/job was created",
+    "admin-only reference invalidation deactivated the evidence and wrote an audit event"
+  ],
+  "cnn_disagreement_workflow": {
+    "passed": true,
+    "fixture_split": "train",
+    "cnn_prediction_preserved": {
+      "species": "lantana_camara",
+      "score": 0.8054729104042053,
+      "model_version": "mobilenetv2_v3_seed42"
+    },
+    "user_reported_species": "unknown",
+    "user_suggested_species": "Euphorbia hirta",
+    "label_review_status": "pending",
+    "manual_review_flag": true,
+    "species_facts_copied_to_report": false,
+    "training_consent": false,
+    "ai_automatic_review": "disabled in smoke; flagged reports are excluded from the production auto-review claim query"
+  },
+  "prediction": {
+    "model_version": "mobilenetv2_v3_seed42",
+    "status": "uncertain",
+    "species": null,
+    "confidence": 0.5602371692657471,
+    "threshold": 0.8,
+    "method": "model"
+  },
+  "report_after_review": {
+    "status": "verified",
+    "trainingCandidateStatus": "not_requested",
+    "trainingQueued": false
+  },
+  "future_training_job": "not eligible: no training consent, ecological status pending",
+  "database": "geoflora_unknown_review_0faea3eaf458",
+  "active_model_sha_unchanged": true,
+  "active_mapping_sha_unchanged": true,
+  "active_model_version": "mobilenetv2_v3_seed42",
+  "active_confidence_threshold": 0.8,
+  "fixture_split": "test",
+  "prediction_probes": [
+    {
+      "sample": "lantana_second_observation",
+      "label_basis": "owner-approved v3 training label; second observation group",
+      "status": "identified",
+      "predicted_species": "lantana_camara",
+      "score": 0.963370680809021,
+      "threshold": 0.8,
+      "method": "model",
+      "matches_fresh_keras_model_predict": true,
+      "reference_match": false
+    },
+    {
+      "sample": "mikania_unsupported_by_active_model",
+      "label_basis": "owner-gallery-approved source label; unsupported by active v3",
+      "status": "uncertain",
+      "predicted_species": null,
+      "score": 0.5558410286903381,
+      "threshold": 0.8,
+      "method": "model",
+      "matches_fresh_keras_model_predict": true,
+      "reference_match": false
+    },
+    {
+      "sample": "euphorbia_commons_bim24",
+      "label_basis": "Commons caption only; locality and botanical label unverified",
+      "status": "uncertain",
+      "predicted_species": null,
+      "score": 0.7130224108695984,
+      "threshold": 0.8,
+      "method": "model",
+      "matches_fresh_keras_model_predict": true,
+      "reference_match": false
+    },
+    {
+      "sample": "euphorbia_commons_judgefloro",
+      "label_basis": "Commons caption/location metadata; botanical label unverified",
+      "status": "identified",
+      "predicted_species": "pontederia_crassipes",
+      "score": 0.868118941783905,
+      "threshold": 0.8,
+      "method": "model",
+      "matches_fresh_keras_model_predict": true,
+      "reference_match": false
+    }
+  ]
+}

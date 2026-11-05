@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "dataset_version": "ds-20261104-8b1b716af8",
+  "num_classes": 3,
+  "status": "ready",
+  "provisional": false,
+  "index_note": "Output neuron i corresponds to classes[i]. Integrations must key on species_id, not on the index, because indices can change between model versions.",
+  "classes": [
+    {
+      "index": 0,
+      "species_id": "GF-SP-0001",
+      "scientific_name": "Chromolaena odorata",
+      "folder": "Chromolaena_odorata",
+      "common_name": "Hagonoy",
+      "family": "Asteraceae",
+      "gbif_taxon_key": 3087725,
+      "ecological_status": "target_invasive",
+      "status_verification": "unverified",
+      "is_target_invasive": true
+    },
+    {
+      "index": 1,
+      "species_id": "GF-SP-0002",
+      "scientific_name": "Lantana camara",
+      "folder": "Lantana_camara",
+      "common_name": "Lantana",
+      "family": "Verbenaceae",
+      "gbif_taxon_key": 2925303,
+      "ecological_status": "target_invasive",
+      "status_verification": "unverified",
+      "is_target_invasive": true
+    },
+    {
+      "index": 2,
+      "species_id": "GF-SP-0003",
+      "scientific_name": "Pontederia crassipes",
+      "folder": "Pontederia_crassipes",
+      "common_name": "Water hyacinth",
+      "family": "Pontederiaceae",
+      "gbif_taxon_key": 2765942,
+      "ecological_status": "target_invasive",
+      "status_verification": "unverified",
+      "is_target_invasive": true
+    }
+  ]
+}

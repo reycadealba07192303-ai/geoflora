@@ -1,0 +1,59 @@
+[
+  {
+    "label": "fraction=0.25",
+    "train_fraction": 0.25,
+    "classes": null,
+    "run": "run-20261104T103317Z-learning_curve-fraction0.25",
+    "train_images": 78,
+    "test_images": 66,
+    "accuracy": 0.9090909090909091,
+    "accuracy_ci": [
+      0.8125573488135269,
+      0.9659028672287315
+    ],
+    "macro_f1": 0.9064485958895897,
+    "macro_f1_ci": [
+      0.8262880199615832,
+      0.9688613423670349
+    ],
+    "unknown_far": 0.6096774193548387
+  },
+  {
+    "label": "fraction=0.5",
+    "train_fraction": 0.5,
+    "classes": null,
+    "run": "run-20261104T103457Z-learning_curve-fraction0.5",
+    "train_images": 152,
+    "test_images": 66,
+    "accuracy": 0.9545454545454546,
+    "accuracy_ci": [
+      0.8728574940886829,
+      0.9905262614362937
+    ],
+    "macro_f1": 0.9533660423644855,
+    "macro_f1_ci": [
+      0.9008264669514827,
+      1.0
+    ],
+    "unknown_far": 0.2532258064516129
+  },
+  {
+    "label": "fraction=1.0",
+    "train_fraction": 1.0,
+    "classes": null,
+    "run": "run-20261104T103707Z-learning_curve-fraction1.0",
+    "train_images": 302,
+    "test_images": 66,
+    "accuracy": 0.9696969696969697,
+    "accuracy_ci": [
+      0.8947833514203487,
+      0.9963088610385701
+    ],
+    "macro_f1": 0.9688337273443656,
+    "macro_f1_ci": [
+      0.9251384497790954,
+      1.0
+    ],
+    "unknown_far": 0.1870967741935484
+  }
+]

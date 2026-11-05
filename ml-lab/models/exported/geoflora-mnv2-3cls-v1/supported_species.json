@@ -1,0 +1,29 @@
+[
+  {
+    "index": 0,
+    "species_id": "GF-SP-0001",
+    "scientific_name": "Chromolaena odorata",
+    "common_name": "Hagonoy",
+    "ecological_status": "target_invasive",
+    "status_verification": "unverified",
+    "is_target_invasive": true
+  },
+  {
+    "index": 1,
+    "species_id": "GF-SP-0002",
+    "scientific_name": "Lantana camara",
+    "common_name": "Lantana",
+    "ecological_status": "target_invasive",
+    "status_verification": "unverified",
+    "is_target_invasive": true
+  },
+  {
+    "index": 2,
+    "species_id": "GF-SP-0003",
+    "scientific_name": "Pontederia crassipes",
+    "common_name": "Water hyacinth",
+    "ecological_status": "target_invasive",
+    "status_verification": "unverified",
+    "is_target_invasive": true
+  }
+]

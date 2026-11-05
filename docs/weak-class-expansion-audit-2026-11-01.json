@@ -1,0 +1,1363 @@
+{
+  "scope": "Metadata/integrity/observation overlap only; research-grade/source-country evidence is not independent expert label or provenance verification.",
+  "classes": {
+    "mikania_micrantha": {
+      "staging_rows": 181,
+      "staging_groups": 128,
+      "frozen_train_images": 107,
+      "frozen_train_groups": 72,
+      "valid_not_in_frozen_images": 31,
+      "exact_duplicate_images_excluded": 19,
+      "same_observation_images_excluded": 0,
+      "integrity_or_metadata_issues": 131,
+      "new_observation_groups_pending_review": [
+        {
+          "group_id": "18554448",
+          "image_count": 1,
+          "licenses": [
+            "cc-by"
+          ],
+          "sources": [
+            "inaturalist"
+          ],
+          "source_ids": [
+            "28386564"
+          ],
+          "source_urls": [
+            "https://www.inaturalist.org/observations/18554448"
+          ],
+          "sha256": [
+            "2ebe9ed4676b7c5d60708cdfbd252a8afc3be8a6d125b8e58090b9bc7cd390ea"
+          ],
+          "review_status": [
+            "pending"
+          ]
+        },
+        {
+          "group_id": "gbif:occurrence:1317800492",
+          "image_count": 2,
+          "licenses": [
+            "cc0"
+          ],
+          "sources": [
+            "gbif"
+          ],
+          "source_ids": [
+            "1317800492:https://collections.nmnh.si.edu/media/?i=11805744&h=2000",
+            "1317800492:https://collections.nmnh.si.edu/media/?i=10215384&h=2000"
+          ],
+          "source_urls": [
+            "https://www.gbif.org/occurrence/1317800492",
+            "https://www.gbif.org/occurrence/1317800492"
+          ],
+          "sha256": [
+            "40b7a674739a655f9c74856fa4b40a9a015bd3fb1c3eebebeffc11ab56f056f8",
+            "34a207cd5d6266bdb264ef6208c2536fef739e710a423389e3af844f42e6b9be"
+          ],
+          "review_status": [
+            "owner_gallery_approved"
+          ]
+        },
+        {
+          "group_id": "gbif:occurrence:1456014546",
+          "image_count": 1,
+          "licenses": [
+            "cc0"
+          ],
+          "sources": [
+            "gbif"
+          ],
+          "source_ids": [
+            "1456014546:https://collections.nmnh.si.edu/media/?i=11457970&h=2000"
+          ],
+          "source_urls": [
+            "https://www.gbif.org/occurrence/1456014546"
+          ],
+          "sha256": [
+            "8e9ebeffdf264fc73247942412a274e9cb44dca1685e87404d2786c65af4c62f"
+          ],
+          "review_status": [
+            "owner_gallery_approved"
+          ]
+        },
+        {
+          "group_id": "gbif:occurrence:1456378848",
+          "image_count": 1,
+          "licenses": [
+            "cc0"
+          ],
+          "sources": [
+            "gbif"
+          ],
+          "source_ids": [
+            "1456378848:https://collections.nmnh.si.edu/media/?i=11455141&h=2000"
+          ],
+          "source_urls": [
+            "https://www.gbif.org/occurrence/1456378848"
+          ],
+          "sha256": [
+            "d30d1ef7cdb73a68ea1c1382ad7d1b28845c4e6cf37922bc08b51b174e25ac43"
+          ],
+          "review_status": [
+            "owner_gallery_approved"
+          ]
+        },
+        {
+          "group_id": "gbif:occurrence:1945468596",
+          "image_count": 1,
+          "licenses": [
+            "cc-by"
+          ],
+          "sources": [
+            "gbif"
+          ],
+          "source_ids": [
+            "1945468596:https://inaturalist-open-data.s3.amazonaws.com/photos/28386564/original.jpg"
+          ],
+          "source_urls": [
+            "https://www.gbif.org/occurrence/1945468596"
+          ],
+          "sha256": [
+            "31f6fc2407e632f4dbd9470a781403d63bb825a60bb930638690be19335c2e92"
+          ],
+          "review_status": [
+            "owner_gallery_approved"
+          ]
+        },
+        {
+          "group_id": "gbif:occurrence:1946346961",
+          "image_count": 2,
+          "licenses": [
+            "cc-by"
+          ],
+          "sources": [
+            "gbif"
+          ],
+          "source_ids": [
+            "1946346961:https://inaturalist-open-data.s3.amazonaws.com/photos/28580319/original.jpg",
+            "1946346961:https://inaturalist-open-data.s3.amazonaws.com/photos/28580305/original.jpg"
+          ],
+          "source_urls": [
+            "https://www.gbif.org/occurrence/1946346961",
+            "https://www.gbif.org/occurrence/1946346961"
+          ],
+          "sha256": [
+            "aa4fcceabf00b0cf0c8a536b8af141ade64806df9728f340c23da621d2b19e29",
+            "65fd41db0f2663987650257a31ecdfb14952e0c77258e868d0f3651be6e94f12"
+          ],
+          "review_status": [
+            "owner_gallery_approved"
+          ]
+        },
+        {
+          "group_id": "gbif:occurrence:2514863556",
+          "image_count": 1,
+          "licenses": [
+            "cc0"
+          ],
+          "sources": [
+            "gbif"
+          ],
+          "source_ids": [
+            "2514863556:https://medialib.naturalis.nl/file/id/L.3657455/format/large"
+          ],
+          "source_urls": [
+            "https://www.gbif.org/occurrence/2514863556"
+          ],
+          "sha256": [
+            "d14644e3ff6dcc78acace779a732a1a249af1374567be15d6daa0e0eaa0b7620"
+          ],
+          "review_status": [
+            "owner_gallery_approved"
+          ]
+        },
+        {
+          "group_id": "gbif:occurrence:2514928539",
+          "image_count": 1,
+          "licenses": [
+            "cc0"
+          ],
+          "sources": [
+            "gbif"
+          ],
+          "source_ids": [
+            "2514928539:https://medialib.naturalis.nl/file/id/L.3657453/format/large"
+          ],
+          "source_urls": [
+            "https://www.gbif.org/occurrence/2514928539"
+          ],
+          "sha256": [
+            "6883949881fbd5f8877ca5291e11e402f527fa84495f76c03e547310ae2ab4bf"
+          ],
+          "review_status": [
+            "owner_gallery_approved"
+          ]
+        },
+        {
+          "group_id": "gbif:occurrence:2514964965",
+          "image_count": 1,
+          "licenses": [
+            "cc0"
+          ],
+          "sources": [
+            "gbif"
+          ],
+          "source_ids": [
+            "2514964965:https://medialib.naturalis.nl/file/id/L.3657454/format/large"
+          ],
+          "source_urls": [
+            "https://www.gbif.org/occurrence/2514964965"
+          ],
+          "sha256": [
+            "1e10d500f5a0ae8df9674be7f9dab2f50baf40f0b6cbc3bcd30a321bec83dc89"
+          ],
+          "review_status": [
+            "owner_gallery_approved"
+          ]
+        },
+        {
+          "group_id": "gbif:occurrence:2516970419",
+          "image_count": 1,
+          "licenses": [
+            "cc0"
+          ],
+          "sources": [
+            "gbif"
+          ],
+          "source_ids": [
+            "2516970419:https://medialib.naturalis.nl/file/id/L.3657452/format/large"
+          ],
+          "source_urls": [
+            "https://www.gbif.org/occurrence/2516970419"
+          ],
+          "sha256": [
+            "d6136b44e52361ce492a0f77abf758c6d8e4f50604e398539d12de8b0765fb69"
+          ],
+          "review_status": [
+            "owner_gallery_approved"
+          ]
+        },
+        {
+          "group_id": "gbif:occurrence:3383898912",
+          "image_count": 1,
+          "licenses": [
+            "cc-by"
+          ],
+          "sources": [
+            "gbif"
+          ],
+          "source_ids": [
+            "3383898912:https://inaturalist-open-data.s3.amazonaws.com/photos/145287886/original.jpeg"
+          ],
+          "source_urls": [
+            "https://www.gbif.org/occurrence/3383898912"
+          ],
+          "sha256": [
+            "7c604a87f366ecd6510a682dd2cb3fac568e19e98b80bfb07a6ad586ff810995"
+          ],
+          "review_status": [
+            "owner_gallery_approved"
+          ]
+        },
+        {
+          "group_id": "gbif:occurrence:3383950946",
+          "image_count": 1,
+          "licenses": [
+            "cc-by"
+          ],
+          "sources": [
+            "gbif"
+          ],
+          "source_ids": [
+            "3383950946:https://inaturalist-open-data.s3.amazonaws.com/photos/145287915/original.jpeg"
+          ],
+          "source_urls": [
+            "https://www.gbif.org/occurrence/3383950946"
+          ],
+          "sha256": [
+            "045ec8ea6071a48d3dd5d1dac2545cec7917016d83e9476e007e8694e676ab79"
+          ],
+          "review_status": [
+            "owner_gallery_approved"
+          ]
+        },
+        {
+          "group_id": "gbif:occurrence:3455262753",
+          "image_count": 1,
+          "licenses": [
+            "cc-by"
+          ],
+          "sources": [
+            "gbif"
+          ],
+          "source_ids": [
+            "3455262753:https://inaturalist-open-data.s3.amazonaws.com/photos/115272091/original.jpeg"
+          ],
+          "source_urls": [
+            "https://www.gbif.org/occurrence/3455262753"
+          ],
+          "sha256": [
+            "1936385f7efe3341411f49f62c5bf1b860a6d4265ccbfb7c58cc63a582eb5f1d"
+          ],
+          "review_status": [
+            "owner_gallery_approved"
+          ]
+        },
+        {
+          "group_id": "gbif:occurrence:3455359576",
+          "image_count": 1,
+          "licenses": [
+            "cc-by"
+          ],
+          "sources": [
+            "gbif"
+          ],
+          "source_ids": [
+            "3455359576:https://inaturalist-open-data.s3.amazonaws.com/photos/171377650/original.jpg"
+          ],
+          "source_urls": [
+            "https://www.gbif.org/occurrence/3455359576"
+          ],
+          "sha256": [
+            "29edb0535c75c7c9c227e5652f397dff2f53ef4d853e8f8ddb8b9cd6acc5cd85"
+          ],
+          "review_status": [
+            "owner_gallery_approved"
+          ]
+        },
+        {
+          "group_id": "gbif:occurrence:4072672343",
+          "image_count": 1,
+          "licenses": [
+            "cc-by"
+          ],
+          "sources": [
+            "gbif"
+          ],
+          "source_ids": [
+            "4072672343:https://oxalis.br.fgov.be/images/BR0/000/022/921/062/BR0000022921062.jpg"
+          ],
+          "source_urls": [
+            "https://www.gbif.org/occurrence/4072672343"
+          ],
+          "sha256": [
+            "08208078ea4ba711237b95c52ffd1691aa450751e491bd2e95e3f4ec7edd9f2e"
+          ],
+          "review_status": [
+            "owner_gallery_approved"
+          ]
+        },
+        {
+          "group_id": "gbif:occurrence:4073070633",
+          "image_count": 1,
+          "licenses": [
+            "cc-by"
+          ],
+          "sources": [
+            "gbif"
+          ],
+          "source_ids": [
+            "4073070633:https://oxalis.br.fgov.be/images/BR0/000/022/921/024/BR0000022921024.jpg"
+          ],
+          "source_urls": [
+            "https://www.gbif.org/occurrence/4073070633"
+          ],
+          "sha256": [
+            "37c68ea0dbf6ab90c0125c2003bd7c92f27217836b56fe91e9eaed8ed0e3b1ac"
+          ],
+          "review_status": [
+            "owner_gallery_approved"
+          ]
+        },
+        {
+          "group_id": "gbif:occurrence:4465511978",
+          "image_count": 1,
+          "licenses": [
+            "cc-by"
+          ],
+          "sources": [
+            "gbif"
+          ],
+          "source_ids": [
+            "4465511978:https://inaturalist-open-data.s3.amazonaws.com/photos/340257255/original.jpeg"
+          ],
+          "source_urls": [
+            "https://www.gbif.org/occurrence/4465511978"
+          ],
+          "sha256": [
+            "bb106f68155b4b90a02f8da3e925272c290f6cf6468112b719215bef9d4a7ae4"
+          ],
+          "review_status": [
+            "owner_gallery_approved"
+          ]
+        },
+        {
+          "group_id": "gbif:occurrence:5205883322",
+          "image_count": 1,
+          "licenses": [
+            "cc-by"
+          ],
+          "sources": [
+            "gbif"
+          ],
+          "source_ids": [
+            "5205883322:https://inaturalist-open-data.s3.amazonaws.com/photos/114266128/original.jpeg"
+          ],
+          "source_urls": [
+            "https://www.gbif.org/occurrence/5205883322"
+          ],
+          "sha256": [
+            "87072e71dfd8dd7053dd602ff14e161fd253a802d9e1cfb4f5cf459e53a5cb5b"
+          ],
+          "review_status": [
+            "owner_gallery_approved"
+          ]
+        },
+        {
+          "group_id": "gbif:occurrence:5205903479",
+          "image_count": 3,
+          "licenses": [
+            "cc0"
+          ],
+          "sources": [
+            "gbif"
+          ],
+          "source_ids": [
+            "5205903479:https://inaturalist-open-data.s3.amazonaws.com/photos/479568096/original.jpeg",
+            "5205903479:https://inaturalist-open-data.s3.amazonaws.com/photos/479568098/original.jpeg",
+            "5205903479:https://inaturalist-open-data.s3.amazonaws.com/photos/479568100/original.jpeg"
+          ],
+          "source_urls": [
+            "https://www.gbif.org/occurrence/5205903479",
+            "https://www.gbif.org/occurrence/5205903479",
+            "https://www.gbif.org/occurrence/5205903479"
+          ],
+          "sha256": [
+            "d9931a75810e3c4c4ef52254418dde2242bef1c69651dc14c5f9f1fd4110cd74",
+            "dc29569226e0f2c80b0d8e9652bdc50a715c3f13bb246d74eca773c3d7b18240",
+            "bbe2d64690015852258ce41c59b53fdcbd444fc7ca349d2f18f30c2dfc486416"
+          ],
+          "review_status": [
+            "owner_gallery_approved"
+          ]
+        },
+        {
+          "group_id": "gbif:occurrence:5206188316",
+          "image_count": 2,
+          "licenses": [
+            "cc-by"
+          ],
+          "sources": [
+            "gbif"
+          ],
+          "source_ids": [
+            "5206188316:https://inaturalist-open-data.s3.amazonaws.com/photos/105246201/original.jpg",
+            "5206188316:https://inaturalist-open-data.s3.amazonaws.com/photos/105246227/original.jpg"
+          ],
+          "source_urls": [
+            "https://www.gbif.org/occurrence/5206188316",
+            "https://www.gbif.org/occurrence/5206188316"
+          ],
+          "sha256": [
+            "589298ab49ec563499394eac097fdf72f664704dd088f1aafc3adc02456c9696",
+            "30ea28d237a601b60e0cca3eb558c37d4ce906ccae5f1ab73cc48f079e92d082"
+          ],
+          "review_status": [
+            "owner_gallery_approved"
+          ]
+        },
+        {
+          "group_id": "gbif:occurrence:5206286496",
+          "image_count": 1,
+          "licenses": [
+            "cc-by"
+          ],
+          "sources": [
+            "gbif"
+          ],
+          "source_ids": [
+            "5206286496:https://inaturalist-open-data.s3.amazonaws.com/photos/494382561/original.jpg"
+          ],
+          "source_urls": [
+            "https://www.gbif.org/occurrence/5206286496"
+          ],
+          "sha256": [
+            "8e11face6e3a37087c101ff28e68136919043be5a1ee944a07d727438ccbb815"
+          ],
+          "review_status": [
+            "owner_gallery_approved"
+          ]
+        },
+        {
+          "group_id": "gbif:occurrence:5215725327",
+          "image_count": 4,
+          "licenses": [
+            "cc-by"
+          ],
+          "sources": [
+            "gbif"
+          ],
+          "source_ids": [
+            "5215725327:https://inaturalist-open-data.s3.amazonaws.com/photos/115200931/original.jpeg",
+            "5215725327:https://inaturalist-open-data.s3.amazonaws.com/photos/115202501/original.jpeg",
+            "5215725327:https://inaturalist-open-data.s3.amazonaws.com/photos/115202910/original.jpeg",
+            "5215725327:https://inaturalist-open-data.s3.amazonaws.com/photos/115203191/original.jpeg"
+          ],
+          "source_urls": [
+            "https://www.gbif.org/occurrence/5215725327",
+            "https://www.gbif.org/occurrence/5215725327",
+            "https://www.gbif.org/occurrence/5215725327",
+            "https://www.gbif.org/occurrence/5215725327"
+          ],
+          "sha256": [
+            "3ee943b6635834d43e76b90af3b3b17b09102b15363c720b3e5ed25bce133bfd",
+            "306c9e50028201b59d5a2c728ffea47bd2b52ce645bea91e581180d5f53fc56a",
+            "3d4c3cfd0bde564cf577d0124d61ab6d98ba4fc26624c03951a14004d49e999c",
+            "48a7c5d55eeaf9a3e56821d9288d4ee01d0f04be9b2fc028d2edffce9a3036f3"
+          ],
+          "review_status": [
+            "owner_gallery_approved"
+          ]
+        },
+        {
+          "group_id": "gbif:occurrence:5215757347",
+          "image_count": 1,
+          "licenses": [
+            "cc-by"
+          ],
+          "sources": [
+            "gbif"
+          ],
+          "source_ids": [
+            "5215757347:https://inaturalist-open-data.s3.amazonaws.com/photos/191462732/original.jpeg"
+          ],
+          "source_urls": [
+            "https://www.gbif.org/occurrence/5215757347"
+          ],
+          "sha256": [
+            "71bd2f1f74a4e1ad682b4bbf19bcf75967505e07430ca589c379e68ffc10ec8f"
+          ],
+          "review_status": [
+            "owner_gallery_approved"
+          ]
+        }
+      ],
+      "new_group_count": 23,
+      "new_image_count": 31,
+      "license_counts": {
+        "cc-by": 20,
+        "cc0": 11
+      },
+      "status_counts": {
+        "pending": 1,
+        "owner_gallery_approved": 30
+      },
+      "issues_sample": [
+        {
+          "source_id": "2141923",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "2141928",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "2137217",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "61761833",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "62501574",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "63905401",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "71695733",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "98885143",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "105562424",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "109993169",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "110151120",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "110370879",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "113698678",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "113698701",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "113698764",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "121064712",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "121772378",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "121932721",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "125087348",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "125087443",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        }
+      ]
+    },
+    "coccinia_grandis": {
+      "staging_rows": 177,
+      "staging_groups": 119,
+      "frozen_train_images": 104,
+      "frozen_train_groups": 72,
+      "valid_not_in_frozen_images": 27,
+      "exact_duplicate_images_excluded": 27,
+      "same_observation_images_excluded": 0,
+      "integrity_or_metadata_issues": 123,
+      "new_observation_groups_pending_review": [
+        {
+          "group_id": "254716496",
+          "image_count": 1,
+          "licenses": [
+            "cc-by"
+          ],
+          "sources": [
+            "inaturalist"
+          ],
+          "source_ids": [
+            "456310276"
+          ],
+          "source_urls": [
+            "https://www.inaturalist.org/observations/254716496"
+          ],
+          "sha256": [
+            "ac110519a1602257d1d2256942b96079db80325e4b0e30b6ae9916ac6b56772b"
+          ],
+          "review_status": [
+            "pending"
+          ]
+        },
+        {
+          "group_id": "259481065",
+          "image_count": 1,
+          "licenses": [
+            "cc-by"
+          ],
+          "sources": [
+            "inaturalist"
+          ],
+          "source_ids": [
+            "465797020"
+          ],
+          "source_urls": [
+            "https://www.inaturalist.org/observations/259481065"
+          ],
+          "sha256": [
+            "f82e879e29510d1a8ab0b542fbd69b346a41e8960d06507c6ea3382e1c3fd1a5"
+          ],
+          "review_status": [
+            "pending"
+          ]
+        },
+        {
+          "group_id": "260239376",
+          "image_count": 2,
+          "licenses": [
+            "cc-by"
+          ],
+          "sources": [
+            "inaturalist"
+          ],
+          "source_ids": [
+            "467311122",
+            "467311141"
+          ],
+          "source_urls": [
+            "https://www.inaturalist.org/observations/260239376",
+            "https://www.inaturalist.org/observations/260239376"
+          ],
+          "sha256": [
+            "ddc9f749c99bd857ab8d41e1d4b87e46a131aebfc8cd536930a2ce5af14eb78e",
+            "31d33256e320fa6638b9db2833378d76e08883a195e60e0401d7c9eeb883934c"
+          ],
+          "review_status": [
+            "pending"
+          ]
+        },
+        {
+          "group_id": "266200317",
+          "image_count": 4,
+          "licenses": [
+            "cc0"
+          ],
+          "sources": [
+            "inaturalist"
+          ],
+          "source_ids": [
+            "478264274",
+            "478264276",
+            "478264269",
+            "478264284"
+          ],
+          "source_urls": [
+            "https://www.inaturalist.org/observations/266200317",
+            "https://www.inaturalist.org/observations/266200317",
+            "https://www.inaturalist.org/observations/266200317",
+            "https://www.inaturalist.org/observations/266200317"
+          ],
+          "sha256": [
+            "092439a5964f6412e47632db54397167a2e475a035ea35136d51d99bdb4e9ae8",
+            "d35cf2cb87edb5bfbb3d2e00ea2e979d567ea50455adbab85f49082cf4adc135",
+            "698df45e4fde6253a4c6730a087e8fe3bd6292d9bf4bd288f2ae64335e6c399e",
+            "584ab85cddbca433118c0e19cf06fc01e362012f593c7acfbc37336f50458f38"
+          ],
+          "review_status": [
+            "pending"
+          ]
+        },
+        {
+          "group_id": "279631878",
+          "image_count": 3,
+          "licenses": [
+            "cc-by"
+          ],
+          "sources": [
+            "inaturalist"
+          ],
+          "source_ids": [
+            "502163392",
+            "502163429",
+            "502163449"
+          ],
+          "source_urls": [
+            "https://www.inaturalist.org/observations/279631878",
+            "https://www.inaturalist.org/observations/279631878",
+            "https://www.inaturalist.org/observations/279631878"
+          ],
+          "sha256": [
+            "0687d07750e928d2ea834ba82c9c8610a5ec1c6b928d7ebbbdde6c74d8e2cc91",
+            "688561af68de3e4453351df8e1a3ea0a97473a18ba0fd207bc737ac7553cdfdb",
+            "2ce5a6b2d4982160c4ef884b08cdbd96da85f40a1be5be673e1d229704855980"
+          ],
+          "review_status": [
+            "pending"
+          ]
+        },
+        {
+          "group_id": "308730938",
+          "image_count": 2,
+          "licenses": [
+            "cc0"
+          ],
+          "sources": [
+            "inaturalist"
+          ],
+          "source_ids": [
+            "557017422",
+            "557017363"
+          ],
+          "source_urls": [
+            "https://www.inaturalist.org/observations/308730938",
+            "https://www.inaturalist.org/observations/308730938"
+          ],
+          "sha256": [
+            "f3f0d35e0eb7984e754fe4f391f4fbdfb592e88cf6832edff33654735ee66f5e",
+            "a06c14dd42f1ffb3676f3c6369142584fe4b1a581081f5cd818f3ff97a5ec40f"
+          ],
+          "review_status": [
+            "pending"
+          ]
+        },
+        {
+          "group_id": "329050903",
+          "image_count": 2,
+          "licenses": [
+            "cc0"
+          ],
+          "sources": [
+            "inaturalist"
+          ],
+          "source_ids": [
+            "596389465",
+            "596389484"
+          ],
+          "source_urls": [
+            "https://www.inaturalist.org/observations/329050903",
+            "https://www.inaturalist.org/observations/329050903"
+          ],
+          "sha256": [
+            "bdd84a101a140ae8f8d5e1202da22e74a21a28c3df6c17d6670c087ccbf4efd4",
+            "876cb500c548ee0f51c8fb98c501aaa1836bfb12cf8397755dbf5b6b21a81a9a"
+          ],
+          "review_status": [
+            "pending"
+          ]
+        },
+        {
+          "group_id": "349445330",
+          "image_count": 1,
+          "licenses": [
+            "cc-by"
+          ],
+          "sources": [
+            "inaturalist"
+          ],
+          "source_ids": [
+            "637461220"
+          ],
+          "source_urls": [
+            "https://www.inaturalist.org/observations/349445330"
+          ],
+          "sha256": [
+            "f946167d95ac7b3df43a5351e1a7d9a87574e920db07f6543fcb181d26d2855a"
+          ],
+          "review_status": [
+            "pending"
+          ]
+        },
+        {
+          "group_id": "360175357",
+          "image_count": 1,
+          "licenses": [
+            "cc-by"
+          ],
+          "sources": [
+            "inaturalist"
+          ],
+          "source_ids": [
+            "657208720"
+          ],
+          "source_urls": [
+            "https://www.inaturalist.org/observations/360175357"
+          ],
+          "sha256": [
+            "733c5d7ff8c8c0ae11002760e182a803d8612e5ca9776ef95c243c7f11f56f33"
+          ],
+          "review_status": [
+            "pending"
+          ]
+        },
+        {
+          "group_id": "379313194",
+          "image_count": 1,
+          "licenses": [
+            "cc0"
+          ],
+          "sources": [
+            "inaturalist"
+          ],
+          "source_ids": [
+            "693833647"
+          ],
+          "source_urls": [
+            "https://www.inaturalist.org/observations/379313194"
+          ],
+          "sha256": [
+            "0ef6acc9af3363b4a44df00585c11ac70f24a441463d42ea314e7decbd0ab63b"
+          ],
+          "review_status": [
+            "pending"
+          ]
+        },
+        {
+          "group_id": "379377422",
+          "image_count": 2,
+          "licenses": [
+            "cc0"
+          ],
+          "sources": [
+            "inaturalist"
+          ],
+          "source_ids": [
+            "693956006",
+            "693956039"
+          ],
+          "source_urls": [
+            "https://www.inaturalist.org/observations/379377422",
+            "https://www.inaturalist.org/observations/379377422"
+          ],
+          "sha256": [
+            "f0e9a52994f7292e51ba361231da4248ad1b3d8a2ebdd76ce8be0f227f5e9c80",
+            "94d0fd1648408dfd6411a087eb57bf3985d4d9d1856289e7cbdeb1fa4ae27683"
+          ],
+          "review_status": [
+            "pending"
+          ]
+        },
+        {
+          "group_id": "379378254",
+          "image_count": 1,
+          "licenses": [
+            "cc0"
+          ],
+          "sources": [
+            "inaturalist"
+          ],
+          "source_ids": [
+            "693957274"
+          ],
+          "source_urls": [
+            "https://www.inaturalist.org/observations/379378254"
+          ],
+          "sha256": [
+            "c78310c8e8a2556a49314e748c27c1c582b1b3f40d603886dd364cc3717e4713"
+          ],
+          "review_status": [
+            "pending"
+          ]
+        },
+        {
+          "group_id": "379395097",
+          "image_count": 1,
+          "licenses": [
+            "cc0"
+          ],
+          "sources": [
+            "inaturalist"
+          ],
+          "source_ids": [
+            "693988746"
+          ],
+          "source_urls": [
+            "https://www.inaturalist.org/observations/379395097"
+          ],
+          "sha256": [
+            "31f05c17c90abd202f4ca49d305e5dc835ce2263130b1875a37ca71c20b56e66"
+          ],
+          "review_status": [
+            "pending"
+          ]
+        },
+        {
+          "group_id": "379395986",
+          "image_count": 1,
+          "licenses": [
+            "cc0"
+          ],
+          "sources": [
+            "inaturalist"
+          ],
+          "source_ids": [
+            "693990810"
+          ],
+          "source_urls": [
+            "https://www.inaturalist.org/observations/379395986"
+          ],
+          "sha256": [
+            "74e86fbaa1bbe2a83067ad410d363ca8583759db357ac9df990172694772f0b9"
+          ],
+          "review_status": [
+            "pending"
+          ]
+        },
+        {
+          "group_id": "380526737",
+          "image_count": 2,
+          "licenses": [
+            "cc-by"
+          ],
+          "sources": [
+            "inaturalist"
+          ],
+          "source_ids": [
+            "696178655",
+            "696178677"
+          ],
+          "source_urls": [
+            "https://www.inaturalist.org/observations/380526737",
+            "https://www.inaturalist.org/observations/380526737"
+          ],
+          "sha256": [
+            "eebdf5797f5d81947571d63438afc868a298faab8cc370e459f19181ae52d6b9",
+            "b4e38b46a167e6692ac422bcf78f96c3dce46bab958cca36441faa410db6caa3"
+          ],
+          "review_status": [
+            "pending"
+          ]
+        },
+        {
+          "group_id": "397127257",
+          "image_count": 1,
+          "licenses": [
+            "cc-by"
+          ],
+          "sources": [
+            "inaturalist"
+          ],
+          "source_ids": [
+            "728343891"
+          ],
+          "source_urls": [
+            "https://www.inaturalist.org/observations/397127257"
+          ],
+          "sha256": [
+            "d5b67b527b7caa1638cc3149c1f7eabe71e123269159e85193c61d39e91be924"
+          ],
+          "review_status": [
+            "pending"
+          ]
+        },
+        {
+          "group_id": "397133750",
+          "image_count": 1,
+          "licenses": [
+            "cc-by"
+          ],
+          "sources": [
+            "inaturalist"
+          ],
+          "source_ids": [
+            "728356906"
+          ],
+          "source_urls": [
+            "https://www.inaturalist.org/observations/397133750"
+          ],
+          "sha256": [
+            "fc3ef4a2730bd78c7236763891604a457b2be7b73a5eee7926ad9d4e2891af52"
+          ],
+          "review_status": [
+            "pending"
+          ]
+        }
+      ],
+      "new_group_count": 17,
+      "new_image_count": 27,
+      "license_counts": {
+        "cc-by": 13,
+        "cc0": 14
+      },
+      "status_counts": {
+        "pending": 27
+      },
+      "issues_sample": [
+        {
+          "source_id": "25284038",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "30259850",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "45607199",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "45607391",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "59328447",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "61815181",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "61873166",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "62839142",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "68344119",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "68344145",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "69514348",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "76694077",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "76694119",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "76694153",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "76694191",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "83912012",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "108130364",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "120579427",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "120579433",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "121494281",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        }
+      ]
+    },
+    "broussonetia_papyrifera": {
+      "staging_rows": 41,
+      "staging_groups": 35,
+      "frozen_train_images": 29,
+      "frozen_train_groups": 24,
+      "valid_not_in_frozen_images": 0,
+      "exact_duplicate_images_excluded": 0,
+      "same_observation_images_excluded": 0,
+      "integrity_or_metadata_issues": 41,
+      "new_observation_groups_pending_review": [],
+      "new_group_count": 0,
+      "new_image_count": 0,
+      "license_counts": {},
+      "status_counts": {},
+      "issues_sample": [
+        {
+          "source_id": "44188980",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "110008606",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "110284155",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "185156856",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "186207991",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "278881940",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "278882010",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "278882090",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "379989769",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "380864765",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "381034314",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "381034355",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "381214313",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "381228808",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "381672729",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "381684791",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "381691220",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "381742570",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "381821554",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        },
+        {
+          "source_id": "381821643",
+          "issues": [
+            "license_not_in_active_training_allowlist"
+          ]
+        }
+      ]
+    }
+  }
+}

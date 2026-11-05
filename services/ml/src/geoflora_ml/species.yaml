@@ -1,0 +1,10 @@
+species:
+  - id: chromolaena_odorata
+    scientific_name: Chromolaena odorata
+    common_name: Hagonoy
+  - id: lantana_camara
+    scientific_name: Lantana camara
+    common_name: Lantana
+  - id: pontederia_crassipes
+    scientific_name: Pontederia crassipes
+    common_name: Water Hyacinth

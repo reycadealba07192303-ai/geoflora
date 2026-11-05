@@ -1,0 +1,19 @@
+# PROVISIONAL PILOT - trains on UNREVIEWED labels (source-community identifications) while botanical
+# review is pending. All outputs are isolated under */provisional/ and cannot be exported.
+#   python scripts/split_dataset.py --config configs/provisional_pilot.yaml
+#   python scripts/train.py        --config configs/provisional_pilot.yaml --run-name pilot
+#   python scripts/evaluate.py     --config configs/provisional_pilot.yaml
+provisional:
+  enabled: true
+
+paths:
+  train: dataset/provisional/train
+  val: dataset/provisional/val
+  test: dataset/provisional/test
+  unknown_val: dataset/provisional/unknown_val
+  unknown_test: dataset/provisional/unknown_test
+  class_mapping: metadata/provisional/class_mapping.json
+  split_assignments: metadata/provisional/split_assignments.csv
+  dataset_version: metadata/provisional/dataset_version.json
+  checkpoints: models/checkpoints/provisional
+  reports: reports/provisional

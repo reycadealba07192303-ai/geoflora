@@ -1,0 +1,139 @@
+# GeoFlora-ML-Lab default configuration.
+# Every script accepts --config <file.yaml>; values in that file override these defaults.
+# All paths are relative to the project root.
+
+project:
+  name: GeoFlora-ML-Lab
+  seed: 42
+
+paths:
+  root: null                      # null = directory containing this project
+  raw: dataset/raw
+  reviewed: dataset/reviewed
+  train: dataset/train
+  val: dataset/val
+  test: dataset/test
+  unknown_val: dataset/unknown_val   # unsupported-species images used ONLY for threshold selection
+  unknown_test: dataset/unknown_test # unsupported-species images held out for final evaluation
+  occurrence_metadata: dataset/raw/_occurrence_metadata
+  species_catalog: metadata/species_catalog.csv
+  species_descriptions: metadata/species_descriptions.json  # shipped in exports, returned with predictions
+  image_manifest: metadata/image_manifest.csv
+  class_mapping: metadata/class_mapping.json
+  split_assignments: metadata/split_assignments.csv
+  locked_test_groups: metadata/locked_test_groups.txt
+  dataset_version: metadata/dataset_version.json
+  checkpoints: models/checkpoints
+  exported: models/exported
+  reports: reports
+
+download:
+  source: GBIF
+  api_base: https://api.gbif.org/v1
+  user_agent: "GeoFlora-ML-Lab/0.1 (academic research; non-commercial)"
+  # Licenses accepted for research use. NC licenses restrict commercial use of the images;
+  # remove CC-BY-NC-4.0 if the trained model or dataset will be used commercially.
+  # GEOFLORA-CONTRIBUTOR: photos from GeoFlora app reports whose contributor allowed training use (import_app_reports.py).
+  allowed_licenses: [CC0-1.0, PDM-1.0, CC-BY-4.0, CC-BY-NC-4.0, GEOFLORA-CONTRIBUTOR]
+  basis_of_record: [HUMAN_OBSERVATION]
+  # Countries queried first, in order (ISO-3166 alpha-2). null = global (no country filter).
+  country_priority: [PH, null]
+  # Optional GBIF dataset filter (empty = any dataset). 50c9509d-... = iNaturalist research-grade observations.
+  dataset_keys: []
+  max_images_per_occurrence: 1    # one photo per observation keeps observation groups independent and small
+  page_size: 100
+  request_interval_seconds: 1.0   # polite delay between HTTP requests
+  timeout_seconds: 30
+  max_retries: 3
+  max_image_bytes: 15000000
+  max_total_megabytes: 500        # storage cap for one download session
+  # iNaturalist serves several sizes; "medium" (~500 px) is ample for 224 px training and saves storage.
+  inaturalist_photo_size: medium  # one of: small, medium, large, original
+  per_role_default_limit:         # default --max-per-species if not provided on the command line
+    target: 80
+    lookalike: 30
+    unknown_eval: 20
+    expansion_candidate: 0
+
+validation:
+  min_width: 224
+  min_height: 224
+  max_aspect_ratio: 4.0
+  min_blur_variance: 40.0         # variance of Laplacian on 256 px greyscale; lower = blurrier
+  min_mean_brightness: 15.0
+  max_mean_brightness: 245.0
+  phash_hamming_threshold: 6      # <= threshold => near-duplicate
+  allowed_review_statuses_for_training: [approved]
+
+review:
+  # How approved labels were established. Printed in every report and train_summary.json, so it must
+  # describe the actual reviewer, e.g. "screening of iNaturalist research-grade identifications by a
+  # non-botanist reviewer (not expert botanical verification)".
+  # Current process (decided 2026-11-04): images are screened by the project developer, who is not a botanist,
+  # against the iNaturalist research-grade identification. Change this if a qualified botanist reviews instead.
+  label_basis: >-
+    photo-by-photo screening by a named non-botanist reviewer, starting from iNaturalist research-grade
+    community identifications, with an AI-assisted pre-screen that flagged questionable photos for the
+    reviewer's decision (not expert botanical verification)
+
+split:
+  ratios: {train: 0.70, val: 0.15, test: 0.15}
+  # Observation grouping: images from the same occurrence are always grouped. Optionally also group
+  # all observations by the same recorder on the same day (likely the same plant patch).
+  group_by_recorder_and_date: true
+  min_images_per_class: 60        # approved, quality-passing images required before a class is trainable
+  min_groups_per_class: 30        # independent observation groups required
+  min_test_images_per_class: 8
+  unknown_val_fraction: 0.5       # fraction of unsupported species (by species) reserved for threshold selection
+  normalize_max_side: 1024        # split copies are re-encoded as EXIF-corrected RGB JPEG
+  jpeg_quality: 95
+
+train:
+  image_size: 224
+  batch_size: 16                  # laptop-friendly; raise to 32 with >= 16 GB RAM
+  alpha: 1.0                      # MobileNetV2 width multiplier
+  weights: imagenet               # "imagenet" for transfer learning; null only for offline tests
+  dropout: 0.3
+  head_epochs: 15
+  head_learning_rate: 0.001
+  fine_tune_epochs: 10
+  fine_tune_learning_rate: 0.00001
+  fine_tune_at_layer: 100         # layers below this index stay frozen during fine-tuning (MobileNetV2 has 154)
+  label_smoothing: 0.0
+  early_stopping_patience: 5
+  reduce_lr_patience: 2
+  reduce_lr_factor: 0.3
+  min_learning_rate: 0.0000001
+  class_weight: auto              # auto | balanced | none. auto = balanced when max/min class ratio > 1.5
+  augmentation:
+    horizontal_flip: true
+    rotation: 0.08                # fraction of 2*pi
+    zoom: 0.15
+    translation: 0.10
+    contrast: 0.20
+    brightness: 0.20
+  deterministic_ops: false        # true = bitwise reproducible but slower
+  shuffle_buffer: 1000
+
+evaluate:
+  bootstrap_resamples: 1000
+  confidence_level: 0.95
+  # Unknown-species handling. Thresholds are selected on validation data ONLY (val + unknown_val).
+  unknown_score: max_softmax      # max_softmax | margin | neg_entropy
+  known_acceptance_target: 0.95   # used when no unknown_val data exists
+  threshold_strategy: youden      # youden (needs unknown_val) | known_acceptance
+  timing_warmup: 5
+  timing_runs: 50
+  robustness_perturbations: true
+  top_k: 3
+
+export:
+  require_evaluation: true
+  min_test_images_total: 30
+
+provisional:
+  # Pilot mode only (configs/provisional_pilot.yaml). Allows unreviewed images from these source datasets
+  # (community-agreed identifications) as labels. Outputs are stamped PROVISIONAL and cannot be exported.
+  enabled: false
+  accepted_source_dataset_keys:
+    - 50c9509d-22c7-4a22-a47d-8c48425ef4a7   # iNaturalist research-grade observations (GBIF)

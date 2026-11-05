@@ -1,0 +1,316 @@
+{
+  "run_id": "run-20261104T151536Z-reviewed-v3",
+  "evaluated": "2026-11-04T15:23:03+00:00",
+  "dataset_version": "ds-20261104-ab732151f2",
+  "classes": [
+    "Chromolaena odorata",
+    "Lantana camara",
+    "Pontederia crassipes"
+  ],
+  "validation": {
+    "images": 153,
+    "accuracy": 0.9607843137254902,
+    "top_3_accuracy": 1.0,
+    "macro_precision": 0.9607140588272665,
+    "macro_recall": 0.964470925742028,
+    "macro_f1": 0.9618967452300785,
+    "weighted_f1": 0.96046191765146
+  },
+  "test": {
+    "images": 152,
+    "accuracy": 0.9736842105263158,
+    "top_3_accuracy": 1.0,
+    "macro_precision": 0.9731525784157363,
+    "macro_recall": 0.9741418991724989,
+    "macro_f1": 0.9735735947389957,
+    "weighted_f1": 0.9737657040156469,
+    "per_class": [
+      {
+        "species": "Chromolaena odorata",
+        "precision": 0.9649122807017544,
+        "recall": 0.9649122807017544,
+        "f1": 0.9649122807017544,
+        "support": 57
+      },
+      {
+        "species": "Lantana camara",
+        "precision": 1.0,
+        "recall": 0.9807692307692307,
+        "f1": 0.9902912621359223,
+        "support": 52
+      },
+      {
+        "species": "Pontederia crassipes",
+        "precision": 0.9545454545454546,
+        "recall": 0.9767441860465116,
+        "f1": 0.9655172413793104,
+        "support": 43
+      }
+    ],
+    "uncertainty": {
+      "method": "observation-group bootstrap, 1000 resamples",
+      "confidence_level": 0.95,
+      "accuracy_ci": [
+        0.9473684210526315,
+        0.9935483870967742
+      ],
+      "macro_f1_ci": [
+        0.9464830254986036,
+        0.9939401704896405
+      ],
+      "accuracy_exact_ci": [
+        0.9339938049399357,
+        0.9927842853993339
+      ],
+      "accuracy_exact_ci_method": "Clopper-Pearson exact binomial (treats images as independent)"
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "Chromolaena odorata",
+      "Lantana camara",
+      "Pontederia crassipes"
+    ],
+    "matrix": [
+      [
+        55,
+        0,
+        2
+      ],
+      [
+        1,
+        51,
+        0
+      ],
+      [
+        1,
+        0,
+        42
+      ]
+    ]
+  },
+  "top_confusions": [
+    {
+      "true": "Chromolaena odorata",
+      "predicted": "Pontederia crassipes",
+      "count": 2
+    },
+    {
+      "true": "Pontederia crassipes",
+      "predicted": "Chromolaena odorata",
+      "count": 1
+    },
+    {
+      "true": "Lantana camara",
+      "predicted": "Chromolaena odorata",
+      "count": 1
+    }
+  ],
+  "error_analysis": [
+    {
+      "species": "Chromolaena odorata",
+      "support": 57,
+      "true_positives": 55,
+      "false_negatives": 2,
+      "false_positives": 2,
+      "false_negatives_predicted_as": {
+        "Pontederia crassipes": 2
+      },
+      "false_positives_true_species": {
+        "Lantana camara": 1,
+        "Pontederia crassipes": 1
+      },
+      "mean_score_correct": 0.9608185291290283,
+      "mean_score_incorrect": 0.8333284854888916
+    },
+    {
+      "species": "Lantana camara",
+      "support": 52,
+      "true_positives": 51,
+      "false_negatives": 1,
+      "false_positives": 0,
+      "false_negatives_predicted_as": {
+        "Chromolaena odorata": 1
+      },
+      "false_positives_true_species": {},
+      "mean_score_correct": 0.9796928763389587,
+      "mean_score_incorrect": 0.5052841305732727
+    },
+    {
+      "species": "Pontederia crassipes",
+      "support": 43,
+      "true_positives": 42,
+      "false_negatives": 1,
+      "false_positives": 2,
+      "false_negatives_predicted_as": {
+        "Chromolaena odorata": 1
+      },
+      "false_positives_true_species": {
+        "Chromolaena odorata": 2
+      },
+      "mean_score_correct": 0.9617217779159546,
+      "mean_score_incorrect": 0.5539115071296692
+    }
+  ],
+  "unsupported_species": {
+    "threshold": {
+      "strategy": "youden",
+      "threshold": 0.9682667255401611,
+      "val_known_acceptance": 0.7777777777777778,
+      "val_unknown_false_acceptance": 0.257433489827856,
+      "youden_j": 0.5203442879499218,
+      "score_type": "max_softmax",
+      "selected_on": "validation (val + unknown_val); test sets not used"
+    },
+    "test": {
+      "known_images": 152,
+      "known_acceptance_rate": 0.8026315789473685,
+      "accuracy_on_accepted_known": 0.9918032786885246,
+      "known_correct_and_accepted_rate": 0.7960526315789473,
+      "unknown_images": 1710,
+      "unknown_false_acceptance_rate_without_rejection": 1.0,
+      "unknown_false_acceptance_rate_with_threshold": 0.33157894736842103,
+      "auroc_known_vs_unknown": 0.8214989227454602
+    },
+    "per_unknown_species": {
+      "Ageratum conyzoides": {
+        "images": 368,
+        "false_acceptance_rate_with_threshold": 0.38858695652173914,
+        "assigned_labels_without_rejection": {
+          "Chromolaena odorata": 319,
+          "Lantana camara": 30,
+          "Pontederia crassipes": 19
+        }
+      },
+      "Bidens pilosa": {
+        "images": 121,
+        "false_acceptance_rate_with_threshold": 0.21487603305785125,
+        "assigned_labels_without_rejection": {
+          "Chromolaena odorata": 57,
+          "Lantana camara": 49,
+          "Pontederia crassipes": 15
+        }
+      },
+      "Hibiscus rosa-sinensis": {
+        "images": 140,
+        "false_acceptance_rate_with_threshold": 0.09285714285714286,
+        "assigned_labels_without_rejection": {
+          "Lantana camara": 59,
+          "Pontederia crassipes": 43,
+          "Chromolaena odorata": 38
+        }
+      },
+      "Ixora coccinea": {
+        "images": 135,
+        "false_acceptance_rate_with_threshold": 0.2814814814814815,
+        "assigned_labels_without_rejection": {
+          "Lantana camara": 90,
+          "Pontederia crassipes": 36,
+          "Chromolaena odorata": 9
+        }
+      },
+      "Lantana montevidensis": {
+        "images": 307,
+        "false_acceptance_rate_with_threshold": 0.3485342019543974,
+        "assigned_labels_without_rejection": {
+          "Lantana camara": 221,
+          "Chromolaena odorata": 64,
+          "Pontederia crassipes": 22
+        }
+      },
+      "Mikania micrantha": {
+        "images": 337,
+        "false_acceptance_rate_with_threshold": 0.47477744807121663,
+        "assigned_labels_without_rejection": {
+          "Chromolaena odorata": 310,
+          "Pontederia crassipes": 16,
+          "Lantana camara": 11
+        }
+      },
+      "Pontederia vaginalis": {
+        "images": 302,
+        "false_acceptance_rate_with_threshold": 0.26490066225165565,
+        "assigned_labels_without_rejection": {
+          "Pontederia crassipes": 203,
+          "Chromolaena odorata": 96,
+          "Lantana camara": 3
+        }
+      }
+    },
+    "unknown_val_species": [
+      "Duranta erecta",
+      "Imperata cylindrica",
+      "Ipomoea aquatica",
+      "Limnocharis flava",
+      "Mimosa pudica",
+      "Pistia stratiotes"
+    ],
+    "unknown_test_species": [
+      "Ageratum conyzoides",
+      "Bidens pilosa",
+      "Hibiscus rosa-sinensis",
+      "Ixora coccinea",
+      "Lantana montevidensis",
+      "Mikania micrantha",
+      "Pontederia vaginalis"
+    ],
+    "val": {
+      "known_images": 153,
+      "known_acceptance_rate": 0.7777777777777778,
+      "accuracy_on_accepted_known": 1.0,
+      "known_correct_and_accepted_rate": 0.7777777777777778,
+      "unknown_images": 1278,
+      "unknown_false_acceptance_rate_without_rejection": 1.0,
+      "unknown_false_acceptance_rate_with_threshold": 0.257433489827856,
+      "auroc_known_vs_unknown": 0.8202281956079249
+    }
+  },
+  "calibration": {
+    "ece_raw_test": 0.021377969141069215,
+    "temperature_fitted_on_val": 0.9703897205120712,
+    "ece_temperature_scaled_test": 0.019943362592082223,
+    "note": "Softmax scores are not calibrated identification confidence."
+  },
+  "condition_breakdown": {},
+  "runtime": {
+    "device": "CPU",
+    "batch1_latency_ms_median": 24.352700000235927,
+    "batch1_latency_ms_p95": 31.54958999966766,
+    "batch32_throughput_images_per_s": 82.23363408063733,
+    "timing_runs": 50,
+    "model_file_bytes": 24405263,
+    "model_file_mb": 24.41,
+    "total_params": 2261827,
+    "note": "Model forward pass only (excludes image decoding/resizing). Measured on this machine."
+  },
+  "robustness_synthetic": {
+    "darker_40pct": {
+      "accuracy": 0.9342105263157895,
+      "macro_f1": 0.935079365079365
+    },
+    "brighter_40pct": {
+      "accuracy": 0.9605263157894737,
+      "macro_f1": 0.960390484447534
+    },
+    "low_contrast": {
+      "accuracy": 0.868421052631579,
+      "macro_f1": 0.8676621888993022
+    },
+    "gaussian_blur": {
+      "accuracy": 0.7697368421052632,
+      "macro_f1": 0.7238835183196085
+    },
+    "rotate_90": {
+      "accuracy": 0.9605263157894737,
+      "macro_f1": 0.9605420079716285
+    },
+    "jpeg_q20": {
+      "accuracy": 0.9276315789473685,
+      "macro_f1": 0.9282121225166557
+    },
+    "center_crop_60pct": {
+      "accuracy": 0.9407894736842105,
+      "macro_f1": 0.9375044947860482
+    }
+  }
+}

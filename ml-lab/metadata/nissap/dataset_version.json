@@ -1,14 +1,14 @@
 {
-  "dataset_version": "ds-20261104-5bb0dfbfae",
-  "created": "2026-11-04T15:45:28+00:00",
+  "dataset_version": "ds-20261105-4de0c37cb5",
+  "created": "2026-11-05T18:07:55+00:00",
   "num_classes": 21,
   "image_counts": {
     "train": {
       "Acacia auriculiformis": 190,
       "Acacia mangium": 124,
-      "Ageratum conyzoides": 257,
+      "Ageratum conyzoides": 436,
       "Broussonetia papyrifera": 235,
-      "Chromolaena odorata": 262,
+      "Chromolaena odorata": 467,
       "Duranta erecta": 206,
       "Eucalyptus deglupta": 192,
       "Gmelina arborea": 212,
@@ -29,9 +29,9 @@
     "val": {
       "Acacia auriculiformis": 41,
       "Acacia mangium": 30,
-      "Ageratum conyzoides": 56,
+      "Ageratum conyzoides": 94,
       "Broussonetia papyrifera": 51,
-      "Chromolaena odorata": 57,
+      "Chromolaena odorata": 101,
       "Duranta erecta": 44,
       "Eucalyptus deglupta": 41,
       "Gmelina arborea": 46,
@@ -52,9 +52,9 @@
     "test": {
       "Acacia auriculiformis": 41,
       "Acacia mangium": 27,
-      "Ageratum conyzoides": 55,
+      "Ageratum conyzoides": 94,
       "Broussonetia papyrifera": 51,
-      "Chromolaena odorata": 57,
+      "Chromolaena odorata": 100,
       "Duranta erecta": 44,
       "Eucalyptus deglupta": 41,
       "Gmelina arborea": 46,
@@ -86,9 +86,9 @@
     "train": {
       "Acacia auriculiformis": 153,
       "Acacia mangium": 106,
-      "Ageratum conyzoides": 244,
+      "Ageratum conyzoides": 414,
       "Broussonetia papyrifera": 205,
-      "Chromolaena odorata": 245,
+      "Chromolaena odorata": 424,
       "Duranta erecta": 197,
       "Eucalyptus deglupta": 190,
       "Gmelina arborea": 202,
@@ -109,9 +109,9 @@
     "val": {
       "Acacia auriculiformis": 40,
       "Acacia mangium": 24,
-      "Ageratum conyzoides": 53,
+      "Ageratum conyzoides": 89,
       "Broussonetia papyrifera": 48,
-      "Chromolaena odorata": 52,
+      "Chromolaena odorata": 94,
       "Duranta erecta": 43,
       "Eucalyptus deglupta": 41,
       "Gmelina arborea": 45,
@@ -132,9 +132,9 @@
     "test": {
       "Acacia auriculiformis": 40,
       "Acacia mangium": 26,
-      "Ageratum conyzoides": 51,
+      "Ageratum conyzoides": 89,
       "Broussonetia papyrifera": 42,
-      "Chromolaena odorata": 52,
+      "Chromolaena odorata": 88,
       "Duranta erecta": 42,
       "Eucalyptus deglupta": 40,
       "Gmelina arborea": 45,
@@ -208,5 +208,5 @@
       "approved"
     ]
   },
-  "manifest_sha256": "8d4c29c8c2d52b9747950cd963621159fed77ead8d225aafef47ab6727bff3a3"
+  "manifest_sha256": "5911bbf68321dde6705521e12f089cdf28e430611a49380833415fcf0fcaa830"
 }

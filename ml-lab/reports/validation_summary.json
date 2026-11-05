@@ -1,60 +1,61 @@
 {
-  "generated": "2026-11-04T15:13:46+00:00",
-  "total_images": 9150,
-  "total_observation_groups": 8059,
-  "readable": 9150,
-  "quality_pass": 9129,
-  "license_eligible": 9150,
+  "generated": "2026-11-05T18:07:53+00:00",
+  "total_images": 9950,
+  "total_observation_groups": 8770,
+  "readable": 9950,
+  "quality_pass": 9926,
+  "license_eligible": 9950,
   "review_status": {
-    "pending": 4265,
-    "approved": 4014,
-    "uncertain": 769,
-    "rejected": 102
+    "approved": 7428,
+    "uncertain": 2370,
+    "rejected": 126,
+    "pending": 26
   },
-  "training_eligible_images": 3997,
+  "training_eligible_images": 7401,
   "quality_flag_counts": {
-    "low_resolution": 19,
-    "too_dark": 2
+    "low_resolution": 21,
+    "too_dark": 3
   },
   "label_issue_images": [],
-  "class_balance_ratio_max_min": 3.722772277227723,
+  "class_balance_ratio_max_min": 5.520661157024794,
   "per_species": [
     {
       "species_id": "GF-SP-0001",
       "scientific_name": "Chromolaena odorata",
       "role": "target",
-      "images": 400,
-      "observation_groups": 369,
-      "readable": 400,
-      "quality_pass": 399,
-      "license_eligible": 400,
+      "images": 800,
+      "observation_groups": 707,
+      "readable": 800,
+      "quality_pass": 798,
+      "license_eligible": 800,
       "review_status": {
-        "approved": 378,
-        "uncertain": 19,
-        "rejected": 2,
-        "pending": 1
+        "approved": 670,
+        "uncertain": 125,
+        "pending": 3,
+        "rejected": 2
       },
-      "exact_duplicates": 2,
-      "in_near_duplicate_clusters": 10,
+      "exact_duplicates": 3,
+      "in_near_duplicate_clusters": 18,
       "label_conflicts": 0,
-      "training_eligible_images": 376,
-      "training_eligible_groups": 349,
+      "training_eligible_images": 668,
+      "training_eligible_groups": 606,
       "countries": {
-        "PH": 220,
-        "US": 58,
-        "TW": 50,
-        "IN": 24,
-        "TH": 10,
-        "LK": 4,
-        "LA": 4,
-        "MX": 3,
-        "CO": 3,
-        "ID": 3
+        "PH": 222,
+        "US": 149,
+        "TW": 125,
+        "IN": 79,
+        "ZA": 57,
+        "AU": 24,
+        "TH": 20,
+        "ID": 19,
+        "LK": 13,
+        "GF": 11
       },
       "licenses": {
-        "CC-BY-NC-4.0": 358,
-        "CC-BY-4.0": 32,
-        "CC0-1.0": 10
+        "CC-BY-NC-4.0": 716,
+        "CC-BY-4.0": 62,
+        "CC0-1.0": 20,
+        "GEOFLORA-CONTRIBUTOR": 2
       }
     },
     {
@@ -136,38 +137,38 @@
       "species_id": "GF-SP-0101",
       "scientific_name": "Ageratum conyzoides",
       "role": "lookalike",
-      "images": 400,
-      "observation_groups": 377,
-      "readable": 400,
-      "quality_pass": 397,
-      "license_eligible": 400,
+      "images": 800,
+      "observation_groups": 750,
+      "readable": 800,
+      "quality_pass": 795,
+      "license_eligible": 800,
       "review_status": {
-        "approved": 368,
-        "uncertain": 26,
-        "rejected": 3,
-        "pending": 3
+        "approved": 624,
+        "uncertain": 167,
+        "pending": 6,
+        "rejected": 3
       },
-      "exact_duplicates": 0,
-      "in_near_duplicate_clusters": 2,
+      "exact_duplicates": 1,
+      "in_near_duplicate_clusters": 4,
       "label_conflicts": 0,
-      "training_eligible_images": 368,
-      "training_eligible_groups": 348,
+      "training_eligible_images": 624,
+      "training_eligible_groups": 592,
       "countries": {
+        "TW": 139,
+        "US": 128,
         "PH": 99,
-        "TW": 76,
-        "US": 70,
-        "IN": 36,
-        "ZA": 24,
-        "ID": 19,
-        "AU": 12,
-        "ZM": 8,
-        "HK": 7,
-        "AO": 6
+        "AU": 79,
+        "IN": 61,
+        "ZA": 55,
+        "ID": 39,
+        "BR": 22,
+        "ZM": 17,
+        "ZW": 15
       },
       "licenses": {
-        "CC-BY-NC-4.0": 344,
-        "CC-BY-4.0": 39,
-        "CC0-1.0": 17
+        "CC-BY-NC-4.0": 684,
+        "CC-BY-4.0": 89,
+        "CC0-1.0": 27
       }
     },
     {
@@ -580,16 +581,15 @@
       "quality_pass": 400,
       "license_eligible": 400,
       "review_status": {
-        "pending": 250,
-        "approved": 103,
-        "uncertain": 43,
-        "rejected": 4
+        "approved": 196,
+        "uncertain": 195,
+        "rejected": 9
       },
       "exact_duplicates": 5,
       "in_near_duplicate_clusters": 11,
       "label_conflicts": 0,
-      "training_eligible_images": 101,
-      "training_eligible_groups": 97,
+      "training_eligible_images": 194,
+      "training_eligible_groups": 187,
       "countries": {
         "US": 99,
         "AU": 84,
@@ -618,13 +618,15 @@
       "quality_pass": 400,
       "license_eligible": 400,
       "review_status": {
-        "pending": 400
+        "approved": 292,
+        "uncertain": 105,
+        "rejected": 3
       },
       "exact_duplicates": 1,
       "in_near_duplicate_clusters": 4,
       "label_conflicts": 0,
-      "training_eligible_images": 0,
-      "training_eligible_groups": 0,
+      "training_eligible_images": 291,
+      "training_eligible_groups": 275,
       "countries": {
         "PH": 258,
         "US": 50,
@@ -653,13 +655,16 @@
       "quality_pass": 399,
       "license_eligible": 400,
       "review_status": {
-        "pending": 400
+        "uncertain": 234,
+        "approved": 161,
+        "rejected": 4,
+        "pending": 1
       },
       "exact_duplicates": 16,
       "in_near_duplicate_clusters": 35,
       "label_conflicts": 0,
-      "training_eligible_images": 0,
-      "training_eligible_groups": 0,
+      "training_eligible_images": 158,
+      "training_eligible_groups": 153,
       "countries": {
         "PH": 276,
         "US": 34,
@@ -688,13 +693,15 @@
       "quality_pass": 400,
       "license_eligible": 400,
       "review_status": {
-        "pending": 400
+        "approved": 372,
+        "uncertain": 26,
+        "rejected": 2
       },
       "exact_duplicates": 0,
       "in_near_duplicate_clusters": 2,
       "label_conflicts": 0,
-      "training_eligible_images": 0,
-      "training_eligible_groups": 0,
+      "training_eligible_images": 372,
+      "training_eligible_groups": 350,
       "countries": {
         "PR": 75,
         "BR": 63,
@@ -723,13 +730,15 @@
       "quality_pass": 400,
       "license_eligible": 400,
       "review_status": {
-        "pending": 400
+        "approved": 337,
+        "uncertain": 59,
+        "rejected": 4
       },
       "exact_duplicates": 0,
       "in_near_duplicate_clusters": 2,
       "label_conflicts": 0,
-      "training_eligible_images": 0,
-      "training_eligible_groups": 0,
+      "training_eligible_images": 337,
+      "training_eligible_groups": 302,
       "countries": {
         "AU": 189,
         "US": 88,
@@ -758,13 +767,16 @@
       "quality_pass": 399,
       "license_eligible": 400,
       "review_status": {
-        "pending": 400
+        "approved": 338,
+        "uncertain": 59,
+        "rejected": 2,
+        "pending": 1
       },
       "exact_duplicates": 1,
       "in_near_duplicate_clusters": 8,
       "label_conflicts": 0,
-      "training_eligible_images": 0,
-      "training_eligible_groups": 0,
+      "training_eligible_images": 337,
+      "training_eligible_groups": 295,
       "countries": {
         "TW": 239,
         "US": 36,
@@ -793,13 +805,15 @@
       "quality_pass": 400,
       "license_eligible": 400,
       "review_status": {
-        "pending": 400
+        "uncertain": 215,
+        "approved": 182,
+        "rejected": 3
       },
       "exact_duplicates": 1,
       "in_near_duplicate_clusters": 2,
       "label_conflicts": 0,
-      "training_eligible_images": 0,
-      "training_eligible_groups": 0,
+      "training_eligible_images": 181,
+      "training_eligible_groups": 156,
       "countries": {
         "CN": 147,
         "GF": 67,
@@ -828,13 +842,16 @@
       "quality_pass": 398,
       "license_eligible": 400,
       "review_status": {
-        "pending": 400
+        "approved": 238,
+        "uncertain": 159,
+        "pending": 2,
+        "rejected": 1
       },
       "exact_duplicates": 1,
       "in_near_duplicate_clusters": 4,
       "label_conflicts": 0,
-      "training_eligible_images": 0,
-      "training_eligible_groups": 0,
+      "training_eligible_images": 237,
+      "training_eligible_groups": 210,
       "countries": {
         "TW": 166,
         "PH": 58,
@@ -863,13 +880,14 @@
       "quality_pass": 400,
       "license_eligible": 400,
       "review_status": {
-        "pending": 400
+        "approved": 304,
+        "uncertain": 96
       },
       "exact_duplicates": 0,
       "in_near_duplicate_clusters": 2,
       "label_conflicts": 0,
-      "training_eligible_images": 0,
-      "training_eligible_groups": 0,
+      "training_eligible_images": 304,
+      "training_eligible_groups": 292,
       "countries": {
         "IN": 106,
         "BJ": 50,
@@ -898,13 +916,15 @@
       "quality_pass": 399,
       "license_eligible": 400,
       "review_status": {
-        "pending": 400
+        "approved": 276,
+        "uncertain": 123,
+        "pending": 1
       },
       "exact_duplicates": 4,
       "in_near_duplicate_clusters": 8,
       "label_conflicts": 0,
-      "training_eligible_images": 0,
-      "training_eligible_groups": 0,
+      "training_eligible_images": 274,
+      "training_eligible_groups": 271,
       "countries": {
         "US": 129,
         "CR": 88,
@@ -933,13 +953,15 @@
       "quality_pass": 399,
       "license_eligible": 400,
       "review_status": {
-        "pending": 400
+        "approved": 273,
+        "uncertain": 126,
+        "pending": 1
       },
       "exact_duplicates": 1,
       "in_near_duplicate_clusters": 2,
       "label_conflicts": 0,
-      "training_eligible_images": 0,
-      "training_eligible_groups": 0,
+      "training_eligible_images": 272,
+      "training_eligible_groups": 233,
       "countries": {
         "US": 147,
         "PH": 49,

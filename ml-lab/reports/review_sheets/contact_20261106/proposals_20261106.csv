@@ -1,0 +1,794 @@
+image_id,species_id,decision,review_notes
+gbif-6133391079-0,GF-SP-0001,approved,
+gbif-6133420392-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6133423636-0,GF-SP-0001,approved,
+gbif-6147169114-0,GF-SP-0001,approved,
+gbif-6147183998-0,GF-SP-0001,approved,
+gbif-6147192140-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: dried or dead plant / seed heads only
+gbif-6147197780-0,GF-SP-0001,approved,
+gbif-6147206873-0,GF-SP-0001,approved,
+gbif-6147298769-0,GF-SP-0001,approved,
+gbif-6147316524-0,GF-SP-0001,approved,
+gbif-6147325772-0,GF-SP-0001,approved,
+gbif-6147329343-0,GF-SP-0001,approved,
+gbif-6147331730-0,GF-SP-0001,approved,
+gbif-6147428601-0,GF-SP-0001,approved,
+gbif-6147466530-0,GF-SP-0001,approved,
+gbif-6147536806-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6147659107-0,GF-SP-0001,approved,
+gbif-6159157908-0,GF-SP-0001,approved,
+gbif-6159171801-0,GF-SP-0001,approved,
+gbif-6159177092-0,GF-SP-0001,approved,
+gbif-6159220369-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: dried or dead plant / seed heads only
+gbif-6159236906-0,GF-SP-0001,approved,
+gbif-6159265275-0,GF-SP-0001,approved,
+gbif-6159268255-0,GF-SP-0001,approved,
+gbif-6159305640-0,GF-SP-0001,approved,
+gbif-6159319033-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6159352322-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6159381575-0,GF-SP-0001,approved,
+gbif-6159399705-0,GF-SP-0001,approved,
+gbif-6159414760-0,GF-SP-0001,approved,
+gbif-6159415146-0,GF-SP-0001,approved,
+gbif-6159420712-0,GF-SP-0001,approved,
+gbif-6159425237-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6159434971-0,GF-SP-0001,approved,
+gbif-6159470875-0,GF-SP-0001,approved,
+gbif-6159527066-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: dried or dead plant / seed heads only
+gbif-6159533299-0,GF-SP-0001,approved,
+gbif-6159551285-0,GF-SP-0001,approved,
+gbif-6159557220-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6159560473-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: dried or dead plant / seed heads only
+gbif-6159565737-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6159632627-0,GF-SP-0001,approved,
+gbif-6159645060-0,GF-SP-0001,approved,
+gbif-6159651784-0,GF-SP-0001,approved,
+gbif-6159654438-0,GF-SP-0001,approved,
+gbif-6159664319-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: dried or dead plant / seed heads only
+gbif-6159702199-0,GF-SP-0001,approved,
+gbif-6162786300-0,GF-SP-0001,approved,
+gbif-6162793071-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6162860845-0,GF-SP-0001,approved,
+gbif-6162874179-0,GF-SP-0001,approved,
+gbif-6162876171-0,GF-SP-0001,approved,
+gbif-6162911088-0,GF-SP-0001,approved,
+gbif-6163004412-0,GF-SP-0001,approved,
+gbif-6163014758-0,GF-SP-0001,approved,
+gbif-6163028339-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: dried or dead plant / seed heads only
+gbif-6163056190-0,GF-SP-0001,approved,
+gbif-6163133694-0,GF-SP-0001,approved,
+gbif-6163210755-0,GF-SP-0001,approved,
+gbif-6163217053-0,GF-SP-0001,approved,
+gbif-6163289652-0,GF-SP-0001,approved,
+gbif-6163297875-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6163299344-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6163306573-0,GF-SP-0001,approved,
+gbif-6163307273-0,GF-SP-0001,approved,
+gbif-6163339206-0,GF-SP-0001,approved,
+gbif-6163357531-0,GF-SP-0001,approved,
+gbif-6163412560-0,GF-SP-0001,approved,
+gbif-6170837098-0,GF-SP-0001,approved,
+gbif-6170865392-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: may be a different species (look-alike colour or form)
+gbif-6170868440-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: dried or dead plant / seed heads only
+gbif-6170887191-0,GF-SP-0001,approved,
+gbif-6170889787-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6170943427-0,GF-SP-0001,approved,
+gbif-6171053731-0,GF-SP-0001,approved,
+gbif-6171124465-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: may be a different species (look-alike colour or form)
+gbif-6171205371-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6171258830-0,GF-SP-0001,approved,
+gbif-6171262323-0,GF-SP-0001,approved,
+gbif-6178303253-0,GF-SP-0001,approved,
+gbif-6178304071-0,GF-SP-0001,approved,
+gbif-6178346683-0,GF-SP-0001,approved,
+gbif-6178376504-0,GF-SP-0001,approved,
+gbif-6178516429-0,GF-SP-0001,approved,
+gbif-6178676944-0,GF-SP-0001,approved,
+gbif-6178787130-0,GF-SP-0001,approved,
+gbif-6178816742-0,GF-SP-0001,approved,
+gbif-6178837695-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6178846042-0,GF-SP-0001,approved,
+gbif-6178880722-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: dried or dead plant / seed heads only
+gbif-6178915971-0,GF-SP-0001,approved,
+gbif-6179012622-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: dried or dead plant / seed heads only
+gbif-6179018827-0,GF-SP-0001,approved,
+gbif-6179038138-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: dried or dead plant / seed heads only
+gbif-6179049797-0,GF-SP-0001,approved,
+gbif-6179062940-0,GF-SP-0001,approved,
+gbif-6179140170-0,GF-SP-0001,approved,
+gbif-6179177998-0,GF-SP-0001,approved,
+gbif-6179186285-0,GF-SP-0001,approved,
+gbif-6179236789-0,GF-SP-0001,approved,
+gbif-6179258700-0,GF-SP-0001,approved,
+gbif-6179277434-0,GF-SP-0001,approved,
+gbif-6179367808-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6179384395-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: dried or dead plant / seed heads only
+gbif-6179419186-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6179431394-0,GF-SP-0001,approved,
+gbif-6179441221-0,GF-SP-0001,approved,
+gbif-6179496676-0,GF-SP-0001,approved,
+gbif-6179526860-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6179566447-0,GF-SP-0001,approved,
+gbif-6184808393-0,GF-SP-0001,approved,
+gbif-6184824418-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6184848197-0,GF-SP-0001,approved,
+gbif-6184852987-0,GF-SP-0001,approved,
+gbif-6184883552-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6184906979-0,GF-SP-0001,approved,
+gbif-6184939684-0,GF-SP-0001,approved,
+gbif-6184980085-0,GF-SP-0001,approved,
+gbif-6184982709-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: dried or dead plant / seed heads only
+gbif-6185073538-0,GF-SP-0001,approved,
+gbif-6185114549-0,GF-SP-0001,approved,
+gbif-6185172717-0,GF-SP-0001,approved,
+gbif-6185183920-0,GF-SP-0001,approved,
+gbif-6185329284-0,GF-SP-0001,approved,
+gbif-6185358396-0,GF-SP-0001,approved,
+gbif-6185394539-0,GF-SP-0001,approved,
+gbif-6185402299-0,GF-SP-0001,approved,
+gbif-6185403468-0,GF-SP-0001,approved,
+gbif-6185453832-0,GF-SP-0001,approved,
+gbif-6185500704-0,GF-SP-0001,approved,
+gbif-6185525408-0,GF-SP-0001,approved,
+gbif-6185559202-0,GF-SP-0001,approved,
+gbif-6185559685-0,GF-SP-0001,approved,
+gbif-6185606495-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: may be a different species (look-alike colour or form)
+gbif-6185670694-0,GF-SP-0001,approved,
+gbif-6185726763-0,GF-SP-0001,approved,
+gbif-6185728035-0,GF-SP-0001,approved,
+gbif-6185741522-0,GF-SP-0001,approved,
+gbif-6185922923-0,GF-SP-0001,approved,
+gbif-6186020075-0,GF-SP-0001,approved,
+gbif-6186023050-0,GF-SP-0001,approved,
+gbif-6186040868-0,GF-SP-0001,approved,
+gbif-6186046720-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6186113543-0,GF-SP-0001,approved,
+gbif-6186142495-0,GF-SP-0001,approved,
+gbif-6187916284-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: dried or dead plant / seed heads only
+gbif-6187926803-0,GF-SP-0001,approved,
+gbif-6187974994-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: mostly grass; plant hard to see
+gbif-6188112301-0,GF-SP-0001,approved,
+gbif-6188202899-0,GF-SP-0001,approved,
+gbif-6188215713-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6188236929-0,GF-SP-0001,approved,
+gbif-6188255189-0,GF-SP-0001,approved,
+gbif-6188289478-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6188305082-0,GF-SP-0001,approved,
+gbif-6188348726-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: mostly grass; plant hard to see
+gbif-6188526624-0,GF-SP-0001,approved,
+gbif-6188544436-0,GF-SP-0001,approved,
+gbif-6188569748-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: dried or dead plant / seed heads only
+gbif-6188626622-0,GF-SP-0001,approved,
+gbif-6188679203-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: dried or dead plant / seed heads only
+gbif-6195263548-0,GF-SP-0001,approved,
+gbif-6195273126-0,GF-SP-0001,approved,
+gbif-6195281950-0,GF-SP-0001,approved,
+gbif-6195316327-0,GF-SP-0001,approved,
+gbif-6195327373-0,GF-SP-0001,approved,
+gbif-6195333353-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6195338881-0,GF-SP-0001,approved,
+gbif-6195339677-0,GF-SP-0001,approved,
+gbif-6195345501-0,GF-SP-0001,approved,
+gbif-6195411134-0,GF-SP-0001,approved,
+gbif-6195419257-0,GF-SP-0001,approved,
+gbif-6195471207-0,GF-SP-0001,approved,
+gbif-6195471697-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6195501968-0,GF-SP-0001,approved,
+gbif-6195512800-0,GF-SP-0001,approved,
+gbif-6195513289-0,GF-SP-0001,approved,
+gbif-6195532411-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6195573206-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6195575093-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6195588773-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: dried or dead plant / seed heads only
+gbif-6195592491-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: mostly grass; plant hard to see
+gbif-6195607995-0,GF-SP-0001,approved,
+gbif-6195621124-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: mostly grass; plant hard to see
+gbif-6195686935-0,GF-SP-0001,approved,
+gbif-6195702465-0,GF-SP-0001,approved,
+gbif-6195715506-0,GF-SP-0001,approved,
+gbif-6195724303-0,GF-SP-0001,approved,
+gbif-6195724316-0,GF-SP-0001,approved,
+gbif-6195734827-0,GF-SP-0001,approved,
+gbif-6195818852-0,GF-SP-0001,approved,
+gbif-6195846874-0,GF-SP-0001,approved,
+gbif-6195854513-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: dried or dead plant / seed heads only
+gbif-6195856630-0,GF-SP-0001,approved,
+gbif-6195868846-0,GF-SP-0001,approved,
+gbif-6195887231-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6195941049-0,GF-SP-0001,approved,
+gbif-6195962657-0,GF-SP-0001,approved,
+gbif-6195962709-0,GF-SP-0001,approved,
+gbif-6195970491-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6196018486-0,GF-SP-0001,approved,
+gbif-6196024019-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: may be a different species (look-alike colour or form)
+gbif-6213618327-0,GF-SP-0001,approved,
+gbif-6234185047-0,GF-SP-0001,approved,
+gbif-6234208370-0,GF-SP-0001,approved,
+gbif-6234225023-0,GF-SP-0001,approved,
+gbif-6234246422-0,GF-SP-0001,approved,
+gbif-6234255352-0,GF-SP-0001,approved,
+gbif-6234256756-0,GF-SP-0001,approved,
+gbif-6234257531-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: dried or dead plant / seed heads only
+gbif-6234258793-0,GF-SP-0001,approved,
+gbif-6234265886-0,GF-SP-0001,approved,
+gbif-6234308194-0,GF-SP-0001,approved,
+gbif-6234311856-0,GF-SP-0001,approved,
+gbif-6234388991-0,GF-SP-0001,approved,
+gbif-6234397713-0,GF-SP-0001,approved,
+gbif-6234422445-0,GF-SP-0001,approved,
+gbif-6234505787-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: may be a different species (look-alike colour or form)
+gbif-6234522052-0,GF-SP-0001,approved,
+gbif-6234523684-0,GF-SP-0001,approved,
+gbif-6234531403-0,GF-SP-0001,approved,
+gbif-6234534604-0,GF-SP-0001,approved,
+gbif-6234548894-0,GF-SP-0001,approved,
+gbif-6234554494-0,GF-SP-0001,approved,
+gbif-6234561480-0,GF-SP-0001,approved,
+gbif-6234573971-0,GF-SP-0001,approved,
+gbif-6234595543-0,GF-SP-0001,approved,
+gbif-6234608858-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: dried or dead plant / seed heads only
+gbif-6234612421-0,GF-SP-0001,approved,
+gbif-6234613330-0,GF-SP-0001,approved,
+gbif-6234618675-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6234630045-0,GF-SP-0001,approved,
+gbif-6234645064-0,GF-SP-0001,approved,
+gbif-6234650470-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6234674463-0,GF-SP-0001,approved,
+gbif-6234699125-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6234704886-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6234712381-0,GF-SP-0001,approved,
+gbif-6234723820-0,GF-SP-0001,approved,
+gbif-6234780642-0,GF-SP-0001,approved,
+gbif-6234804263-0,GF-SP-0001,approved,
+gbif-6234807579-0,GF-SP-0001,approved,
+gbif-6234810421-0,GF-SP-0001,approved,
+gbif-6234813458-0,GF-SP-0001,approved,
+gbif-6234822054-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6234851717-0,GF-SP-0001,approved,
+gbif-6234907784-0,GF-SP-0001,approved,
+gbif-6234996517-0,GF-SP-0001,approved,
+gbif-6235004434-0,GF-SP-0001,approved,
+gbif-6235009787-0,GF-SP-0001,approved,
+gbif-6235032694-0,GF-SP-0001,approved,
+gbif-6235034419-0,GF-SP-0001,approved,
+gbif-6235035863-0,GF-SP-0001,approved,
+gbif-6235048751-0,GF-SP-0001,approved,
+gbif-6235140194-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6235184139-0,GF-SP-0001,approved,
+gbif-6235195873-0,GF-SP-0001,approved,
+gbif-6235216442-0,GF-SP-0001,approved,
+gbif-6235218338-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6235219669-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6235238479-0,GF-SP-0001,approved,
+gbif-6235241752-0,GF-SP-0001,approved,
+gbif-6235247967-0,GF-SP-0001,approved,
+gbif-6235253484-0,GF-SP-0001,approved,
+gbif-6235263265-0,GF-SP-0001,approved,
+gbif-6235286002-0,GF-SP-0001,approved,
+gbif-6235288253-0,GF-SP-0001,approved,
+gbif-6235289870-0,GF-SP-0001,approved,
+gbif-6235296899-0,GF-SP-0001,approved,
+gbif-6235302050-0,GF-SP-0001,approved,
+gbif-6235314668-0,GF-SP-0001,approved,
+gbif-6235314890-0,GF-SP-0001,approved,
+gbif-6235356791-0,GF-SP-0001,approved,
+gbif-6235362425-0,GF-SP-0001,approved,
+gbif-6235445479-0,GF-SP-0001,approved,
+gbif-6235478004-0,GF-SP-0001,approved,
+gbif-6235536764-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6235542499-0,GF-SP-0001,approved,
+gbif-6235559416-0,GF-SP-0001,approved,
+gbif-6235566972-0,GF-SP-0001,approved,
+gbif-6235585024-0,GF-SP-0001,approved,
+gbif-6235590550-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: may be a different species (look-alike colour or form)
+gbif-6235608930-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6235619333-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6235620843-0,GF-SP-0001,approved,
+gbif-6235625352-0,GF-SP-0001,approved,
+gbif-6235648543-0,GF-SP-0001,approved,
+gbif-6235655482-0,GF-SP-0001,approved,
+gbif-6235682392-0,GF-SP-0001,approved,
+gbif-6235734756-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6235739405-0,GF-SP-0001,approved,
+gbif-6235750856-0,GF-SP-0001,approved,
+gbif-6235770603-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6235781124-0,GF-SP-0001,approved,
+gbif-6235817767-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6235831141-0,GF-SP-0001,approved,
+gbif-6235833942-0,GF-SP-0001,approved,
+gbif-6235842512-0,GF-SP-0001,approved,
+gbif-6235855035-0,GF-SP-0001,approved,
+gbif-6235868856-0,GF-SP-0001,approved,
+gbif-6235870425-0,GF-SP-0001,approved,
+gbif-6235873930-0,GF-SP-0001,approved,
+gbif-6235878333-0,GF-SP-0001,approved,
+gbif-6235880986-0,GF-SP-0001,approved,
+gbif-6235883320-0,GF-SP-0001,approved,
+gbif-6235886834-0,GF-SP-0001,approved,
+gbif-6235915985-0,GF-SP-0001,approved,
+gbif-6235918512-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6235927853-0,GF-SP-0001,approved,
+gbif-6235936324-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6235939963-0,GF-SP-0001,approved,
+gbif-6235995372-0,GF-SP-0001,approved,
+gbif-6236021923-0,GF-SP-0001,approved,
+gbif-6236028028-0,GF-SP-0001,approved,
+gbif-6236036320-0,GF-SP-0001,approved,
+gbif-6236055746-0,GF-SP-0001,approved,
+gbif-6236062763-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6236066953-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6236090968-0,GF-SP-0001,approved,
+gbif-6236094942-0,GF-SP-0001,approved,
+gbif-6236104118-0,GF-SP-0001,approved,
+gbif-6236108476-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6236118392-0,GF-SP-0001,approved,
+gbif-6236124756-0,GF-SP-0001,approved,
+gbif-6236135325-0,GF-SP-0001,approved,
+gbif-6236250448-0,GF-SP-0001,approved,
+gbif-6236366455-0,GF-SP-0001,approved,
+gbif-6251666745-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6252006947-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: may be a different species (look-alike colour or form)
+gbif-6252778759-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6253183734-0,GF-SP-0001,approved,
+gbif-6253288742-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6273396475-0,GF-SP-0001,approved,
+gbif-6273660664-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6273715577-0,GF-SP-0001,approved,
+gbif-6273961917-0,GF-SP-0001,approved,
+gbif-6273997011-0,GF-SP-0001,approved,
+gbif-6274266663-0,GF-SP-0001,approved,
+gbif-6320457494-0,GF-SP-0001,approved,
+gbif-6334756442-0,GF-SP-0001,approved,
+gbif-6334835509-0,GF-SP-0001,approved,
+gbif-6352988351-0,GF-SP-0001,approved,
+gbif-6353209657-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6353300505-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6398577393-0,GF-SP-0001,approved,
+gbif-6398772919-0,GF-SP-0001,approved,
+gbif-6399324431-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: dried or dead plant / seed heads only
+gbif-6399869840-0,GF-SP-0001,approved,
+gbif-6399904434-0,GF-SP-0001,approved,
+gbif-6400041168-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: pressed specimen / photo on paper or table
+gbif-6413065685-0,GF-SP-0001,approved,
+gbif-6413467007-0,GF-SP-0001,approved,
+gbif-6413567877-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6413718118-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6413910694-0,GF-SP-0001,approved,
+gbif-6413989340-0,GF-SP-0001,approved,
+gbif-6431155022-0,GF-SP-0001,approved,
+gbif-6431232717-0,GF-SP-0001,approved,
+gbif-6431701011-0,GF-SP-0001,approved,
+gbif-6441128317-0,GF-SP-0001,approved,
+gbif-6441181466-0,GF-SP-0001,approved,
+gbif-6441218337-0,GF-SP-0001,approved,
+gbif-6441245832-0,GF-SP-0001,approved,
+gbif-6441310970-0,GF-SP-0001,approved,
+gbif-6441311358-0,GF-SP-0001,approved,
+gbif-6441397856-0,GF-SP-0001,approved,
+gbif-6441584549-0,GF-SP-0001,approved,
+gbif-6441688385-0,GF-SP-0001,approved,
+gbif-6441777536-0,GF-SP-0001,approved,
+gbif-6441895558-0,GF-SP-0001,approved,
+gbif-6441899396-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: mostly grass; plant hard to see
+gbif-6441900960-0,GF-SP-0001,approved,
+gbif-6441981405-0,GF-SP-0001,approved,
+gbif-6442114019-0,GF-SP-0001,approved,
+gbif-6480983440-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: dried or dead plant / seed heads only
+gbif-6499319401-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6499446817-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: may be a different species (look-alike colour or form)
+gbif-6519852548-0,GF-SP-0001,approved,
+gbif-6550772831-0,GF-SP-0001,approved,
+gbif-6550793056-0,GF-SP-0001,approved,
+gbif-6551401896-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6552422496-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6552837310-0,GF-SP-0001,approved,
+gbif-6579954718-0,GF-SP-0001,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6869046446-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6869047193-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6869934767-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6870257030-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6870469229-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6870481863-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6870821595-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6870871021-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6871083705-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6871314920-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6871506706-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6871616533-0,GF-SP-0001,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-5006690573-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: no flowers visible; species hard to confirm
+gbif-5006728985-0,GF-SP-0101,approved,
+gbif-5006838062-0,GF-SP-0101,approved,
+gbif-5007227731-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-5007551424-0,GF-SP-0101,approved,
+gbif-5007557785-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: mostly grass; plant hard to see
+gbif-5007602826-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-5007633432-0,GF-SP-0101,approved,
+gbif-5007801856-0,GF-SP-0101,approved,
+gbif-5007808482-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-5008067842-0,GF-SP-0101,approved,
+gbif-5008184422-0,GF-SP-0101,approved,
+gbif-5008411158-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-5008456457-0,GF-SP-0101,approved,
+gbif-5036681308-0,GF-SP-0101,approved,
+gbif-5036685282-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-5036705887-0,GF-SP-0101,approved,
+gbif-5036742618-0,GF-SP-0101,approved,
+gbif-5036833236-0,GF-SP-0101,approved,
+gbif-5036881863-0,GF-SP-0101,approved,
+gbif-5036929979-0,GF-SP-0101,approved,
+gbif-5036969920-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-5037033601-0,GF-SP-0101,approved,
+gbif-5037048928-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: no flowers visible; species hard to confirm
+gbif-5037067999-0,GF-SP-0101,approved,
+gbif-5037073866-0,GF-SP-0101,approved,
+gbif-5037225347-0,GF-SP-0101,approved,
+gbif-5037261693-0,GF-SP-0101,approved,
+gbif-5062940475-0,GF-SP-0101,approved,
+gbif-5062948647-0,GF-SP-0101,approved,
+gbif-5062949618-0,GF-SP-0101,approved,
+gbif-5062963510-0,GF-SP-0101,approved,
+gbif-5062974947-0,GF-SP-0101,approved,
+gbif-5062985745-0,GF-SP-0101,approved,
+gbif-5063005454-0,GF-SP-0101,approved,
+gbif-6251449091-0,GF-SP-0101,approved,
+gbif-6252324373-0,GF-SP-0101,approved,
+gbif-6253158310-0,GF-SP-0101,approved,
+gbif-6253237109-0,GF-SP-0101,approved,
+gbif-6253333103-0,GF-SP-0101,approved,
+gbif-6273162110-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: may be a different species (look-alike colour or form)
+gbif-6273185118-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6273213451-0,GF-SP-0101,approved,
+gbif-6273283148-0,GF-SP-0101,approved,
+gbif-6273284471-0,GF-SP-0101,approved,
+gbif-6273377510-0,GF-SP-0101,approved,
+gbif-6273426818-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6273438705-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6273449541-0,GF-SP-0101,approved,
+gbif-6273451992-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: mostly grass; plant hard to see
+gbif-6273453784-0,GF-SP-0101,approved,
+gbif-6273488076-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6273502028-0,GF-SP-0101,approved,
+gbif-6273504127-0,GF-SP-0101,approved,
+gbif-6273534144-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6273542040-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: no flowers visible; species hard to confirm
+gbif-6273581498-0,GF-SP-0101,approved,
+gbif-6273608422-0,GF-SP-0101,approved,
+gbif-6273627542-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6273653055-0,GF-SP-0101,approved,
+gbif-6273819407-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: mostly grass; plant hard to see
+gbif-6273869732-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: mostly grass; plant hard to see
+gbif-6273903709-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: mostly grass; plant hard to see
+gbif-6273974642-0,GF-SP-0101,approved,
+gbif-6273995582-0,GF-SP-0101,approved,
+gbif-6274072716-0,GF-SP-0101,approved,
+gbif-6274083649-0,GF-SP-0101,approved,
+gbif-6274086754-0,GF-SP-0101,approved,
+gbif-6274091831-0,GF-SP-0101,approved,
+gbif-6274185564-0,GF-SP-0101,approved,
+gbif-6274200877-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: mostly grass; plant hard to see
+gbif-6274200972-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6274213348-0,GF-SP-0101,approved,
+gbif-6274215795-0,GF-SP-0101,approved,
+gbif-6274247481-0,GF-SP-0101,approved,
+gbif-6274252422-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6274276602-0,GF-SP-0101,approved,
+gbif-6274315606-0,GF-SP-0101,approved,
+gbif-6274319938-0,GF-SP-0101,approved,
+gbif-6274338434-0,GF-SP-0101,approved,
+gbif-6274340510-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: mostly grass; plant hard to see
+gbif-6320084320-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: may be a different species (look-alike colour or form)
+gbif-6320095927-0,GF-SP-0101,approved,
+gbif-6320131766-0,GF-SP-0101,approved,
+gbif-6320165619-0,GF-SP-0101,approved,
+gbif-6320201487-0,GF-SP-0101,approved,
+gbif-6320239530-0,GF-SP-0101,approved,
+gbif-6320321752-0,GF-SP-0101,approved,
+gbif-6320340849-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6320405413-0,GF-SP-0101,approved,
+gbif-6320437018-0,GF-SP-0101,approved,
+gbif-6320448820-0,GF-SP-0101,approved,
+gbif-6320463813-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6320567893-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6320671498-0,GF-SP-0101,approved,
+gbif-6320741947-0,GF-SP-0101,approved,
+gbif-6320744903-0,GF-SP-0101,approved,
+gbif-6321113496-0,GF-SP-0101,approved,
+gbif-6321138817-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: mostly grass; plant hard to see
+gbif-6321254941-0,GF-SP-0101,approved,
+gbif-6334432469-0,GF-SP-0101,approved,
+gbif-6334464511-0,GF-SP-0101,approved,
+gbif-6334468490-0,GF-SP-0101,approved,
+gbif-6334481321-0,GF-SP-0101,approved,
+gbif-6334512682-0,GF-SP-0101,approved,
+gbif-6334881613-0,GF-SP-0101,approved,
+gbif-6334958725-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6352271034-0,GF-SP-0101,approved,
+gbif-6352347638-0,GF-SP-0101,approved,
+gbif-6352461055-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6352572693-0,GF-SP-0101,approved,
+gbif-6352696593-0,GF-SP-0101,approved,
+gbif-6352755510-0,GF-SP-0101,approved,
+gbif-6353263792-0,GF-SP-0101,approved,
+gbif-6398596433-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6398609416-0,GF-SP-0101,approved,
+gbif-6398713905-0,GF-SP-0101,approved,
+gbif-6398749585-0,GF-SP-0101,approved,
+gbif-6399082670-0,GF-SP-0101,approved,
+gbif-6399178511-0,GF-SP-0101,approved,
+gbif-6399371741-0,GF-SP-0101,approved,
+gbif-6399437463-0,GF-SP-0101,approved,
+gbif-6399481807-0,GF-SP-0101,approved,
+gbif-6399571869-0,GF-SP-0101,approved,
+gbif-6399682815-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6399686622-0,GF-SP-0101,approved,
+gbif-6399772440-0,GF-SP-0101,approved,
+gbif-6399838400-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: no flowers visible; species hard to confirm
+gbif-6399896499-0,GF-SP-0101,approved,
+gbif-6399946739-0,GF-SP-0101,approved,
+gbif-6400047172-0,GF-SP-0101,approved,
+gbif-6400268823-0,GF-SP-0101,approved,
+gbif-6400367081-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6400389693-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6400425118-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6400443236-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6400492322-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6400519760-0,GF-SP-0101,approved,
+gbif-6400634585-0,GF-SP-0101,approved,
+gbif-6400662418-0,GF-SP-0101,approved,
+gbif-6400753786-0,GF-SP-0101,approved,
+gbif-6400785647-0,GF-SP-0101,approved,
+gbif-6400859733-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6412978031-0,GF-SP-0101,approved,
+gbif-6413075823-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6413505573-0,GF-SP-0101,approved,
+gbif-6413546096-0,GF-SP-0101,approved,
+gbif-6413565487-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6413787860-0,GF-SP-0101,approved,
+gbif-6413870345-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6414071712-0,GF-SP-0101,approved,
+gbif-6414104966-0,GF-SP-0101,approved,
+gbif-6422164343-0,GF-SP-0101,approved,
+gbif-6422226877-0,GF-SP-0101,approved,
+gbif-6422288358-0,GF-SP-0101,approved,
+gbif-6422335041-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6422408370-0,GF-SP-0101,approved,
+gbif-6422495490-0,GF-SP-0101,approved,
+gbif-6423113936-0,GF-SP-0101,approved,
+gbif-6430760588-0,GF-SP-0101,approved,
+gbif-6430796527-0,GF-SP-0101,approved,
+gbif-6430844474-0,GF-SP-0101,approved,
+gbif-6430895990-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6430905804-0,GF-SP-0101,approved,
+gbif-6431035910-0,GF-SP-0101,approved,
+gbif-6431071768-0,GF-SP-0101,approved,
+gbif-6431093718-0,GF-SP-0101,approved,
+gbif-6431180983-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6431262684-0,GF-SP-0101,approved,
+gbif-6431299390-0,GF-SP-0101,approved,
+gbif-6431427554-0,GF-SP-0101,approved,
+gbif-6431431070-0,GF-SP-0101,approved,
+gbif-6431439790-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6431455992-0,GF-SP-0101,approved,
+gbif-6431582645-0,GF-SP-0101,approved,
+gbif-6431828890-0,GF-SP-0101,approved,
+gbif-6431899454-0,GF-SP-0101,approved,
+gbif-6440955477-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6440963698-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6441022087-0,GF-SP-0101,approved,
+gbif-6441109631-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6441126340-0,GF-SP-0101,approved,
+gbif-6441375710-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6441381667-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6441461517-0,GF-SP-0101,approved,
+gbif-6441503773-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6441655458-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: no flowers visible; species hard to confirm
+gbif-6441792493-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: may be a different species (look-alike colour or form)
+gbif-6441802758-0,GF-SP-0101,approved,
+gbif-6441848710-0,GF-SP-0101,approved,
+gbif-6441870083-0,GF-SP-0101,approved,
+gbif-6442084723-0,GF-SP-0101,approved,
+gbif-6451519001-0,GF-SP-0101,approved,
+gbif-6451600998-0,GF-SP-0101,approved,
+gbif-6451616913-0,GF-SP-0101,approved,
+gbif-6451629318-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6451864615-0,GF-SP-0101,approved,
+gbif-6452002061-0,GF-SP-0101,approved,
+gbif-6452224841-0,GF-SP-0101,approved,
+gbif-6452420729-0,GF-SP-0101,approved,
+gbif-6452450887-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: mostly grass; plant hard to see
+gbif-6469603988-0,GF-SP-0101,approved,
+gbif-6469626548-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: mostly grass; plant hard to see
+gbif-6469630124-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6469771130-0,GF-SP-0101,approved,
+gbif-6469809630-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: mostly grass; plant hard to see
+gbif-6469833005-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6469837151-0,GF-SP-0101,approved,
+gbif-6469901323-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6470040514-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: may be a different species (look-alike colour or form)
+gbif-6470066134-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6470081804-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6470140059-0,GF-SP-0101,approved,
+gbif-6470150940-0,GF-SP-0101,approved,
+gbif-6470242791-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6470251813-0,GF-SP-0101,approved,
+gbif-6470259083-0,GF-SP-0101,approved,
+gbif-6470544122-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6470565146-0,GF-SP-0101,approved,
+gbif-6470631696-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6470710592-0,GF-SP-0101,approved,
+gbif-6470759017-0,GF-SP-0101,approved,
+gbif-6479119976-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: mostly grass; plant hard to see
+gbif-6479150655-0,GF-SP-0101,approved,
+gbif-6479414801-0,GF-SP-0101,approved,
+gbif-6479440713-0,GF-SP-0101,approved,
+gbif-6479524637-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: may be a different species (look-alike colour or form)
+gbif-6479607885-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6479725937-0,GF-SP-0101,approved,
+gbif-6479734980-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6479969351-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6480556784-0,GF-SP-0101,approved,
+gbif-6480585819-0,GF-SP-0101,approved,
+gbif-6480607639-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: may be a different species (look-alike colour or form)
+gbif-6480860078-0,GF-SP-0101,approved,
+gbif-6480938768-0,GF-SP-0101,approved,
+gbif-6481210108-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6498151088-0,GF-SP-0101,approved,
+gbif-6498159024-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6498183976-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6498265471-0,GF-SP-0101,approved,
+gbif-6498267406-0,GF-SP-0101,approved,
+gbif-6498277184-0,GF-SP-0101,approved,
+gbif-6498294864-0,GF-SP-0101,approved,
+gbif-6498311988-0,GF-SP-0101,approved,
+gbif-6498382489-0,GF-SP-0101,approved,
+gbif-6498766196-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6498791790-0,GF-SP-0101,approved,
+gbif-6498793525-0,GF-SP-0101,approved,
+gbif-6498813622-0,GF-SP-0101,approved,
+gbif-6498940365-0,GF-SP-0101,approved,
+gbif-6499016224-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: mostly grass; plant hard to see
+gbif-6499146345-0,GF-SP-0101,approved,
+gbif-6499240916-0,GF-SP-0101,approved,
+gbif-6499269153-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6499390566-0,GF-SP-0101,approved,
+gbif-6499547589-0,GF-SP-0101,approved,
+gbif-6499709836-0,GF-SP-0101,approved,
+gbif-6499720193-0,GF-SP-0101,approved,
+gbif-6499768121-0,GF-SP-0101,approved,
+gbif-6499791708-0,GF-SP-0101,approved,
+gbif-6499828272-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: mostly grass; plant hard to see
+gbif-6500061446-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: mostly grass; plant hard to see
+gbif-6500073189-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6500091538-0,GF-SP-0101,approved,
+gbif-6500108600-0,GF-SP-0101,approved,
+gbif-6500143004-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6500147491-0,GF-SP-0101,approved,
+gbif-6500156747-0,GF-SP-0101,approved,
+gbif-6500329753-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6500355322-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6500358610-0,GF-SP-0101,approved,
+gbif-6500437406-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: mostly grass; plant hard to see
+gbif-6500480312-0,GF-SP-0101,approved,
+gbif-6518530290-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6518590665-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6519161731-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6519260334-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6519376491-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6519896912-0,GF-SP-0101,approved,
+gbif-6520047091-0,GF-SP-0101,approved,
+gbif-6520100348-0,GF-SP-0101,approved,
+gbif-6520183139-0,GF-SP-0101,approved,
+gbif-6520255732-0,GF-SP-0101,approved,
+gbif-6520290136-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: may be a different species (look-alike colour or form)
+gbif-6520397505-0,GF-SP-0101,approved,
+gbif-6520468671-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: no flowers visible; species hard to confirm
+gbif-6520584486-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6550783424-0,GF-SP-0101,approved,
+gbif-6550799003-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: no flowers visible; species hard to confirm
+gbif-6551003581-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6551102498-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: may be a different species (look-alike colour or form)
+gbif-6551259940-0,GF-SP-0101,approved,
+gbif-6551285960-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6551341737-0,GF-SP-0101,approved,
+gbif-6551402048-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: no flowers visible; species hard to confirm
+gbif-6551680394-0,GF-SP-0101,approved,
+gbif-6551703940-0,GF-SP-0101,approved,
+gbif-6551726102-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: may be a different species (look-alike colour or form)
+gbif-6551772976-0,GF-SP-0101,approved,
+gbif-6551855175-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6551925318-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6551941724-0,GF-SP-0101,approved,
+gbif-6551946510-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6551982330-0,GF-SP-0101,approved,
+gbif-6552106381-0,GF-SP-0101,approved,
+gbif-6552353978-0,GF-SP-0101,approved,
+gbif-6552492384-0,GF-SP-0101,approved,
+gbif-6552534363-0,GF-SP-0101,approved,
+gbif-6552674392-0,GF-SP-0101,approved,
+gbif-6552873622-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: dried or dead plant / seed heads only
+gbif-6552990357-0,GF-SP-0101,approved,
+gbif-6553134674-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6566375390-0,GF-SP-0101,approved,
+gbif-6566387622-0,GF-SP-0101,approved,
+gbif-6566433598-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6566779175-0,GF-SP-0101,approved,
+gbif-6567045037-0,GF-SP-0101,approved,
+gbif-6567049604-0,GF-SP-0101,approved,
+gbif-6567330792-0,GF-SP-0101,approved,
+gbif-6567372743-0,GF-SP-0101,approved,
+gbif-6567410954-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6567423792-0,GF-SP-0101,approved,
+gbif-6567424876-0,GF-SP-0101,approved,
+gbif-6567502314-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: no flowers visible; species hard to confirm
+gbif-6578866675-0,GF-SP-0101,approved,
+gbif-6578987525-0,GF-SP-0101,approved,
+gbif-6578997863-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6578999852-0,GF-SP-0101,approved,
+gbif-6579042551-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6579144521-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6579262467-0,GF-SP-0101,approved,
+gbif-6579292711-0,GF-SP-0101,approved,
+gbif-6579424674-0,GF-SP-0101,approved,
+gbif-6579539397-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6579552718-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: no flowers visible; species hard to confirm
+gbif-6579749832-0,GF-SP-0101,approved,
+gbif-6579802844-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6869046829-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6869136533-0,GF-SP-0101,approved,
+gbif-6869140982-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: may be a different species (look-alike colour or form)
+gbif-6869173314-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6869188264-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: pressed specimen / photo on paper or table
+gbif-6869192445-0,GF-SP-0101,approved,
+gbif-6869218871-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6869369967-0,GF-SP-0101,approved,
+gbif-6869405464-0,GF-SP-0101,approved,
+gbif-6869429732-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6869457859-0,GF-SP-0101,approved,
+gbif-6869653758-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6869663266-0,GF-SP-0101,approved,
+gbif-6869755942-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: no flowers visible; species hard to confirm
+gbif-6869771690-0,GF-SP-0101,approved,
+gbif-6869818454-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6869864608-0,GF-SP-0101,approved,
+gbif-6869871971-0,GF-SP-0101,approved,
+gbif-6869884817-0,GF-SP-0101,approved,
+gbif-6869898778-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: no flowers visible; species hard to confirm
+gbif-6869900344-0,GF-SP-0101,approved,
+gbif-6869903945-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6869932465-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6869987876-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: mostly grass; plant hard to see
+gbif-6870009336-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6870050088-0,GF-SP-0101,approved,
+gbif-6870156077-0,GF-SP-0101,approved,
+gbif-6870294659-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: no flowers visible; species hard to confirm
+gbif-6870442289-0,GF-SP-0101,approved,
+gbif-6870573492-0,GF-SP-0101,approved,
+gbif-6870733771-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6870799047-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6870800322-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6870876506-0,GF-SP-0101,approved,
+gbif-6870891025-0,GF-SP-0101,approved,
+gbif-6870902314-0,GF-SP-0101,approved,
+gbif-6870961832-0,GF-SP-0101,approved,
+gbif-6871020084-0,GF-SP-0101,approved,
+gbif-6871043608-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6871143921-0,GF-SP-0101,approved,
+gbif-6871203695-0,GF-SP-0101,approved,
+gbif-6871346144-0,GF-SP-0101,approved,
+gbif-6871376116-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: no flowers visible; species hard to confirm
+gbif-6871378878-0,GF-SP-0101,approved,
+gbif-6871466661-0,GF-SP-0101,approved,
+gbif-6871497300-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: may be a different species (look-alike colour or form)
+gbif-6871529145-0,GF-SP-0101,approved,
+gbif-6871540287-0,GF-SP-0101,approved,
+gbif-6871604810-0,GF-SP-0101,approved,
+gbif-6871640112-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6871645113-0,GF-SP-0101,approved,
+gbif-6871696768-0,GF-SP-0101,approved,
+gbif-6871727944-0,GF-SP-0101,uncertain,"flagged in AI-assisted pre-screen: plant unclear (dark, blurry, cluttered or too small)"
+gbif-6871730559-0,GF-SP-0101,approved,
+gbif-6871740807-0,GF-SP-0101,approved,
+gbif-6871752202-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: distant view; plant too small to check
+gbif-6871770478-0,GF-SP-0101,approved,
+gbif-6871808026-0,GF-SP-0101,approved,
+gbif-6871827955-0,GF-SP-0101,uncertain,flagged in AI-assisted pre-screen: may be a different species (look-alike colour or form)

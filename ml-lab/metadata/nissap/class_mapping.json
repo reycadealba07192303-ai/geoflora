@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "dataset_version": "ds-20261104-5bb0dfbfae",
+  "dataset_version": "ds-20261105-4de0c37cb5",
   "num_classes": 21,
   "status": "ready",
   "provisional": false,
@@ -15,7 +15,7 @@
       "family": "Asteraceae",
       "gbif_taxon_key": 3087725,
       "ecological_status": "target_invasive",
-      "status_verification": "unverified",
+      "status_verification": "verified",
       "is_target_invasive": true
     },
     {
@@ -27,7 +27,7 @@
       "family": "Verbenaceae",
       "gbif_taxon_key": 2925303,
       "ecological_status": "target_invasive",
-      "status_verification": "unverified",
+      "status_verification": "verified",
       "is_target_invasive": true
     },
     {
@@ -39,7 +39,7 @@
       "family": "Pontederiaceae",
       "gbif_taxon_key": 2765942,
       "ecological_status": "target_invasive",
-      "status_verification": "unverified",
+      "status_verification": "verified",
       "is_target_invasive": true
     },
     {
@@ -62,9 +62,9 @@
       "common_name": "Mile-a-minute vine",
       "family": "Asteraceae",
       "gbif_taxon_key": 5398421,
-      "ecological_status": "unresolved",
-      "status_verification": "unverified",
-      "is_target_invasive": false
+      "ecological_status": "target_invasive",
+      "status_verification": "verified",
+      "is_target_invasive": true
     },
     {
       "index": 5,
@@ -134,9 +134,9 @@
       "common_name": "Cogon grass",
       "family": "Poaceae",
       "gbif_taxon_key": 8424006,
-      "ecological_status": "unresolved",
-      "status_verification": "unverified",
-      "is_target_invasive": false
+      "ecological_status": "target_invasive",
+      "status_verification": "verified",
+      "is_target_invasive": true
     },
     {
       "index": 11,
@@ -146,9 +146,9 @@
       "common_name": "Ipil-ipil",
       "family": "Fabaceae",
       "gbif_taxon_key": 2970418,
-      "ecological_status": "unresolved",
-      "status_verification": "unverified",
-      "is_target_invasive": false
+      "ecological_status": "target_invasive",
+      "status_verification": "verified",
+      "is_target_invasive": true
     },
     {
       "index": 12,
@@ -158,9 +158,9 @@
       "common_name": "African tulip tree",
       "family": "Bignoniaceae",
       "gbif_taxon_key": 3172574,
-      "ecological_status": "unresolved",
-      "status_verification": "unverified",
-      "is_target_invasive": false
+      "ecological_status": "target_invasive",
+      "status_verification": "verified",
+      "is_target_invasive": true
     },
     {
       "index": 13,
@@ -170,9 +170,9 @@
       "common_name": "Spiked pepper",
       "family": "Piperaceae",
       "gbif_taxon_key": 3086337,
-      "ecological_status": "unresolved",
-      "status_verification": "unverified",
-      "is_target_invasive": false
+      "ecological_status": "target_invasive",
+      "status_verification": "verified",
+      "is_target_invasive": true
     },
     {
       "index": 14,
@@ -182,9 +182,9 @@
       "common_name": "Giant salvinia",
       "family": "Salviniaceae",
       "gbif_taxon_key": 5274863,
-      "ecological_status": "unresolved",
-      "status_verification": "unverified",
-      "is_target_invasive": false
+      "ecological_status": "target_invasive",
+      "status_verification": "verified",
+      "is_target_invasive": true
     },
     {
       "index": 15,
@@ -194,9 +194,9 @@
       "common_name": "Paper mulberry",
       "family": "Moraceae",
       "gbif_taxon_key": 5361944,
-      "ecological_status": "unresolved",
-      "status_verification": "unverified",
-      "is_target_invasive": false
+      "ecological_status": "target_invasive",
+      "status_verification": "verified",
+      "is_target_invasive": true
     },
     {
       "index": 16,
@@ -206,9 +206,9 @@
       "common_name": "Mangium",
       "family": "Fabaceae",
       "gbif_taxon_key": 2979091,
-      "ecological_status": "unresolved",
-      "status_verification": "unverified",
-      "is_target_invasive": false
+      "ecological_status": "target_invasive",
+      "status_verification": "verified",
+      "is_target_invasive": true
     },
     {
       "index": 17,
@@ -218,9 +218,9 @@
       "common_name": "Large-leaf mahogany",
       "family": "Meliaceae",
       "gbif_taxon_key": 3190484,
-      "ecological_status": "unresolved",
-      "status_verification": "unverified",
-      "is_target_invasive": false
+      "ecological_status": "target_invasive",
+      "status_verification": "verified",
+      "is_target_invasive": true
     },
     {
       "index": 18,
@@ -230,9 +230,9 @@
       "common_name": "Gmelina",
       "family": "Lamiaceae",
       "gbif_taxon_key": 8247889,
-      "ecological_status": "unresolved",
-      "status_verification": "unverified",
-      "is_target_invasive": false
+      "ecological_status": "target_invasive",
+      "status_verification": "verified",
+      "is_target_invasive": true
     },
     {
       "index": 19,

@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-04T15:45:28+00:00",
-  "dataset_version": "ds-20261104-5bb0dfbfae",
+  "generated": "2026-11-05T18:07:55+00:00",
+  "dataset_version": "ds-20261105-4de0c37cb5",
   "provisional": false,
   "ready_for_training": true,
   "model_classes": [
@@ -47,8 +47,8 @@
     {
       "species_id": "GF-SP-0001",
       "scientific_name": "Chromolaena odorata",
-      "eligible_images": 376,
-      "eligible_groups": 349,
+      "eligible_images": 668,
+      "eligible_groups": 606,
       "ready": true,
       "reasons": []
     },
@@ -71,8 +71,8 @@
     {
       "species_id": "GF-SP-0101",
       "scientific_name": "Ageratum conyzoides",
-      "eligible_images": 368,
-      "eligible_groups": 348,
+      "eligible_images": 624,
+      "eligible_groups": 592,
       "ready": true,
       "reasons": []
     },
@@ -217,9 +217,9 @@
     "train": {
       "Acacia auriculiformis": 190,
       "Acacia mangium": 124,
-      "Ageratum conyzoides": 257,
+      "Ageratum conyzoides": 436,
       "Broussonetia papyrifera": 235,
-      "Chromolaena odorata": 262,
+      "Chromolaena odorata": 467,
       "Duranta erecta": 206,
       "Eucalyptus deglupta": 192,
       "Gmelina arborea": 212,
@@ -240,9 +240,9 @@
     "val": {
       "Acacia auriculiformis": 41,
       "Acacia mangium": 30,
-      "Ageratum conyzoides": 56,
+      "Ageratum conyzoides": 94,
       "Broussonetia papyrifera": 51,
-      "Chromolaena odorata": 57,
+      "Chromolaena odorata": 101,
       "Duranta erecta": 44,
       "Eucalyptus deglupta": 41,
       "Gmelina arborea": 46,
@@ -263,9 +263,9 @@
     "test": {
       "Acacia auriculiformis": 41,
       "Acacia mangium": 27,
-      "Ageratum conyzoides": 55,
+      "Ageratum conyzoides": 94,
       "Broussonetia papyrifera": 51,
-      "Chromolaena odorata": 57,
+      "Chromolaena odorata": 100,
       "Duranta erecta": 44,
       "Eucalyptus deglupta": 41,
       "Gmelina arborea": 46,
@@ -297,9 +297,9 @@
     "train": {
       "Acacia auriculiformis": 153,
       "Acacia mangium": 106,
-      "Ageratum conyzoides": 244,
+      "Ageratum conyzoides": 414,
       "Broussonetia papyrifera": 205,
-      "Chromolaena odorata": 245,
+      "Chromolaena odorata": 424,
       "Duranta erecta": 197,
       "Eucalyptus deglupta": 190,
       "Gmelina arborea": 202,
@@ -320,9 +320,9 @@
     "val": {
       "Acacia auriculiformis": 40,
       "Acacia mangium": 24,
-      "Ageratum conyzoides": 53,
+      "Ageratum conyzoides": 89,
       "Broussonetia papyrifera": 48,
-      "Chromolaena odorata": 52,
+      "Chromolaena odorata": 94,
       "Duranta erecta": 43,
       "Eucalyptus deglupta": 41,
       "Gmelina arborea": 45,
@@ -343,9 +343,9 @@
     "test": {
       "Acacia auriculiformis": 40,
       "Acacia mangium": 26,
-      "Ageratum conyzoides": 51,
+      "Ageratum conyzoides": 89,
       "Broussonetia papyrifera": 42,
-      "Chromolaena odorata": 52,
+      "Chromolaena odorata": 88,
       "Duranta erecta": 42,
       "Eucalyptus deglupta": 40,
       "Gmelina arborea": 45,
@@ -374,7 +374,7 @@
     }
   },
   "leakage_check": {
-    "images_checked": 6853,
+    "images_checked": 7401,
     "violations": 0,
     "observation_group_cross_split": 0,
     "observation_id_cross_split": 0,

@@ -1,6 +1,6 @@
 # GeoFlora-ML-Lab Dataset Inventory
 
-Generated: 2026-11-04T15:13:46+00:00
+Generated: 2026-11-05T18:07:53+00:00
 
 This inventory describes externally sourced photographs (e.g. GBIF-mediated records). They are **not**
 original GeoFlora field observations and none has been botanically reviewed unless the review columns
@@ -8,22 +8,22 @@ below say so. Only images with `review_status = approved` and a named reviewer c
 
 ## Totals
 
-- Images in manifest: 9150
-- Independent observation groups: 8059
-- Readable: 9150 | Quality pass: 9129 | License eligible: 9150
-- Review status: {'pending': 4265, 'approved': 4014, 'uncertain': 769, 'rejected': 102}
-- Training-eligible (approved + quality + license + not duplicate/conflict): 3997
-- Quality flags: {'low_resolution': 19, 'too_dark': 2}
+- Images in manifest: 9950
+- Independent observation groups: 8770
+- Readable: 9950 | Quality pass: 9926 | License eligible: 9950
+- Review status: {'approved': 7428, 'uncertain': 2370, 'rejected': 126, 'pending': 26}
+- Training-eligible (approved + quality + license + not duplicate/conflict): 7401
+- Quality flags: {'low_resolution': 21, 'too_dark': 3}
 
 ## Per species
 
 | Species ID | Scientific name | Role | Ecological status | Status verified | Images | Obs. groups | Quality pass | Pending review | Approved | Training-eligible imgs / groups | Ready to train? |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| GF-SP-0001 | *Chromolaena odorata* | target | target_invasive | unverified | 400 | 369 | 399 | 1 | 378 | 376 / 349 | yes |
-| GF-SP-0002 | *Lantana camara* | target | target_invasive | unverified | 400 | 355 | 400 | 0 | 348 | 348 / 311 | yes |
-| GF-SP-0003 | *Pontederia crassipes* | target | target_invasive | unverified | 400 | 350 | 399 | 1 | 287 | 285 / 264 | yes |
-| GF-SP-0101 | *Ageratum conyzoides* | lookalike | unresolved | unverified | 400 | 377 | 397 | 3 | 368 | 368 / 348 | n/a (not a training class) |
-| GF-SP-0102 | *Mikania micrantha* | lookalike | unresolved | unverified | 400 | 369 | 399 | 1 | 338 | 337 / 314 | n/a (not a training class) |
+| GF-SP-0001 | *Chromolaena odorata* | target | target_invasive | verified | 800 | 707 | 798 | 3 | 670 | 668 / 606 | yes |
+| GF-SP-0002 | *Lantana camara* | target | target_invasive | verified | 400 | 355 | 400 | 0 | 348 | 348 / 311 | yes |
+| GF-SP-0003 | *Pontederia crassipes* | target | target_invasive | verified | 400 | 350 | 399 | 1 | 287 | 285 / 264 | yes |
+| GF-SP-0101 | *Ageratum conyzoides* | lookalike | unresolved | unverified | 800 | 750 | 795 | 6 | 624 | 624 / 592 | n/a (not a training class) |
+| GF-SP-0102 | *Mikania micrantha* | lookalike | target_invasive | verified | 400 | 369 | 399 | 1 | 338 | 337 / 314 | n/a (not a training class) |
 | GF-SP-0103 | *Lantana montevidensis* | lookalike | unresolved | unverified | 400 | 352 | 398 | 2 | 307 | 307 / 287 | n/a (not a training class) |
 | GF-SP-0104 | *Duranta erecta* | lookalike | unresolved | unverified | 400 | 375 | 400 | 0 | 298 | 294 / 282 | n/a (not a training class) |
 | GF-SP-0105 | *Pistia stratiotes* | lookalike | unresolved | unverified | 400 | 344 | 400 | 0 | 330 | 326 / 288 | n/a (not a training class) |
@@ -34,17 +34,17 @@ below say so. Only images with `review_status = approved` and a named reviewer c
 | GF-SP-0203 | *Ixora coccinea* | unknown_eval | unresolved | unverified | 150 | 144 | 149 | 1 | 135 | 135 / 130 | n/a (not a training class) |
 | GF-SP-0204 | *Bidens pilosa* | unknown_eval | unresolved | unverified | 150 | 118 | 147 | 3 | 122 | 121 / 107 | n/a (not a training class) |
 | GF-SP-0205 | *Ipomoea aquatica* | unknown_eval | unresolved | unverified | 150 | 135 | 149 | 1 | 135 | 135 / 120 | n/a (not a training class) |
-| GF-SP-0206 | *Imperata cylindrica* | unknown_eval | unresolved | unverified | 400 | 363 | 400 | 250 | 103 | 101 / 97 | n/a (not a training class) |
-| GF-SP-0303 | *Leucaena leucocephala* | expansion_candidate | unresolved | unverified | 400 | 368 | 400 | 400 | 0 | 0 / 0 | n/a (not a training class) |
-| GF-SP-0304 | *Spathodea campanulata* | expansion_candidate | unresolved | unverified | 400 | 326 | 399 | 400 | 0 | 0 / 0 | n/a (not a training class) |
-| GF-SP-0305 | *Piper aduncum* | expansion_candidate | unresolved | unverified | 400 | 374 | 400 | 400 | 0 | 0 / 0 | n/a (not a training class) |
-| GF-SP-0308 | *Salvinia molesta* | expansion_candidate | unresolved | unverified | 400 | 341 | 400 | 400 | 0 | 0 / 0 | n/a (not a training class) |
-| GF-SP-0311 | *Broussonetia papyrifera* | expansion_candidate | unresolved | unverified | 400 | 334 | 399 | 400 | 0 | 0 / 0 | n/a (not a training class) |
-| GF-SP-0312 | *Acacia mangium* | expansion_candidate | unresolved | unverified | 400 | 227 | 400 | 400 | 0 | 0 / 0 | n/a (not a training class) |
-| GF-SP-0313 | *Swietenia macrophylla* | expansion_candidate | unresolved | unverified | 400 | 348 | 398 | 400 | 0 | 0 / 0 | n/a (not a training class) |
-| GF-SP-0314 | *Gmelina arborea* | expansion_candidate | unresolved | unverified | 400 | 380 | 400 | 400 | 0 | 0 / 0 | n/a (not a training class) |
-| GF-SP-0315 | *Eucalyptus deglupta* | expansion_candidate | unresolved | unverified | 400 | 386 | 399 | 400 | 0 | 0 / 0 | n/a (not a training class) |
-| GF-SP-0316 | *Acacia auriculiformis* | expansion_candidate | unresolved | unverified | 400 | 317 | 399 | 400 | 0 | 0 / 0 | n/a (not a training class) |
+| GF-SP-0206 | *Imperata cylindrica* | unknown_eval | target_invasive | verified | 400 | 363 | 400 | 0 | 196 | 194 / 187 | n/a (not a training class) |
+| GF-SP-0303 | *Leucaena leucocephala* | expansion_candidate | target_invasive | verified | 400 | 368 | 400 | 0 | 292 | 291 / 275 | n/a (not a training class) |
+| GF-SP-0304 | *Spathodea campanulata* | expansion_candidate | target_invasive | verified | 400 | 326 | 399 | 1 | 161 | 158 / 153 | n/a (not a training class) |
+| GF-SP-0305 | *Piper aduncum* | expansion_candidate | target_invasive | verified | 400 | 374 | 400 | 0 | 372 | 372 / 350 | n/a (not a training class) |
+| GF-SP-0308 | *Salvinia molesta* | expansion_candidate | target_invasive | verified | 400 | 341 | 400 | 0 | 337 | 337 / 302 | n/a (not a training class) |
+| GF-SP-0311 | *Broussonetia papyrifera* | expansion_candidate | target_invasive | verified | 400 | 334 | 399 | 1 | 338 | 337 / 295 | n/a (not a training class) |
+| GF-SP-0312 | *Acacia mangium* | expansion_candidate | target_invasive | verified | 400 | 227 | 400 | 0 | 182 | 181 / 156 | n/a (not a training class) |
+| GF-SP-0313 | *Swietenia macrophylla* | expansion_candidate | target_invasive | verified | 400 | 348 | 398 | 2 | 238 | 237 / 210 | n/a (not a training class) |
+| GF-SP-0314 | *Gmelina arborea* | expansion_candidate | target_invasive | verified | 400 | 380 | 400 | 0 | 304 | 304 / 292 | n/a (not a training class) |
+| GF-SP-0315 | *Eucalyptus deglupta* | expansion_candidate | unresolved | unverified | 400 | 386 | 399 | 1 | 276 | 274 / 271 | n/a (not a training class) |
+| GF-SP-0316 | *Acacia auriculiformis* | expansion_candidate | unresolved | unverified | 400 | 317 | 399 | 1 | 273 | 272 / 233 | n/a (not a training class) |
 
 ## Botanical review requirements
 
@@ -61,5 +61,5 @@ below say so. Only images with `review_status = approved` and a named reviewer c
 
 ## Licensing
 
-Allowed licenses: CC0-1.0, PDM-1.0, CC-BY-4.0, CC-BY-NC-4.0. Non-commercial (NC) licensed images restrict
+Allowed licenses: CC0-1.0, PDM-1.0, CC-BY-4.0, CC-BY-NC-4.0, GEOFLORA-CONTRIBUTOR. Non-commercial (NC) licensed images restrict
 commercial use of the image collection; attribution for every image is stored in `metadata/image_manifest.csv`.

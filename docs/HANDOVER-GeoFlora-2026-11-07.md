@@ -8,7 +8,7 @@ GeoFlora is a web app that identifies invasive alien plants in the Philippines f
 
 | What | Where |
 |---|---|
-| **The app (online)** | **https://geoflora-one.vercel.app** |
+| **The app (online)** | **https://geoflora-ph.vercel.app** (also https://geoflora-one.vercel.app) |
 | Source code | https://github.com/reycadealba07192303-ai/geoflora (public) |
 | Database | MongoDB Atlas, project "geoflora" (free tier, Singapore) |
 | Hosting | Vercel, project "geoflora" (free Hobby plan) |

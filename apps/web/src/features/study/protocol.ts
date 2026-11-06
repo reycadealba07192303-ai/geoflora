@@ -29,3 +29,14 @@ export const SUS_ITEMS = [
 ];
 export const susScore = (answers: number[]) => answers.reduce((sum, value, index) => sum + (index % 2 === 0 ? value - 1 : 5 - value), 0) * 2.5;
 export const TARGETS = { participants: 10, coreCompletion: 0.9, sus: 70 };
+
+// Self-administered questionnaire answered by users in the app ("Feedback survey"), alongside the facilitated sessions.
+export const SURVEY_VERSION = "geoflora-user-survey-v1-2026-11-06";
+// GeoFlora-specific statements, same 1-5 agreement scale as SUS (all phrased positively).
+export const SURVEY_ITEMS = [
+  "The identification result (target invasive / not a target / not sure) was easy to understand.",
+  "The species description helped me recognise the plant.",
+  "Saving a sighting report was quick and easy.",
+  "The map made it easy to see where plants were reported.",
+  "I would use GeoFlora to report invasive plants in my area.",
+];

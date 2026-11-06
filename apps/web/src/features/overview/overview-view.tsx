@@ -47,6 +47,8 @@ export default function OverviewView({ onNavigate }: { onNavigate: (page: PageId
     return () => abort.abort();
   }, []);
   const modelReady = counts?.model.ready === true;
+  const [surveyDone, setSurveyDone] = useState(true);
+  useEffect(() => { fetch("/api/study/survey", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(body => { if (body) setSurveyDone(body.answered); }).catch(() => {}); }, []);
   const today = new Date().toLocaleDateString("en-PH", { timeZone: "Asia/Manila", weekday: "long", month: "long", day: "numeric" });
 
   const metrics = [
@@ -77,6 +79,11 @@ export default function OverviewView({ onNavigate }: { onNavigate: (page: PageId
         </div>
       </div>
     </section>
+
+    {!surveyDone && <section className="content-notice !mt-0 items-center" aria-label="Feedback survey">
+      <span className="flex-1"><strong>Help the GeoFlora study:</strong> answer a 3-minute feedback survey about using the system.</span>
+      <button className="admin-btn is-primary" onClick={() => onNavigate("survey")}>Answer the survey</button>
+    </section>}
 
     <section aria-label="Workspace status" className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
       {metrics.map(metric => <article key={metric.label} className={`metric-card ov-metric ${metric.featured ? "is-featured" : ""}`}>

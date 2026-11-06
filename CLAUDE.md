@@ -12,6 +12,7 @@ GeoFlora is a student thesis system: image-based identification of invasive alie
 | `services/catalog/` | Species catalog service |
 | `ml-lab/` | **Data and training system** (GBIF download, label review, split, train, evaluate, export, lab demo). It has its own `.venv` and `README.md`. Copied from `C:\Users\reyca\geoflowra\GeoFlora-ML-Lab` on 2026-11-05. |
 | `storage/` | Runtime data and models for the app (git-ignored) |
+| Database | **MongoDB Atlas** (free M0, Singapore) since 2026-11-06; `GEOFLORA_MONGODB_URI` in `apps/web/.env.local` (also read by the training worker). The local MongoDB (`mongodb://127.0.0.1:27017/geoflora`) keeps a backup copy from the move. |
 | `docs/`, `plan.md`, `geofora.md` | Project records and plans |
 
 The folder is not a git repo. Before changing app code, make a backup or snapshot (earlier ones are in `C:\Users\reyca\geoflora-backups\`).

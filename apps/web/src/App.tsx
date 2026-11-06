@@ -8,6 +8,7 @@ import AccountSettings from "./features/accounts/account-settings";
 import ManageAccounts from "./features/accounts/manage-accounts";
 import CatalogView from "./features/catalog/catalog-view";
 import StudyRecorder from "./features/study/study-recorder";
+import UserSurvey from "./features/study/user-survey";
 import { ArrowRight, BookOpen, Map, ShieldCheck, Sparkles } from "lucide-react";
 import OverviewView from "./features/overview/overview-view";
 import IdentificationView from "./features/identification/identification-view";
@@ -61,6 +62,8 @@ function App() {
             <ManageAccounts />
           ) : activePage === "study" && user.role === "admin" ? (
             <StudyRecorder />
+          ) : activePage === "survey" ? (
+            <UserSurvey />
           ) : (
             <ComingSoon page={activePage} onBack={() => navigate("overview")} />
           )}
@@ -85,6 +88,7 @@ function ComingSoon({ page, onBack }: { page: PageId; onBack: () => void }) {
     account: "Manage your password and sessions.",
     accounts: "Administrator access is required to manage accounts.",
     study: "Administrator access is required to record usability sessions.",
+    survey: "Tell us how GeoFlora worked for you.",
   };
   const titles: Record<PageId, string> = {
     "report-detail": "Saved field report",
@@ -98,6 +102,7 @@ function ComingSoon({ page, onBack }: { page: PageId; onBack: () => void }) {
     account: "Account settings",
     accounts: "Manage accounts",
     study: "Usability study",
+    survey: "Feedback survey",
   };
   return (
     <section className="surface-card mx-auto mt-8 max-w-2xl px-6 py-12 text-center sm:px-12">
@@ -134,6 +139,7 @@ function pageTitle(page: PageId) {
     account: "Account settings",
     accounts: "Manage accounts",
     study: "Usability study",
+    survey: "Feedback survey",
   };
   return titles[page];
 }

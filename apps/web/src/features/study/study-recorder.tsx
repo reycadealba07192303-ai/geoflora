@@ -3,6 +3,8 @@ import { useCallback, useEffect, useRef, useState, type FormEvent, type ReactNod
 import { CircleCheck, CircleX, ClipboardList, Download, Gauge, Pause, Play, Target, Trash2, Users } from "lucide-react";
 import { CONSENT_VERSION, GROUPS, SUS_ITEMS, susScore, TARGETS, TASKS, type Group } from "./protocol";
 
+interface SurveySummary { responses: number; byGroup: Record<string, number>; meanSus: number | null; meanSusByGroup: Record<string, number | null>; items: { text: string; mean: number | null }[]; comments: string[] }
+
 interface Summary { participants: number; byGroup: Record<string, number>; perTask: { taskId: string; title: string; core: boolean; attempts: number; unassistedCompletion: number | null; medianSeconds: number | null; errors: number }[]; coreCompletion: number | null; meanSus: number | null; targets: { participantsMet: boolean; coreCompletionMet: boolean; susMet: boolean } }
 interface Session { participantCode: string; group: Group; susScore: number; createdAt: string }
 type TaskEntry = { outcome: string; seconds: number; errors: number; notes: string; startedAt: number | null };
@@ -48,6 +50,7 @@ export default function StudyRecorder() {
       <div className="admin-header-actions"><a className="admin-btn is-small" href="/api/study?format=csv"><Download size={14} />Download sessions (CSV)</a></div>
     </header>
     {error && <p role="alert" className="content-notice is-error !mt-0">{error}</p>}{message && <p role="status" className="content-notice !mt-0">{message}</p>}
+    <UserSurveyResults />
 
     {s && <>
       <div className="grid gap-3 md:grid-cols-3" aria-label="Results against targets">
@@ -123,4 +126,24 @@ function TargetCard({ icon, label, value, met, note, pendingText = "No data" }: 
       <span className={`admin-badge ${met === null ? "tone-slate" : met ? "tone-green" : "tone-rose"}`}>{met === null ? pendingText : met ? <><CircleCheck size={11} />Met</> : <><CircleX size={11} />Not met</>}</span></div>
       <p>{label}</p><p>{note}</p></div>
   </div>;
+}
+
+// Answers users gave themselves on the Feedback survey page (one per account, reported without names).
+function UserSurveyResults() {
+  const [data, setData] = useState<SurveySummary | null>(null);
+  useEffect(() => { fetch("/api/study/survey?all=1", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(setData).catch(() => {}); }, []);
+  if (!data) return null;
+  const fmt = (value: number | null, digits = 1) => value === null ? "—" : value.toFixed(digits);
+  return <section className="surface-card admin-panel space-y-4" aria-label="User feedback survey results">
+    <div className="flex flex-wrap items-center justify-between gap-3">
+      <h2 className="admin-panel-title"><span className="admin-icon is-small tone-violet"><Users size={16} /></span><span>Users&apos; own survey answers<small>From the Feedback survey page · {data.responses} response{data.responses === 1 ? "" : "s"}</small></span></h2>
+      <a className="admin-btn is-small" href="/api/study/survey?all=1&format=csv"><Download size={14} />Download answers (CSV)</a>
+    </div>
+    <div className="grid gap-3 sm:grid-cols-4">
+      <div className="rounded-2xl bg-[#f3f6f1] p-4"><p className="text-[11px] text-[var(--muted)]">Mean SUS (target ≥ {TARGETS.sus})</p><p className="text-[26px] font-semibold">{fmt(data.meanSus)}</p></div>
+      {Object.entries(GROUPS).map(([key, name]) => <div key={key} className="rounded-2xl bg-[#f3f6f1] p-4"><p className="text-[11px] text-[var(--muted)]">{name} · {data.byGroup[key] ?? 0}</p><p className="text-[26px] font-semibold">{fmt(data.meanSusByGroup[key] ?? null)}</p></div>)}
+    </div>
+    <table className="admin-table text-[12px]"><thead><tr><th>GeoFlora statement</th><th className="!text-right">Mean (1-5)</th></tr></thead><tbody>{data.items.map(item => <tr key={item.text}><td>{item.text}</td><td className="text-right font-semibold">{fmt(item.mean, 2)}</td></tr>)}</tbody></table>
+    {data.comments.length > 0 && <details><summary className="cursor-pointer text-[12px] font-semibold">Comments ({data.comments.length})</summary><ul className="mt-2 list-disc space-y-1 pl-5 text-[12px]">{data.comments.map((comment, i) => <li key={i} className="whitespace-pre-wrap">{comment}</li>)}</ul></details>}
+  </section>;
 }

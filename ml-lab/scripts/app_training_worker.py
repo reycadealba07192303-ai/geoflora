@@ -33,6 +33,7 @@ CONFIG = "configs/expansion_nissap_v2.yaml"
 ONNX_PY = LAB / ".venv-onnx" / "Scripts" / "python.exe"
 WEB_MODELS = GEOFLORA / "apps" / "web" / "models"
 STATE = LAB / "metadata" / "app_training_state.json"
+MONGO_URI = ""  # set in main() from GEOFLORA_MONGODB_URI (apps/web/.env.local)
 
 
 def log(message):
@@ -150,7 +151,7 @@ def install_approved(db):
 
 def one_pass(db, min_new):
     db.worker_status.replace_one({"_id": "auto_training"}, {"database": db.name, "stage": "checking new reports", "pid": os.getpid(), "updatedAt": datetime.now(timezone.utc).isoformat()}, upsert=True)
-    print(run(["scripts/import_app_reports.py"]).strip(), flush=True)
+    print(run(["scripts/import_app_reports.py", "--mongo-uri", MONGO_URI]).strip(), flush=True)
     install_approved(db)
     current = state()
     new = [i for i in app_images() if i not in set(current["trained_app_images"])]
@@ -170,7 +171,9 @@ def main():
     p.add_argument("--min-new", type=int, default=int(os.environ.get("GEOFLORA_RETRAIN_MIN_NEW", "20")), help="new report photos needed to retrain")
     args = p.parse_args()
     from pymongo import MongoClient
-    db = MongoClient(env_value("GEOFLORA_MONGODB_URI") or "mongodb://127.0.0.1:27017/geoflora", serverSelectionTimeoutMS=8000).get_default_database()
+    global MONGO_URI
+    MONGO_URI = env_value("GEOFLORA_MONGODB_URI") or "mongodb://127.0.0.1:27017/geoflora"
+    db = MongoClient(MONGO_URI, serverSelectionTimeoutMS=15000).get_default_database()
     while True:
         try:
             one_pass(db, args.min_new)

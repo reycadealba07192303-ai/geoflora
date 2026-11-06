@@ -1,12 +1,12 @@
 {
-  "version": "geoflora-ensemble-21cls-v1v2+3cls",
+  "version": "geoflora-ensemble-21cls-v1v3+3cls",
   "members": [
     "geoflora-mnv2-21cls-v1",
-    "geoflora-mnv2-21cls-v2"
+    "geoflora-mnv2-21cls-v3"
   ],
   "confirm": "geoflora-mnv2-3cls-v2",
   "threshold": 0.69,
   "confirmThreshold": 0.9682667255401611,
-  "notes": "Chosen 2026-11-06 on the developer's request to pick the best option (assistant recommendation). Thresholds chosen on validation only: 0.69 = Youden J of the v1+v2 average (val vs unknown_val); 0.968 = 3-class model's validation threshold. Test (931 photos): top-1 83.2%, answered as sure 63.5%, accuracy when sure 96.4%, Hagonoy/Lantana/water hyacinth found 118/152. confirmFloor 0.6: the 3-class model may confirm only when the ensemble's top score is at least 0.6 (chosen on validation: Youden-style J of val vs unknown_val); without it, unknown plants were confirmed as targets from ensemble scores as low as 0.23.",
+  "notes": "2026-11-07 handover: members v1 + v3 (v3 = v2 recipe + 546 newly reviewed Hagonoy/Ageratum photos), replacing v2 with the owner's OK. Same thresholds (0.69 sure, 3-class confirm at 0.968 when the ensemble score >= 0.60, chosen on validation earlier). Lab test, 931 photos: top-1 84.2% (v1+v2 83.2%), accuracy when sure 98.4%, Hagonoy recall 77.2% (73.7%); larger test, 1,013 photos: top-1 82.8%, Hagonoy 66.0%, Ageratum 74.5%. Previous setup: ensemble.before-geoflora-mnv2-21cls-v3.json.",
   "confirmFloor": 0.6
 }

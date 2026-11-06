@@ -1,0 +1,23 @@
+{
+  "input_size": [
+    224,
+    224,
+    3
+  ],
+  "color_space": "RGB",
+  "steps": [
+    "Decode image; apply EXIF orientation (PIL.ImageOps.exif_transpose); convert to RGB (alpha composited on white).",
+    "Optional but recommended for parity with training: re-encode as JPEG quality 95 and decode.",
+    "Resize to 224x224 with bilinear interpolation (tf.image.resize, method='bilinear'); aspect ratio NOT preserved.",
+    "Cast to float32 with values in [0, 255]; add batch dimension.",
+    "Do NOT apply MobileNetV2 preprocess_input - scaling to [-1, 1] is performed inside the model."
+  ],
+  "input_dtype": "float32",
+  "input_range": [
+    0,
+    255
+  ],
+  "batch_axis": 0,
+  "output": "softmax probabilities over class_mapping.json classes (index order)",
+  "reference_implementation": "geoflora_ml/inference.py::preprocess_image"
+}

@@ -57,3 +57,19 @@ Next.js notices the changed `ensemble.json` and reloads the models by itself. To
 
 - `next.config.ts` marks `onnxruntime-node` as a server external package and includes `models/**` in the API routes' file tracing.
 - `onnxruntime-node` ships binaries for every platform (about 294 MB in `node_modules`). Before deploying to Vercel (250 MB function limit), exclude the non-Linux binaries in `outputFileTracingExcludes` and test a preview deployment.
+
+## Update 2026-11-07: v3 replaces v2
+
+v3 uses the v2 recipe and adds 546 newly reviewed Hagonoy and Ageratum photos (`docs/HANDOVER-GeoFlora-2026-11-07.md`). The ensemble is now **v1 + v3 (+ 3cls confirm)**, and the thresholds are unchanged.
+
+| Test set | Ensemble | Top-1 | Accuracy when sure | Hagonoy recall | Ageratum recall |
+|---|---|---|---|---|---|
+| Old test (931 photos) | v1+v2 | 83.2% | 98.0% | 73.7% | 67.3% |
+| Old test (931 photos) | **v1+v3** | **84.2%** | **98.4%** | **77.2%** | 67.3% |
+| Larger test (1,013 photos) | v1+v2 | 81.4% | 97.0% | 61.0% | 72.3% |
+| Larger test (1,013 photos) | **v1+v3** | **82.8%** | **97.3%** | **66.0%** | **74.5%** |
+
+- Measured in the lab (bilinear resize, 3-class confirm not included).
+- Mikania recall fell slightly, from 68.6% to 66.7% on the old test.
+- ONNX check for v3: 169 photos, 100% top-1 agreement.
+- Rollback: `models/ensemble.before-geoflora-mnv2-21cls-v3.json`.

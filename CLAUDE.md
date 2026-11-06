@@ -7,7 +7,7 @@ GeoFlora is a student thesis system: image-based identification of invasive alie
 | Path | What it is |
 |---|---|
 | `apps/web/` | Next.js app (http://127.0.0.1:5173). Read `apps/web/AGENTS.md` before editing. The dev server runs detached and logs to `storage/logs/web-dev.log`. Restart it after a mongoose schema change, because the dev server caches models. Identify flow: `docs/simple-identify-flow-2026-11-05.md`. |
-| `apps/web/models/` | **The live classifier, running inside Next.js** (ONNX, `src/lib/classifier.ts`). `ensemble.json` = 21cls v1+v2 averaged, with 3cls-v2 confirming uncertain Hagonoy/Lantana/hyacinth guesses when the ensemble score is at least 0.60. See `docs/ml-in-nextjs.md`. |
+| `apps/web/models/` | **The live classifier, running inside Next.js** (ONNX, `src/lib/classifier.ts`). `ensemble.json` = 21cls v1+v3 averaged (since 2026-11-07; v3 adds 546 reviewed Hagonoy/Ageratum photos), with 3cls-v2 confirming uncertain Hagonoy/Lantana/hyacinth guesses when the ensemble score is at least 0.60. See `docs/ml-in-nextjs.md`. |
 | `services/ml/` | Old FastAPI inference service. No longer needed; it is used only if `GEOFLORA_ML_MODE=remote`. |
 | `services/catalog/` | Species catalog service |
 | `ml-lab/` | **Data and training system** (GBIF download, label review, split, train, evaluate, export, lab demo). It has its own `.venv` and `README.md`. Copied from `C:\Users\reyca\geoflowra\GeoFlora-ML-Lab` on 2026-11-05. |

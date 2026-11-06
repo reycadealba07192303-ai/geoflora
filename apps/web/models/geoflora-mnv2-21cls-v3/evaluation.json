@@ -1,0 +1,371 @@
+{
+  "source": "GeoFlora-ML-Lab independent test split (observation-group isolated; threshold chosen on validation only)",
+  "model_version": "geoflora-mnv2-21cls-v3",
+  "dataset_version": "ds-20261105-4de0c37cb5",
+  "accuracy": 0.8203356367226061,
+  "accuracy_ci95": [
+    0.7952809746878196,
+    0.8435123744906567
+  ],
+  "macroF1": 0.8333977081700732,
+  "class_order": [
+    "Chromolaena odorata",
+    "Lantana camara",
+    "Pontederia crassipes",
+    "Ageratum conyzoides",
+    "Mikania micrantha",
+    "Lantana montevidensis",
+    "Duranta erecta",
+    "Pistia stratiotes",
+    "Pontederia vaginalis",
+    "Limnocharis flava",
+    "Imperata cylindrica",
+    "Leucaena leucocephala",
+    "Spathodea campanulata",
+    "Piper aduncum",
+    "Salvinia molesta",
+    "Broussonetia papyrifera",
+    "Acacia mangium",
+    "Swietenia macrophylla",
+    "Gmelina arborea",
+    "Eucalyptus deglupta",
+    "Acacia auriculiformis"
+  ],
+  "classification_report": {
+    "Chromolaena odorata": {
+      "precision": 0.7777777777777778,
+      "recall": 0.63,
+      "f1-score": 0.6961325966850829,
+      "support": 100
+    },
+    "Lantana camara": {
+      "precision": 1.0,
+      "recall": 0.9423076923076923,
+      "f1-score": 0.9702970297029703,
+      "support": 52
+    },
+    "Pontederia crassipes": {
+      "precision": 0.7692307692307693,
+      "recall": 0.9302325581395349,
+      "f1-score": 0.8421052631578947,
+      "support": 43
+    },
+    "Ageratum conyzoides": {
+      "precision": 0.92,
+      "recall": 0.7340425531914894,
+      "f1-score": 0.8165680473372781,
+      "support": 94
+    },
+    "Mikania micrantha": {
+      "precision": 0.6363636363636364,
+      "recall": 0.5490196078431373,
+      "f1-score": 0.5894736842105263,
+      "support": 51
+    },
+    "Lantana montevidensis": {
+      "precision": 0.88,
+      "recall": 0.9565217391304348,
+      "f1-score": 0.9166666666666666,
+      "support": 46
+    },
+    "Duranta erecta": {
+      "precision": 0.9722222222222222,
+      "recall": 0.7954545454545454,
+      "f1-score": 0.875,
+      "support": 44
+    },
+    "Pistia stratiotes": {
+      "precision": 0.8301886792452831,
+      "recall": 0.8979591836734694,
+      "f1-score": 0.8627450980392157,
+      "support": 49
+    },
+    "Pontederia vaginalis": {
+      "precision": 0.9142857142857143,
+      "recall": 0.7111111111111111,
+      "f1-score": 0.8,
+      "support": 45
+    },
+    "Limnocharis flava": {
+      "precision": 0.975,
+      "recall": 0.9069767441860465,
+      "f1-score": 0.9397590361445783,
+      "support": 43
+    },
+    "Imperata cylindrica": {
+      "precision": 1.0,
+      "recall": 0.9655172413793104,
+      "f1-score": 0.9824561403508771,
+      "support": 29
+    },
+    "Leucaena leucocephala": {
+      "precision": 0.9302325581395349,
+      "recall": 0.9090909090909091,
+      "f1-score": 0.9195402298850575,
+      "support": 44
+    },
+    "Spathodea campanulata": {
+      "precision": 0.8846153846153846,
+      "recall": 0.9583333333333334,
+      "f1-score": 0.92,
+      "support": 24
+    },
+    "Piper aduncum": {
+      "precision": 0.6363636363636364,
+      "recall": 1.0,
+      "f1-score": 0.7777777777777778,
+      "support": 56
+    },
+    "Salvinia molesta": {
+      "precision": 0.9111111111111111,
+      "recall": 0.803921568627451,
+      "f1-score": 0.8541666666666666,
+      "support": 51
+    },
+    "Broussonetia papyrifera": {
+      "precision": 0.59375,
+      "recall": 0.7450980392156863,
+      "f1-score": 0.6608695652173913,
+      "support": 51
+    },
+    "Acacia mangium": {
+      "precision": 0.6571428571428571,
+      "recall": 0.8518518518518519,
+      "f1-score": 0.7419354838709677,
+      "support": 27
+    },
+    "Swietenia macrophylla": {
+      "precision": 0.7333333333333333,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.8148148148148148,
+      "support": 36
+    },
+    "Gmelina arborea": {
+      "precision": 0.7547169811320755,
+      "recall": 0.8695652173913043,
+      "f1-score": 0.8080808080808081,
+      "support": 46
+    },
+    "Eucalyptus deglupta": {
+      "precision": 0.975,
+      "recall": 0.9512195121951219,
+      "f1-score": 0.9629629629629629,
+      "support": 41
+    },
+    "Acacia auriculiformis": {
+      "precision": 0.8709677419354839,
+      "recall": 0.6585365853658537,
+      "f1-score": 0.75,
+      "support": 41
+    },
+    "macro avg": {
+      "precision": 0.8391572572808961,
+      "recall": 0.8420679361978546,
+      "f1-score": 0.8333977081700732,
+      "support": 1013
+    }
+  },
+  "confidence_threshold": 0.7147310376167297,
+  "threshold_basis": "youden on validation (val + unknown_val); test sets not used",
+  "unsupported_species": {
+    "known_images": 1013,
+    "known_acceptance_rate": 0.6041461006910168,
+    "accuracy_on_accepted_known": 0.9526143790849673,
+    "known_correct_and_accepted_rate": 0.5755182625863771,
+    "unknown_images": 408,
+    "unknown_false_acceptance_rate_without_rejection": 1.0,
+    "unknown_false_acceptance_rate_with_threshold": 0.2647058823529412,
+    "auroc_known_vs_unknown": 0.7380112459593906
+  },
+  "classes": [
+    {
+      "id": "chromolaena_odorata",
+      "scientific_name": "Chromolaena odorata",
+      "common_name": "Hagonoy",
+      "role": "invasive",
+      "lab_species_id": "GF-SP-0001",
+      "ecological_status": "target_invasive",
+      "status_verification": "verified"
+    },
+    {
+      "id": "lantana_camara",
+      "scientific_name": "Lantana camara",
+      "common_name": "Lantana",
+      "role": "invasive",
+      "lab_species_id": "GF-SP-0002",
+      "ecological_status": "target_invasive",
+      "status_verification": "verified"
+    },
+    {
+      "id": "pontederia_crassipes",
+      "scientific_name": "Pontederia crassipes",
+      "common_name": "Water Hyacinth",
+      "role": "invasive",
+      "lab_species_id": "GF-SP-0003",
+      "ecological_status": "target_invasive",
+      "status_verification": "verified"
+    },
+    {
+      "id": "ageratum_conyzoides",
+      "scientific_name": "Ageratum conyzoides",
+      "common_name": "Billygoat weed",
+      "role": "lookalike",
+      "lab_species_id": "GF-SP-0101",
+      "ecological_status": "unresolved",
+      "status_verification": "unverified"
+    },
+    {
+      "id": "mikania_micrantha",
+      "scientific_name": "Mikania micrantha",
+      "common_name": "Mile-a-minute vine",
+      "role": "invasive",
+      "lab_species_id": "GF-SP-0102",
+      "ecological_status": "target_invasive",
+      "status_verification": "verified"
+    },
+    {
+      "id": "lantana_montevidensis",
+      "scientific_name": "Lantana montevidensis",
+      "common_name": "Trailing lantana",
+      "role": "lookalike",
+      "lab_species_id": "GF-SP-0103",
+      "ecological_status": "unresolved",
+      "status_verification": "unverified"
+    },
+    {
+      "id": "duranta_erecta",
+      "scientific_name": "Duranta erecta",
+      "common_name": "Golden dewdrop",
+      "role": "lookalike",
+      "lab_species_id": "GF-SP-0104",
+      "ecological_status": "unresolved",
+      "status_verification": "unverified"
+    },
+    {
+      "id": "pistia_stratiotes",
+      "scientific_name": "Pistia stratiotes",
+      "common_name": "Water lettuce",
+      "role": "lookalike",
+      "lab_species_id": "GF-SP-0105",
+      "ecological_status": "unresolved",
+      "status_verification": "unverified"
+    },
+    {
+      "id": "pontederia_vaginalis",
+      "scientific_name": "Pontederia vaginalis",
+      "common_name": "Gabi-gabi",
+      "role": "lookalike",
+      "lab_species_id": "GF-SP-0106",
+      "ecological_status": "unresolved",
+      "status_verification": "unverified"
+    },
+    {
+      "id": "limnocharis_flava",
+      "scientific_name": "Limnocharis flava",
+      "common_name": "Yellow velvetleaf",
+      "role": "lookalike",
+      "lab_species_id": "GF-SP-0107",
+      "ecological_status": "unresolved",
+      "status_verification": "unverified"
+    },
+    {
+      "id": "imperata_cylindrica",
+      "scientific_name": "Imperata cylindrica",
+      "common_name": "Cogon",
+      "role": "invasive",
+      "lab_species_id": "GF-SP-0206",
+      "ecological_status": "target_invasive",
+      "status_verification": "verified"
+    },
+    {
+      "id": "leucaena_leucocephala",
+      "scientific_name": "Leucaena leucocephala",
+      "common_name": "Ipil-ipil",
+      "role": "invasive",
+      "lab_species_id": "GF-SP-0303",
+      "ecological_status": "target_invasive",
+      "status_verification": "verified"
+    },
+    {
+      "id": "spathodea_campanulata",
+      "scientific_name": "Spathodea campanulata",
+      "common_name": "African tulip tree",
+      "role": "invasive",
+      "lab_species_id": "GF-SP-0304",
+      "ecological_status": "target_invasive",
+      "status_verification": "verified"
+    },
+    {
+      "id": "piper_aduncum",
+      "scientific_name": "Piper aduncum",
+      "common_name": "Buyo-buyo",
+      "role": "invasive",
+      "lab_species_id": "GF-SP-0305",
+      "ecological_status": "target_invasive",
+      "status_verification": "verified"
+    },
+    {
+      "id": "salvinia_molesta",
+      "scientific_name": "Salvinia molesta",
+      "common_name": "Giant salvinia",
+      "role": "invasive",
+      "lab_species_id": "GF-SP-0308",
+      "ecological_status": "target_invasive",
+      "status_verification": "verified"
+    },
+    {
+      "id": "broussonetia_papyrifera",
+      "scientific_name": "Broussonetia papyrifera",
+      "common_name": "Paper mulberry",
+      "role": "invasive",
+      "lab_species_id": "GF-SP-0311",
+      "ecological_status": "target_invasive",
+      "status_verification": "verified"
+    },
+    {
+      "id": "acacia_mangium",
+      "scientific_name": "Acacia mangium",
+      "common_name": "Mangium",
+      "role": "invasive",
+      "lab_species_id": "GF-SP-0312",
+      "ecological_status": "target_invasive",
+      "status_verification": "verified"
+    },
+    {
+      "id": "swietenia_macrophylla",
+      "scientific_name": "Swietenia macrophylla",
+      "common_name": "Large-leaf mahogany",
+      "role": "invasive",
+      "lab_species_id": "GF-SP-0313",
+      "ecological_status": "target_invasive",
+      "status_verification": "verified"
+    },
+    {
+      "id": "gmelina_arborea",
+      "scientific_name": "Gmelina arborea",
+      "common_name": "Gmelina",
+      "role": "invasive",
+      "lab_species_id": "GF-SP-0314",
+      "ecological_status": "target_invasive",
+      "status_verification": "verified"
+    },
+    {
+      "id": "eucalyptus_deglupta",
+      "scientific_name": "Eucalyptus deglupta",
+      "common_name": "Bagras",
+      "role": "lookalike",
+      "lab_species_id": "GF-SP-0315",
+      "ecological_status": "unresolved",
+      "status_verification": "unverified"
+    },
+    {
+      "id": "acacia_auriculiformis",
+      "scientific_name": "Acacia auriculiformis",
+      "common_name": "Auri",
+      "role": "lookalike",
+      "lab_species_id": "GF-SP-0316",
+      "ecological_status": "unresolved",
+      "status_verification": "unverified"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "run": "run-20261105T180911Z-nissap21-v3-hagonoy-ageratum",
+  "test_images": 1013,
+  "accuracy": 0.8203356367226061,
+  "accuracy_ci": [
+    0.7973086239760375,
+    0.8423243997852561
+  ],
+  "macro_f1": 0.8333977081700732,
+  "weighted_f1": 0.8204074950798687,
+  "unsupported_species": {
+    "known_images": 1013,
+    "known_acceptance_rate": 0.6041461006910168,
+    "accuracy_on_accepted_known": 0.9526143790849673,
+    "known_correct_and_accepted_rate": 0.5755182625863771,
+    "unknown_images": 408,
+    "unknown_false_acceptance_rate_without_rejection": 1.0,
+    "unknown_false_acceptance_rate_with_threshold": 0.2647058823529412,
+    "auroc_known_vs_unknown": 0.7380112459593906
+  }
+}
+Report: C:\Users\reyca\geoflora\ml-lab\models\checkpoints\nissap\run-20261105T180911Z-nissap21-v3-hagonoy-ageratum\evaluation\research_evaluation_report.md

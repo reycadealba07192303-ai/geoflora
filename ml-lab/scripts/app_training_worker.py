@@ -169,6 +169,11 @@ def install_approved(db):
 
 
 def one_pass(db, min_new):
+    # Cloud training (.github/workflows/training.yml) took over on 2026-11-07; this laptop worker stays idle so the
+    # two never import the same reports. Delete the cloud_training_state document to hand the work back.
+    if db.cloud_training_state.find_one({"_id": "nissap21"}):
+        log("cloud training is active; laptop worker idle")
+        return
     db.worker_status.replace_one({"_id": "auto_training"}, {"database": db.name, "stage": "checking new reports", "pid": os.getpid(), "updatedAt": datetime.now(timezone.utc).isoformat()}, upsert=True)
     print(run(["scripts/import_app_reports.py", "--mongo-uri", MONGO_URI]).strip(), flush=True)
     install_approved(db)

@@ -38,7 +38,7 @@ GeoFlora is a web app that identifies invasive alien plants in the Philippines f
 - **Review & training → To check:** for each report, press **Approve** (the AI is right) or **Correct** (choose the right species). **Reject** is for photos that are not plants.
 - **Automatic training:**
   - Photos the AI **did not** get right (not sure, disputed or corrected) and that you approved or corrected are added to the training data, if the contributor allowed it. Allowing it is on by default.
-  - After **20** such photos, the system retrains the model on the developer's computer.
+  - After **20** such photos, the system retrains the model in the cloud (GitHub Actions).
   - If the new model is better, it appears under **Review & training** as **Approve new model**. It goes live only after you approve it.
 - **Feedback survey (results):**
   - Administrators see the survey results above the form: mean SUS overall and per group, the 5 GeoFlora statements and the comments. Names are never shown.
@@ -118,7 +118,7 @@ The weakest classes are Hagonoy and Mikania. They look alike, and each is often 
 | Web app + AI | Vercel Hobby | Non-commercial use; up to 12 server functions per deployment. The app currently fits. |
 | Data and report photos | MongoDB Atlas M0 | 512 MB storage; about 50 MB is used now. Report photos are stored in the database, so watch it as reports grow. |
 | Code | GitHub | Every push to `main` redeploys the app automatically. |
-| Training | Developer's computer (`ml-lab/`) | Needs Python and TensorFlow, and takes 1-2 hours per training run on CPU. |
+| Training | GitHub Actions (cloud) | Free for public repositories. A training run takes about 2 hours and is allowed up to 6 hours. |
 
 ## 7. Protection and automatic checks
 
@@ -143,10 +143,11 @@ The weakest classes are Hagonoy and Mikania. They look alike, and each is often 
 
 ## 8. Maintenance
 
-- **Training worker:**
-  - The Windows task **"GeoFlora training worker"** starts it automatically every time the developer signs in to the laptop. It restarts by itself if it crashes. Its log is `storage/logs/app-training-worker.log`.
-  - It needs the laptop to be on. While the laptop is off, approved photos simply wait in the database, and nothing is lost.
-
+- **Automatic training runs in the cloud** (GitHub Actions, workflow **Cloud training**, every 30 minutes). No computer needs to be on.
+  - The training photos are kept privately in the MongoDB Atlas database, about 150 MB.
+  - When 20 new approved or corrected report photos are waiting, it retrains (about 2 hours), compares the new model with the live one, and offers it under **Review & training → Approve new model**.
+  - After approval, the next run activates the model and pushes it to GitHub. Vercel then updates the online app.
+  - Runs and logs are in the repository's **Actions** tab. It needs the repository secret `GEOFLORA_MONGODB_URI`.
 - **Back up the data:** Atlas → Cluster → **Backup** is not included in the free tier. Instead, ask the developer to export the database, as was done when moving from the local database.
 - **Undo a model change:**
   - Each approved model saves the previous setup as `apps/web/models/ensemble.before-<version>.json`.

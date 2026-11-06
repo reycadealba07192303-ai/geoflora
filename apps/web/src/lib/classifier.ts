@@ -17,18 +17,20 @@ interface Ensemble { version: string; members: Member[]; confirm: Member | null;
 export interface Candidate { species: Species; confidence: number }
 export interface Prediction { status: "identified" | "uncertain"; species: Species | null; confidence: number; confidence_threshold: number; candidates: Candidate[]; model_version: string; confirmed_by?: string }
 
-export const MODELS_DIR = process.env.GEOFLORA_MODELS_DIR ?? path.join(process.cwd(), "models");
+// turbopackIgnore: models/ is added to the bundle by outputFileTracingIncludes in next.config.ts, so the build does not
+// trace the whole project from this runtime path.
+export const MODELS_DIR = process.env.GEOFLORA_MODELS_DIR ?? path.join(/*turbopackIgnore: true*/ process.cwd(), "models");
 export class ImageError extends Error {}
 
 const shared = globalThis as typeof globalThis & { geofloraEnsemble?: Promise<Ensemble>; geofloraEnsembleStamp?: string };
 
 async function load(): Promise<Ensemble> {
   const ort: Ort = await import("onnxruntime-node");
-  const config = JSON.parse(await readFile(path.join(MODELS_DIR, "ensemble.json"), "utf8")) as { version: string; members: string[]; confirm?: string | null; threshold: number; confirmThreshold?: number; confirmFloor?: number };
+  const config = JSON.parse(await readFile(path.join(/*turbopackIgnore: true*/ MODELS_DIR, "ensemble.json"), "utf8")) as { version: string; members: string[]; confirm?: string | null; threshold: number; confirmThreshold?: number; confirmFloor?: number };
   const open = async (version: string): Promise<Member> => {
-    const folder = path.join(MODELS_DIR, version);
-    const mapping = JSON.parse(await readFile(path.join(folder, "class_mapping.json"), "utf8")) as { classes: Species[] };
-    const session = await ort.InferenceSession.create(path.join(folder, "model.onnx"), { executionProviders: ["cpu"], graphOptimizationLevel: "all" });
+    const folder = path.join(/*turbopackIgnore: true*/ MODELS_DIR, version);
+    const mapping = JSON.parse(await readFile(path.join(/*turbopackIgnore: true*/ folder, "class_mapping.json"), "utf8")) as { classes: Species[] };
+    const session = await ort.InferenceSession.create(path.join(/*turbopackIgnore: true*/ folder, "model.onnx"), { executionProviders: ["cpu"], graphOptimizationLevel: "all" });
     return { version, classes: mapping.classes, session };
   };
   const members = await Promise.all(config.members.map(open));
@@ -39,7 +41,7 @@ async function load(): Promise<Ensemble> {
 
 // Reloads automatically when models/ensemble.json changes (a newly approved model).
 export async function ensemble() {
-  const { mtimeMs } = await import("node:fs/promises").then(fs => fs.stat(path.join(MODELS_DIR, "ensemble.json")));
+  const { mtimeMs } = await import("node:fs/promises").then(fs => fs.stat(path.join(/*turbopackIgnore: true*/ MODELS_DIR, "ensemble.json")));
   if (!shared.geofloraEnsemble || shared.geofloraEnsembleStamp !== String(mtimeMs)) {
     shared.geofloraEnsembleStamp = String(mtimeMs);
     shared.geofloraEnsemble = load().catch(error => { shared.geofloraEnsemble = undefined; throw error; });

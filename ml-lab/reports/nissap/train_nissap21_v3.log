@@ -126,3 +126,9 @@ Epoch 39: ReduceLROnPlateau reducing learning rate to 1e-07.
 Epoch 40/45
 294/294 - 80s - 272ms/step - accuracy: 0.9409 - loss: 0.8089 - val_accuracy: 0.8051 - val_loss: 1.1413 - learning_rate: 1.0000e-07
 Epoch 41/45
+294/294 - 90s - 307ms/step - accuracy: 0.9417 - loss: 0.8052 - val_accuracy: 0.8051 - val_loss: 1.1390 - learning_rate: 1.0000e-07
+Epoch 42/45
+294/294 - 92s - 313ms/step - accuracy: 0.9371 - loss: 0.8067 - val_accuracy: 0.8061 - val_loss: 1.1368 - learning_rate: 1.0000e-07
+Epoch 43/45
+294/294 - 106s - 361ms/step - accuracy: 0.9432 - loss: 0.8066 - val_accuracy: 0.8061 - val_loss: 1.1363 - learning_rate: 1.0000e-07
+Epoch 44/45

@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import { rateLimit } from "../../../../src/lib/rate-limit";
 import { currentAccount, isAdmin } from "../../../../src/lib/auth";
 import { connectDatabase, sameOriginRequest } from "../../../../src/lib/sightings";
 import { GROUPS, SURVEY_ITEMS, SURVEY_VERSION, susScore } from "../../../../src/features/study/protocol";
@@ -54,6 +55,8 @@ export async function POST(request: Request) {
   try {
     const account = await currentAccount(request);
     if (!account) return Response.json({ detail: "Sign in first." }, { status: 401 });
+    const blocked = await rateLimit(request, "survey", account);
+    if (blocked) return blocked;
     const body = await request.json().catch(() => null);
     if (!body || body.consent !== true || body.consentVersion !== SURVEY_VERSION) return Response.json({ detail: "Please agree to the research use of your answers first." }, { status: 400 });
     if (!(body.group in GROUPS)) return Response.json({ detail: "Choose which group describes you." }, { status: 400 });

@@ -1,6 +1,6 @@
 import { after } from "next/server";
 import { NextResponse } from "next/server";
-import { clearLimit, overLimit } from "../../../src/lib/rate-limit";
+import { clearLimit, overLimit, rateLimit } from "../../../src/lib/rate-limit";
 import { authModels, currentAccount, EMAIL_CODE_MINUTES, emailCodeHash, issueEmailCode, newSession, normalizeResetCode, passwordFields, passwordMatches, revokeSessions, SESSION_COOKIE, sessionToken, tokenHash } from "../../../src/lib/auth";
 import { mailConfigured, sendResetCode, sendVerificationCode } from "../../../src/lib/mailer";
 import { sameOriginRequest } from "../../../src/lib/sightings";
@@ -23,6 +23,8 @@ export async function POST(request: Request) {
     const body = await request.json();
     const password = typeof body.password === "string" ? body.password : "";
     const action = body.action;
+    // Per-address budget on top of the per-account limits below (password changes are already signed in).
+    if (action !== "change-password") { const blocked = await rateLimit(request, "auth"); if (blocked) return blocked; }
     if (action === "change-password") {
       const account = await currentAccount(request);
       if (!account) return NextResponse.json({ detail: "Sign in first." }, { status: 401 });

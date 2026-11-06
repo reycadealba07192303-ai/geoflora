@@ -3,6 +3,7 @@ import { VisionApiError, visionAvailable } from "../../../../src/lib/ai-vision";
 import { normalizePhoto } from "../../../../src/lib/identifications";
 import { suggestPlant } from "../../../../src/lib/plant-suggestion";
 import { sameOriginRequest } from "../../../../src/lib/sightings";
+import { rateLimit } from "../../../../src/lib/rate-limit";
 
 export const runtime = "nodejs";
 // Long enough for the AI review that runs after the response (Vercel Hobby allows up to 60 s).
@@ -13,7 +14,10 @@ const MAX_UPLOAD_BYTES = 20 * 1024 * 1024;
 export async function POST(request: Request) {
   if (!sameOriginRequest(request)) return Response.json({ detail: "This request is not allowed." }, { status: 403 });
   try {
-    if (!await currentAccount(request)) return Response.json({ detail: "Sign in to identify a plant." }, { status: 401 });
+    const account = await currentAccount(request);
+    if (!account) return Response.json({ detail: "Sign in to identify a plant." }, { status: 401 });
+    const blocked = await rateLimit(request, "suggest", account);
+    if (blocked) return blocked;
   } catch { return Response.json({ detail: "The account database is unavailable." }, { status: 503 }); }
   if (!visionAvailable()) return Response.json({ detail: "AI suggestions are not set up on this workspace." }, { status: 409 });
   const form = await request.formData().catch(() => null);

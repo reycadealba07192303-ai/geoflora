@@ -121,7 +121,27 @@ The weakest classes are Hagonoy and Mikania. They look alike, and each is often 
 | Code | GitHub | Every push to `main` redeploys the app automatically. |
 | Training | Developer's computer (`ml-lab/`) | Needs Python and TensorFlow, and takes 1-2 hours per training run on CPU. |
 
-## 7. Maintenance
+## 7. Protection and automatic checks
+
+- **Rate limiting** prevents abuse and keeps the free AI services within their limits. Each account and each internet address has a budget:
+
+  | Action | Limit |
+  |---|---|
+  | Identify | 40 photos per 10 minutes |
+  | AI second opinion | 15 per 10 minutes |
+  | Save report | 30 per hour |
+  | Download PDF | 30 per 10 minutes |
+  | Feedback survey | 10 per hour |
+  | Sign-in, sign-up or reset requests | 40 per 15 minutes from one address |
+
+  - On top of these, sign-in allows 10 failed attempts per account, and reset codes are limited to 3 per 15 minutes.
+  - Administrators and reviewers are not limited.
+  - Over the limit, the app says "Too many requests. Please wait a few minutes and try again."
+- **CI/CD:**
+  - **CI:** every push and pull request on GitHub runs automatic checks (GitHub Actions): the web app's typecheck and production build, a check that the AI models are present, and the ML lab tests. Results are under the repository's **Actions** tab and on the README badge.
+  - **CD:** Vercel deploys automatically. A push to `main` updates https://geoflora-ph.vercel.app, and a pull request gets its own preview link.
+
+## 8. Maintenance
 
 - **Back up the data:** Atlas → Cluster → **Backup** is not included in the free tier. Instead, ask the developer to export the database, as was done when moving from the local database.
 - **Undo a model change:**

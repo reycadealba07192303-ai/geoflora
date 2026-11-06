@@ -3,6 +3,7 @@ import { identifications, normalizePhoto, photoHash } from "../../../src/lib/ide
 import { ACTIVE, LOCATION_METHODS, sameOriginRequest, sightingModel, reportSummary } from "../../../src/lib/sightings";
 import { canModerate, currentAccount } from "../../../src/lib/auth";
 import { aiResultOf } from "../../../src/lib/ai-result";
+import { rateLimit } from "../../../src/lib/rate-limit";
 
 export const runtime = "nodejs";
 // Long enough for the AI review that runs after the response (Vercel Hobby allows up to 60 s).
@@ -24,6 +25,8 @@ export async function POST(request: Request) {
   try {
     const account = await currentAccount(request);
     if (!account) return Response.json({ detail: "Sign in to submit a report." }, { status: 401 });
+    const blocked = await rateLimit(request, "report", account);
+    if (blocked) return blocked;
     const form = await request.formData();
     const image = form.get("image");
     const requestId = String(form.get("requestId") ?? "");

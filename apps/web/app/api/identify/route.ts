@@ -5,6 +5,7 @@ import { sameOriginRequest } from "../../../src/lib/sightings";
 import { normalizePhoto, photoHash, rememberIdentification } from "../../../src/lib/identifications";
 import { speciesInformation } from "../../../src/features/identification/species-information";
 import { extractReferenceEmbedding, findExactVerifiedReference, hasVerifiedReferences, searchVerifiedReferences } from "../../../src/lib/verified-references";
+import { rateLimit } from "../../../src/lib/rate-limit";
 
 const MAX_UPLOAD_BYTES = 20 * 1024 * 1024;
 const INFERENCE_TIMEOUT_MS = Number(process.env.GEOFLORA_INFERENCE_TIMEOUT_MS ?? 50_000);
@@ -36,6 +37,8 @@ export async function POST(request: Request) {
   try {
     account = await currentAccount(request);
     if (!account) return NextResponse.json({ detail: "Sign in to identify a plant." }, { status: 401 });
+    const blocked = await rateLimit(request, "identify", account);
+    if (blocked) return blocked;
   } catch { return NextResponse.json({ detail: "The account database is unavailable." }, { status: 503 }); }
   let formData: FormData;
   try {

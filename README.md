@@ -1,5 +1,7 @@
 # GeoFlora
 
+[![CI](https://github.com/reycadealba07192303-ai/geoflora/actions/workflows/ci.yml/badge.svg)](https://github.com/reycadealba07192303-ai/geoflora/actions/workflows/ci.yml) · Live: https://geoflora-ph.vercel.app
+
 GeoFlora is a research-oriented system for invasive plant identification and
 geospatial monitoring. The initial target species are Chromolaena odorata
 (Hagonoy), Lantana camara, and Pontederia crassipes (Water Hyacinth), with the

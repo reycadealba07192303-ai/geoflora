@@ -1,6 +1,7 @@
 import { canModerate, currentAccount } from "../../../../../src/lib/auth";
 import { ACTIVE, sameOriginRequest, reportSummary, sightingModel } from "../../../../../src/lib/sightings";
 import { createReportPdf } from "../../../../../src/lib/report-pdf";
+import { rateLimit } from "../../../../../src/lib/rate-limit";
 
 export const runtime = "nodejs";
 export async function GET(request: Request, context: { params: Promise<{ id: string }> }) {
@@ -8,6 +9,8 @@ export async function GET(request: Request, context: { params: Promise<{ id: str
   try {
     const account = await currentAccount(request);
     if (!account) return Response.json({ detail: "Sign in to download reports." }, { status: 401 });
+    const blocked = await rateLimit(request, "pdf", account);
+    if (blocked) return blocked;
     const { id } = await context.params;
     if (!/^[a-f0-9]{24}$/i.test(id)) return Response.json({ detail: "Invalid report reference." }, { status: 400 });
     const report = await (await sightingModel()).findOne({ _id: id, ...ACTIVE, ...(canModerate(account) ? {} : { ownerId: account.id }) }).select("+photo");

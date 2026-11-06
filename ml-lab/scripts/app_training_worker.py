@@ -119,6 +119,21 @@ def retrain(db, new_images):
         raise
 
 
+def publish(version, approver):
+    """Commit the activated model and push it to GitHub (main), so CI/CD deploys it to the online app."""
+    git = lambda *args: subprocess.run(["git", *args], cwd=GEOFLORA, capture_output=True, text=True, encoding="utf-8", errors="replace")
+    paths = [x for x in (f"apps/web/models/{version}", "apps/web/models/ensemble.json", f"apps/web/models/ensemble.before-{version}.json") if (GEOFLORA / x).exists()]
+    git("add", "--", *paths)
+    if git("diff", "--cached", "--quiet", "--", *paths).returncode == 0:
+        return "nothing new to publish"
+    commit = git("commit", "-m", f"Activate model {version} (approved by {approver} in GeoFlora admin)",
+                 "-m", "Retrained automatically from approved/corrected report photos by ml-lab/scripts/app_training_worker.py.", "--", *paths)
+    if commit.returncode != 0:
+        return f"commit failed: {commit.stderr[-200:]}"
+    push = git("push", "origin", "HEAD:main")
+    return "pushed to GitHub; CI/CD deploys it online" if push.returncode == 0 else f"saved locally, push failed: {push.stderr[-200:]}"
+
+
 def install_approved(db):
     for job in db.trainingjobs.find({"source": "ml-lab", "promotion.status": "approved"}):
         candidate = job["candidatePath"]
@@ -137,13 +152,16 @@ def install_approved(db):
             config["version"] = f"geoflora-ensemble-{config['members'][0].removeprefix('geoflora-mnv2-')}+{version.removeprefix('geoflora-mnv2-')}" + ("+3cls" if config.get("confirm") else "")
             config_path.write_text(json.dumps(config, indent=2) + "\n", encoding="utf-8")
             run(["scripts/install_lab_model.py", "--candidate", candidate, "--approved-by", approver, "--rationale", job["promotion"].get("rationale") or "Approved in GeoFlora admin"], cwd=GEOFLORA, python=SERVICE_PY)
+            # Publish: the online app (Vercel) is built from GitHub, so commit the new ONNX model and ensemble.json and push.
+            # CI then checks the build and deploys it.
+            published = publish(version, approver)
             key = env_value("GEOFLORA_ML_API_KEY")
             request = urllib.request.Request("http://127.0.0.1:8000/reload", method="POST", headers={"X-GeoFlora-Key": key} if key else {})
             try:
                 urllib.request.urlopen(request, timeout=120).read()
             except Exception as exc:  # noqa: BLE001
                 log(f"reload request failed ({exc}); restart the inference service to use the new model")
-            db.trainingjobs.update_one({"_id": job["_id"]}, {"$set": {"promotion.status": "promoted", "promotion.promotedAt": datetime.now(timezone.utc), "detail": f"Activated {Path(candidate).name} in the app's model ensemble. The previous setup is saved as models/ensemble.before-{Path(candidate).name}.json for rollback.", "updatedAt": datetime.now(timezone.utc)}})
+            db.trainingjobs.update_one({"_id": job["_id"]}, {"$set": {"promotion.status": "promoted", "promotion.promotedAt": datetime.now(timezone.utc), "detail": f"Activated {Path(candidate).name} in the app's model ensemble ({published}). The previous setup is saved as models/ensemble.before-{Path(candidate).name}.json for rollback.", "updatedAt": datetime.now(timezone.utc)}})
             log(f"installed {candidate}")
         except Exception as exc:  # noqa: BLE001
             db.trainingjobs.update_one({"_id": job["_id"]}, {"$set": {"promotion.status": "failed", "detail": f"Activation failed: {str(exc)[:1200]}", "updatedAt": datetime.now(timezone.utc)}})

@@ -17,6 +17,7 @@ Logs go to stdout; state is in metadata/app_training_state.json.
 import argparse
 import csv
 import json
+import re
 import os
 import subprocess
 import sys
@@ -41,7 +42,7 @@ def log(message):
 
 
 def run(args, cwd=LAB, python=PY):
-    log("run: " + " ".join(map(str, args)))
+    log("run: " + re.sub(r"//[^/@\s]+@", "//***@", " ".join(map(str, args))))  # never write database credentials to the log
     result = subprocess.run([str(python), *map(str, args)], cwd=cwd, capture_output=True, text=True, encoding="utf-8", errors="replace")
     if result.returncode != 0:
         raise RuntimeError(f"{args[0]} failed ({result.returncode}): {(result.stderr or result.stdout)[-1500:]}")

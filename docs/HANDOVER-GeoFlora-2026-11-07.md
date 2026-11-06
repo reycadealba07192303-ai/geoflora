@@ -143,6 +143,10 @@ The weakest classes are Hagonoy and Mikania. They look alike, and each is often 
 
 ## 8. Maintenance
 
+- **Training worker:**
+  - The Windows task **"GeoFlora training worker"** starts it automatically every time the developer signs in to the laptop. It restarts by itself if it crashes. Its log is `storage/logs/app-training-worker.log`.
+  - It needs the laptop to be on. While the laptop is off, approved photos simply wait in the database, and nothing is lost.
+
 - **Back up the data:** Atlas → Cluster → **Backup** is not included in the free tier. Instead, ask the developer to export the database, as was done when moving from the local database.
 - **Undo a model change:**
   - Each approved model saves the previous setup as `apps/web/models/ensemble.before-<version>.json`.

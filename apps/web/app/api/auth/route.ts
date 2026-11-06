@@ -1,3 +1,4 @@
+import { after } from "next/server";
 import { NextResponse } from "next/server";
 import { clearLimit, overLimit } from "../../../src/lib/rate-limit";
 import { authModels, currentAccount, EMAIL_CODE_MINUTES, emailCodeHash, issueEmailCode, newSession, normalizeResetCode, passwordFields, passwordMatches, revokeSessions, SESSION_COOKIE, sessionToken, tokenHash } from "../../../src/lib/auth";
@@ -47,8 +48,24 @@ export async function POST(request: Request) {
       const { User } = await authModels();
       const user = await User.findOne({ email });
       // Sent in the background and answered the same way either way, so the response does not reveal which emails have accounts.
-      if (user && !user.disabled) { const code = await issueEmailCode(user._id); void sendResetCode(email, code, EMAIL_CODE_MINUTES).catch(error => console.error("Password reset email failed:", error)); }
+      // after(): on Vercel the function stays alive until the email is sent (a bare promise was cut off when the response returned).
+      if (user && !user.disabled) { const code = await issueEmailCode(user._id); after(() => sendResetCode(email, code, EMAIL_CODE_MINUTES).catch(error => console.error("Password reset email failed:", error))); }
       return NextResponse.json({ sent: true, minutes: EMAIL_CODE_MINUTES });
+    }
+    // Step 2 of password reset: check the emailed code before asking for the new password. The code is not used up here;
+    // the final "reset" step checks it again and consumes it.
+    if (action === "reset-verify") {
+      const email = typeof body.email === "string" ? body.email.trim().toLowerCase() : "";
+      const code = typeof body.code === "string" ? body.code.replace(/\D/g, "") : "";
+      const key = `resetverify:${email}`;
+      if (await overLimit(key, 10)) return NextResponse.json({ detail: "Too many attempts. Request a new code in 15 minutes." }, { status: 429 });
+      const invalid = NextResponse.json({ detail: "The code is invalid or has expired. Request a new one." }, { status: 400 });
+      if (!EMAIL.test(email) || !/^\d{6}$/.test(code)) return invalid;
+      const { User, PasswordReset } = await authModels();
+      const user = await User.findOne({ email });
+      if (!user || user.disabled) return invalid;
+      if (!await PasswordReset.exists({ userId: user._id, issuedBy: "email", codeHash: emailCodeHash(user._id, code), expiresAt: { $gt: new Date() } })) return invalid;
+      return NextResponse.json({ verified: true });
     }
     if (action === "verify-email" || action === "resend-verification") {
       const id = typeof body.username === "string" ? body.username.trim().toLowerCase() : "";

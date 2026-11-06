@@ -275,6 +275,51 @@ Status: Not started. Objectives: 1–6. Depends on: Part 11.
 
 Done when: the system can be reproduced and operated from documentation, staging checks pass, and deployment has the required approval.
 
+## Next round: adding new species (Monday, 2026-11-09)
+
+Full runbook: [docs/ADDING-NEW-SPECIES.md](docs/ADDING-NEW-SPECIES.md). The live model knows 21 species (13 NISSAP target invasive + 8 non-target).
+
+**Decide first (Reyca / thesis group), per species**
+- [ ] Scientific name (aim for 3-6 species per round).
+- [ ] Target invasive or not. A target needs a Philippine source (e.g. NISSAP 2020-2030), a **named verifier** and a date; otherwise it is added as "not a target".
+- [ ] Common name(s) in the Philippines.
+- [ ] Photo screening: Reyca, with the AI pre-screen flagging doubtful photos (same as Hagonoy/Ageratum).
+
+**Candidates** (iNaturalist research-grade photos on GBIF, checked 2026-11-07; need ≥ 60 approved photos from ≥ 30 observations, 300-400 is better)
+
+| Species | Common name | PH photos | World photos | Note |
+|---|---|---|---|---|
+| *Euphorbia hirta* | Tawa-tawa | 491 | 18,435 | 5 app reports already corrected to it; imported automatically once it is in the model |
+| *Coccinia grandis* | Ivy gourd / tamilok | 271 | 6,448 | In the app's species registry |
+| *Caladium bicolor* | Caladium | 217 | 4,081 | 1 app report corrected to it |
+| *Sphagneticola trilobata* | Wedelia | 196 | 26,466 | In the catalog (IUCN 100 worst, global evidence only) |
+| *Antigonon leptopus* | Coral vine / cadena de amor | 86 | 11,803 | In the catalog |
+| *Tithonia diversifolia* | Mexican sunflower | 75 | 5,688 | In the catalog |
+| *Mimosa diplotricha* | Giant false sensitive plant | 14 | 1,309 | Few PH photos |
+| *Miconia crenata* | Koster's curse | 0* | 5,870 | *Check PH records under *Clidemia hirta* |
+| *Mimosa pigra* | Giant sensitive plant | 0 | 2,968 | Few PH photos |
+| *Mimosa pudica* | Makahiya | 406 | 16,258 | ⚠️ Currently an "unknown plant" in the not-sure test; replace it there if added |
+
+**Steps** (about 1 day of machine time, mostly training)
+- [ ] 1. Catalog rows → 2. download photos → 3. validate/dedupe → 4. AI pre-screen sheets → 5. **Reyca OKs the list**, import under Reyca's name.
+- [ ] 6. New config `configs/expansion_v4.yaml` writing to **new folders** (current model and test set stay intact).
+- [ ] 7. Split + train (≈ 2 h per model) → 8. evaluate + export → 9. species descriptions for the app.
+- [ ] 10. Package + ONNX + parity check → 11. put in `apps/web/models/ensemble.json`, test (incl. Kaggle photos) → 12. push (CI checks, Vercel deploys).
+
+**Traps**: (A) all ensemble members must know the same species, so a 25-class model goes in alone or with a second 25-class model; (B) point cloud training at the new config and re-upload photos with `cloud_data.py upload`; (C) keep test sets fixed; (D) choose the "sure" threshold on validation only; (E) Atlas free tier is 512 MB (≈ 20 KB per photo); (F) labels are Reyca-screened iNaturalist photos, not botanist-verified.
+
+## Turnover state (2026-11-07)
+
+- **Live:** https://geoflora-ph.vercel.app (Vercel, auto-deploys from GitHub `main`, root `apps/web`). Database: MongoDB Atlas M0 (Singapore).
+- **Model:** ensemble of `geoflora-mnv2-21cls-v1` + `v3` (ONNX, inside Next.js), 3-class `v2` confirm for Hagonoy/Lantana/water hyacinth (floor 0.60), "sure" threshold 0.69. Old test set: 84.2% top-1, 98.4% when sure; via the app API 85.8% / 97.4%.
+- **Flow:** photo → AI result (target / not a target / not sure) → report saved as `recorded` → map. Admin may Approve / Correct / Reject.
+- **Auto-training in the cloud:** GitHub Actions `training.yml` every 30 min imports approved/corrected photos (Atlas GridFS), retrains after 20 new photos, offers the model under Review & training → "Approve new model".
+- **CI/CD:** `ci.yml` (typecheck, build, model check, ml-lab tests). CD = Vercel Git deploy; CI-gated deploy job ready once `VERCEL_TOKEN`/`VERCEL_ORG_ID`/`VERCEL_PROJECT_ID` secrets are added.
+- **Protection:** rate limits per action (identify, suggest, report, PDF, survey, auth) and 120 requests/min per IP (40 writes).
+- **Documents:** handover (`docs/HANDOVER-GeoFlora-2026-11-07.md`), User Manual, System Documentation and Invoice (REYCA-DEV style, PDFs in Downloads).
+- [ ] Optional: add Vercel secrets and switch to CI-gated deploys.
+- [ ] Part 11 participant study (Feedback survey is live) and thesis-side evaluation remain with the client.
+
 ## Working agreement for each part
 
 1. Read the current implementation and applicable local instructions.
@@ -368,3 +413,6 @@ Done when: the system can be reproduced and operated from documentation, staging
 
 | 2026-11-01 | MobileNetV2 up-to-50 dataset readiness | Prepared a source-backed 50-slot research roster and folder export with strict historical-test hash/group/pHash exclusions. Existing three-class mapping preserved; 47 additions remain pending ecology/label review; safe base splits are insufficient (Pontederia has no validation) and no fresh test exists. Training was correctly not started. | 48 safe baseline train + 10 validation images, 0 test; 0/47 new classes pass gates. Active v3 artifact/mapping checksums match. See docs/mobilenetv2-up-to-50-readiness-2026-11-01.md and storage/datasets/experiments/geoflora_mobilenetv2_up_to_50_20261101/. |
 | 2026-11-05 | GeoFlora-ML-Lab integration | Moved the standalone ML lab into ml-lab/ (9,150 photos with provenance and named review decisions, trained runs, exported bundles, reports). Installed the developer-selected 21-class lab model geoflora-mnv2-21cls-v1 (13 NISSAP-verified target invasive species plus 8 non-target classes) with a backup, through new scripts ml-lab/scripts/package_for_geoflora.py and scripts/install_lab_model.py. Generated species information for all 21 classes. Identify now lists the live model's species; the result shows target or non-target status, look-alikes and other possibilities. | Lab test accuracy 82.5% (95% CI 79.9-84.9%, 931 photos); 83.1% re-scored through services/ml PlantPredictor. Automatic promotion gates were not met (Chromolaena recall 65%); the override, approver and rationale are recorded in active_model.json. A gumamela test photo was falsely suggested as African tulip tree. 53 ML tests and the web typecheck passed; browser check used an isolated app and a disposable database. Rollback: storage/models/previous/20261104T172339Z. See docs/ml-lab-integration-2026-11-05.md. |
+| 2026-11-05 | Simple identify flow | App now works like the ML lab: AI result (target / not a target / not sure), reports saved as `recorded` immediately, optional admin Approve / Correct / Reject; corrected photos become training data. Redesigned PDF, descriptions on report and map. | See docs/simple-identify-flow-2026-11-05.md. |
+| 2026-11-06 | ML inside Next.js, Atlas | Classifier runs in Next.js via ONNX (ensemble v1+v2, 3-class confirm with 0.60 floor); Python service no longer needed. Database moved to MongoDB Atlas M0; local copy kept as backup. | See docs/ml-in-nextjs.md. |
+| 2026-11-07 | Hagonoy/Ageratum v3, deployment, turnover | 546 Reyca-screened Hagonoy/Ageratum photos → `21cls-v3`; ensemble v1+v3 live (old test 84.2% top-1, 98.4% when sure). Deployed to geoflora-ph.vercel.app; forgot-password with code verification; CI/CD; rate limits; Feedback survey merged with usability; cloud training on GitHub Actions + Atlas GridFS. | Handover doc; new-species runbook for Monday (docs/ADDING-NEW-SPECIES.md); User Manual, System Documentation, Invoice. |

@@ -58,7 +58,7 @@ export default function ReportView({ id, onAnother }: { id: string; onAnother: (
             <div><dt><CalendarClock size={12} />Observed</dt><dd>{date(report.observedAt)} (Philippine time)</dd></div>
             <div><dt>Report created</dt><dd>{date(report.submittedAt)} (Philippine time)</dd></div>
             {report.lastEditedAt && <div><dt>Last corrected</dt><dd>{date(report.lastEditedAt)} (Philippine time)</dd></div>}
-            <div><dt><MapPin size={12} />Location</dt><dd>{report.placeName || "Recorded coordinates"}<br />{report.latitude}, {report.longitude}<br /><span className="text-[12px] text-[#5f6b62]">{methodLabel[report.locationMethod] ?? report.locationMethod}{report.locationAccuracy !== null ? ` · ±${Math.round(report.locationAccuracy)} m` : ""}</span></dd></div>
+            <div><dt><MapPin size={12} />Location</dt><dd>{report.placeName || "Recorded coordinates"}<br />{report.latitude.toFixed(5)}, {report.longitude.toFixed(5)}<br /><span className="text-[12px] text-[#5f6b62]">{methodLabel[report.locationMethod] ?? report.locationMethod}{report.locationAccuracy !== null ? ` · ±${Math.round(report.locationAccuracy)} m` : ""}</span></dd></div>
             {report.suggestedSpecies && <div><dt>Name suggested by the AI vision model</dt><dd>{report.suggestedSpecies}</dd></div>}
             {report.notes && <div className="is-wide"><dt>Notes</dt><dd className="whitespace-pre-wrap">{report.notes}</dd></div>}
           </dl>

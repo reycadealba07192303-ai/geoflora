@@ -132,3 +132,10 @@ Epoch 42/45
 Epoch 43/45
 294/294 - 106s - 361ms/step - accuracy: 0.9432 - loss: 0.8066 - val_accuracy: 0.8061 - val_loss: 1.1363 - learning_rate: 1.0000e-07
 Epoch 44/45
+294/294 - 161s - 549ms/step - accuracy: 0.9426 - loss: 0.8053 - val_accuracy: 0.8061 - val_loss: 1.1355 - learning_rate: 1.0000e-07
+Epoch 45/45
+294/294 - 106s - 359ms/step - accuracy: 0.9383 - loss: 0.8118 - val_accuracy: 0.8071 - val_loss: 1.1350 - learning_rate: 1.0000e-07
+Restoring model weights from the end of the best epoch: 45.
+15:21:20 INFO geoflora_ml.training: training complete: C:\Users\reyca\geoflora\ml-lab\models\checkpoints\nissap\run-20261105T180911Z-nissap21-v3-hagonoy-ageratum
+Run saved to C:\Users\reyca\geoflora\ml-lab\models\checkpoints\nissap\run-20261105T180911Z-nissap21-v3-hagonoy-ageratum
+Next: python scripts/evaluate.py --run "C:\Users\reyca\geoflora\ml-lab\models\checkpoints\nissap\run-20261105T180911Z-nissap21-v3-hagonoy-ageratum"

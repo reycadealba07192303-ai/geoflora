@@ -8,7 +8,7 @@ export const ML_API_URL = (process.env.GEOFLORA_ML_API_URL ?? "http://127.0.0.1:
 export const ML_REMOTE = process.env.GEOFLORA_ML_MODE === "remote";
 
 async function local(path: string, init: RequestInit) {
-  if (path === "/health") return Response.json(await health());
+  if (path.startsWith("/health")) return Response.json(await health(path.includes("deep=1")));
   if (path !== "/predict" && path !== "/embed") return Response.json({ detail: "Not found." }, { status: 404 });
   const image = init.body instanceof FormData ? init.body.get("image") : null;
   if (!(image instanceof Blob)) return Response.json({ detail: "Choose a plant image." }, { status: 400 });

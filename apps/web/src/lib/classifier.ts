@@ -49,8 +49,15 @@ export async function ensemble() {
   return shared.geofloraEnsemble;
 }
 
-export async function health() {
+// deep=false reads only the small JSON files (for pages that just list the species); deep=true also loads the models,
+// which only the identification routes carry in their deployment bundle.
+export async function health(deep = false) {
   try {
+    if (!deep) {
+      const config = JSON.parse(await readFile(path.join(/*turbopackIgnore: true*/ MODELS_DIR, "ensemble.json"), "utf8")) as { version: string; members: string[] };
+      const species = (JSON.parse(await readFile(path.join(/*turbopackIgnore: true*/ MODELS_DIR, config.members[0], "class_mapping.json"), "utf8")) as { classes: Species[] }).classes;
+      return { ready: true, model_version: config.version, supported_species_count: species.length, species, reason: null };
+    }
     const model = await ensemble();
     const species = model.members[0].classes;
     return { ready: true, model_version: model.version, supported_species_count: species.length, species, reason: null };

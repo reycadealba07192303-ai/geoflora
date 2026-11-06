@@ -13,7 +13,7 @@ export const maxDuration = 60;
 
 export async function GET() {
   try {
-    const response = await mlFetch("/health", {
+    const response = await mlFetch("/health?deep=1", {
       signal: AbortSignal.timeout(3000),
     });
     const body: unknown = await response.json();

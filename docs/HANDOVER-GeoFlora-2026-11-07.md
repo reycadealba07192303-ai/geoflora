@@ -133,6 +133,7 @@ The weakest classes are Hagonoy and Mikania. They look alike, and each is often 
   | Download PDF | 30 per 10 minutes |
   | Feedback survey | 10 per hour |
   | Sign-in, sign-up or reset requests | 40 per 15 minutes from one address |
+  | **Any API request** (server protection) | **120 per minute** per address, of which at most **40 per minute** may save or change data |
 
   - On top of these, sign-in allows 10 failed attempts per account, and reset codes are limited to 3 per 15 minutes.
   - Administrators and reviewers are not limited.

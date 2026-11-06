@@ -40,10 +40,9 @@ GeoFlora is a web app that identifies invasive alien plants in the Philippines f
   - Photos the AI **did not** get right (not sure, disputed or corrected) and that you approved or corrected are added to the training data, if the contributor allowed it. Allowing it is on by default.
   - After **20** such photos, the system retrains the model on the developer's computer.
   - If the new model is better, it appears under **Review & training** as **Approve new model**. It goes live only after you approve it.
-- **Usability study:**
-  - Record facilitated sessions: tasks, times, errors and SUS.
-  - See the **users' own Feedback survey answers**: mean SUS overall and per group, the GeoFlora statements and comments.
-  - Download both as CSV for your results chapter.
+- **Feedback survey (results):**
+  - Administrators see the survey results above the form: mean SUS overall and per group, the 5 GeoFlora statements and the comments. Names are never shown.
+  - **Download answers (CSV)** for your results chapter.
 - **Manage accounts:** create accounts, change roles, reset passwords.
 
 ---

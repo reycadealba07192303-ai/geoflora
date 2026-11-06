@@ -129,14 +129,14 @@ function TargetCard({ icon, label, value, met, note, pendingText = "No data" }: 
 }
 
 // Answers users gave themselves on the Feedback survey page (one per account, reported without names).
-function UserSurveyResults() {
+export function UserSurveyResults() {
   const [data, setData] = useState<SurveySummary | null>(null);
   useEffect(() => { fetch("/api/study/survey?all=1", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(setData).catch(() => {}); }, []);
   if (!data) return null;
   const fmt = (value: number | null, digits = 1) => value === null ? "—" : value.toFixed(digits);
   return <section className="surface-card admin-panel space-y-4" aria-label="User feedback survey results">
     <div className="flex flex-wrap items-center justify-between gap-3">
-      <h2 className="admin-panel-title"><span className="admin-icon is-small tone-violet"><Users size={16} /></span><span>Users&apos; own survey answers<small>From the Feedback survey page · {data.responses} response{data.responses === 1 ? "" : "s"}</small></span></h2>
+      <h2 className="admin-panel-title"><span className="admin-icon is-small tone-violet"><Users size={16} /></span><span>Survey results (all users)<small>Shown only to administrators · {data.responses} response{data.responses === 1 ? "" : "s"}</small></span></h2>
       <a className="admin-btn is-small" href="/api/study/survey?all=1&format=csv"><Download size={14} />Download answers (CSV)</a>
     </div>
     <div className="grid gap-3 sm:grid-cols-4">

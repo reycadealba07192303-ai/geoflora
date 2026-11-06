@@ -7,7 +7,6 @@ import AdminReview from "./features/admin/admin-review";
 import AccountSettings from "./features/accounts/account-settings";
 import ManageAccounts from "./features/accounts/manage-accounts";
 import CatalogView from "./features/catalog/catalog-view";
-import StudyRecorder from "./features/study/study-recorder";
 import UserSurvey from "./features/study/user-survey";
 import { ArrowRight, BookOpen, Map, ShieldCheck, Sparkles } from "lucide-react";
 import OverviewView from "./features/overview/overview-view";
@@ -60,9 +59,8 @@ function App() {
             <AccountSettings />
           ) : activePage === "accounts" && user.role === "admin" ? (
             <ManageAccounts />
-          ) : activePage === "study" && user.role === "admin" ? (
-            <StudyRecorder />
-          ) : activePage === "survey" ? (
+          ) : activePage === "survey" || activePage === "study" ? (
+            // The usability results now live on the Feedback survey page (administrators see them above the form).
             <UserSurvey />
           ) : (
             <ComingSoon page={activePage} onBack={() => navigate("overview")} />

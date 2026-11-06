@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
-import { ArrowUpRight, ChevronRight, ClipboardCheck, FilePlus2, Globe2, LayoutGrid, LibraryBig, MapPinned, PanelLeftClose, PanelLeftOpen, ScanLine, UserCog, Users, ClipboardList, ListChecks, MessageSquareText } from "lucide-react";
+import { ArrowUpRight, ChevronRight, ClipboardCheck, FilePlus2, Globe2, LayoutGrid, LibraryBig, MapPinned, PanelLeftClose, PanelLeftOpen, ScanLine, UserCog, Users, ListChecks, MessageSquareText } from "lucide-react";
 import { canModerate, roleLabel, useAccount, type Role } from "./auth-gate";
 
 export type PageId = "reports" | "overview" | "identification" | "catalog" | "map" | "review" | "report" | "report-detail" | "account" | "accounts" | "study" | "survey";
@@ -19,7 +19,6 @@ const sections = [
   { label: "ADMINISTRATION", items: [
     { id: "review", label: "Review & training", icon: ClipboardCheck },
     { id: "accounts", label: "Manage accounts", icon: Users },
-    { id: "study", label: "Usability study", icon: ClipboardList },
   ] },
   { label: "ACCOUNT", items: [
     { id: "survey", label: "Feedback survey", icon: MessageSquareText },

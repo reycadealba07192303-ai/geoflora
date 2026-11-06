@@ -2,9 +2,12 @@
 import { useEffect, useState, type FormEvent } from "react";
 import { CheckCircle2, ClipboardList, LoaderCircle } from "lucide-react";
 import { GROUPS, SURVEY_ITEMS, SURVEY_VERSION, SUS_ITEMS, susScore, type Group } from "./protocol";
+import { UserSurveyResults } from "./study-recorder";
+import { useAccount } from "../../components/auth-gate";
 
 // The user's own questionnaire: the 10 System Usability Scale statements, 5 GeoFlora statements and comments.
 export default function UserSurvey() {
+  const { user } = useAccount();
   const [loading, setLoading] = useState(true), [busy, setBusy] = useState(false), [error, setError] = useState(""), [saved, setSaved] = useState<number | null>(null), [answeredBefore, setAnsweredBefore] = useState(false);
   const [consent, setConsent] = useState(false), [group, setGroup] = useState<Group | "">("");
   const [sus, setSus] = useState<number[]>(Array(10).fill(0)), [items, setItems] = useState<number[]>(Array(SURVEY_ITEMS.length).fill(0)), [comments, setComments] = useState("");
@@ -26,6 +29,8 @@ export default function UserSurvey() {
   return <section className="admin-page">
     <header className="admin-header"><div><span className="content-eyebrow">FEEDBACK</span><h1>Feedback survey</h1>
       <p>Tell us how GeoFlora worked for you. It takes about 3 minutes. Your answers help the GeoFlora research team measure how easy the system is to use{answeredBefore ? "; you can update your answers any time" : ""}.</p></div></header>
+    {user.role === "admin" && <UserSurveyResults />}
+    {user.role === "admin" && <h2 className="px-1 pt-2 text-[15px] font-semibold text-[#0d2618]">Your own answers</h2>}
     {saved !== null && <p role="status" className="content-notice is-success !mt-0"><CheckCircle2 size={17} /><span>Thank you! Your answers are saved. Your usability score: <strong>{saved}</strong> out of 100.</span></p>}
     {error && <p role="alert" className="content-notice is-error !mt-0">{error}</p>}
     <form onSubmit={submit} className="space-y-5" aria-label="Feedback survey"><fieldset disabled={busy} className="space-y-5">

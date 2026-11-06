@@ -125,19 +125,19 @@ The weakest classes are Hagonoy and Mikania. They look alike, and each is often 
 
 - **Rate limiting** prevents abuse and keeps the free AI services within their limits. Each account and each internet address has a budget:
 
-  | Action | Limit |
-  |---|---|
-  | Identify | 40 photos per 10 minutes |
-  | AI second opinion | 15 per 10 minutes |
-  | Save report | 30 per hour |
-  | Download PDF | 30 per 10 minutes |
-  | Feedback survey | 10 per hour |
-  | Sign-in, sign-up or reset requests | 40 per 15 minutes from one address |
-  | **Any API request** (server protection) | **120 per minute** per address, of which at most **40 per minute** may save or change data |
+| Action | Limit |
+|---|---|
+| Identify | 40 photos per 10 minutes |
+| AI second opinion | 15 per 10 minutes |
+| Save report | 30 per hour |
+| Download PDF | 30 per 10 minutes |
+| Feedback survey | 10 per hour |
+| Sign-in, sign-up or reset requests | 40 per 15 minutes from one address |
+| **Any API request** (server protection) | **120 per minute** per address, of which at most **40 per minute** may save or change data |
 
-  - On top of these, sign-in allows 10 failed attempts per account, and reset codes are limited to 3 per 15 minutes.
-  - Administrators and reviewers are not limited.
-  - Over the limit, the app says "Too many requests. Please wait a few minutes and try again."
+- On top of these, sign-in allows 10 failed attempts per account, and reset codes are limited to 3 per 15 minutes.
+- Administrators and reviewers are not limited.
+- Over the limit, the app says "Too many requests. Please wait a few minutes and try again."
 - **CI/CD:**
   - **CI:** every push and pull request on GitHub runs automatic checks (GitHub Actions): the web app's typecheck and production build, a check that the AI models are present, and the ML lab tests. Results are under the repository's **Actions** tab and on the README badge.
   - **CD:** Vercel deploys automatically. A push to `main` updates https://geoflora-ph.vercel.app, and a pull request gets its own preview link.
